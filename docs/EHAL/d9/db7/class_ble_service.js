@@ -1,4 +1,0 @@
-var class_ble_service =
-[
-    [ "vSrvc", "d9/db7/class_ble_service.html#a34085dfe93e4869747986ad0b83bd6ce", null ]
-];
