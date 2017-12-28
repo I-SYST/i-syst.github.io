@@ -1,0 +1,27 @@
+var class_a_d_c_device =
+[
+    [ "Calibrate", "d2/def/class_a_d_c_device.html#a4fe1994ba49cdd4fe34619f71681d5a9", null ],
+    [ "CloseChannel", "d2/def/class_a_d_c_device.html#af2ba5659989343f04b1200943dc24724", null ],
+    [ "EvtHandler", "d2/def/class_a_d_c_device.html#a79fe2e1498aa19ea40ad5e7b1cab73f9", null ],
+    [ "Init", "d2/def/class_a_d_c_device.html#aa7c69c94166bfc0a3142f64a6a39a9de", null ],
+    [ "Mode", "d2/def/class_a_d_c_device.html#a7d9d2b76b4fb1bdf01e935e6485e10ec", null ],
+    [ "Mode", "d2/def/class_a_d_c_device.html#ae0ca8c6a0127df1b8dadde4172fef613", null ],
+    [ "OpenChannel", "d2/def/class_a_d_c_device.html#ab513e24f0db7a14cf2473b270c15cc7f", null ],
+    [ "Rate", "d2/def/class_a_d_c_device.html#a8ecccc67b4f8bba0d0f8a712c48b3184", null ],
+    [ "Rate", "d2/def/class_a_d_c_device.html#a38eb5954b960406f87744987fbf5e65b", null ],
+    [ "Read", "d2/def/class_a_d_c_device.html#ac754449e5fb43744415c2e151b50442f", null ],
+    [ "Read", "d2/def/class_a_d_c_device.html#a6d44b5b5445c7b7a92f1c49ad5c7f65c", null ],
+    [ "Resolution", "d2/def/class_a_d_c_device.html#a41ae350f83427085f5bb1d17e20cdd17", null ],
+    [ "Resolution", "d2/def/class_a_d_c_device.html#a485a467cf1b6789bc5252f9a20fd8c2b", null ],
+    [ "SetEvtHandler", "d2/def/class_a_d_c_device.html#a8f58d8c82b4b745297e5bcbcda709b67", null ],
+    [ "SetRefVoltage", "d2/def/class_a_d_c_device.html#a1b5dfabd4d59b7ed6fbad4da56d4299c", null ],
+    [ "StartConversion", "d2/def/class_a_d_c_device.html#a7e388aee8aaa400f01bbf3c289f2959d", null ],
+    [ "StopConversion", "d2/def/class_a_d_c_device.html#a163865b632f7bd2e2b02fe6f29abd60f", null ],
+    [ "vbInterrupt", "d2/def/class_a_d_c_device.html#a7a0f3240f9671a2218473dad0d5a4927", null ],
+    [ "vIntPrio", "d2/def/class_a_d_c_device.html#abe4b83cbacd9ddbf06cda3fad41af97b", null ],
+    [ "vMode", "d2/def/class_a_d_c_device.html#a938062cb182621eb1d52c2fce8481202", null ],
+    [ "vNbRefVolt", "d2/def/class_a_d_c_device.html#a6ad5d1328396d3945459e28b58c192eb", null ],
+    [ "vpRefVolt", "d2/def/class_a_d_c_device.html#a4dc4d4fb78b52c20ce77008ea980ba4e", null ],
+    [ "vRate", "d2/def/class_a_d_c_device.html#a082a6e59c8a8c5e204e496122e78028d", null ],
+    [ "vResolution", "d2/def/class_a_d_c_device.html#a96589a24f8a4c11fce28a1548fd38755", null ]
+];
