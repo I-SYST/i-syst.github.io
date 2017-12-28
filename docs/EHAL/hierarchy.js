@@ -122,7 +122,7 @@ var hierarchy =
           [ "AgmLsm9ds1", "d9/dc6/class_agm_lsm9ds1.html", null ],
           [ "AgmMpu9250", "dd/d4e/class_agm_mpu9250.html", null ]
         ] ],
-        [ "TPHSensor", "de/d76/class_t_p_h_sensor.html", [
+        [ "TphSensor", "dc/d5f/class_tph_sensor.html", [
           [ "TphBme280", "d4/d49/class_tph_bme280.html", null ],
           [ "TphgBme680", "d5/d6a/class_tphg_bme680.html", null ],
           [ "TphMS8607", "d3/d49/class_tph_m_s8607.html", null ]

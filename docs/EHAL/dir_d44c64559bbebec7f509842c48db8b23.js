@@ -5,6 +5,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "miscdev", "dir_40be73569445dd150f2c9bde45787f05.html", "dir_40be73569445dd150f2c9bde45787f05" ],
     [ "sensors", "dir_ebe552be396c660935f2efa76e6989b7.html", "dir_ebe552be396c660935f2efa76e6989b7" ],
     [ "sys", "dir_317ea3797c15f4a1d9c156bc812661ca.html", "dir_317ea3797c15f4a1d9c156bc812661ca" ],
+    [ "usb", "dir_92245f4cf4cbffd7edc987f9dabb59e7.html", "dir_92245f4cf4cbffd7edc987f9dabb59e7" ],
     [ "atomic.h", "dd/d02/atomic_8h_source.html", null ],
     [ "base64.h", "d2/d6f/base64_8h.html", "d2/d6f/base64_8h" ],
     [ "cfifo.h", "df/dcb/cfifo_8h.html", "df/dcb/cfifo_8h" ],
@@ -35,11 +36,6 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "sysstatusdef.h", "d8/d0d/sysstatusdef_8h_source.html", null ],
     [ "timer.h", "d5/dd0/timer_8h.html", "d5/dd0/timer_8h" ],
     [ "uart.h", "d2/d86/uart_8h_source.html", null ],
-    [ "usb_cdcdef.h", "d2/d4a/usb__cdcdef_8h_source.html", null ],
-    [ "usb_def.h", "dd/db6/usb__def_8h_source.html", null ],
-    [ "usb_hiddef.h", "dc/dff/usb__hiddef_8h_source.html", null ],
-    [ "usb_hidhost.h", "dd/def/usb__hidhost_8h_source.html", null ],
-    [ "usb_mscdef.h", "d8/d5c/usb__mscdef_8h_source.html", null ],
     [ "utf8.h", "db/d7c/utf8_8h.html", "db/d7c/utf8_8h" ],
     [ "utf8cvt.h", "dc/d19/utf8cvt_8h_source.html", null ]
 ];

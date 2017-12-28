@@ -229,7 +229,7 @@ var annotated_dup =
     [ "TphBme280", "d4/d49/class_tph_bme280.html", "d4/d49/class_tph_bme280" ],
     [ "TphgBme680", "d5/d6a/class_tphg_bme680.html", "d5/d6a/class_tphg_bme680" ],
     [ "TphMS8607", "d3/d49/class_tph_m_s8607.html", "d3/d49/class_tph_m_s8607" ],
-    [ "TPHSensor", "de/d76/class_t_p_h_sensor.html", "de/d76/class_t_p_h_sensor" ],
+    [ "TphSensor", "dc/d5f/class_tph_sensor.html", "dc/d5f/class_tph_sensor" ],
     [ "TPM_Type", "df/d87/struct_t_p_m___type.html", "df/d87/struct_t_p_m___type" ],
     [ "TSI_Type", "d6/daa/struct_t_s_i___type.html", "d6/daa/struct_t_s_i___type" ],
     [ "UART", "db/d51/class_u_a_r_t.html", "db/d51/class_u_a_r_t" ],

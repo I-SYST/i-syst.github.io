@@ -10,6 +10,7 @@ var searchData=
   ['dath',['DATH',['../d9/d53/struct_d_a_c___type.html#ad8322a8c7a81901521c43219cb6fbca6',1,'DAC_Type']]],
   ['datl',['DATL',['../d9/d53/struct_d_a_c___type.html#a0f61f3cd5d904066d9050e97aab24734',1,'DAC_Type']]],
   ['dcr',['DCR',['../d7/d9c/struct_d_m_a___type.html#afa67688eee65935f79df815d47c7e400',1,'DMA_Type']]],
+  ['devaddr',['DevAddr',['../d3/d0b/struct_____gas_sensor___config.html#a0637e0512c8a2daada7c39679b9e2a98',1,'__GasSensor_Config::DevAddr()'],['../d8/dd8/struct_____t_p_h_sensor___config.html#a2bbcd0d56518e9ffa5befb8e5505b87e',1,'__TPHSensor_Config::DevAddr()']]],
   ['devcmdstat',['DEVCMDSTAT',['../d2/d4d/struct_l_p_c___u_s_b___type.html#a5bcf190938e2ba0680c0fd4dcba25da3',1,'LPC_USB_Type']]],
   ['device_5fid',['DEVICE_ID',['../db/dc7/struct_l_p_c___s_y_s_c_o_n___type.html#a37b7a69750d2dc58c20d239f2f7978e8',1,'LPC_SYSCON_Type']]],
   ['devicearch',['DEVICEARCH',['../d2/d09/struct_m_t_b___type.html#a6b4d2cfa69e811091662ca2130eaada8',1,'MTB_Type']]],
@@ -32,5 +33,6 @@ var searchData=
   ['dr7',['DR7',['../d2/d5c/struct_l_p_c___a_d_c___type.html#a427ae11a3017c6ea1ea0145d41790056',1,'LPC_ADC_Type']]],
   ['dropcnt',['DropCnt',['../da/dd1/struct_____c_f_i_f_o___header.html#ab5381421dd195487d5a3b03d4f24e56e',1,'__CFIFO_Header']]],
   ['dsr',['DSR',['../d7/d9c/struct_d_m_a___type.html#a7e5029eae45531c7e4f42c65fb3eb823',1,'DMA_Type']]],
-  ['dsr_5fbcr',['DSR_BCR',['../d7/d9c/struct_d_m_a___type.html#af4baee4fdddfd3bea47a776541500832',1,'DMA_Type']]]
+  ['dsr_5fbcr',['DSR_BCR',['../d7/d9c/struct_d_m_a___type.html#af4baee4fdddfd3bea47a776541500832',1,'DMA_Type']]],
+  ['dur',['Dur',['../da/d4c/struct_____gas_sensor___heater.html#a6ff60c9b09f4abd18a44ccde1d3560c7',1,'__GasSensor_Heater']]]
 ];

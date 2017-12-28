@@ -86,34 +86,45 @@ $(document).ready(function(){initNavTree('d3/d0b/struct_____gas_sensor___config.
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d8/d28/struct_____gas_sensor___config-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__GasSensor_Config Struct Reference</div>  </div>
+<div class="title">__GasSensor_Config Struct Reference<div class="ingroups"><a class="el" href="../../d3/dc7/group___sensors.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Gas sensor configuration data.  
+ <a href="../../d3/d0b/struct_____gas_sensor___config.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d0/d51/gas__sensor_8h_source.html">gas_sensor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0637e0512c8a2daada7c39679b9e2a98"><td class="memItemLeft" align="right" valign="top"><a id="a0637e0512c8a2daada7c39679b9e2a98"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>DevAddr</b></td></tr>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/struct_____gas_sensor___config.html#a0637e0512c8a2daada7c39679b9e2a98">DevAddr</a></td></tr>
+<tr class="memdesc:a0637e0512c8a2daada7c39679b9e2a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Either <a class="el" href="../../d4/d47/class_i2_c.html">I2C</a> dev address or CS index select if <a class="el" href="../../d3/dfe/class_s_p_i.html">SPI</a> is used. <br /></td></tr>
 <tr class="separator:a0637e0512c8a2daada7c39679b9e2a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="memItemLeft" align="right" valign="top"><a id="a7f37bc3aa68756fa62ef501cdfcd09de"></a>
-<a class="el" href="../../d3/dc7/group___sensors.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OpMode</b></td></tr>
+<a class="el" href="../../d3/dc7/group___sensors.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/struct_____gas_sensor___config.html#a7f37bc3aa68756fa62ef501cdfcd09de">OpMode</a></td></tr>
+<tr class="memdesc:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating mode. <br /></td></tr>
 <tr class="separator:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b77d55fd50bba600f22c84ec5b822b5"><td class="memItemLeft" align="right" valign="top"><a id="a6b77d55fd50bba600f22c84ec5b822b5"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Freq</b></td></tr>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/struct_____gas_sensor___config.html#a6b77d55fd50bba600f22c84ec5b822b5">Freq</a></td></tr>
+<tr class="memdesc:a6b77d55fd50bba600f22c84ec5b822b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling frequency in Hz if continuous mode is used. <br /></td></tr>
 <tr class="separator:a6b77d55fd50bba600f22c84ec5b822b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb3671532681aeb00cd4ddba7f5272fb"><td class="memItemLeft" align="right" valign="top"><a id="acb3671532681aeb00cd4ddba7f5272fb"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>NbHeatPoint</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/struct_____gas_sensor___config.html#acb3671532681aeb00cd4ddba7f5272fb">NbHeatPoint</a></td></tr>
+<tr class="memdesc:acb3671532681aeb00cd4ddba7f5272fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of heating point in profile. <br /></td></tr>
 <tr class="separator:acb3671532681aeb00cd4ddba7f5272fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fc51eb0233ffe1293f24d04c965b40"><td class="memItemLeft" align="right" valign="top"><a id="ab2fc51eb0233ffe1293f24d04c965b40"></a>
-const <a class="el" href="../../da/d4c/struct_____gas_sensor___heater.html">GASSENSOR_HEAT</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pHeatProfile</b></td></tr>
+const <a class="el" href="../../d3/dc7/group___sensors.html#ga0fd7f352bfc5f13ca3a223a0effc8cc5">GASSENSOR_HEAT</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0b/struct_____gas_sensor___config.html#ab2fc51eb0233ffe1293f24d04c965b40">pHeatProfile</a></td></tr>
+<tr class="memdesc:ab2fc51eb0233ffe1293f24d04c965b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to array of heating temperature profile. <br /></td></tr>
 <tr class="separator:ab2fc51eb0233ffe1293f24d04c965b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../df/dae/env_tph_demo_8cpp-example.html#_a15">env_tph_demo.cpp</a>.</dd>
+<div class="textblock"><p>Gas sensor configuration data. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../df/dae/env_tph_demo_8cpp-example.html#_a15">env_tph_demo.cpp</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/gas__sensor_8h_source.html#l00068">68</a> of file <a class="el" href="../../d0/d51/gas__sensor_8h_source.html">gas_sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/gas__sensor_8h_source.html#l00073">73</a> of file <a class="el" href="../../d0/d51/gas__sensor_8h_source.html">gas_sensor.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/Users/hoan/I-SYST/swdev/EHAL/include/sensors/<a class="el" href="../../d0/d51/gas__sensor_8h_source.html">gas_sensor.h</a></li>
+<li>EHAL/include/sensors/<a class="el" href="../../d0/d51/gas__sensor_8h_source.html">gas_sensor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['timer_5fcfg',['TIMER_CFG',['../d5/dd0/timer_8h.html#a4237596dccd7f27e4e45fcb1ae1df13e',1,'timer.h']]],
-  ['timer_5fclksrc',['TIMER_CLKSRC',['../d5/dd0/timer_8h.html#a26d1d960f6b1c8098d8eebe6c4c3a749',1,'timer.h']]],
-  ['timer_5fevtcb',['TIMER_EVTCB',['../d5/dd0/timer_8h.html#a8b2de8ac1d6e3d2d0d77d9aa9f3b104e',1,'timer.h']]],
-  ['timer_5finten',['TIMER_INTEN',['../d5/dd0/timer_8h.html#a7585252e96cd6b8ee3245254a9dca6ab',1,'timer.h']]],
-  ['timer_5ftrig_5ftype',['TIMER_TRIG_TYPE',['../d5/dd0/timer_8h.html#a539dd2437ff15d806a82d10d712b0d90',1,'timer.h']]],
-  ['timer_5ftrigcb',['TIMER_TRIGCB',['../d5/dd0/timer_8h.html#ad0b8aa345f0fd6d2874a93892f0cc57c',1,'timer.h']]]
+  ['seep_5fcfg',['SEEP_CFG',['../dc/d56/group___storage.html#gaffcefaf319739cca003cd7bd7a849c7e',1,'seep.h']]],
+  ['seepcb',['SEEPCB',['../dc/d56/group___storage.html#gadf71350c30facfad0476e0920a1534cf',1,'seep.h']]],
+  ['seepdev',['SEEPDEV',['../dc/d56/group___storage.html#gaac34337bda77c4ca63568429ed36fe9d',1,'seep.h']]],
+  ['sensor_5fopmode',['SENSOR_OPMODE',['../d3/dc7/group___sensors.html#gab6806346832c92842ed34996036e908b',1,'sensor.h']]],
+  ['sensor_5fstate',['SENSOR_STATE',['../d3/dc7/group___sensors.html#ga18ddab8248cf8f24054b28645de18cb2',1,'sensor.h']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gasres',['GasRes',['../db/d57/struct_____gas_sensor___data.html#a4dcee3d25d7c16ccfdc67792a569cd4a',1,'__GasSensor_Data']]],
   ['gdr',['GDR',['../d2/d5c/struct_l_p_c___a_d_c___type.html#aeab50b061753ae735e39e65db73a8876',1,'LPC_ADC_Type']]],
   ['gencs',['GENCS',['../d6/daa/struct_t_s_i___type.html#a80787b87ff094252f51f10fb1bba3ee5',1,'TSI_Type']]],
   ['getidx',['GetIdx',['../da/dd1/struct_____c_f_i_f_o___header.html#ae2a3440ecef12e3c643fe771e8d746f9',1,'__CFIFO_Header']]],

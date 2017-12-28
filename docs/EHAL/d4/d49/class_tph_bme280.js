@@ -4,7 +4,7 @@ var class_tph_bme280 =
     [ "~TphBme280", "d4/d49/class_tph_bme280.html#a37e0a66a2646e975b1fd9c79e0da8b09", null ],
     [ "Disable", "d4/d49/class_tph_bme280.html#a9ce4259824a1182f3804411ad5a3ad8b", null ],
     [ "Enable", "d4/d49/class_tph_bme280.html#ad097864a02f604023b5a2b5b64de8cb1", null ],
-    [ "Init", "d4/d49/class_tph_bme280.html#ae5fcd2a52cd72f461650a8469529765c", null ],
+    [ "Init", "d4/d49/class_tph_bme280.html#ae8925c0bd804894f2985d4076a640cf5", null ],
     [ "Mode", "d4/d49/class_tph_bme280.html#a7076c3def3adf54e19b968e225aadee6", null ],
     [ "Read", "d4/d49/class_tph_bme280.html#a23cf518d7fb81ccf63b0214f082ef6dd", null ],
     [ "ReadHumidity", "d4/d49/class_tph_bme280.html#a20e4eced87b8fa567a94fd8e4c4c8b9c", null ],

@@ -19,6 +19,7 @@ var searchData=
   ['datl',['DATL',['../d9/d53/struct_d_a_c___type.html#a0f61f3cd5d904066d9050e97aab24734',1,'DAC_Type']]],
   ['dcr',['DCR',['../d7/d9c/struct_d_m_a___type.html#afa67688eee65935f79df815d47c7e400',1,'DMA_Type']]],
   ['debugmonitor_5firqn',['DebugMonitor_IRQn',['../dc/da4/group___l_p_c11_uxx.html#gga7e1129cd8a196f4284d41db3e82ad5c8a8e033fcef7aed98a31c60a7de206722c',1,'DebugMonitor_IRQn():&#160;LPC11Uxx.h'],['../d5/db6/group___interrupt__vector__numbers.html#ga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c',1,'DebugMonitor_IRQn():&#160;LPC17xx.h']]],
+  ['devaddr',['DevAddr',['../d3/d0b/struct_____gas_sensor___config.html#a0637e0512c8a2daada7c39679b9e2a98',1,'__GasSensor_Config::DevAddr()'],['../d8/dd8/struct_____t_p_h_sensor___config.html#a2bbcd0d56518e9ffa5befb8e5505b87e',1,'__TPHSensor_Config::DevAddr()']]],
   ['devcmdstat',['DEVCMDSTAT',['../d2/d4d/struct_l_p_c___u_s_b___type.html#a5bcf190938e2ba0680c0fd4dcba25da3',1,'LPC_USB_Type']]],
   ['device',['Device',['../df/dd8/class_device.html',1,'']]],
   ['device_2eh',['device.h',['../db/de9/device_8h.html',1,'']]],
@@ -101,5 +102,6 @@ var searchData=
   ['dropcnt',['DropCnt',['../da/dd1/struct_____c_f_i_f_o___header.html#ab5381421dd195487d5a3b03d4f24e56e',1,'__CFIFO_Header']]],
   ['dsr',['DSR',['../d7/d9c/struct_d_m_a___type.html#a7e5029eae45531c7e4f42c65fb3eb823',1,'DMA_Type']]],
   ['dsr_5fbcr',['DSR_BCR',['../d7/d9c/struct_d_m_a___type.html#af4baee4fdddfd3bea47a776541500832',1,'DMA_Type']]],
+  ['dur',['Dur',['../da/d4c/struct_____gas_sensor___heater.html#a6ff60c9b09f4abd18a44ccde1d3560c7',1,'__GasSensor_Heater']]],
   ['device_20peripheral_20access_20layer',['Device Peripheral Access Layer',['../d8/d38/group___peripheral__access__layer.html',1,'']]]
 ];

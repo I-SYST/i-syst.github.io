@@ -86,16 +86,21 @@ $(document).ready(function(){initNavTree('d4/d49/class_tph_bme280.html','../../'
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../da/d88/class_tph_bme280-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TphBme280 Class Reference</div>  </div>
+<div class="title">TphBme280 Class Reference<div class="ingroups"><a class="el" href="../../d3/dc7/group___sensors.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Implementation class of Bosch #BME280 Temperature, Pressure, Humidity sensor.  
+ <a href="../../d4/d49/class_tph_bme280.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TphBme280:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../d4/d49/class_tph_bme280.png" usemap="#TphBme280_map" alt=""/>
   <map id="TphBme280_map" name="TphBme280_map">
-<area href="../../de/d76/class_t_p_h_sensor.html" alt="TPHSensor" shape="rect" coords="0,112,78,136"/>
+<area href="../../dc/d5f/class_tph_sensor.html" title="TPH sensor base class. Sensor implementation must derive form this class. " alt="TphSensor" shape="rect" coords="0,112,78,136"/>
 <area href="../../d7/daf/class_sensor.html" title="Sensor generic base class. " alt="Sensor" shape="rect" coords="0,56,78,80"/>
 <area href="../../df/dd8/class_device.html" title="Device base class. " alt="Device" shape="rect" coords="0,0,78,24"/>
 </map>
@@ -103,9 +108,9 @@ Inheritance diagram for TphBme280:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae5fcd2a52cd72f461650a8469529765c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#ae5fcd2a52cd72f461650a8469529765c">Init</a> (const <a class="el" href="../../d8/dd8/struct_____t_p_h_sensor___config.html">TPHSENSOR_CFG</a> &amp;CfgData, <a class="el" href="../../d4/d85/class_device_intrf.html">DeviceIntrf</a> *pIntrf, <a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer=NULL)</td></tr>
-<tr class="memdesc:ae5fcd2a52cd72f461650a8469529765c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/daf/class_sensor.html" title="Sensor generic base class. ">Sensor</a> in initialization.  <a href="#ae5fcd2a52cd72f461650a8469529765c">More...</a><br /></td></tr>
-<tr class="separator:ae5fcd2a52cd72f461650a8469529765c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8925c0bd804894f2985d4076a640cf5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#ae8925c0bd804894f2985d4076a640cf5">Init</a> (const <a class="el" href="../../d3/dc7/group___sensors.html#ga13d36604eb2b26e7d1b0a31a835318da">TPHSENSOR_CFG</a> &amp;CfgData, <a class="el" href="../../d4/d85/class_device_intrf.html">DeviceIntrf</a> *pIntrf, <a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer=NULL)</td></tr>
+<tr class="memdesc:ae8925c0bd804894f2985d4076a640cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize sensor.  <a href="#ae8925c0bd804894f2985d4076a640cf5">More...</a><br /></td></tr>
+<tr class="separator:ae8925c0bd804894f2985d4076a640cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c48c43fed28ba63bdafab870df5b60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc7/group___sensors.html#ga18ddab8248cf8f24054b28645de18cb2">SENSOR_STATE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a25c48c43fed28ba63bdafab870df5b60">State</a> (<a class="el" href="../../d3/dc7/group___sensors.html#ga18ddab8248cf8f24054b28645de18cb2">SENSOR_STATE</a> State)</td></tr>
 <tr class="memdesc:a25c48c43fed28ba63bdafab870df5b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current sensor state.  <a href="#a25c48c43fed28ba63bdafab870df5b60">More...</a><br /></td></tr>
 <tr class="separator:a25c48c43fed28ba63bdafab870df5b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,17 +132,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d88b84b41236d38ab2cc91435f9b159"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a9d88b84b41236d38ab2cc91435f9b159">Reset</a> ()</td></tr>
 <tr class="memdesc:a9d88b84b41236d38ab2cc91435f9b159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset device to it initial state.  <a href="#a9d88b84b41236d38ab2cc91435f9b159">More...</a><br /></td></tr>
 <tr class="separator:a9d88b84b41236d38ab2cc91435f9b159"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23cf518d7fb81ccf63b0214f082ef6dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a23cf518d7fb81ccf63b0214f082ef6dd">Read</a> (<a class="el" href="../../db/d0f/struct_____t_p_h_sensor___data.html">TPHSENSOR_DATA</a> &amp;TphData)</td></tr>
+<tr class="memitem:a23cf518d7fb81ccf63b0214f082ef6dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a23cf518d7fb81ccf63b0214f082ef6dd">Read</a> (<a class="el" href="../../d3/dc7/group___sensors.html#gada6f013b864882326f72af15afcc5945">TPHSENSOR_DATA</a> &amp;TphData)</td></tr>
 <tr class="memdesc:a23cf518d7fb81ccf63b0214f082ef6dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read TPH data Read TPH data from device if available. If not return previous data.  <a href="#a23cf518d7fb81ccf63b0214f082ef6dd">More...</a><br /></td></tr>
 <tr class="separator:a23cf518d7fb81ccf63b0214f082ef6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac192f8ddd98d80614258a9053ab26bbd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#ac192f8ddd98d80614258a9053ab26bbd">ReadTemperature</a> ()</td></tr>
-<tr class="memdesc:ac192f8ddd98d80614258a9053ab26bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read temperature.  <a href="#ac192f8ddd98d80614258a9053ab26bbd">More...</a><br /></td></tr>
+<tr class="memdesc:ac192f8ddd98d80614258a9053ab26bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read temperature (require implemetation).  <a href="#ac192f8ddd98d80614258a9053ab26bbd">More...</a><br /></td></tr>
 <tr class="separator:ac192f8ddd98d80614258a9053ab26bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef1a1e84eb314b98d76bdca232f57d3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a1ef1a1e84eb314b98d76bdca232f57d3">ReadPressure</a> ()</td></tr>
-<tr class="memdesc:a1ef1a1e84eb314b98d76bdca232f57d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read barometric pressure.  <a href="#a1ef1a1e84eb314b98d76bdca232f57d3">More...</a><br /></td></tr>
+<tr class="memdesc:a1ef1a1e84eb314b98d76bdca232f57d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read barometric pressure (require implemetation).  <a href="#a1ef1a1e84eb314b98d76bdca232f57d3">More...</a><br /></td></tr>
 <tr class="separator:a1ef1a1e84eb314b98d76bdca232f57d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e4eced87b8fa567a94fd8e4c4c8b9c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/class_tph_bme280.html#a20e4eced87b8fa567a94fd8e4c4c8b9c">ReadHumidity</a> ()</td></tr>
-<tr class="memdesc:a20e4eced87b8fa567a94fd8e4c4c8b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read relative humidity.  <a href="#a20e4eced87b8fa567a94fd8e4c4c8b9c">More...</a><br /></td></tr>
+<tr class="memdesc:a20e4eced87b8fa567a94fd8e4c4c8b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read relative humidity (require implemetation).  <a href="#a20e4eced87b8fa567a94fd8e4c4c8b9c">More...</a><br /></td></tr>
 <tr class="separator:a20e4eced87b8fa567a94fd8e4c4c8b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_sensor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_sensor')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/daf/class_sensor.html">Sensor</a></td></tr>
 <tr class="memitem:ac204998334357f61c86d2ba0d00a0c6b inherit pub_methods_class_sensor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d3/dc7/group___sensors.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/class_sensor.html#ac204998334357f61c86d2ba0d00a0c6b">Mode</a> ()</td></tr>
@@ -184,10 +189,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad2ae3ff2b29aa4ebf70bf6dd52821995 inherit pro_methods_class_device"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd8/class_device.html#ad2ae3ff2b29aa4ebf70bf6dd52821995">DeviceAddress</a> ()</td></tr>
 <tr class="memdesc:ad2ae3ff2b29aa4ebf70bf6dd52821995 inherit pro_methods_class_device"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get device's map address.  <a href="../../df/dd8/class_device.html#ad2ae3ff2b29aa4ebf70bf6dd52821995">More...</a><br /></td></tr>
 <tr class="separator:ad2ae3ff2b29aa4ebf70bf6dd52821995 inherit pro_methods_class_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_t_p_h_sensor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_t_p_h_sensor')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../de/d76/class_t_p_h_sensor.html">TPHSensor</a></td></tr>
-<tr class="memitem:aaf8eba84f62de074afdfaecc899d8a42 inherit pro_attribs_class_t_p_h_sensor"><td class="memItemLeft" align="right" valign="top"><a id="aaf8eba84f62de074afdfaecc899d8a42"></a>
-<a class="el" href="../../db/d0f/struct_____t_p_h_sensor___data.html">TPHSENSOR_DATA</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vTphData</b></td></tr>
-<tr class="separator:aaf8eba84f62de074afdfaecc899d8a42 inherit pro_attribs_class_t_p_h_sensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_tph_sensor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_tph_sensor')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../dc/d5f/class_tph_sensor.html">TphSensor</a></td></tr>
+<tr class="memitem:ae1ad232cb77d671aab9e53bdac06d661 inherit pro_attribs_class_tph_sensor"><td class="memItemLeft" align="right" valign="top"><a id="ae1ad232cb77d671aab9e53bdac06d661"></a>
+<a class="el" href="../../d3/dc7/group___sensors.html#gada6f013b864882326f72af15afcc5945">TPHSENSOR_DATA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5f/class_tph_sensor.html#ae1ad232cb77d671aab9e53bdac06d661">vTphData</a></td></tr>
+<tr class="memdesc:ae1ad232cb77d671aab9e53bdac06d661 inherit pro_attribs_class_tph_sensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last measured data. <br /></td></tr>
+<tr class="separator:ae1ad232cb77d671aab9e53bdac06d661 inherit pro_attribs_class_tph_sensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_sensor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_sensor')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d7/daf/class_sensor.html">Sensor</a></td></tr>
 <tr class="memitem:a2719a55d424b5ab0139913fbbca3c041 inherit pro_attribs_class_sensor"><td class="memItemLeft" align="right" valign="top"><a id="a2719a55d424b5ab0139913fbbca3c041"></a>
 <a class="el" href="../../d3/dc7/group___sensors.html#ga18ddab8248cf8f24054b28645de18cb2">SENSOR_STATE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/class_sensor.html#a2719a55d424b5ab0139913fbbca3c041">vState</a></td></tr>
@@ -220,9 +226,30 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <tr class="separator:a0c59b412156d29c461dcc871e3853f49 inherit pro_attribs_class_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#_a26">TPHSensorTag.cpp</a>.</dd>
+<div class="textblock"><p>Implementation class of Bosch #BME280 Temperature, Pressure, Humidity sensor. </p>
+<p>Key features</p>
+<ul>
+<li>Package : 2.5 mm x 2.5 mm x 0.93 mm metal lid LGA</li>
+<li>Digital interface : <a class="el" href="../../d4/d47/class_i2_c.html">I2C</a> (up to 3.4 MHz) and <a class="el" href="../../d3/dfe/class_s_p_i.html">SPI</a> (3 and 4 wire, up to 10 MHz)</li>
+<li>Supply voltage : VDD main supply voltage range: 1.71 V to 3.6 V, VDDIO interface voltage range: 1.2 V to 3.6 V</li>
+<li>Current consumption : 1.8 μA @ 1 Hz humidity and temperature. 2.8 μA @ 1 Hz pressure and temperature. 3.6 μA @ 1 Hz humidity, pressure and temperature. 0.1 μA in sleep mode</li>
+<li>Operating range : -40...+85 °C, 0...100 % rel. humidity, 300...1100 hPa</li>
+<li>Humidity sensor and pressure sensor can be independently enabled / disabled</li>
+<li>Register and performance compatible to Bosch Sensortec BMP280 digital pressure sensor</li>
+</ul>
+<p>Key parameters for humidity sensor1</p><ul>
+<li>Response time : 1 s</li>
+<li>Accuracy tolerance : ±3 % relative humidity</li>
+<li>Hysteresis : ±1% relative humidity</li>
+</ul>
+<p>Key parameters for pressure sensor</p>
+<ul>
+<li>RMS Noise 0.2 Pa, equiv. to 1.7 cm</li>
+<li>Offset temperature coefficient ±1.5 Pa/K, equiv. to ±12.6 cm at 1 °C temperature change </li>
+</ul>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#_a26">TPHSensorTag.cpp</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00114">114</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00160">160</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9ce4259824a1182f3804411ad5a3ad8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ce4259824a1182f3804411ad5a3ad8b">&#9670;&nbsp;</a></span>Disable()</h2>
@@ -284,8 +311,8 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 </div>
 </div>
-<a id="ae5fcd2a52cd72f461650a8469529765c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5fcd2a52cd72f461650a8469529765c">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="ae8925c0bd804894f2985d4076a640cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8925c0bd804894f2985d4076a640cf5">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,9 +321,9 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool TphBme280::Init </td>
+          <td class="memname">bool TphBme280::Init </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/dd8/struct_____t_p_h_sensor___config.html">TPHSENSOR_CFG</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d3/dc7/group___sensors.html#ga13d36604eb2b26e7d1b0a31a835318da">TPHSENSOR_CFG</a> &amp;&#160;</td>
           <td class="paramname"><em>CfgData</em>, </td>
         </tr>
         <tr>
@@ -324,18 +351,22 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../d7/daf/class_sensor.html" title="Sensor generic base class. ">Sensor</a> in initialization. </p>
+<p>Initialize sensor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">CfgData</td><td></td></tr>
-    <tr><td class="paramname">pIntrf</td><td></td></tr>
-    <tr><td class="paramname">pTimer</td><td></td></tr>
+    <tr><td class="paramname">CfgData</td><td>: Reference to configuration data </td></tr>
+    <tr><td class="paramname">pIntrf</td><td>: Pointer to interface to the sensor. This pointer will be kept internally for all access to device. DONOT delete this object externally </td></tr>
+    <tr><td class="paramname">pTimer</td><td>: Pointer to timer for retrieval of time stamp This pointer will be kept internally for all access to device. DONOT delete this object externally</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>true : Success</li>
+<li>false : Failed </li>
+</ul>
+</dd></dl>
 
-<p>Implements <a class="el" href="../../de/d76/class_t_p_h_sensor.html#a175c5ad536b175e1af3e92a461cd4971">TPHSensor</a>.</p>
+<p>Implements <a class="el" href="../../dc/d5f/class_tph_sensor.html#a14dd05f520d97f3d979026752c5c58e4">TphSensor</a>.</p>
 
 </div>
 </div>
@@ -403,7 +434,7 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
         <tr>
           <td class="memname">bool TphBme280::Read </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d0f/struct_____t_p_h_sensor___data.html">TPHSENSOR_DATA</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dc7/group___sensors.html#gada6f013b864882326f72af15afcc5945">TPHSENSOR_DATA</a> &amp;&#160;</td>
           <td class="paramname"><em>TphData</em></td><td>)</td>
           <td></td>
         </tr>
@@ -424,7 +455,7 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true - new data false - old data </dd></dl>
 
-<p>Implements <a class="el" href="../../de/d76/class_t_p_h_sensor.html#a14e25fad68cf297317ea47446f1cdfb8">TPHSensor</a>.</p>
+<p>Implements <a class="el" href="../../dc/d5f/class_tph_sensor.html#ace0a36fbff6f2925d5e7cfb3ea3ca0e5">TphSensor</a>.</p>
 
 </div>
 </div>
@@ -451,12 +482,12 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table>
 </div><div class="memdoc">
 
-<p>Read relative humidity. </p>
+<p>Read relative humidity (require implemetation). </p>
 <dl class="section return"><dt>Returns</dt><dd>Relative humidity in % </dd></dl>
 
-<p>Implements <a class="el" href="../../de/d76/class_t_p_h_sensor.html#afd9a0da08a19659c568cde7c73868454">TPHSensor</a>.</p>
+<p>Implements <a class="el" href="../../dc/d5f/class_tph_sensor.html#ad21d5ec3527740f3145d0d784de6514a">TphSensor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00212">212</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00268">268</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
 
 </div>
 </div>
@@ -483,12 +514,12 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table>
 </div><div class="memdoc">
 
-<p>Read barometric pressure. </p>
+<p>Read barometric pressure (require implemetation). </p>
 <dl class="section return"><dt>Returns</dt><dd>Barometric pressure in Pascal </dd></dl>
 
-<p>Implements <a class="el" href="../../de/d76/class_t_p_h_sensor.html#a21f95b7cb1114858cececba32d4ff525">TPHSensor</a>.</p>
+<p>Implements <a class="el" href="../../dc/d5f/class_tph_sensor.html#a0ffd1238548fade98ffd91e8b979a9b5">TphSensor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00206">206</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00262">262</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
 
 </div>
 </div>
@@ -515,12 +546,12 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table>
 </div><div class="memdoc">
 
-<p>Read temperature. </p>
+<p>Read temperature (require implemetation). </p>
 <dl class="section return"><dt>Returns</dt><dd>Temperature in degree C </dd></dl>
 
-<p>Implements <a class="el" href="../../de/d76/class_t_p_h_sensor.html#ae060d3c64be84bd7e67d6b6344a3a9d7">TPHSensor</a>.</p>
+<p>Implements <a class="el" href="../../dc/d5f/class_tph_sensor.html#ab1fc3d9a93ad1b67a1d6ca0c4536a02f">TphSensor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00200">200</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html#l00256">256</a> of file <a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a>.</p>
 
 </div>
 </div>
@@ -658,7 +689,7 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/hoan/I-SYST/swdev/EHAL/include/sensors/<a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a></li>
+<li>EHAL/include/sensors/<a class="el" href="../../d0/d7f/tph__bme280_8h_source.html">tph_bme280.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
