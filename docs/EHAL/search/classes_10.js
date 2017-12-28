@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['sdcard',['SDCard',['../dd/df7/class_s_d_card.html',1,'']]],
-  ['sdcfg',['SDCFG',['../d3/d1b/struct_s_d_c_f_g.html',1,'']]],
-  ['sdcsd',['SDCSD',['../dc/d42/struct_s_d_c_s_d.html',1,'']]],
-  ['sddev',['SDDEV',['../d7/d33/struct_s_d_d_e_v.html',1,'']]],
-  ['seep',['Seep',['../d4/d7f/class_seep.html',1,'']]],
-  ['sensor',['Sensor',['../d7/daf/class_sensor.html',1,'']]],
-  ['sim_5ftype',['SIM_Type',['../dc/df9/struct_s_i_m___type.html',1,'']]],
-  ['smc_5ftype',['SMC_Type',['../d2/deb/struct_s_m_c___type.html',1,'']]],
-  ['spi',['SPI',['../d3/dfe/class_s_p_i.html',1,'']]],
-  ['spi_5ftype',['SPI_Type',['../da/de8/struct_s_p_i___type.html',1,'']]],
-  ['spidev',['SPIDEV',['../df/dcb/struct_s_p_i_d_e_v.html',1,'']]],
-  ['sspdev',['SSPDEV',['../da/de8/struct_s_s_p_d_e_v.html',1,'']]],
-  ['stddev',['STDDEV',['../d4/d14/struct_s_t_d_d_e_v.html',1,'']]],
-  ['sysstatus',['SysStatus',['../d9/d9a/class_sys_status.html',1,'']]]
+  ['sdcard',['SDCard',['../d0/d65/a10062.html',1,'']]],
+  ['sdcfg',['SDCFG',['../df/d38/a10054.html',1,'']]],
+  ['sdcsd',['SDCSD',['../de/dff/a10050.html',1,'']]],
+  ['sddev',['SDDEV',['../d4/d9c/a10058.html',1,'']]],
+  ['seep',['Seep',['../de/df4/a10074.html',1,'']]],
+  ['sensor',['Sensor',['../d6/dd8/a10078.html',1,'']]],
+  ['sim_5ftype',['SIM_Type',['../dd/dca/a09242.html',1,'']]],
+  ['smc_5ftype',['SMC_Type',['../df/dc1/a09246.html',1,'']]],
+  ['spi',['SPI',['../dd/d91/a10186.html',1,'']]],
+  ['spi_5ftype',['SPI_Type',['../d2/d3d/a09250.html',1,'']]],
+  ['spidev',['SPIDEV',['../db/d9b/a10182.html',1,'']]],
+  ['sspdev',['SSPDEV',['../dd/d62/a09374.html',1,'']]],
+  ['stddev',['STDDEV',['../dc/d84/a10190.html',1,'']]],
+  ['sysstatus',['SysStatus',['../db/d6a/a10206.html',1,'']]]
 ];

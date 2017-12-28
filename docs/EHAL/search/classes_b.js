@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['magsensor',['MagSensor',['../d2/db3/class_mag_sensor.html',1,'']]],
-  ['mcg_5ftype',['MCG_Type',['../d6/df3/struct_m_c_g___type.html',1,'']]],
-  ['mcm_5ftype',['MCM_Type',['../d1/df8/struct_m_c_m___type.html',1,'']]],
-  ['mtb_5ftype',['MTB_Type',['../d2/d09/struct_m_t_b___type.html',1,'']]],
-  ['mtbdwt_5ftype',['MTBDWT_Type',['../d0/dd9/struct_m_t_b_d_w_t___type.html',1,'']]]
+  ['magsensor',['MagSensor',['../d6/dd4/a10142.html',1,'']]],
+  ['mcg_5ftype',['MCG_Type',['../df/d6c/a09186.html',1,'']]],
+  ['mcm_5ftype',['MCM_Type',['../d4/d14/a09190.html',1,'']]],
+  ['mtb_5ftype',['MTB_Type',['../de/d5d/a09194.html',1,'']]],
+  ['mtbdwt_5ftype',['MTBDWT_Type',['../d8/def/a09198.html',1,'']]]
 ];
