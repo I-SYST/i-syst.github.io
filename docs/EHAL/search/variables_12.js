@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['vbinterrupt',['vbInterrupt',['../d6/dc8/a16323.html#ab15afbd9b34d8bd577142c4923b7defa',1,'AdcDevice']]],
+  ['vdevaddr',['vDevAddr',['../de/d77/a16343.html#a6d21f0cd79d797a95f5d7c23e6314fd5',1,'Device']]],
+  ['vdevdata',['vDevData',['../d7/df9/a16503.html#aff283afa3121eadbda98046f7c589e7e',1,'Seep']]],
+  ['vdevno',['vDevNo',['../d1/dfa/a16647.html#aa3efe68161184bb259db64d023b65611',1,'Timer']]],
+  ['vers',['Vers',['../d2/dae/a16447.html#a40fd0a59d19d0dd24807f3ed99dc5e75',1,'VERS::Vers()'],['../d9/d8c/a16459.html#abfb67f140888592523655cf4040b1039',1,'APP_INFO::Vers()']]],
+  ['vevthandler',['vEvtHandler',['../d1/dfa/a16647.html#a17e463768d6fb5bde20dbff19b967641',1,'Timer']]],
+  ['vfreq',['vFreq',['../d1/dfa/a16647.html#afc187a8aea7fdb211ae1bb7bd5645621',1,'Timer']]],
+  ['vgasdata',['vGasData',['../d7/d8e/a16547.html#a29a0b8e7459bffa1562b6645b44ee71d',1,'GasSensor']]],
+  ['vintprio',['vIntPrio',['../d6/dc8/a16323.html#abda364884a58eebee123fe8c67b287af',1,'AdcDevice']]],
+  ['vlastcount',['vLastCount',['../d1/dfa/a16647.html#ab3c98be2019ac4b964bf3b0dfbbfebad',1,'Timer']]],
+  ['vmode',['vMode',['../d6/dc8/a16323.html#ab2bff000a6da04ffcdf682de142275c8',1,'AdcDevice']]],
+  ['vnbrefvolt',['vNbRefVolt',['../d6/dc8/a16323.html#a48c0ed46da65b9406b42b11e4d22938e',1,'AdcDevice']]],
+  ['vnsperiod',['vnsPeriod',['../d1/dfa/a16647.html#aeaae26631745679daaf72573021a8252',1,'Timer']]],
+  ['voltage',['Voltage',['../da/d46/a16303.html#a8754dd9c45c87e5d95167927576a5cb2',1,'__ADC_Reference_Voltage']]],
+  ['vopmode',['vOpMode',['../d3/deb/a16507.html#a396bd9351a8ba3bf2d5b81611524b3fd',1,'Sensor']]],
+  ['vpintrf',['vpIntrf',['../de/d77/a16343.html#a0c59b412156d29c461dcc871e3853f49',1,'Device']]],
+  ['vprefvolt',['vpRefVolt',['../d6/dc8/a16323.html#ae979482f816e2c4aee6d48e7961cdc9c',1,'AdcDevice']]],
+  ['vptimer',['vpTimer',['../d3/deb/a16507.html#ac7d78def8a2b5cbafb049a0e4ea56abd',1,'Sensor']]],
+  ['vrate',['vRate',['../d6/dc8/a16323.html#a8859b23729d47266d30178eb8875d1ef',1,'AdcDevice']]],
+  ['vresolution',['vResolution',['../d6/dc8/a16323.html#a0897c7a684bf6e4832ddc7e0d590dd74',1,'AdcDevice']]],
+  ['vrollover',['vRollover',['../d1/dfa/a16647.html#a5c21dda893085bbfaba6b155c03ac47b',1,'Timer']]],
+  ['vsampfreq',['vSampFreq',['../d3/deb/a16507.html#a5fffe57232939e6f962a618f0834c3e7',1,'Sensor']]],
+  ['vsamplecnt',['vSampleCnt',['../d3/deb/a16507.html#a75fd299a6271faa9aa19f2b7321909c8',1,'Sensor']]],
+  ['vstate',['vState',['../d3/deb/a16507.html#a2719a55d424b5ab0139913fbbca3c041',1,'Sensor']]],
+  ['vtphdata',['vTphData',['../d0/d19/a16595.html#ae1ad232cb77d671aab9e53bdac06d661',1,'TphSensor']]]
+];
