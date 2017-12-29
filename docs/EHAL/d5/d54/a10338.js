@@ -1,11 +1,10 @@
 var a10338 =
 [
-    [ "__init__", "d5/d54/a10338.html#a8e88626c94477cae9f2456a5192ebb91", null ],
-    [ "connect", "d5/d54/a10338.html#aa88361979d8623bb1291df0f70cabfd3", null ],
-    [ "disconnect", "d5/d54/a10338.html#aa7e7acf66819913dea2951f33ca4a788", null ],
-    [ "prbs8", "d5/d54/a10338.html#aa35886e3fa098933c8d44c07b162246b", null ],
-    [ "receivedPacket", "d5/d54/a10338.html#a337a5736a626b6c44b83a12193c181ac", null ],
-    [ "send", "d5/d54/a10338.html#a92290d4bb77067f64d074bd31058af03", null ],
-    [ "address", "d5/d54/a10338.html#ae0254e2cb7fc695f66feda9f301fbcec", null ],
-    [ "sc", "d5/d54/a10338.html#abfe2a41b6059cde9f5b58fc99163e81e", null ]
+    [ "bCBWCBLength", "d5/d54/a10338.html#a252ba5004a2b5bd96b054ac4ce8e12df", null ],
+    [ "bCBWLUN", "d5/d54/a10338.html#a06b077c4fe8fcf8835b9cd9e20680f13", null ],
+    [ "bmCBWFlags", "d5/d54/a10338.html#af3bf0f0d10045de2edfe41b55fe645d9", null ],
+    [ "CBWCB", "d5/d54/a10338.html#ae63a59792de53cee9a5e897d9909728d", null ],
+    [ "dCBWDataTransferLength", "d5/d54/a10338.html#a87b53d26469b2a9212ca9057c1fd5f9f", null ],
+    [ "dCBWSignature", "d5/d54/a10338.html#a78ae0a0ba373c8f39ecc9383138db15f", null ],
+    [ "dCBWTag", "d5/d54/a10338.html#a3e272b36c5694ae819e9949cc4e52536", null ]
 ];

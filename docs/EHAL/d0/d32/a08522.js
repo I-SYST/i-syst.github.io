@@ -1,22 +1,29 @@
 var a08522 =
 [
-    [ "MTBDWT Register Masks", "d1/d86/a08523.html", null ],
-    [ "MTBDWT_Type", "d8/def/a09198.html", [
-      [ "COMP", "d8/def/a09198.html#a606a1dfbfff74854ed6d652a221a3fbb", null ],
-      [ "COMPARATOR", "d8/def/a09198.html#a423edaf7b1768da876fe8feadd13f146", null ],
-      [ "COMPID", "d8/def/a09198.html#a81223eba8521f8e75c46e7774cc2648f", null ],
-      [ "CTRL", "d8/def/a09198.html#a944b36ca890ba583beaef371a6de59d0", null ],
-      [ "DEVICECFG", "d8/def/a09198.html#a8e1fa8c8e1f8e07b41ca20b51f164daa", null ],
-      [ "DEVICETYPID", "d8/def/a09198.html#aa9e474c83dfadd1926f68f4fbdb8def3", null ],
-      [ "FCT", "d8/def/a09198.html#a9ded7fd61aa303451e9e9ebbb9b714f8", null ],
-      [ "MASK", "d8/def/a09198.html#a2f83ce3789ccc050807d9591035ca622", null ],
-      [ "PERIPHID", "d8/def/a09198.html#a9a6614b460e543f6fe752e4b82b68127", null ],
-      [ "RESERVED_0", "d8/def/a09198.html#abe09dec4b2b8a596b042a4a289b7dd89", null ],
-      [ "RESERVED_1", "d8/def/a09198.html#a6f36b9a24eda5fc29dcfca32fc356a9e", null ],
-      [ "RESERVED_2", "d8/def/a09198.html#a48d86e8214d32ad94c59a89b0ca10873", null ],
-      [ "TBCTRL", "d8/def/a09198.html#ac25ffbac07979e47c70c23e9ef41a0a7", null ]
+    [ "FTFA Register Masks", "d1/d86/a08523.html", null ],
+    [ "FTFA_Type", "d9/d7f/a09182.html", [
+      [ "FCCOB0", "d9/d7f/a09182.html#a068a3cf336bf35add39a93447b9ba980", null ],
+      [ "FCCOB1", "d9/d7f/a09182.html#a4614ee4350368662de4415d1ec90f2ee", null ],
+      [ "FCCOB2", "d9/d7f/a09182.html#a43869c36c7138f235ddd9613abdbdba9", null ],
+      [ "FCCOB3", "d9/d7f/a09182.html#ad1270c76643ff1fe21d13af680be7cb3", null ],
+      [ "FCCOB4", "d9/d7f/a09182.html#a55cdb59f7fc85152196f0dcb1bd67835", null ],
+      [ "FCCOB5", "d9/d7f/a09182.html#a5f70bda0833af6097b825af5867a35b8", null ],
+      [ "FCCOB6", "d9/d7f/a09182.html#a7855fccacbda9c6b44aab9545c080458", null ],
+      [ "FCCOB7", "d9/d7f/a09182.html#af158ac4151cbcc7b9b0747775d44ad6d", null ],
+      [ "FCCOB8", "d9/d7f/a09182.html#a8ffb86dab507f41246546f88dd3b0951", null ],
+      [ "FCCOB9", "d9/d7f/a09182.html#a6c06d0f41da108444a527e8ce5783559", null ],
+      [ "FCCOBA", "d9/d7f/a09182.html#a13dfc5d9fbdc00a935502a4bbc74d702", null ],
+      [ "FCCOBB", "d9/d7f/a09182.html#aba427ecdff61ac2f17df50b49bbdaaf7", null ],
+      [ "FCNFG", "d9/d7f/a09182.html#acf3c819c9e0411d97ea828a9bf8388f0", null ],
+      [ "FOPT", "d9/d7f/a09182.html#ac379c70ba07274b40a71e94e3ac1e55e", null ],
+      [ "FPROT0", "d9/d7f/a09182.html#a64796b7af780e1c18ad1e1d3142b46cf", null ],
+      [ "FPROT1", "d9/d7f/a09182.html#a8874f5653f83f5f1b0fdbf0b7caf28d2", null ],
+      [ "FPROT2", "d9/d7f/a09182.html#a458ad3a0f0a3672e6083fd68ded6c357", null ],
+      [ "FPROT3", "d9/d7f/a09182.html#ad7fc425f1a2a58455a2ad575749d44a5", null ],
+      [ "FSEC", "d9/d7f/a09182.html#ab8de577023c8314308dd2cf65e1a7e9c", null ],
+      [ "FSTAT", "d9/d7f/a09182.html#a19703688796e1c98616467f1f90fb1a4", null ]
     ] ],
-    [ "MTBDWT", "d0/d32/a08522.html#ga9727da650f73f6eee83b3886f78b8b7a", null ],
-    [ "MTBDWT_BASE", "d0/d32/a08522.html#ga35706ac7f77d2b8bad31f491675b3f31", null ],
-    [ "MTBDWT_BASES", "d0/d32/a08522.html#gac369c79ac18c4ad1a6f6c20bb163e9a1", null ]
+    [ "FTFA", "d0/d32/a08522.html#ga51932e698139405f75ed323a8bc0bbb8", null ],
+    [ "FTFA_BASE", "d0/d32/a08522.html#gaa2b2cdc953f8c4bfc44977ac97c1ca3a", null ],
+    [ "FTFA_BASES", "d0/d32/a08522.html#ga46969e3bf286d79fa9fb05d9cfebe439", null ]
 ];

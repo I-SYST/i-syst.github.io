@@ -83,27 +83,29 @@ $(document).ready(function(){initNavTree('d1/d49/a09938.html','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">DiskIO Member List</div>  </div>
+<div class="title">__device_intrf Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/d49/a09938.html">__device_intrf</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>DiskIO</b>() (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a3b3d78e8d1778d81286b9768d4f96f90">Erase</a>()</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Flush</b>() (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCacheSect</b>(uint32_t SectNo, bool bLock=false) (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a4bc03496b8fca31155c9a78aa163071d">GetNbSect</a>(void)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a6b6c42cef25d53e14397ea6537deb0e4">GetSectSize</a>(void)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#af055025aac64001ff883c581773c4e15">GetSize</a>(void)=0</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a6aa14e617c6a3711b0533b89309d5fc7">Read</a>(uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Read</b>(uint64_t Offset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a74d0c8d080f4819d18f25de4d9fe47b7">Reset</a>()</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a4c87d099d97cb28c8974ab8d9d36b436">SectRead</a>(uint32_t SectNo, uint8_t *pBuff)=0</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a126deddc415b7f2e91fd9e68ee0d4fcd">SectWrite</a>(uint32_t SectNo, uint8_t *pData)=0</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetCache</b>(DISKIO_CACHE_DESC *pCacheBlk, int NbCacheBlk) (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Write</b>(uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Write</b>(uint64_t Offset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../d1/d49/a09938.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a1c67065a232965530c4bfebae3c40609">Busy</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a369c734813aba3ade00c0c56221f3f5f">Disable</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#aebb95a3cef75ad974493f325b53b74a6">Enable</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a65b90542015f74eee13cdb8fd75d5401">EnCnt</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#ab2a4543bd99113aa38e41271f081bf8a">EvtCB</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a6d8dd80d426a0ed8bb9d6df0dc033d69">GetRate</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a31161ac02fd7ac0848dca85ce186d04c">IntPrio</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a231802f30134b71fa87b9a6c8e96a6a8">MaxRetry</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#aee6dc445ec6ec513a994409f86e29b03">pDevData</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a798eee2ff2471b86a101327dbe01bf79">Reset</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a4714ec3be1a7b148399733de526556dc">RxData</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#abab73b4e6e2a3e22080cb1da4b757b85">SetRate</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#ad22ecf357c492326e7585db7fbbddf14">StartRx</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a37be55dc542594df25e12988abc8a441">StartTx</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a9a24f7c8ab73df3e7bc8b57b9248670b">StopRx</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a2c6ba08021b2900ae2742c0358dfae00">StopTx</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d49/a09938.html#a16a0174974176a4bac0035ecd0498b59">TxData</a></td><td class="entry"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

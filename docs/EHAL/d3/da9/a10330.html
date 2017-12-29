@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _Uart_Osx_Dev Struct Reference</title>
+<title>EHAL: __USB_HID_Descriptor Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,40 +86,65 @@ $(document).ready(function(){initNavTree('d3/da9/a10330.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../df/deb/a10327.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_Uart_Osx_Dev Struct Reference</div>  </div>
+<div class="title">__USB_HID_Descriptor Struct Reference<div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a925472b51fcfbb548ef0c650b164bda8"><td class="memItemLeft" align="right" valign="top"><a id="a925472b51fcfbb548ef0c650b164bda8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>DevNo</b></td></tr>
-<tr class="separator:a925472b51fcfbb548ef0c650b164bda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa47d8bbd934c81e8d77b7a4e2eb00643"><td class="memItemLeft" align="right" valign="top"><a id="aa47d8bbd934c81e8d77b7a4e2eb00643"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>hDevFile</b></td></tr>
-<tr class="separator:aa47d8bbd934c81e8d77b7a4e2eb00643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f2cd4fbf18c504d299bccc8f1e61ad"><td class="memItemLeft" align="right" valign="top"><a id="a49f2cd4fbf18c504d299bccc8f1e61ad"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>DevPath</b> [OSXUART_DEVPATH_MAXLEN]</td></tr>
-<tr class="separator:a49f2cd4fbf18c504d299bccc8f1e61ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a753c6cc000e0ee718c9270b70fc2ead5"><td class="memItemLeft" align="right" valign="top"><a id="a753c6cc000e0ee718c9270b70fc2ead5"></a>
-struct termios&#160;</td><td class="memItemRight" valign="bottom"><b>OrigTTYAttrs</b></td></tr>
-<tr class="separator:a753c6cc000e0ee718c9270b70fc2ead5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d1f51549acd5c5ef0c8f49ebe821603"><td class="memItemLeft" align="right" valign="top"><a id="a4d1f51549acd5c5ef0c8f49ebe821603"></a>
-<a class="el" href="../../d9/d95/a10226.html">UARTDEV</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUartDev</b></td></tr>
-<tr class="separator:a4d1f51549acd5c5ef0c8f49ebe821603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76562453c75588fe01b96579ab14987"><td class="memItemLeft" align="right" valign="top"><a id="ab76562453c75588fe01b96579ab14987"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#ab76562453c75588fe01b96579ab14987">bLength</a></td></tr>
+<tr class="memdesc:ab76562453c75588fe01b96579ab14987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total size of the HID descriptor. <br /></td></tr>
+<tr class="separator:ab76562453c75588fe01b96579ab14987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00bc0b4cd24f04f666f0248d203c0c7"><td class="memItemLeft" align="right" valign="top"><a id="ab00bc0b4cd24f04f666f0248d203c0c7"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#ab00bc0b4cd24f04f666f0248d203c0c7">bDescriptorType</a></td></tr>
+<tr class="memdesc:ab00bc0b4cd24f04f666f0248d203c0c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of HID descriptor. <br /></td></tr>
+<tr class="separator:ab00bc0b4cd24f04f666f0248d203c0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b42a3c48ae55a5644e86156bae4d386"><td class="memItemLeft" align="right" valign="top"><a id="a9b42a3c48ae55a5644e86156bae4d386"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#a9b42a3c48ae55a5644e86156bae4d386">bcdHID</a></td></tr>
+<tr class="memdesc:a9b42a3c48ae55a5644e86156bae4d386"><td class="mdescLeft">&#160;</td><td class="mdescRight">HID Class Specification release. <br /></td></tr>
+<tr class="separator:a9b42a3c48ae55a5644e86156bae4d386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2596edefa94f1bd94bd7300d79349f"><td class="memItemLeft" align="right" valign="top"><a id="afe2596edefa94f1bd94bd7300d79349f"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#afe2596edefa94f1bd94bd7300d79349f">bCountryCode</a></td></tr>
+<tr class="memdesc:afe2596edefa94f1bd94bd7300d79349f"><td class="mdescLeft">&#160;</td><td class="mdescRight">country code of the localized hardware. <br /></td></tr>
+<tr class="separator:afe2596edefa94f1bd94bd7300d79349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee8232fa637a7b29db004ef811e020b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#a7ee8232fa637a7b29db004ef811e020b">bNumDescriptors</a></td></tr>
+<tr class="separator:a7ee8232fa637a7b29db004ef811e020b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb09b5df080b5b00d49238ff7ff2b028"><td class="memItemLeft" align="right" valign="top"><a id="abb09b5df080b5b00d49238ff7ff2b028"></a>
+<a class="el" href="../../df/d9f/a10326.html">USB_HID_REP_DESC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da9/a10330.html#abb09b5df080b5b00d49238ff7ff2b028">RepDesc</a> [1]</td></tr>
+<tr class="memdesc:abb09b5df080b5b00d49238ff7ff2b028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of HID report descriptor class. <br /></td></tr>
+<tr class="separator:abb09b5df080b5b00d49238ff7ff2b028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/db6/a02792_source.html#l00043">43</a> of file <a class="el" href="../../de/db6/a02792_source.html">uart_osx.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>OSX/EHAL/include/<a class="el" href="../../de/db6/a02792_source.html">uart_osx.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1b/a02555_source.html#l00123">123</a> of file <a class="el" href="../../d8/d1b/a02555_source.html">usb_hiddef.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7ee8232fa637a7b29db004ef811e020b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee8232fa637a7b29db004ef811e020b">&#9670;&nbsp;</a></span>bNumDescriptors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_HID_Descriptor::bNumDescriptors</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of class descriptors (always at least one i.e. Report descriptor.) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d1b/a02555_source.html#l00128">128</a> of file <a class="el" href="../../d8/d1b/a02555_source.html">usb_hiddef.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/usb/<a class="el" href="../../d8/d1b/a02555_source.html">usb_hiddef.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/da9/a10330.html">_Uart_Osx_Dev</a></li>
+    <li class="navelem"><a class="el" href="../../d3/da9/a10330.html">__USB_HID_Descriptor</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

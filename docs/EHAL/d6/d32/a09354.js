@@ -1,12 +1,17 @@
 var a09354 =
 [
-    [ "bRxReady", "d6/d32/a09354.html#a2c6cd4a3ba03a1a88e8dd66963d27437", null ],
-    [ "bTxReady", "d6/d32/a09354.html#a8b4bf1170b8e4d86826f4c1f3c28bc50", null ],
-    [ "CtsPin", "d6/d32/a09354.html#a370e09b7284963f9ef35947303eed3d9", null ],
-    [ "DevNo", "d6/d32/a09354.html#a9234d0eb4190a0f0191fe643d8b4d883", null ],
-    [ "pReg", "d6/d32/a09354.html#a02f39c6280d857a8bcc292d5978c7c37", null ],
-    [ "pUartDev", "d6/d32/a09354.html#a2a5796b80c41857cb5bfc52c9d4508fb", null ],
-    [ "RtsPin", "d6/d32/a09354.html#a0249b35b4e9d72a9dba1e1c2bbf9933e", null ],
-    [ "RxPin", "d6/d32/a09354.html#aa97152e56828ada3ec412e06fe1c594c", null ],
-    [ "TxPin", "d6/d32/a09354.html#a246177c8ef7a5ef7eb11e325fcead082", null ]
+    [ "BaseAddr0", "d6/d32/a09354.html#ad32233a9d0082f95a2b4ddaa3baf978d", null ],
+    [ "BaseAddr1", "d6/d32/a09354.html#a99c3d7b81a61447e3c2fa5f920e44e12", null ],
+    [ "EvtCB", "d6/d32/a09354.html#a317a68883867b50eae8019c729cf85f7", null ],
+    [ "Mode", "d6/d32/a09354.html#a9a104728cb5c0f0247028ee5e7df235c", null ],
+    [ "NbRetry", "d6/d32/a09354.html#abef7fb34f368911e94798a290f2c3425", null ],
+    [ "PacketSize", "d6/d32/a09354.html#abbb2ab754ee51b05b48852c879355f80", null ],
+    [ "PipePrefix", "d6/d32/a09354.html#ac03ba54b6e06e208ea769440c21bf284", null ],
+    [ "Protocol", "d6/d32/a09354.html#a38cf12bc073ead6e2076b275a8d356fc", null ],
+    [ "pRxFifoMem", "d6/d32/a09354.html#a5324592dcac7d94a05d91a9d0360d1f7", null ],
+    [ "pTxFifoMem", "d6/d32/a09354.html#af6812507923909ce0f53e5de7edd6787", null ],
+    [ "Rate", "d6/d32/a09354.html#a9cd5044b06bf40d1f71fb8121979bfd6", null ],
+    [ "RxFifoMemSize", "d6/d32/a09354.html#a8ee5f73dd7447766c4cd322107164255", null ],
+    [ "TxFifoMemSize", "d6/d32/a09354.html#afa8fb7b581c0c04b183a2be2c6656558", null ],
+    [ "TxPower", "d6/d32/a09354.html#ab43f42b54b528dcc58afddbb939139b0", null ]
 ];

@@ -1,15 +1,10 @@
 var a09342 =
 [
-    [ "CsPins", "d6/d5c/a09342.html#a07248bc5bb0ee95e6cdda8036b2a8aa4", null ],
-    [ "CsPorts", "d6/d5c/a09342.html#aa8c8b060ee76cdd88a9d166a6416a9a3", null ],
-    [ "CsType", "d6/d5c/a09342.html#a12d905d88df5c775c8610421f3d1184a", null ],
-    [ "DataPin", "d6/d5c/a09342.html#a28cfdd8e62b6f6ceb1cc676a85dc7e43", null ],
-    [ "DataPort", "d6/d5c/a09342.html#a372ecdb154be2861d51b8f19a5a16a60", null ],
-    [ "EnPin", "d6/d5c/a09342.html#a92b03fb105203ee8a7c09875186bf3cf", null ],
-    [ "EnPort", "d6/d5c/a09342.html#a3724df31201335ba91e500b729f2e594", null ],
-    [ "NbCsPins", "d6/d5c/a09342.html#af62c753ebf2ce8959ed8264a566eb3eb", null ],
-    [ "RdPin", "d6/d5c/a09342.html#a9078b97dbfb2567a865956f6b6025142", null ],
-    [ "RdPort", "d6/d5c/a09342.html#aab1de6b6fb825f65959e5b0017b8b1e0", null ],
-    [ "WrPin", "d6/d5c/a09342.html#ac7626ef61cc4014bbf5ef82862a4868d", null ],
-    [ "WrPort", "d6/d5c/a09342.html#afa9df3556d7bcc25b2817d1e80af55e4", null ]
+    [ "LongWrBuffSize", "d6/d5c/a09342.html#a6377eea4fb574d9f7d99223dba93f061", null ],
+    [ "NbChar", "d6/d5c/a09342.html#a7a5720468ad8c78f0946a6845b3edd1c", null ],
+    [ "pCharArray", "d6/d5c/a09342.html#abf10967fadd0c8a9d8d6373ca9acb148", null ],
+    [ "pLongWrBuff", "d6/d5c/a09342.html#a51730104c69c56c7225a47c6249bf39a", null ],
+    [ "SecType", "d6/d5c/a09342.html#a164ad4016ab5b2c8f9b99872bd701c29", null ],
+    [ "UuidBase", "d6/d5c/a09342.html#a1398b6f7ddd7dffa15054601a36a7754", null ],
+    [ "UuidSvc", "d6/d5c/a09342.html#aaef7529888288dc82b7c3e3563df7c64", null ]
 ];

@@ -1,12 +1,11 @@
 var a10002 =
 [
-    [ "DevIntrf", "dd/daa/a10002.html#a756dcdaa6c57a4f0cb3c361f34284494", null ],
-    [ "MaxRetry", "dd/daa/a10002.html#a2cfb19850142091a1a035ee99ec15fee", null ],
-    [ "Mode", "dd/daa/a10002.html#a311d308ab59378f7aa60bf9ed3c89c34", null ],
-    [ "Rate", "dd/daa/a10002.html#a8155d3e9c9370b60e49f998eea685f9e", null ],
-    [ "SclPin", "dd/daa/a10002.html#ad5d14f831900b199610a8f137bd88214", null ],
-    [ "SclPort", "dd/daa/a10002.html#aea30ac4c5ecd2c0a4ed9582e852f35a9", null ],
-    [ "SdaPin", "dd/daa/a10002.html#a86a54d6edd7f7c11324648fea32bdc2e", null ],
-    [ "SdaPort", "dd/daa/a10002.html#a68c6819e94374ed47c15955e38acc4a3", null ],
-    [ "SlaveAddr", "dd/daa/a10002.html#a0ef65a7673aaf57f0c57fdb79e06d5ee", null ]
+    [ "pBootSect", "dd/daa/a10002.html#a8212c611403c9c35ab7935e4e036327a", null ],
+    [ "pFat1", "dd/daa/a10002.html#a53c2dcc96e1b7c96709002dc4234c750", null ],
+    [ "pFat32Info", "dd/daa/a10002.html#a4f8e467296631c3e7a55b0827c3aea8d", null ],
+    [ "pMbrSect", "dd/daa/a10002.html#a1106a4859c5ff46b098af94b45642b12", null ],
+    [ "pRootDir", "dd/daa/a10002.html#a313cbf7c75f9b1d180bba3d9ad85cb5c", null ],
+    [ "SectSize", "dd/daa/a10002.html#a8ef743e55f68fe7dcae9dad066cc4145", null ],
+    [ "VolName", "dd/daa/a10002.html#a35f878b6ad776791ef98ca08ee17d911", null ],
+    [ "VolumeSize", "dd/daa/a10002.html#aaf61aecbe7d91f3f63f321e7fa987163", null ]
 ];

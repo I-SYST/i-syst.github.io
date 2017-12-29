@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _USB_String_Descriptor Struct Reference</title>
+<title>EHAL: __USB_Interface_Descriptor Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,25 +86,52 @@ $(document).ready(function(){initNavTree('d7/daa/a10302.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d7/d8f/a10299.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_USB_String_Descriptor Struct Reference</div>  </div>
+<div class="title">__USB_Interface_Descriptor Struct Reference<div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae794889995a15316a5912b60bdd650c6"><td class="memItemLeft" align="right" valign="top"><a id="ae794889995a15316a5912b60bdd650c6"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bLength</b></td></tr>
-<tr class="separator:ae794889995a15316a5912b60bdd650c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a286fb4ba81d882473ca853f9410bedbd"><td class="memItemLeft" align="right" valign="top"><a id="a286fb4ba81d882473ca853f9410bedbd"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bDescriptorType</b></td></tr>
-<tr class="separator:a286fb4ba81d882473ca853f9410bedbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede4a124722e890a42d22a5b4837a4fb"><td class="memItemLeft" align="right" valign="top"><a id="aede4a124722e890a42d22a5b4837a4fb"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wStr</b> [1]</td></tr>
-<tr class="separator:aede4a124722e890a42d22a5b4837a4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0336f6bce2b3adad93e0a69c222cec98"><td class="memItemLeft" align="right" valign="top"><a id="a0336f6bce2b3adad93e0a69c222cec98"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a0336f6bce2b3adad93e0a69c222cec98">bLength</a></td></tr>
+<tr class="memdesc:a0336f6bce2b3adad93e0a69c222cec98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of Descriptor in Bytes (9 Bytes) <br /></td></tr>
+<tr class="separator:a0336f6bce2b3adad93e0a69c222cec98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61061a79f6622449e9f384fccbe550b8"><td class="memItemLeft" align="right" valign="top"><a id="a61061a79f6622449e9f384fccbe550b8"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a61061a79f6622449e9f384fccbe550b8">bDescriptorType</a></td></tr>
+<tr class="memdesc:a61061a79f6622449e9f384fccbe550b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface Descriptor (0x04) <br /></td></tr>
+<tr class="separator:a61061a79f6622449e9f384fccbe550b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b4a4359f1dcb50deecad058465418b"><td class="memItemLeft" align="right" valign="top"><a id="a33b4a4359f1dcb50deecad058465418b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a33b4a4359f1dcb50deecad058465418b">bInterfaceNumber</a></td></tr>
+<tr class="memdesc:a33b4a4359f1dcb50deecad058465418b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero based Number of this Interface. <br /></td></tr>
+<tr class="separator:a33b4a4359f1dcb50deecad058465418b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a08e9de36ce2642095083abb75c4afa"><td class="memItemLeft" align="right" valign="top"><a id="a7a08e9de36ce2642095083abb75c4afa"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a7a08e9de36ce2642095083abb75c4afa">bAlternateSetting</a></td></tr>
+<tr class="memdesc:a7a08e9de36ce2642095083abb75c4afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to select alternative setting. <br /></td></tr>
+<tr class="separator:a7a08e9de36ce2642095083abb75c4afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29df6c6a0e632bc87c0b3b784e51aad"><td class="memItemLeft" align="right" valign="top"><a id="ac29df6c6a0e632bc87c0b3b784e51aad"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#ac29df6c6a0e632bc87c0b3b784e51aad">bNumEndpoints</a></td></tr>
+<tr class="memdesc:ac29df6c6a0e632bc87c0b3b784e51aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of Endpoints used for this interface. <br /></td></tr>
+<tr class="separator:ac29df6c6a0e632bc87c0b3b784e51aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d640f69f9046b0c633620b78676b7ce"><td class="memItemLeft" align="right" valign="top"><a id="a2d640f69f9046b0c633620b78676b7ce"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a2d640f69f9046b0c633620b78676b7ce">bInterfaceClass</a></td></tr>
+<tr class="memdesc:a2d640f69f9046b0c633620b78676b7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class Code (defined by USB Org), 0xff - vendor specific. <br /></td></tr>
+<tr class="separator:a2d640f69f9046b0c633620b78676b7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8e864a6437e62a6b133db91325705b9"><td class="memItemLeft" align="right" valign="top"><a id="af8e864a6437e62a6b133db91325705b9"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#af8e864a6437e62a6b133db91325705b9">bInterfaceSubClass</a></td></tr>
+<tr class="memdesc:af8e864a6437e62a6b133db91325705b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subclass Code (defined by USB Org) <br /></td></tr>
+<tr class="separator:af8e864a6437e62a6b133db91325705b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1eb8751f201dc645c9bf6ac085dfee"><td class="memItemLeft" align="right" valign="top"><a id="aca1eb8751f201dc645c9bf6ac085dfee"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#aca1eb8751f201dc645c9bf6ac085dfee">bInterfaceProtocol</a></td></tr>
+<tr class="memdesc:aca1eb8751f201dc645c9bf6ac085dfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protocol Code (defined by USB Org) <br /></td></tr>
+<tr class="separator:aca1eb8751f201dc645c9bf6ac085dfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5987ca4a87483ce6f534bd0979a4c2"><td class="memItemLeft" align="right" valign="top"><a id="a2c5987ca4a87483ce6f534bd0979a4c2"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html#a2c5987ca4a87483ce6f534bd0979a4c2">iInterface</a></td></tr>
+<tr class="memdesc:a2c5987ca4a87483ce6f534bd0979a4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of String Descriptor describing this interface. <br /></td></tr>
+<tr class="separator:a2c5987ca4a87483ce6f534bd0979a4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00342">342</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00243">243</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/usb/<a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a></li>
 </ul>
@@ -113,7 +140,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wStr</b> [1]</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/daa/a10302.html">_USB_String_Descriptor</a></li>
+    <li class="navelem"><a class="el" href="../../d7/daa/a10302.html">__USB_Interface_Descriptor</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,22 +1,13 @@
 var a08532 =
 [
-    [ "PORT Register Masks", "d8/dae/a08533.html", null ],
-    [ "PORT_Type", "d1/deb/a09226.html", [
-      [ "GPCHR", "d1/deb/a09226.html#adb92b388adf5799a5a59817ae6cbf7d1", null ],
-      [ "GPCLR", "d1/deb/a09226.html#ab4eae4ee06e554db6797dbbcf67f9655", null ],
-      [ "ISFR", "d1/deb/a09226.html#a20069f4ac88fc12066ba90eea8fcbb58", null ],
-      [ "PCR", "d1/deb/a09226.html#a1ff5dc350e7bf1f89668d15e100f1dc5", null ],
-      [ "RESERVED_0", "d1/deb/a09226.html#aeb5d263a42068e10e61f53ab57fe56d4", null ]
+    [ "LPTMR Register Masks", "d8/dae/a08533.html", null ],
+    [ "LPTMR_Type", "d3/dd0/a09202.html", [
+      [ "CMR", "d3/dd0/a09202.html#aa5b60a4852b1f75b35ac4535ec8fde47", null ],
+      [ "CNR", "d3/dd0/a09202.html#a3a78ce6eb96610b773e9683eb31eb56f", null ],
+      [ "CSR", "d3/dd0/a09202.html#a429aba6c7571f26fdc0c6315c0f920a7", null ],
+      [ "PSR", "d3/dd0/a09202.html#a762750e61f8a71eae4ee81d9cc02fc51", null ]
     ] ],
-    [ "PORT_BASES", "df/dc4/a08532.html#gad4b98e503f54129f95278e86852e7782", null ],
-    [ "PORTA", "df/dc4/a08532.html#ga7c8a7f98a98d8cb125dd57a66720ab30", null ],
-    [ "PORTA_BASE", "df/dc4/a08532.html#gae3d20f730f9619aabbf94e2efd1de34c", null ],
-    [ "PORTB", "df/dc4/a08532.html#ga09a0c85cd3da09d9cdf63a5ac4c39f77", null ],
-    [ "PORTB_BASE", "df/dc4/a08532.html#ga2a668049a5e6c09cf6a7164ffca38a7e", null ],
-    [ "PORTC", "df/dc4/a08532.html#ga68fea88642279a70246e026e7221b0a5", null ],
-    [ "PORTC_BASE", "df/dc4/a08532.html#ga0018f0edf7f8030868f9cc791275378d", null ],
-    [ "PORTD", "df/dc4/a08532.html#ga3e6a2517db4f9cb7c9037adf0aefe79b", null ],
-    [ "PORTD_BASE", "df/dc4/a08532.html#gab88c980d0129f396683260eb978daf15", null ],
-    [ "PORTE", "df/dc4/a08532.html#ga7e2386d3b1084b5b875ae3696f550ba9", null ],
-    [ "PORTE_BASE", "df/dc4/a08532.html#ga72d490d67d751071845b3532193b4b93", null ]
+    [ "LPTMR0", "df/dc4/a08532.html#gaba0c3bc8a32ad5a884c99e019dbdef85", null ],
+    [ "LPTMR0_BASE", "df/dc4/a08532.html#ga024f362857a8b928d96cf3b3f5106793", null ],
+    [ "LPTMR_BASES", "df/dc4/a08532.html#ga6268765a66cbad770c74b5db8f2171c0", null ]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['flashdiskiocb',['FLASHDISKIOCB',['../dd/dd7/a137499.html#ga78719bd18e872781f4a9157b0494a62e',1,'diskio_flash.h']]]
+  ['fatfs_5ffsinfo',['FATFS_FSINFO',['../d2/d78/a08584.html#gafea3e6fa15295986bed4fe7a8cc2a6cc',1,'fatfs.h']]],
+  ['flashdiskiocb',['FLASHDISKIOCB',['../d2/d78/a08584.html#ga78719bd18e872781f4a9157b0494a62e',1,'diskio_flash.h']]]
 ];

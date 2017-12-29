@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: IHEXDATA Struct Reference</title>
+<title>EHAL: FATFS_FD Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,50 +86,45 @@ $(document).ready(function(){initNavTree('d9/db8/a10010.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../df/de2/a10007.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IHEXDATA Struct Reference<div class="ingroups"><a class="el" href="../../d7/d7a/a08557.html">Utilities</a></div></div>  </div>
+<div class="title">FATFS_FD Struct Reference<div class="ingroups"><a class="el" href="../../d2/d78/a08584.html">Storage</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Structure containing results of parsed HEX record line.  
- <a href="../../d9/db8/a10010.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afe0a0003f70ad1501ccc411a34d37fd3"><td class="memItemLeft" align="right" valign="top"><a id="afe0a0003f70ad1501ccc411a34d37fd3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#afe0a0003f70ad1501ccc411a34d37fd3">Count</a></td></tr>
-<tr class="memdesc:afe0a0003f70ad1501ccc411a34d37fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data count. <br /></td></tr>
-<tr class="separator:afe0a0003f70ad1501ccc411a34d37fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091fedf1007da6d128f1cd3842fa4f39"><td class="memItemLeft" align="right" valign="top"><a id="a091fedf1007da6d128f1cd3842fa4f39"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a091fedf1007da6d128f1cd3842fa4f39">Offset</a></td></tr>
-<tr class="memdesc:a091fedf1007da6d128f1cd3842fa4f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Address offset. <br /></td></tr>
-<tr class="separator:a091fedf1007da6d128f1cd3842fa4f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="memItemLeft" align="right" valign="top"><a id="a1fcc1d0b77a87cd4b69e473b1c0cf44c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a1fcc1d0b77a87cd4b69e473b1c0cf44c">Type</a></td></tr>
-<tr class="memdesc:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record type. <br /></td></tr>
-<tr class="separator:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a7f16a44b580d040a928361ff66161"><td class="memItemLeft" align="right" valign="top"><a id="a32a7f16a44b580d040a928361ff66161"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a32a7f16a44b580d040a928361ff66161">Checksum</a></td></tr>
-<tr class="memdesc:a32a7f16a44b580d040a928361ff66161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record checksum. <br /></td></tr>
-<tr class="separator:a32a7f16a44b580d040a928361ff66161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74aace5bde187d2333deca55e3dda91d"><td class="memItemLeft" align="right" valign="top"><a id="a74aace5bde187d2333deca55e3dda91d"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> [IHEX_MAX_RECSIZE]</td></tr>
-<tr class="separator:a74aace5bde187d2333deca55e3dda91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d569d7ae9fd2ba7220545782f5d1839"><td class="memItemLeft" align="right" valign="top"><a id="a7d569d7ae9fd2ba7220545782f5d1839"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a7d569d7ae9fd2ba7220545782f5d1839">pFs</a></td></tr>
+<tr class="memdesc:a7d569d7ae9fd2ba7220545782f5d1839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to file system object. <br /></td></tr>
+<tr class="separator:a7d569d7ae9fd2ba7220545782f5d1839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3656ae82d398997d4549e6fb50dfbcdd"><td class="memItemLeft" align="right" valign="top"><a id="a3656ae82d398997d4549e6fb50dfbcdd"></a>
+<a class="el" href="../../d9/d16/a10218.html">DIR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a3656ae82d398997d4549e6fb50dfbcdd">DirEntry</a></td></tr>
+<tr class="memdesc:a3656ae82d398997d4549e6fb50dfbcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">File directory entry. <br /></td></tr>
+<tr class="separator:a3656ae82d398997d4549e6fb50dfbcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d202335942665f1f54c2951ba7831a9"><td class="memItemLeft" align="right" valign="top"><a id="a8d202335942665f1f54c2951ba7831a9"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a8d202335942665f1f54c2951ba7831a9">CurClus</a></td></tr>
+<tr class="memdesc:a8d202335942665f1f54c2951ba7831a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current data cluster. <br /></td></tr>
+<tr class="separator:a8d202335942665f1f54c2951ba7831a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5515155fe3b01574ebdc93b19340cbde"><td class="memItemLeft" align="right" valign="top"><a id="a5515155fe3b01574ebdc93b19340cbde"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a5515155fe3b01574ebdc93b19340cbde">SectIdx</a></td></tr>
+<tr class="memdesc:a5515155fe3b01574ebdc93b19340cbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sector index in CurClus. <br /></td></tr>
+<tr class="separator:a5515155fe3b01574ebdc93b19340cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de1045933b6027733f04ad6ae95ed69"><td class="memItemLeft" align="right" valign="top"><a id="a6de1045933b6027733f04ad6ae95ed69"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a6de1045933b6027733f04ad6ae95ed69">SectOff</a></td></tr>
+<tr class="memdesc:a6de1045933b6027733f04ad6ae95ed69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current file pos : offset in sector. <br /></td></tr>
+<tr class="separator:a6de1045933b6027733f04ad6ae95ed69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Structure containing results of parsed HEX record line. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/dcb/a02456_source.html#l00057">57</a> of file <a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00287">287</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a></li>
+<li>include/<a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/db8/a10010.html">IHEXDATA</a></li>
+    <li class="navelem"><a class="el" href="../../d9/db8/a10010.html">FATFS_FD</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,11 +1,20 @@
 var a09398 =
 [
-    [ "cdc", "dd/d93/a09398.html#aa70bb0209684585214fc2299d42c1da4", null ],
-    [ "core", "dd/d93/a09398.html#a3329fde3dae844a3862155fa644d48d4", null ],
-    [ "dfu", "dd/d93/a09398.html#a58929dff8ab24c2522bc06cddaf8e9ef", null ],
-    [ "hid", "dd/d93/a09398.html#a0548bd88d44460062433a3950e68ad06", null ],
-    [ "hw", "dd/d93/a09398.html#a74090dd5dc824568b410d821de1ae02d", null ],
-    [ "msc", "dd/d93/a09398.html#a31566318258366b055ce64b9ce3d4c2a", null ],
-    [ "reserved6", "dd/d93/a09398.html#a7dbaab42998991c1dd69172a002e288d", null ],
-    [ "version", "dd/d93/a09398.html#ae88d4678d9f2958613e0b179590af851", null ]
+    [ "ACR", "dd/d93/a09398.html#a71f1128b75602dc8b87f26c5a4793fca", null ],
+    [ "DLL", "dd/d93/a09398.html#ad879dc4fb10ba4cbfcd43525c1190c33", null ],
+    [ "DLM", "dd/d93/a09398.html#a858f822e986829166b118f7ea002d84f", null ],
+    [ "FCR", "dd/d93/a09398.html#aed5828a9033159ee83cfb148c15808fc", null ],
+    [ "FDR", "dd/d93/a09398.html#a1de87e779001d8fd01b8f06b9cb46dfc", null ],
+    [ "ICR", "dd/d93/a09398.html#ac40c139c87e2b3a4df97c1895c6b556a", null ],
+    [ "IER", "dd/d93/a09398.html#a2f8112e1f5e1ab53372768bcd3ddd1bc", null ],
+    [ "IIR", "dd/d93/a09398.html#a43ea833fc734169c23c4a3ad6d7d519d", null ],
+    [ "LCR", "dd/d93/a09398.html#ae1ec0a69347d7264d18e8a53cd1a8b1e", null ],
+    [ "LSR", "dd/d93/a09398.html#ab24c23ebda8d9ed980057ed83c666b56", null ],
+    [ "MCR", "dd/d93/a09398.html#ae8b954cf188ef18a3740a6e02474675b", null ],
+    [ "MSR", "dd/d93/a09398.html#a7477aaa9b375bb57ea557361ce846f94", null ],
+    [ "OSR", "dd/d93/a09398.html#a49cdb22a8d0eecb74a5fa07f5c3a81c8", null ],
+    [ "RBR", "dd/d93/a09398.html#ab58251e9f9731ea9cfcd9347c4b46ba9", null ],
+    [ "SCR", "dd/d93/a09398.html#a419fe8d5cf4b3e4699f38422249552a7", null ],
+    [ "TER", "dd/d93/a09398.html#adf352363e58e5ea633609a0fdab7b295", null ],
+    [ "THR", "dd/d93/a09398.html#af9b46d253494dc139a522b0fd4b6dc77", null ]
 ];

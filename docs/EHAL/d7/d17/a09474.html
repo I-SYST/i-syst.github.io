@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: REQUEST_TYPE Union Reference</title>
+<title>EHAL: _HID_CTRL_T Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,31 +86,64 @@ $(document).ready(function(){initNavTree('d7/d17/a09474.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d8/d4c/a09471.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">REQUEST_TYPE Union Reference</div>  </div>
+<div class="title">_HID_CTRL_T Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2640497b57e73729f061d60ffb14cce5"><td class="memItemLeft" align="right" valign="top"><a id="a2640497b57e73729f061d60ffb14cce5"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>B</b></td></tr>
-<tr class="separator:a2640497b57e73729f061d60ffb14cce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfaabce86a194581a5015db841f10f1f"><td class="memItemLeft" align="right" valign="top"><a id="abfaabce86a194581a5015db841f10f1f"></a>
-<a class="el" href="../../d1/d5c/a09470.html">BM_T</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BM</b></td></tr>
-<tr class="separator:abfaabce86a194581a5015db841f10f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa276c6206e1e61a4dea3c6757dfbade1"><td class="memItemLeft" align="right" valign="top"><a id="aa276c6206e1e61a4dea3c6757dfbade1"></a>
+<a class="el" href="../../d6/d23/a09450.html">USB_CORE_CTRL_T</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUsbCtrl</b></td></tr>
+<tr class="separator:aa276c6206e1e61a4dea3c6757dfbade1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0468c8ab8a1cd2c4791d0a6aac255965"><td class="memItemLeft" align="right" valign="top"><a id="a0468c8ab8a1cd2c4791d0a6aac255965"></a>
+uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>hid_desc</b></td></tr>
+<tr class="separator:a0468c8ab8a1cd2c4791d0a6aac255965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba89a8f7a4bbc3fcb0a905cbda44d67a"><td class="memItemLeft" align="right" valign="top"><a id="aba89a8f7a4bbc3fcb0a905cbda44d67a"></a>
+<a class="el" href="../../d3/d21/a09462.html">USB_HID_REPORT_T</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>report_data</b></td></tr>
+<tr class="separator:aba89a8f7a4bbc3fcb0a905cbda44d67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f42d45641e14a68d5e296a091e6ca4a"><td class="memItemLeft" align="right" valign="top"><a id="a5f42d45641e14a68d5e296a091e6ca4a"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>protocol</b></td></tr>
+<tr class="separator:a5f42d45641e14a68d5e296a091e6ca4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e470ee8550fc4ae798aadac7b39db63"><td class="memItemLeft" align="right" valign="top"><a id="a4e470ee8550fc4ae798aadac7b39db63"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>if_num</b></td></tr>
+<tr class="separator:a4e470ee8550fc4ae798aadac7b39db63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd8e8849f2548baf1dba52157798853"><td class="memItemLeft" align="right" valign="top"><a id="a2dd8e8849f2548baf1dba52157798853"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>epin_adr</b></td></tr>
+<tr class="separator:a2dd8e8849f2548baf1dba52157798853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3618e6b3f2fb1a9814f5b3479ce371f"><td class="memItemLeft" align="right" valign="top"><a id="af3618e6b3f2fb1a9814f5b3479ce371f"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>epout_adr</b></td></tr>
+<tr class="separator:af3618e6b3f2fb1a9814f5b3479ce371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b971c2549441a2042bc73ba7392c5eb"><td class="memItemLeft" align="right" valign="top"><a id="a5b971c2549441a2042bc73ba7392c5eb"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetReport</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t *length)</td></tr>
+<tr class="separator:a5b971c2549441a2042bc73ba7392c5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57f32bcfd4e3a0193f37388e78417db"><td class="memItemLeft" align="right" valign="top"><a id="af57f32bcfd4e3a0193f37388e78417db"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetReport</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t length)</td></tr>
+<tr class="separator:af57f32bcfd4e3a0193f37388e78417db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bef6c8385240b7447493dcd3dfb36be"><td class="memItemLeft" align="right" valign="top"><a id="a1bef6c8385240b7447493dcd3dfb36be"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetPhysDesc</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuf, uint16_t *length)</td></tr>
+<tr class="separator:a1bef6c8385240b7447493dcd3dfb36be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da3fa116f8d3b2c0cf25010edcf486e"><td class="memItemLeft" align="right" valign="top"><a id="a2da3fa116f8d3b2c0cf25010edcf486e"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetIdle</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t idleTime)</td></tr>
+<tr class="separator:a2da3fa116f8d3b2c0cf25010edcf486e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5855640baf4649f859151acd4437ed65"><td class="memItemLeft" align="right" valign="top"><a id="a5855640baf4649f859151acd4437ed65"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetProtocol</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t protocol)</td></tr>
+<tr class="separator:a5855640baf4649f859151acd4437ed65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23309edd1c421b818900346e5c0bee9f"><td class="memItemLeft" align="right" valign="top"><a id="a23309edd1c421b818900346e5c0bee9f"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetReportDesc</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuf, uint16_t *length)</td></tr>
+<tr class="separator:a23309edd1c421b818900346e5c0bee9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d79/a02117_source.html#l00035">35</a> of file <a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a>.</p>
-</div><hr/>The documentation for this union was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../d4/d64/a02111_source.html#l00305">305</a> of file <a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>ARM/NXP/include/<a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d17/a09474.html">REQUEST_TYPE</a></li>
+    <li class="navelem"><a class="el" href="../../d7/d17/a09474.html">_HID_CTRL_T</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,7 +1,6 @@
 var a10322 =
 [
-    [ "bCSWStatus", "d9/d3c/a10322.html#aa49a005548daa5e40ad2cf6a07a743a3", null ],
-    [ "dCSWDataResidue", "d9/d3c/a10322.html#a827fc8c10f2f583c25f77d0848dcb6c0", null ],
-    [ "dCSWSignature", "d9/d3c/a10322.html#a87d7caf7f5c431f86fb0ec5b07e6f032", null ],
-    [ "dCSWTag", "d9/d3c/a10322.html#a7c39520f1412b136941d72f2e6300b7a", null ]
+    [ "bDescriptorType", "d9/d3c/a10322.html#a387f82580e42f2b815ec9a1c180e9abd", null ],
+    [ "bLength", "d9/d3c/a10322.html#ad9d6f5e8a0e562f3113088c3d90c6cf3", null ],
+    [ "wStr", "d9/d3c/a10322.html#a100feae2a5c704392dbb749070938444", null ]
 ];

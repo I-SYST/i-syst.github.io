@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: GPIO Register Masks</title>
+<title>EHAL: Interrupt vector numbers</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,70 +83,317 @@ $(document).ready(function(){initNavTree('d8/d97/a08507.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
-<div class="title">GPIO Register Masks<div class="ingroups"><a class="el" href="../../dd/d5b/a08491.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d6/d22/a08506.html">GPIO Peripheral Access Layer</a></div></div>  </div>
+<div class="title">Interrupt vector numbers</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:gafd2a8274691295293b3cabfe86089801"><td class="memItemLeft" align="right" valign="top"><a id="gafd2a8274691295293b3cabfe86089801"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDOR_PDO_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gafd2a8274691295293b3cabfe86089801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga495b5f1e63de863534ce0c5f25f137ab"><td class="memItemLeft" align="right" valign="top"><a id="ga495b5f1e63de863534ce0c5f25f137ab"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDOR_PDO_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga495b5f1e63de863534ce0c5f25f137ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4071beeff4d9b5c200686972dd52d855"><td class="memItemLeft" align="right" valign="top"><a id="ga4071beeff4d9b5c200686972dd52d855"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDOR_PDO</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PDOR_PDO_SHIFT))&amp;GPIO_PDOR_PDO_MASK)</td></tr>
-<tr class="separator:ga4071beeff4d9b5c200686972dd52d855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8a48e38ef70ff1ba3bbcbf31b891da4"><td class="memItemLeft" align="right" valign="top"><a id="gaa8a48e38ef70ff1ba3bbcbf31b891da4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PSOR_PTSO_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gaa8a48e38ef70ff1ba3bbcbf31b891da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a962b85e07477e26afe639c7ca478cb"><td class="memItemLeft" align="right" valign="top"><a id="ga5a962b85e07477e26afe639c7ca478cb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PSOR_PTSO_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga5a962b85e07477e26afe639c7ca478cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b16f5841a5c5f20311eafc574f814e4"><td class="memItemLeft" align="right" valign="top"><a id="ga6b16f5841a5c5f20311eafc574f814e4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PSOR_PTSO</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PSOR_PTSO_SHIFT))&amp;GPIO_PSOR_PTSO_MASK)</td></tr>
-<tr class="separator:ga6b16f5841a5c5f20311eafc574f814e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b8378768ee61ea2c685a1687c90fa03"><td class="memItemLeft" align="right" valign="top"><a id="ga0b8378768ee61ea2c685a1687c90fa03"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PCOR_PTCO_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga0b8378768ee61ea2c685a1687c90fa03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c9203b830cbd86cd8d0189872b5c772"><td class="memItemLeft" align="right" valign="top"><a id="ga5c9203b830cbd86cd8d0189872b5c772"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PCOR_PTCO_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga5c9203b830cbd86cd8d0189872b5c772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a9c3710923cd50fc2df4e678180eb1d"><td class="memItemLeft" align="right" valign="top"><a id="ga3a9c3710923cd50fc2df4e678180eb1d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PCOR_PTCO</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PCOR_PTCO_SHIFT))&amp;GPIO_PCOR_PTCO_MASK)</td></tr>
-<tr class="separator:ga3a9c3710923cd50fc2df4e678180eb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa75953b5d9d23bdaa6c24232e1a52680"><td class="memItemLeft" align="right" valign="top"><a id="gaa75953b5d9d23bdaa6c24232e1a52680"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PTOR_PTTO_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gaa75953b5d9d23bdaa6c24232e1a52680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70e5442b3a119665aafb9e6e5b48bbd5"><td class="memItemLeft" align="right" valign="top"><a id="ga70e5442b3a119665aafb9e6e5b48bbd5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PTOR_PTTO_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga70e5442b3a119665aafb9e6e5b48bbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40757476c8889ca9d4cb7017b6c5ab60"><td class="memItemLeft" align="right" valign="top"><a id="ga40757476c8889ca9d4cb7017b6c5ab60"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PTOR_PTTO</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PTOR_PTTO_SHIFT))&amp;GPIO_PTOR_PTTO_MASK)</td></tr>
-<tr class="separator:ga40757476c8889ca9d4cb7017b6c5ab60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacb7c8cc976937906c8e803811a7fbb68"><td class="memItemLeft" align="right" valign="top"><a id="gacb7c8cc976937906c8e803811a7fbb68"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDIR_PDI_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gacb7c8cc976937906c8e803811a7fbb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99fd9212dd769bb1964a28a864c6c741"><td class="memItemLeft" align="right" valign="top"><a id="ga99fd9212dd769bb1964a28a864c6c741"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDIR_PDI_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga99fd9212dd769bb1964a28a864c6c741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f80c8e42743151c73569b5cef49f2b2"><td class="memItemLeft" align="right" valign="top"><a id="ga8f80c8e42743151c73569b5cef49f2b2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDIR_PDI</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PDIR_PDI_SHIFT))&amp;GPIO_PDIR_PDI_MASK)</td></tr>
-<tr class="separator:ga8f80c8e42743151c73569b5cef49f2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67567a60f48d2bfb5584cd8de8936788"><td class="memItemLeft" align="right" valign="top"><a id="ga67567a60f48d2bfb5584cd8de8936788"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDDR_PDD_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga67567a60f48d2bfb5584cd8de8936788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdd12c96f7650759c90a98bb606bd776"><td class="memItemLeft" align="right" valign="top"><a id="gacdd12c96f7650759c90a98bb606bd776"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDDR_PDD_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:gacdd12c96f7650759c90a98bb606bd776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9836cb3ac719630f741fe6a0292083fc"><td class="memItemLeft" align="right" valign="top"><a id="ga9836cb3ac719630f741fe6a0292083fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_PDDR_PDD</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;GPIO_PDDR_PDD_SHIFT))&amp;GPIO_PDDR_PDD_MASK)</td></tr>
-<tr class="separator:ga9836cb3ac719630f741fe6a0292083fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gac3af4a32370fb28c4ade8bf2add80251"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083">IRQn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d97/a08507.html#gac3af4a32370fb28c4ade8bf2add80251">IRQn_Type</a></td></tr>
+<tr class="separator:gac3af4a32370fb28c4ade8bf2add80251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga666eb0caeb12ec0e281415592ae89083"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083">IRQn</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30">NonMaskableInt_IRQn</a> = -14, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ab1a222a34a32f0ef5ac65e714efc1f85">HardFault_IRQn</a> = -13, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237">SVCall_IRQn</a> = -5, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2">PendSV_IRQn</a> = -2, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7">SysTick_IRQn</a> = -1, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a54cf3bb3d65007c25a2a97568a355e09">DMA0_IRQn</a> = 0, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a57600b87fbb88dd15a08ff990bcf6f28">DMA1_IRQn</a> = 1, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a203b0e7d071d7b0e275eec1d73e99d88">DMA2_IRQn</a> = 2, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a34ecc6303d93b420da12f2e5c2c8366c">DMA3_IRQn</a> = 3, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a27f066d0d5e08aec8376efcc66a77af1">Reserved20_IRQn</a> = 4, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a48ae373dabf0b833defec3f0c5f0e029">FTFA_IRQn</a> = 5, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083aa4897ad7f6f60bb37f339af7cc9c4477">LVD_LVW_IRQn</a> = 6, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a072e6f3fb1f5403cfb71eeaefe647a50">LLW_IRQn</a> = 7, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0f1945c7372a6de732306ea3801c8e2a">I2C0_IRQn</a> = 8, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083af651b1769e03e4653b1a4a7c88132398">I2C1_IRQn</a> = 9, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083afa7f89ab9f5d1965ea1599578d01a454">SPI0_IRQn</a> = 10, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083aacdff1a9c42582ed663214cbe62c1174">SPI1_IRQn</a> = 11, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74">UART0_IRQn</a> = 12, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a9650ab92e46bc16f333d4c63ad0459b4">UART1_IRQn</a> = 13, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ab051fac6b15b88454713bb36d96e5dd5">UART2_IRQn</a> = 14, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a08b6c660bfe015ac0842ca95510420eb">ADC0_IRQn</a> = 15, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a869842c366512b0bc4c29e77e8b32217">CMP0_IRQn</a> = 16, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a8272b49ef18300d267156bac2c81f9c7">TPM0_IRQn</a> = 17, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a2d109efab0332c2f73d46d5ed65995a8">TPM1_IRQn</a> = 18, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083aaf0e306be85f7d3cce57dbbba5e648cf">TPM2_IRQn</a> = 19, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083adcc0f2770f7f57f75fac3d8bcac0e858">RTC_IRQn</a> = 20, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a2212c7b8ea636a7df0c31f21556e4fae">RTC_Seconds_IRQn</a> = 21, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083abbb108c2729a964669d647df5c52b357">PIT_IRQn</a> = 22, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083aa271069cfa2ba32e9b0ca1712f38145d">I2S0_IRQn</a> = 23, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ad85ea858fda8e15398b5aa74c019cb7a">USB0_IRQn</a> = 24, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a6029e7bffa10f584e060a5448a456927">DAC0_IRQn</a> = 25, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a3d247e82572f60c60c5972ea5e8f7994">TSI0_IRQn</a> = 26, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a13cd3ae44eb3c9ea266a5ea80113618d">MCG_IRQn</a> = 27, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083acf59a0816d3c5ff26328c886c9d3af34">LPTimer_IRQn</a> = 28, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a917165eb46d551a993ecba21b275d2c2">Reserved45_IRQn</a> = 29, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ab9d085b02f1b3c2ed7b0b7fe6ae4c947">PORTA_IRQn</a> = 30, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a2ea8b825cd02e7a878084df883934487">PORTD_IRQn</a> = 31, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30">NonMaskableInt_IRQn</a> = -14, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a33ff1cf7098de65d61b6354fee6cd5aa">MemoryManagement_IRQn</a> = -12, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af">BusFault_IRQn</a> = -11, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a6895237c9443601ac832efa635dd8bbf">UsageFault_IRQn</a> = -10, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237">SVCall_IRQn</a> = -5, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c">DebugMonitor_IRQn</a> = -4, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2">PendSV_IRQn</a> = -2, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7">SysTick_IRQn</a> = -1, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a78573b84a4133ef5812b33ce10dcba12">WDT_IRQn</a> = 0, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a2336220ce1e39507eb592958064a2b87">TIMER0_IRQn</a> = 1, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0b751a83bbf254701e0d5a1d863010d9">TIMER1_IRQn</a> = 2, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ad97a34027a8b1017d42d1d6320381e48">TIMER2_IRQn</a> = 3, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a7d15b5c33e51350d11303db7d4bc3381">TIMER3_IRQn</a> = 4, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74">UART0_IRQn</a> = 5, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a9650ab92e46bc16f333d4c63ad0459b4">UART1_IRQn</a> = 6, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ab051fac6b15b88454713bb36d96e5dd5">UART2_IRQn</a> = 7, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a11614a227a56dc01859bf803013e6358">UART3_IRQn</a> = 8, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0cd5b403aa037bacf964fd1a60c3f08f">PWM1_IRQn</a> = 9, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0f1945c7372a6de732306ea3801c8e2a">I2C0_IRQn</a> = 10, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083af651b1769e03e4653b1a4a7c88132398">I2C1_IRQn</a> = 11, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0e9ff46d0a6311ca3cc43a71702d638d">I2C2_IRQn</a> = 12, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a8f5f99956cf9765f17bcba6865b93ce2">SPI_IRQn</a> = 13, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a6c8d6262fd7ecedc57b2fe9209be9765">SSP0_IRQn</a> = 14, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083adcc0cfa46f0d13c2de0f3e826c10a789">SSP1_IRQn</a> = 15, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a7726163ff47c899c26ce68f99eb937a9">PLL0_IRQn</a> = 16, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083adcc0f2770f7f57f75fac3d8bcac0e858">RTC_IRQn</a> = 17, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0a3db3233549f012f8ecb88f0510adcf">EINT0_IRQn</a> = 18, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ad855ae101e21a04054a9844066900d7c">EINT1_IRQn</a> = 19, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a40ab356422a691418668d6bbfd9f17b9">EINT2_IRQn</a> = 20, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a14098dd2e0d0331c1e5f1f80dde14371">EINT3_IRQn</a> = 21, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a4d69175258ae261dd545001e810421b3">ADC_IRQn</a> = 22, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083ac2ee5960aed41ff349aa7a86c37e9ab2">BOD_IRQn</a> = 23, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a5078f46ddc47f29eae4aa40bd57d1692">USB_IRQn</a> = 24, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a20d0bdfa1654b723493895e3ea617cdb">CAN_IRQn</a> = 25, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a4968eb85558b7cd25e0f0fa1b839f881">DMA_IRQn</a> = 26, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a133fe4eabad3ed7b1959daddaace94b3">I2S_IRQn</a> = 27, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083af3a2a999d58e47ed39ed1bd9c877aee6">ENET_IRQn</a> = 28, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a075f80f900f31c166defe2a4aef99e77">RIT_IRQn</a> = 29, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a66a11398b7cc13d7c525945b0a86a2f0">MCPWM_IRQn</a> = 30, 
+<br />
+&#160;&#160;<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a82471ba65527ad3f3da8af38acb953bf">QEI_IRQn</a> = 31, 
+<a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083a0f0e46a33c20be148ef16fe7ed4dcd4b">PLL1_IRQn</a> = 32, 
+<b>USBActivity_IRQn</b> = 33, 
+<b>CANActivity_IRQn</b> = 34
+<br />
+ }</td></tr>
+<tr class="separator:ga666eb0caeb12ec0e281415592ae89083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gac3af4a32370fb28c4ade8bf2add80251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3af4a32370fb28c4ade8bf2add80251">&#9670;&nbsp;</a></span>IRQn_Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083">IRQn</a>  <a class="el" href="../../d7/d3b/a08577.html#ga7e1129cd8a196f4284d41db3e82ad5c8">IRQn_Type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interrupt Number Definitions </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga666eb0caeb12ec0e281415592ae89083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga666eb0caeb12ec0e281415592ae89083">&#9670;&nbsp;</a></span>IRQn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/d97/a08507.html#ga666eb0caeb12ec0e281415592ae89083">IRQn</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interrupt Number Definitions </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30"></a>NonMaskableInt_IRQn&#160;</td><td class="fielddoc"><p>Non Maskable Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ab1a222a34a32f0ef5ac65e714efc1f85"></a>HardFault_IRQn&#160;</td><td class="fielddoc"><p>Cortex-M0 SV Hard Fault Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237"></a>SVCall_IRQn&#160;</td><td class="fielddoc"><p>Cortex-M0 SV Call Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2"></a>PendSV_IRQn&#160;</td><td class="fielddoc"><p>Cortex-M0 Pend SV Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7"></a>SysTick_IRQn&#160;</td><td class="fielddoc"><p>Cortex-M0 System Tick Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a54cf3bb3d65007c25a2a97568a355e09"></a>DMA0_IRQn&#160;</td><td class="fielddoc"><p>DMA channel 0 transfer complete/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a57600b87fbb88dd15a08ff990bcf6f28"></a>DMA1_IRQn&#160;</td><td class="fielddoc"><p>DMA channel 1 transfer complete/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a203b0e7d071d7b0e275eec1d73e99d88"></a>DMA2_IRQn&#160;</td><td class="fielddoc"><p>DMA channel 2 transfer complete/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a34ecc6303d93b420da12f2e5c2c8366c"></a>DMA3_IRQn&#160;</td><td class="fielddoc"><p>DMA channel 3 transfer complete/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a27f066d0d5e08aec8376efcc66a77af1"></a>Reserved20_IRQn&#160;</td><td class="fielddoc"><p>Reserved interrupt 20 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a48ae373dabf0b833defec3f0c5f0e029"></a>FTFA_IRQn&#160;</td><td class="fielddoc"><p>FTFA command complete/read collision interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083aa4897ad7f6f60bb37f339af7cc9c4477"></a>LVD_LVW_IRQn&#160;</td><td class="fielddoc"><p>Low Voltage Detect, Low Voltage Warning </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a072e6f3fb1f5403cfb71eeaefe647a50"></a>LLW_IRQn&#160;</td><td class="fielddoc"><p>Low Leakage Wakeup </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0f1945c7372a6de732306ea3801c8e2a"></a>I2C0_IRQn&#160;</td><td class="fielddoc"><p>I2C0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083af651b1769e03e4653b1a4a7c88132398"></a>I2C1_IRQn&#160;</td><td class="fielddoc"><p>I2C0 interrupt 25 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083afa7f89ab9f5d1965ea1599578d01a454"></a>SPI0_IRQn&#160;</td><td class="fielddoc"><p>SPI0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083aacdff1a9c42582ed663214cbe62c1174"></a>SPI1_IRQn&#160;</td><td class="fielddoc"><p>SPI1 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74"></a>UART0_IRQn&#160;</td><td class="fielddoc"><p>UART0 status/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a9650ab92e46bc16f333d4c63ad0459b4"></a>UART1_IRQn&#160;</td><td class="fielddoc"><p>UART1 status/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ab051fac6b15b88454713bb36d96e5dd5"></a>UART2_IRQn&#160;</td><td class="fielddoc"><p>UART2 status/error interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a08b6c660bfe015ac0842ca95510420eb"></a>ADC0_IRQn&#160;</td><td class="fielddoc"><p>ADC0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a869842c366512b0bc4c29e77e8b32217"></a>CMP0_IRQn&#160;</td><td class="fielddoc"><p>CMP0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a8272b49ef18300d267156bac2c81f9c7"></a>TPM0_IRQn&#160;</td><td class="fielddoc"><p>TPM0 fault, overflow and channels interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a2d109efab0332c2f73d46d5ed65995a8"></a>TPM1_IRQn&#160;</td><td class="fielddoc"><p>TPM1 fault, overflow and channels interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083aaf0e306be85f7d3cce57dbbba5e648cf"></a>TPM2_IRQn&#160;</td><td class="fielddoc"><p>TPM2 fault, overflow and channels interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083adcc0f2770f7f57f75fac3d8bcac0e858"></a>RTC_IRQn&#160;</td><td class="fielddoc"><p>RTC interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a2212c7b8ea636a7df0c31f21556e4fae"></a>RTC_Seconds_IRQn&#160;</td><td class="fielddoc"><p>RTC seconds interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083abbb108c2729a964669d647df5c52b357"></a>PIT_IRQn&#160;</td><td class="fielddoc"><p>PIT timer interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083aa271069cfa2ba32e9b0ca1712f38145d"></a>I2S0_IRQn&#160;</td><td class="fielddoc"><p>I2S0 transmit interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ad85ea858fda8e15398b5aa74c019cb7a"></a>USB0_IRQn&#160;</td><td class="fielddoc"><p>USB0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a6029e7bffa10f584e060a5448a456927"></a>DAC0_IRQn&#160;</td><td class="fielddoc"><p>DAC0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a3d247e82572f60c60c5972ea5e8f7994"></a>TSI0_IRQn&#160;</td><td class="fielddoc"><p>TSI0 interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a13cd3ae44eb3c9ea266a5ea80113618d"></a>MCG_IRQn&#160;</td><td class="fielddoc"><p>MCG interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083acf59a0816d3c5ff26328c886c9d3af34"></a>LPTimer_IRQn&#160;</td><td class="fielddoc"><p>LPTimer interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a917165eb46d551a993ecba21b275d2c2"></a>Reserved45_IRQn&#160;</td><td class="fielddoc"><p>Reserved interrupt 45 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ab9d085b02f1b3c2ed7b0b7fe6ae4c947"></a>PORTA_IRQn&#160;</td><td class="fielddoc"><p>Port A interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a2ea8b825cd02e7a878084df883934487"></a>PORTD_IRQn&#160;</td><td class="fielddoc"><p>Port D interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ade177d9c70c89e084093024b932a4e30"></a>NonMaskableInt_IRQn&#160;</td><td class="fielddoc"><p>2 Non Maskable Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a33ff1cf7098de65d61b6354fee6cd5aa"></a>MemoryManagement_IRQn&#160;</td><td class="fielddoc"><p>4 Cortex-M3 Memory Management Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af"></a>BusFault_IRQn&#160;</td><td class="fielddoc"><p>5 Cortex-M3 Bus Fault Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a6895237c9443601ac832efa635dd8bbf"></a>UsageFault_IRQn&#160;</td><td class="fielddoc"><p>6 Cortex-M3 Usage Fault Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a4ce820b3cc6cf3a796b41aadc0cf1237"></a>SVCall_IRQn&#160;</td><td class="fielddoc"><p>11 Cortex-M3 SV Call Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a8e033fcef7aed98a31c60a7de206722c"></a>DebugMonitor_IRQn&#160;</td><td class="fielddoc"><p>12 Cortex-M3 Debug Monitor Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a03c3cc89984928816d81793fc7bce4a2"></a>PendSV_IRQn&#160;</td><td class="fielddoc"><p>14 Cortex-M3 Pend SV Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7"></a>SysTick_IRQn&#160;</td><td class="fielddoc"><p>15 Cortex-M3 System Tick Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a78573b84a4133ef5812b33ce10dcba12"></a>WDT_IRQn&#160;</td><td class="fielddoc"><p>Watchdog <a class="el" href="../../d4/dff/a10238.html" title="Timer base class. ">Timer</a> Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a2336220ce1e39507eb592958064a2b87"></a>TIMER0_IRQn&#160;</td><td class="fielddoc"><p>Timer0 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0b751a83bbf254701e0d5a1d863010d9"></a>TIMER1_IRQn&#160;</td><td class="fielddoc"><p>Timer1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ad97a34027a8b1017d42d1d6320381e48"></a>TIMER2_IRQn&#160;</td><td class="fielddoc"><p>Timer2 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a7d15b5c33e51350d11303db7d4bc3381"></a>TIMER3_IRQn&#160;</td><td class="fielddoc"><p>Timer3 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74"></a>UART0_IRQn&#160;</td><td class="fielddoc"><p>UART0 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a9650ab92e46bc16f333d4c63ad0459b4"></a>UART1_IRQn&#160;</td><td class="fielddoc"><p>UART1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ab051fac6b15b88454713bb36d96e5dd5"></a>UART2_IRQn&#160;</td><td class="fielddoc"><p>UART2 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a11614a227a56dc01859bf803013e6358"></a>UART3_IRQn&#160;</td><td class="fielddoc"><p>UART3 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0cd5b403aa037bacf964fd1a60c3f08f"></a>PWM1_IRQn&#160;</td><td class="fielddoc"><p>PWM1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0f1945c7372a6de732306ea3801c8e2a"></a>I2C0_IRQn&#160;</td><td class="fielddoc"><p>I2C0 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083af651b1769e03e4653b1a4a7c88132398"></a>I2C1_IRQn&#160;</td><td class="fielddoc"><p>I2C1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0e9ff46d0a6311ca3cc43a71702d638d"></a>I2C2_IRQn&#160;</td><td class="fielddoc"><p>I2C2 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a8f5f99956cf9765f17bcba6865b93ce2"></a>SPI_IRQn&#160;</td><td class="fielddoc"><p><a class="el" href="../../db/d6a/a10206.html">SPI</a> Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a6c8d6262fd7ecedc57b2fe9209be9765"></a>SSP0_IRQn&#160;</td><td class="fielddoc"><p>SSP0 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083adcc0cfa46f0d13c2de0f3e826c10a789"></a>SSP1_IRQn&#160;</td><td class="fielddoc"><p>SSP1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a7726163ff47c899c26ce68f99eb937a9"></a>PLL0_IRQn&#160;</td><td class="fielddoc"><p>PLL0 Lock (Main PLL) Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083adcc0f2770f7f57f75fac3d8bcac0e858"></a>RTC_IRQn&#160;</td><td class="fielddoc"><p>Real Time Clock Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0a3db3233549f012f8ecb88f0510adcf"></a>EINT0_IRQn&#160;</td><td class="fielddoc"><p>External Interrupt 0 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ad855ae101e21a04054a9844066900d7c"></a>EINT1_IRQn&#160;</td><td class="fielddoc"><p>External Interrupt 1 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a40ab356422a691418668d6bbfd9f17b9"></a>EINT2_IRQn&#160;</td><td class="fielddoc"><p>External Interrupt 2 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a14098dd2e0d0331c1e5f1f80dde14371"></a>EINT3_IRQn&#160;</td><td class="fielddoc"><p>External Interrupt 3 Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a4d69175258ae261dd545001e810421b3"></a>ADC_IRQn&#160;</td><td class="fielddoc"><p>A/D Converter Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083ac2ee5960aed41ff349aa7a86c37e9ab2"></a>BOD_IRQn&#160;</td><td class="fielddoc"><p>Brown-Out Detect Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a5078f46ddc47f29eae4aa40bd57d1692"></a>USB_IRQn&#160;</td><td class="fielddoc"><p>USB Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a20d0bdfa1654b723493895e3ea617cdb"></a>CAN_IRQn&#160;</td><td class="fielddoc"><p>CAN Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a4968eb85558b7cd25e0f0fa1b839f881"></a>DMA_IRQn&#160;</td><td class="fielddoc"><p>General Purpose DMA Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a133fe4eabad3ed7b1959daddaace94b3"></a>I2S_IRQn&#160;</td><td class="fielddoc"><p>I2S Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083af3a2a999d58e47ed39ed1bd9c877aee6"></a>ENET_IRQn&#160;</td><td class="fielddoc"><p>Ethernet Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a075f80f900f31c166defe2a4aef99e77"></a>RIT_IRQn&#160;</td><td class="fielddoc"><p>Repetitive Interrupt <a class="el" href="../../d4/dff/a10238.html" title="Timer base class. ">Timer</a> Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a66a11398b7cc13d7c525945b0a86a2f0"></a>MCPWM_IRQn&#160;</td><td class="fielddoc"><p>Motor Control PWM Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a82471ba65527ad3f3da8af38acb953bf"></a>QEI_IRQn&#160;</td><td class="fielddoc"><p>Quadrature Encoder Interface Interrupt </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ga666eb0caeb12ec0e281415592ae89083a0f0e46a33c20be148ef16fe7ed4dcd4b"></a>PLL1_IRQn&#160;</td><td class="fielddoc"><p>PLL1 Lock (USB PLL) Interrupt </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00071">71</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

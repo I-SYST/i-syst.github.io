@@ -1,10 +1,13 @@
 var a09782 =
 [
-    [ "RESERVED0", "d2/db9/a09782.html#a1ee4c20a33fe0ae42acea8483a6df2f5", null ],
-    [ "RESERVED1", "d2/db9/a09782.html#a524d555cdde50ce943fb40d7d4403d82", null ],
-    [ "WDCLKSEL", "d2/db9/a09782.html#a0dfabd1869bff86b6382764df0937ec2", null ],
-    [ "WDFEED", "d2/db9/a09782.html#a8634bafd3c6f17146d04293d7064822b", null ],
-    [ "WDMOD", "d2/db9/a09782.html#a43d97828d135ab2479191efbcde299ad", null ],
-    [ "WDTC", "d2/db9/a09782.html#a3f3785da39c5efbfbe5f615a23b36d17", null ],
-    [ "WDTV", "d2/db9/a09782.html#a30e695a8014d4d6e61ef9eaf15a967dc", null ]
+    [ "CPSR", "d2/db9/a09782.html#a454a4d1a09ccb43c3f3a8965a8b30087", null ],
+    [ "CR0", "d2/db9/a09782.html#a32a68722d4e2c1b7dfc787c779a380a3", null ],
+    [ "CR1", "d2/db9/a09782.html#a016ea63a8c118f5b75a64a6e5f81c984", null ],
+    [ "DMACR", "d2/db9/a09782.html#a94233394a593bf8de9a8497bf37cbc3c", null ],
+    [ "DR", "d2/db9/a09782.html#a305381985bf14d72c35b97ac3b56661e", null ],
+    [ "ICR", "d2/db9/a09782.html#afd52865baab6eb928d86d2f79293df2d", null ],
+    [ "IMSC", "d2/db9/a09782.html#a61842512c283fb1c980ec6f04927a62c", null ],
+    [ "MIS", "d2/db9/a09782.html#a47daa783e72e341ffa762b8f89d32a74", null ],
+    [ "RIS", "d2/db9/a09782.html#ac864a0884f6871821318720c8a7c06ef", null ],
+    [ "SR", "d2/db9/a09782.html#a82edd1e82e00dbdc9db58e5173893d77", null ]
 ];

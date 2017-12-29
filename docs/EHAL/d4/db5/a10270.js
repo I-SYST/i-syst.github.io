@@ -1,12 +1,8 @@
 var a10270 =
 [
-    [ "bcdUSB", "d4/db5/a10270.html#a9cf6ae85ca9c49cfcd77b3c3a23a4c52", null ],
-    [ "bDescriptorType", "d4/db5/a10270.html#ab828f41dbd758aaaace35b3c67836e84", null ],
-    [ "bDeviceClass", "d4/db5/a10270.html#aaedaf3e9b692d8449a4feb8c32042327", null ],
-    [ "bDeviceProtocol", "d4/db5/a10270.html#ae8a8a06c63947a5a733d4b4dfac0b304", null ],
-    [ "bDeviceSubClass", "d4/db5/a10270.html#aa6277a6c7637bb1b92c268408b4a4d57", null ],
-    [ "bLength", "d4/db5/a10270.html#a6a609bdecd6fd1e118f070306a59bae1", null ],
-    [ "bMaxPacketSize0", "d4/db5/a10270.html#ac8c258a8b426580da234f830afafe24f", null ],
-    [ "bNumConfigurations", "d4/db5/a10270.html#a0da93a53c43e3a03177b19b110fdeda5", null ],
-    [ "bReserved", "d4/db5/a10270.html#afb4b94c27fb530317e2d19aafcba50e1", null ]
+    [ "bDataInterface", "d4/db5/a10270.html#ab70b6f738a9bf24dbb0721b8aa0b8943", null ],
+    [ "bDescriptorSubtype", "d4/db5/a10270.html#a14f3779b99960e834a48ce26de49d673", null ],
+    [ "bDescriptorType", "d4/db5/a10270.html#a74a9b8a2f4f3c3080ff689184dcad20e", null ],
+    [ "bFunctionLength", "d4/db5/a10270.html#a83985b8a8817aa6fce15865e870f0fbc", null ],
+    [ "bmCapabilities", "d4/db5/a10270.html#acb88ee8bfd67ad1a9b444334fa988561", null ]
 ];

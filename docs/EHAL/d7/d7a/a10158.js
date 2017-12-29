@@ -1,7 +1,7 @@
 var a10158 =
 [
-    [ "Humidity", "d7/d7a/a10158.html#a39376b9ca0996f3ae52dfad745145968", null ],
-    [ "Pressure", "d7/d7a/a10158.html#a9177cc5710e9a01c59f93fcad946a4fa", null ],
-    [ "Temperature", "d7/d7a/a10158.html#ae684f05d276c701b8f9dd76215d47b06", null ],
-    [ "Timestamp", "d7/d7a/a10158.html#a0d089a70b3e6689c2acf62c3773d8a41", null ]
+    [ "bInter", "d7/d7a/a10158.html#aa70b045fcaedd92bd110bdc5ccbe6638", null ],
+    [ "DevAddr", "d7/d7a/a10158.html#ac75e4feef1bf7859232a04a5e2685a2e", null ],
+    [ "Freq", "d7/d7a/a10158.html#a36c1de2507b2188fd8239dfe423166ca", null ],
+    [ "OpMode", "d7/d7a/a10158.html#a206624fff042db601c25a81e9e3dd221", null ]
 ];

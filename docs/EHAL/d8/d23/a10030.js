@@ -1,6 +1,8 @@
 var a10030 =
 [
-    [ "Name", "d8/d23/a10030.html#aa57d5f364fa8803ba90edffc9568ad6b", null ],
-    [ "Private", "d8/d23/a10030.html#adea01c1e8b506baa3e37aa331fd7c092", null ],
-    [ "Vers", "d8/d23/a10030.html#abfb67f140888592523655cf4040b1039", null ]
+    [ "Checksum", "d8/d23/a10030.html#a32a7f16a44b580d040a928361ff66161", null ],
+    [ "Count", "d8/d23/a10030.html#afe0a0003f70ad1501ccc411a34d37fd3", null ],
+    [ "Data", "d8/d23/a10030.html#a74aace5bde187d2333deca55e3dda91d", null ],
+    [ "Offset", "d8/d23/a10030.html#a091fedf1007da6d128f1cd3842fa4f39", null ],
+    [ "Type", "d8/d23/a10030.html#a1fcc1d0b77a87cd4b69e473b1c0cf44c", null ]
 ];

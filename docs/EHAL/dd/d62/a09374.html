@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: SSPDEV Struct Reference</title>
+<title>EHAL: _nRF_UART_Dev Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,37 +86,52 @@ $(document).ready(function(){initNavTree('dd/d62/a09374.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dc/d65/a09371.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SSPDEV Struct Reference</div>  </div>
+<div class="title">_nRF_UART_Dev Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7b761de5e247b88bd5cad40e09722d4c"><td class="memItemLeft" align="right" valign="top"><a id="a7b761de5e247b88bd5cad40e09722d4c"></a>
+<tr class="memitem:a9234d0eb4190a0f0191fe643d8b4d883"><td class="memItemLeft" align="right" valign="top"><a id="a9234d0eb4190a0f0191fe643d8b4d883"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>DevNo</b></td></tr>
-<tr class="separator:a7b761de5e247b88bd5cad40e09722d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23007df27e0e375968667123c650a3b"><td class="memItemLeft" align="right" valign="top"><a id="ae23007df27e0e375968667123c650a3b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>PClkFreq</b></td></tr>
-<tr class="separator:ae23007df27e0e375968667123c650a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10543129763f3d9aec6f3f8cc9fcba2a"><td class="memItemLeft" align="right" valign="top"><a id="a10543129763f3d9aec6f3f8cc9fcba2a"></a>
-<a class="el" href="../../d6/dc1/a09370.html">LPCSSPREG</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pSspReg</b></td></tr>
-<tr class="separator:a10543129763f3d9aec6f3f8cc9fcba2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab40af1cb63642f107c87341c63bfd862"><td class="memItemLeft" align="right" valign="top"><a id="ab40af1cb63642f107c87341c63bfd862"></a>
-<a class="el" href="../../db/d9b/a10182.html">SPIDEV</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pSpiDev</b></td></tr>
-<tr class="separator:ab40af1cb63642f107c87341c63bfd862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9234d0eb4190a0f0191fe643d8b4d883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f39c6280d857a8bcc292d5978c7c37"><td class="memItemLeft" align="right" valign="top"><a id="a02f39c6280d857a8bcc292d5978c7c37"></a>
+NRF_UART_Type *&#160;</td><td class="memItemRight" valign="bottom"><b>pReg</b></td></tr>
+<tr class="separator:a02f39c6280d857a8bcc292d5978c7c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5796b80c41857cb5bfc52c9d4508fb"><td class="memItemLeft" align="right" valign="top"><a id="a2a5796b80c41857cb5bfc52c9d4508fb"></a>
+<a class="el" href="../../db/d0e/a10246.html">UARTDEV</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUartDev</b></td></tr>
+<tr class="separator:a2a5796b80c41857cb5bfc52c9d4508fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6cd4a3ba03a1a88e8dd66963d27437"><td class="memItemLeft" align="right" valign="top"><a id="a2c6cd4a3ba03a1a88e8dd66963d27437"></a>
+volatile bool&#160;</td><td class="memItemRight" valign="bottom"><b>bRxReady</b></td></tr>
+<tr class="separator:a2c6cd4a3ba03a1a88e8dd66963d27437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b4bf1170b8e4d86826f4c1f3c28bc50"><td class="memItemLeft" align="right" valign="top"><a id="a8b4bf1170b8e4d86826f4c1f3c28bc50"></a>
+volatile bool&#160;</td><td class="memItemRight" valign="bottom"><b>bTxReady</b></td></tr>
+<tr class="separator:a8b4bf1170b8e4d86826f4c1f3c28bc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97152e56828ada3ec412e06fe1c594c"><td class="memItemLeft" align="right" valign="top"><a id="aa97152e56828ada3ec412e06fe1c594c"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RxPin</b></td></tr>
+<tr class="separator:aa97152e56828ada3ec412e06fe1c594c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246177c8ef7a5ef7eb11e325fcead082"><td class="memItemLeft" align="right" valign="top"><a id="a246177c8ef7a5ef7eb11e325fcead082"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>TxPin</b></td></tr>
+<tr class="separator:a246177c8ef7a5ef7eb11e325fcead082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370e09b7284963f9ef35947303eed3d9"><td class="memItemLeft" align="right" valign="top"><a id="a370e09b7284963f9ef35947303eed3d9"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>CtsPin</b></td></tr>
+<tr class="separator:a370e09b7284963f9ef35947303eed3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0249b35b4e9d72a9dba1e1c2bbf9933e"><td class="memItemLeft" align="right" valign="top"><a id="a0249b35b4e9d72a9dba1e1c2bbf9933e"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RtsPin</b></td></tr>
+<tr class="separator:a0249b35b4e9d72a9dba1e1c2bbf9933e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/d1e/a02093_source.html#l00097">97</a> of file <a class="el" href="../../d3/d1e/a02093_source.html">spi_lpcxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d39/a00257_source.html#l00049">49</a> of file <a class="el" href="../../d9/d39/a00257_source.html">uart_nrf5x.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d3/d1e/a02093_source.html">spi_lpcxx.h</a></li>
+<li>ARM/Nordic/include/<a class="el" href="../../d9/d39/a00257_source.html">uart_nrf5x.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d62/a09374.html">SSPDEV</a></li>
+    <li class="navelem"><a class="el" href="../../dd/d62/a09374.html">_nRF_UART_Dev</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

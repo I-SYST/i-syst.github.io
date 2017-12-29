@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: DiskIO Class Reference</title>
+<title>EHAL: __device_intrf Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,338 +83,390 @@ $(document).ready(function(){initNavTree('d1/d49/a09938.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d4/db5/a09935.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">DiskIO Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">__device_intrf Struct Reference<div class="ingroups"><a class="el" href="../../d2/d95/a08583.html">Device Interface</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d1/d49/a09938.html" title="DiskIO base class. ">DiskIO</a> base class.  
+<p><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> interface data structure.  
  <a href="../../d1/d49/a09938.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for DiskIO:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d1/d49/a09938.png" usemap="#DiskIO_map" alt=""/>
-  <map id="DiskIO_map" name="DiskIO_map">
-<area href="../../db/d43/a09946.html" title="Flash disk base class. " alt="FlashDiskIO" shape="rect" coords="0,56,80,80"/>
-<area href="../../d0/d65/a10062.html" alt="SDCard" shape="rect" coords="90,56,170,80"/>
-</map>
- </div></div>
+<p><code>#include &lt;<a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a6b6c42cef25d53e14397ea6537deb0e4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a6b6c42cef25d53e14397ea6537deb0e4">GetSectSize</a> (void)</td></tr>
-<tr class="memdesc:a6b6c42cef25d53e14397ea6537deb0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of one sector.  <a href="#a6b6c42cef25d53e14397ea6537deb0e4">More...</a><br /></td></tr>
-<tr class="separator:a6b6c42cef25d53e14397ea6537deb0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bc03496b8fca31155c9a78aa163071d"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a4bc03496b8fca31155c9a78aa163071d">GetNbSect</a> (void)</td></tr>
-<tr class="memdesc:a4bc03496b8fca31155c9a78aa163071d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total number of sect.  <a href="#a4bc03496b8fca31155c9a78aa163071d">More...</a><br /></td></tr>
-<tr class="separator:a4bc03496b8fca31155c9a78aa163071d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af055025aac64001ff883c581773c4e15"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#af055025aac64001ff883c581773c4e15">GetSize</a> (void)=0</td></tr>
-<tr class="memdesc:af055025aac64001ff883c581773c4e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get to=tal disk size in bytes.  <a href="#af055025aac64001ff883c581773c4e15">More...</a><br /></td></tr>
-<tr class="separator:af055025aac64001ff883c581773c4e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c87d099d97cb28c8974ab8d9d36b436"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a4c87d099d97cb28c8974ab8d9d36b436">SectRead</a> (uint32_t SectNo, uint8_t *pBuff)=0</td></tr>
-<tr class="memdesc:a4c87d099d97cb28c8974ab8d9d36b436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read one sector from physical device.  <a href="#a4c87d099d97cb28c8974ab8d9d36b436">More...</a><br /></td></tr>
-<tr class="separator:a4c87d099d97cb28c8974ab8d9d36b436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126deddc415b7f2e91fd9e68ee0d4fcd"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a126deddc415b7f2e91fd9e68ee0d4fcd">SectWrite</a> (uint32_t SectNo, uint8_t *pData)=0</td></tr>
-<tr class="memdesc:a126deddc415b7f2e91fd9e68ee0d4fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write one sector to physical device.  <a href="#a126deddc415b7f2e91fd9e68ee0d4fcd">More...</a><br /></td></tr>
-<tr class="separator:a126deddc415b7f2e91fd9e68ee0d4fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d0c8d080f4819d18f25de4d9fe47b7"><td class="memItemLeft" align="right" valign="top"><a id="a74d0c8d080f4819d18f25de4d9fe47b7"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a74d0c8d080f4819d18f25de4d9fe47b7">Reset</a> ()</td></tr>
-<tr class="memdesc:a74d0c8d080f4819d18f25de4d9fe47b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset <a class="el" href="../../d1/d49/a09938.html" title="DiskIO base class. ">DiskIO</a> to its default state. <br /></td></tr>
-<tr class="separator:a74d0c8d080f4819d18f25de4d9fe47b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa14e617c6a3711b0533b89309d5fc7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a6aa14e617c6a3711b0533b89309d5fc7">Read</a> (uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len)</td></tr>
-<tr class="separator:a6aa14e617c6a3711b0533b89309d5fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a88ef0bffc774a78b320eb7f2f83a4a"><td class="memItemLeft" align="right" valign="top"><a id="a7a88ef0bffc774a78b320eb7f2f83a4a"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>Read</b> (uint64_t Offset, uint8_t *pBuff, uint32_t Len)</td></tr>
-<tr class="separator:a7a88ef0bffc774a78b320eb7f2f83a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad74c67983c4148acf317075ce415c637"><td class="memItemLeft" align="right" valign="top"><a id="ad74c67983c4148acf317075ce415c637"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b> (uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len)</td></tr>
-<tr class="separator:ad74c67983c4148acf317075ce415c637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f7e488e087ee88716df5391400583c8"><td class="memItemLeft" align="right" valign="top"><a id="a4f7e488e087ee88716df5391400583c8"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b> (uint64_t Offset, uint8_t *pBuff, uint32_t Len)</td></tr>
-<tr class="separator:a4f7e488e087ee88716df5391400583c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3d78e8d1778d81286b9768d4f96f90"><td class="memItemLeft" align="right" valign="top"><a id="a3b3d78e8d1778d81286b9768d4f96f90"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a3b3d78e8d1778d81286b9768d4f96f90">Erase</a> ()</td></tr>
-<tr class="memdesc:a3b3d78e8d1778d81286b9768d4f96f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase whole disk. <br /></td></tr>
-<tr class="separator:a3b3d78e8d1778d81286b9768d4f96f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f21c1a4337405d8e08e748918e184c0"><td class="memItemLeft" align="right" valign="top"><a id="a1f21c1a4337405d8e08e748918e184c0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetCacheSect</b> (uint32_t SectNo, bool bLock=false)</td></tr>
-<tr class="separator:a1f21c1a4337405d8e08e748918e184c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2282b44d3815ada43451970dbb6ca0ec"><td class="memItemLeft" align="right" valign="top"><a id="a2282b44d3815ada43451970dbb6ca0ec"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCache</b> (<a class="el" href="../../d4/da8/a02444.html#a40bdcc1312ae0462236e683b82f918b4">DISKIO_CACHE_DESC</a> *pCacheBlk, int NbCacheBlk)</td></tr>
-<tr class="separator:a2282b44d3815ada43451970dbb6ca0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d5f5dffeeab489058599b44c0015fb7"><td class="memItemLeft" align="right" valign="top"><a id="a4d5f5dffeeab489058599b44c0015fb7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Flush</b> ()</td></tr>
-<tr class="separator:a4d5f5dffeeab489058599b44c0015fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aee6dc445ec6ec513a994409f86e29b03"><td class="memItemLeft" align="right" valign="top"><a id="aee6dc445ec6ec513a994409f86e29b03"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#aee6dc445ec6ec513a994409f86e29b03">pDevData</a></td></tr>
+<tr class="memdesc:aee6dc445ec6ec513a994409f86e29b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private device interface implementation data. <br /></td></tr>
+<tr class="separator:aee6dc445ec6ec513a994409f86e29b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31161ac02fd7ac0848dca85ce186d04c"><td class="memItemLeft" align="right" valign="top"><a id="a31161ac02fd7ac0848dca85ce186d04c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a31161ac02fd7ac0848dca85ce186d04c">IntPrio</a></td></tr>
+<tr class="memdesc:a31161ac02fd7ac0848dca85ce186d04c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt priority. Value is implementation specific. <br /></td></tr>
+<tr class="separator:a31161ac02fd7ac0848dca85ce186d04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a4543bd99113aa38e41271f081bf8a"><td class="memItemLeft" align="right" valign="top"><a id="ab2a4543bd99113aa38e41271f081bf8a"></a>
+<a class="el" href="../../d2/d95/a08583.html#gacd97c93703facb48731148990b41911f">DEVINTRF_EVTCB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#ab2a4543bd99113aa38e41271f081bf8a">EvtCB</a></td></tr>
+<tr class="memdesc:ab2a4543bd99113aa38e41271f081bf8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt based event callback function pointer. Must be set to NULL if not used. <br /></td></tr>
+<tr class="separator:ab2a4543bd99113aa38e41271f081bf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c67065a232965530c4bfebae3c40609"><td class="memItemLeft" align="right" valign="top"><a id="a1c67065a232965530c4bfebae3c40609"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a1c67065a232965530c4bfebae3c40609">Busy</a></td></tr>
+<tr class="memdesc:a1c67065a232965530c4bfebae3c40609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busy flag to be set check and set at start and reset at end of transmission. <br /></td></tr>
+<tr class="separator:a1c67065a232965530c4bfebae3c40609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231802f30134b71fa87b9a6c8e96a6a8"><td class="memItemLeft" align="right" valign="top"><a id="a231802f30134b71fa87b9a6c8e96a6a8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a231802f30134b71fa87b9a6c8e96a6a8">MaxRetry</a></td></tr>
+<tr class="memdesc:a231802f30134b71fa87b9a6c8e96a6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max retry when data could not be transfered (Rx/Tx returns zero count) <br /></td></tr>
+<tr class="separator:a231802f30134b71fa87b9a6c8e96a6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b90542015f74eee13cdb8fd75d5401"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a65b90542015f74eee13cdb8fd75d5401">EnCnt</a></td></tr>
+<tr class="separator:a65b90542015f74eee13cdb8fd75d5401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369c734813aba3ade00c0c56221f3f5f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a369c734813aba3ade00c0c56221f3f5f">Disable</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td></tr>
+<tr class="memdesc:a369c734813aba3ade00c0c56221f3f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn off the interface. If this is a physical interface, provide a way to turn off for energy saving. Make sure the turn off procedure can be turned back on without going through the full init sequence.  <a href="#a369c734813aba3ade00c0c56221f3f5f">More...</a><br /></td></tr>
+<tr class="separator:a369c734813aba3ade00c0c56221f3f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb95a3cef75ad974493f325b53b74a6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#aebb95a3cef75ad974493f325b53b74a6">Enable</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td></tr>
+<tr class="memdesc:aebb95a3cef75ad974493f325b53b74a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on the interface.  <a href="#aebb95a3cef75ad974493f325b53b74a6">More...</a><br /></td></tr>
+<tr class="separator:aebb95a3cef75ad974493f325b53b74a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8dd80d426a0ed8bb9d6df0dc033d69"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a6d8dd80d426a0ed8bb9d6df0dc033d69">GetRate</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td></tr>
+<tr class="memdesc:a6d8dd80d426a0ed8bb9d6df0dc033d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get data rate of the interface in Hertz. This is not a clock frequency but rather the transfer frequency (number of transfers per second). It has meaning base on the implementation as bits/sec or bytes/sec or whatever the case.  <a href="#a6d8dd80d426a0ed8bb9d6df0dc033d69">More...</a><br /></td></tr>
+<tr class="separator:a6d8dd80d426a0ed8bb9d6df0dc033d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab73b4e6e2a3e22080cb1da4b757b85"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#abab73b4e6e2a3e22080cb1da4b757b85">SetRate</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int Rate)</td></tr>
+<tr class="memdesc:abab73b4e6e2a3e22080cb1da4b757b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set data rate of the interface in Hertz. This is not a clock frequency but rather the transfer frequency (number of transfers per second). It has meaning base on the implementation as bits/sec or bytes/sec or whatever the case.  <a href="#abab73b4e6e2a3e22080cb1da4b757b85">More...</a><br /></td></tr>
+<tr class="separator:abab73b4e6e2a3e22080cb1da4b757b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22ecf357c492326e7585db7fbbddf14"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#ad22ecf357c492326e7585db7fbbddf14">StartRx</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int DevAddr)</td></tr>
+<tr class="memdesc:ad22ecf357c492326e7585db7fbbddf14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare start condition to receive data with subsequence RxData. This can be in case such as start condition for <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> or Chip Select for <a class="el" href="../../db/d6a/a10206.html">SPI</a> or precondition for DMA transfer or whatever requires it or not This function must check &amp; set the busy state for re-entrancy.  <a href="#ad22ecf357c492326e7585db7fbbddf14">More...</a><br /></td></tr>
+<tr class="separator:ad22ecf357c492326e7585db7fbbddf14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4714ec3be1a7b148399733de526556dc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a4714ec3be1a7b148399733de526556dc">RxData</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, uint8_t *pBuff, int BuffLen)</td></tr>
+<tr class="memdesc:a4714ec3be1a7b148399733de526556dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data into pBuff passed in parameter. Assuming StartRx was called prior calling this function to get the actual data.  <a href="#a4714ec3be1a7b148399733de526556dc">More...</a><br /></td></tr>
+<tr class="separator:a4714ec3be1a7b148399733de526556dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a24f7c8ab73df3e7bc8b57b9248670b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a9a24f7c8ab73df3e7bc8b57b9248670b">StopRx</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pSerDev)</td></tr>
+<tr class="memdesc:a9a24f7c8ab73df3e7bc8b57b9248670b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completion of read data phase. Do require post processing after data has been received via RxData This function must clear the busy state for re-entrancy.  <a href="#a9a24f7c8ab73df3e7bc8b57b9248670b">More...</a><br /></td></tr>
+<tr class="separator:a9a24f7c8ab73df3e7bc8b57b9248670b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37be55dc542594df25e12988abc8a441"><td class="memItemLeft" align="right" valign="top">bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a37be55dc542594df25e12988abc8a441">StartTx</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int DevAddr)</td></tr>
+<tr class="memdesc:a37be55dc542594df25e12988abc8a441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare start condition to transfer data with subsequence TxData. This can be in case such as start condition for <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> or Chip Select for <a class="el" href="../../db/d6a/a10206.html">SPI</a> or precondition for DMA transfer or whatever requires it or not This function must check &amp; set the busy state for re-entrancy.  <a href="#a37be55dc542594df25e12988abc8a441">More...</a><br /></td></tr>
+<tr class="separator:a37be55dc542594df25e12988abc8a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a0174974176a4bac0035ecd0498b59"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a16a0174974176a4bac0035ecd0498b59">TxData</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, uint8_t *pData, int DataLen)</td></tr>
+<tr class="memdesc:a16a0174974176a4bac0035ecd0498b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer data from pData passed in parameter. Assuming StartTx was called prior calling this function to send the actual data.  <a href="#a16a0174974176a4bac0035ecd0498b59">More...</a><br /></td></tr>
+<tr class="separator:a16a0174974176a4bac0035ecd0498b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6ba08021b2900ae2742c0358dfae00"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a2c6ba08021b2900ae2742c0358dfae00">StopTx</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td></tr>
+<tr class="memdesc:a2c6ba08021b2900ae2742c0358dfae00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completion of sending data via TxData. Do require post processing after all data was transmitted via TxData. This function must clear the busy state for re-entrancy.  <a href="#a2c6ba08021b2900ae2742c0358dfae00">More...</a><br /></td></tr>
+<tr class="separator:a2c6ba08021b2900ae2742c0358dfae00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798eee2ff2471b86a101327dbe01bf79"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d49/a09938.html#a798eee2ff2471b86a101327dbe01bf79">Reset</a> )(<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td></tr>
+<tr class="memdesc:a798eee2ff2471b86a101327dbe01bf79"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function perform a reset of interface. Must provide empty function of not used.  <a href="#a798eee2ff2471b86a101327dbe01bf79">More...</a><br /></td></tr>
+<tr class="separator:a798eee2ff2471b86a101327dbe01bf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d1/d49/a09938.html" title="DiskIO base class. ">DiskIO</a> base class. </p>
+<div class="textblock"><p><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> interface data structure. </p>
+<p>This structure is the actual interface for both C++ &amp; C code It is used to provide C compatibility instead of using C++ interface which is only for C++ </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/da8/a02444_source.html#l00080">80</a> of file <a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4bc03496b8fca31155c9a78aa163071d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bc03496b8fca31155c9a78aa163071d">&#9670;&nbsp;</a></span>GetNbSect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual uint32_t DiskIO::GetNbSect </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get total number of sect. </p>
-<dl class="section return"><dt>Returns</dt><dd>Number of sectors </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../d0/d65/a10062.html#a90fa3e39c8eb35a862b15d2b43c8dcea">SDCard</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/da8/a02444_source.html#l00096">96</a> of file <a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a>.</p>
-
-</div>
-</div>
-<a id="a6b6c42cef25d53e14397ea6537deb0e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b6c42cef25d53e14397ea6537deb0e4">&#9670;&nbsp;</a></span>GetSectSize()</h2>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00100">100</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a369c734813aba3ade00c0c56221f3f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369c734813aba3ade00c0c56221f3f5f">&#9670;&nbsp;</a></span>Disable</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int DiskIO::GetSectSize </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">void(* __device_intrf::Disable) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Get the size of one sector. </p>
-<dl class="section return"><dt>Returns</dt><dd>Sector size in bytes. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../d0/d65/a10062.html#ae805e467247865a8ce2f77e45a8f0bff">SDCard</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/da8/a02444_source.html#l00089">89</a> of file <a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a>.</p>
-
-</div>
-</div>
-<a id="af055025aac64001ff883c581773c4e15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af055025aac64001ff883c581773c4e15">&#9670;&nbsp;</a></span>GetSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual uint64_t DiskIO::GetSize </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get to=tal disk size in bytes. </p>
-<dl class="section return"><dt>Returns</dt><dd>Total disk size in bytes. </dd></dl>
-
-<p>Implemented in <a class="el" href="../../db/d43/a09946.html#abf0fbfc4991c6622e71b0b6e9608535e">FlashDiskIO</a>, and <a class="el" href="../../d0/d65/a10062.html#a5b85f24fe8f8e6123ebeec22da7aef7e">SDCard</a>.</p>
-
-</div>
-</div>
-<a id="a6aa14e617c6a3711b0533b89309d5fc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aa14e617c6a3711b0533b89309d5fc7">&#9670;&nbsp;</a></span>Read()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int DiskIO::Read </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>SetNo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>SectOffset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>pBuff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>Len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Optional implementations. The following Read/Write functions are implemented in with sector caching. Physical SectRead/SectWrite are called internally to flush cache as needed. </p>
-
-</div>
-</div>
-<a id="a4c87d099d97cb28c8974ab8d9d36b436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c87d099d97cb28c8974ab8d9d36b436">&#9670;&nbsp;</a></span>SectRead()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool DiskIO::SectRead </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>SectNo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>pBuff</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Read one sector from physical device. </p>
+<p>Turn off the interface. If this is a physical interface, provide a way to turn off for energy saving. Make sure the turn off procedure can be turned back on without going through the full init sequence. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">SectNo</td><td>: Sector number to read </td></tr>
-    <tr><td class="paramname">pBuff</td><td>: Buffer to receive sector data. This buffer must be at least 1 sector in size.</td></tr>
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>true : Success</li>
-<li>false : Failed </li>
-</ul>
-</dd></dl>
 
-<p>Implemented in <a class="el" href="../../db/d43/a09946.html#a1d0aa6da18d8a02af00b33972c845b68">FlashDiskIO</a>, and <a class="el" href="../../d0/d65/a10062.html#af09ad8bbf6e55f353a29138aea7e0ddf">SDCard</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00121">121</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
 
 </div>
 </div>
-<a id="a126deddc415b7f2e91fd9e68ee0d4fcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a126deddc415b7f2e91fd9e68ee0d4fcd">&#9670;&nbsp;</a></span>SectWrite()</h2>
+<a id="aebb95a3cef75ad974493f325b53b74a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb95a3cef75ad974493f325b53b74a6">&#9670;&nbsp;</a></span>Enable</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool DiskIO::SectWrite </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>SectNo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>pData</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">void(* __device_intrf::Enable) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Write one sector to physical device. </p>
+<p>Turn on the interface. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">SectNo</td><td>: Sector number to read </td></tr>
-    <tr><td class="paramname">pDate</td><td>: Sector data to write. This must be at least 1 sector in size.</td></tr>
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>true : Success</li>
-<li>false : Failed </li>
-</ul>
-</dd></dl>
 
-<p>Implemented in <a class="el" href="../../db/d43/a09946.html#ab4653340f8e32cd2aaae305eaacc1131">FlashDiskIO</a>, and <a class="el" href="../../d0/d65/a10062.html#a6af2ac7de6be74be1fb07b118e7f842b">SDCard</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00128">128</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/<a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a></li>
+<a id="a65b90542015f74eee13cdb8fd75d5401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b90542015f74eee13cdb8fd75d5401">&#9670;&nbsp;</a></span>EnCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int __device_intrf::EnCnt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Count the number of time device is enabled, this used as ref count where multiple devices are using the same interface. It is to avoid it being disabled while another device is still using it </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00106">106</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a6d8dd80d426a0ed8bb9d6df0dc033d69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d8dd80d426a0ed8bb9d6df0dc033d69">&#9670;&nbsp;</a></span>GetRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int(* __device_intrf::GetRate) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get data rate of the interface in Hertz. This is not a clock frequency but rather the transfer frequency (number of transfers per second). It has meaning base on the implementation as bits/sec or bytes/sec or whatever the case. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Transfer rate per second </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00139">139</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a798eee2ff2471b86a101327dbe01bf79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798eee2ff2471b86a101327dbe01bf79">&#9670;&nbsp;</a></span>Reset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* __device_intrf::Reset) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function perform a reset of interface. Must provide empty function of not used. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00236">236</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a4714ec3be1a7b148399733de526556dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4714ec3be1a7b148399733de526556dc">&#9670;&nbsp;</a></span>RxData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int(* __device_intrf::RxData) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, uint8_t *pBuff, int BuffLen)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive data into pBuff passed in parameter. Assuming StartRx was called prior calling this function to get the actual data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
+    <tr><td class="paramname">pBuff</td><td>: Pointer to memory area to receive data. </td></tr>
+    <tr><td class="paramname">BuffLen</td><td>: Length of buffer memory in bytes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes read </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00178">178</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="abab73b4e6e2a3e22080cb1da4b757b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab73b4e6e2a3e22080cb1da4b757b85">&#9670;&nbsp;</a></span>SetRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int(* __device_intrf::SetRate) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int Rate)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set data rate of the interface in Hertz. This is not a clock frequency but rather the transfer frequency (number of transfers per second). It has meaning base on the implementation as bits/sec or bytes/sec or whatever the case. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
+    <tr><td class="paramname">Rate</td><td>: Data rate to be set in Hertz (transfer per second)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Actual transfer rate per second set. It is the real capable rate closest to rate being requested. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00152">152</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="ad22ecf357c492326e7585db7fbbddf14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22ecf357c492326e7585db7fbbddf14">&#9670;&nbsp;</a></span>StartRx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* __device_intrf::StartRx) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int DevAddr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare start condition to receive data with subsequence RxData. This can be in case such as start condition for <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> or Chip Select for <a class="el" href="../../db/d6a/a10206.html">SPI</a> or precondition for DMA transfer or whatever requires it or not This function must check &amp; set the busy state for re-entrancy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
+    <tr><td class="paramname">DevAddr</td><td>: The device selection id scheme</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - Success<br />
+ false - failed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00166">166</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a37be55dc542594df25e12988abc8a441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37be55dc542594df25e12988abc8a441">&#9670;&nbsp;</a></span>StartTx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool(* __device_intrf::StartTx) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, int DevAddr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare start condition to transfer data with subsequence TxData. This can be in case such as start condition for <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> or Chip Select for <a class="el" href="../../db/d6a/a10206.html">SPI</a> or precondition for DMA transfer or whatever requires it or not This function must check &amp; set the busy state for re-entrancy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
+    <tr><td class="paramname">DevAddr</td><td>: The device selection id scheme</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true - Success<br />
+ false - failed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00203">203</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a9a24f7c8ab73df3e7bc8b57b9248670b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a24f7c8ab73df3e7bc8b57b9248670b">&#9670;&nbsp;</a></span>StopRx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* __device_intrf::StopRx) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pSerDev)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Completion of read data phase. Do require post processing after data has been received via RxData This function must clear the busy state for re-entrancy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00189">189</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a2c6ba08021b2900ae2742c0358dfae00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c6ba08021b2900ae2742c0358dfae00">&#9670;&nbsp;</a></span>StopTx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* __device_intrf::StopTx) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Completion of sending data via TxData. Do require post processing after all data was transmitted via TxData. This function must clear the busy state for re-entrancy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00226">226</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<a id="a16a0174974176a4bac0035ecd0498b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a0174974176a4bac0035ecd0498b59">&#9670;&nbsp;</a></span>TxData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int(* __device_intrf::TxData) (<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pDevIntrf, uint8_t *pData, int DataLen)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transfer data from pData passed in parameter. Assuming StartTx was called prior calling this function to send the actual data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevIntrf</td><td>: Pointer to an instance of the <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> Interface </td></tr>
+    <tr><td class="paramname">pData</td><td>: Pointer to memory area of data to send. </td></tr>
+    <tr><td class="paramname">DataLen</td><td>: Length of data memory in bytes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes sent </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dd6/a02441_source.html#l00215">215</a> of file <a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/<a class="el" href="../../d9/dd6/a02441_source.html">device_intrf.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d49/a09938.html">DiskIO</a></li>
+    <li class="navelem"><a class="el" href="../../d1/d49/a09938.html">__device_intrf</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,5 +1,7 @@
 var a10202 =
 [
-    [ "Code", "d4/d86/a10202.html#ac5987f1aef3dad4346b8bcd13fb89ba1", null ],
-    [ "Desc", "d4/d86/a10202.html#a6aa340df87f017585616b6901fc8e057", null ]
+    [ "Cfg", "d4/d86/a10202.html#aeca7934653abd3c4eb68c8a8af099a39", null ],
+    [ "CurDevCs", "d4/d86/a10202.html#a9d2dd454e498079fce3a6b57e6d3c1a4", null ],
+    [ "DevIntrf", "d4/d86/a10202.html#aeaf4742ea3f5580b493a6c0d0b419aff", null ],
+    [ "FirstRdData", "d4/d86/a10202.html#a9f444dc1130202e5380963364764f183", null ]
 ];

@@ -1,7 +1,7 @@
 var a10138 =
 [
-    [ "bInter", "d4/d2d/a10138.html#aa70b045fcaedd92bd110bdc5ccbe6638", null ],
-    [ "DevAddr", "d4/d2d/a10138.html#ac75e4feef1bf7859232a04a5e2685a2e", null ],
-    [ "Freq", "d4/d2d/a10138.html#a36c1de2507b2188fd8239dfe423166ca", null ],
-    [ "OpMode", "d4/d2d/a10138.html#a206624fff042db601c25a81e9e3dd221", null ]
+    [ "Init", "d4/d2d/a10138.html#a3a4d1d937a3726eef37325787e2be875", null ],
+    [ "Read", "d4/d2d/a10138.html#a59a6a90a57864d58e3e21e038215864a", null ],
+    [ "SetHeatingProfile", "d4/d2d/a10138.html#abf38f22615ce3440ca69f459d89472db", null ],
+    [ "vGasData", "d4/d2d/a10138.html#a29a0b8e7459bffa1562b6645b44ee71d", null ]
 ];

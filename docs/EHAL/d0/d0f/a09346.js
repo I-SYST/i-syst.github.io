@@ -1,18 +1,12 @@
 var a09346 =
 [
-    [ "TimerLFnRF5x", "d0/d0f/a09346.html#aefb485ee3d125eccc16219ee0263a035", null ],
-    [ "~TimerLFnRF5x", "d0/d0f/a09346.html#a7a4b01b639f4b97c14b0ecc0f3b22163", null ],
-    [ "Disable", "d0/d0f/a09346.html#a31d85db14975a22a5168dbf3d5d274ef", null ],
-    [ "DisableTimerTrigger", "d0/d0f/a09346.html#a6685bb18d6ec2fe193fbd79a5376c531", null ],
-    [ "Enable", "d0/d0f/a09346.html#afa74b76d91311384e838bd62d2d86b52", null ],
-    [ "EnableTimerTrigger", "d0/d0f/a09346.html#a599df9eea7ec5c6b86ecebdf198befd1", null ],
-    [ "EnableTimerTrigger", "d0/d0f/a09346.html#af027e350b7b656137933b9ea3dbf8bb8", null ],
-    [ "FindAvailTimerTrigger", "d0/d0f/a09346.html#add26c779b5adc716e4045c4026415bd7", null ],
-    [ "Frequency", "d0/d0f/a09346.html#a8dc299a1221a3d9b59526a9bd5d0e19d", null ],
-    [ "Frequency", "d0/d0f/a09346.html#a24f826fefbe39def7656ed690bc525e0", null ],
-    [ "Init", "d0/d0f/a09346.html#a0a833cf083adb64ca0956077923fc5e5", null ],
-    [ "IRQHandler", "d0/d0f/a09346.html#a325e4d3ac2a8c1fa1355b6931fdbef9e", null ],
-    [ "MaxTimerTrigger", "d0/d0f/a09346.html#a18344038191adfcaf8f6bad96c56600a", null ],
-    [ "Reset", "d0/d0f/a09346.html#a4a1c7205c09b50c2a7256a34eaa2c21b", null ],
-    [ "TickCount", "d0/d0f/a09346.html#ac91695a5c5bc962d4fda7f4de3a4b704", null ]
+    [ "ConnHdl", "d0/d0f/a09346.html#aa5b9e830b9f3c01d0770478034822f6c", null ],
+    [ "LongWrBuffSize", "d0/d0f/a09346.html#a15000f9f33e3726b2948300dc9845c79", null ],
+    [ "NbChar", "d0/d0f/a09346.html#aa66ab738553027adf4c167a0a2009e02", null ],
+    [ "pCharArray", "d0/d0f/a09346.html#ac1362183bf276330f0d932c0ccec2d07", null ],
+    [ "pContext", "d0/d0f/a09346.html#a87011a00dd17f27959928c9ac2babdb4", null ],
+    [ "pLongWrBuff", "d0/d0f/a09346.html#ad70c203a60ebc293f872d12bb457a7fc", null ],
+    [ "SrvcHdl", "d0/d0f/a09346.html#aa3187b2812fea9cbd7c9570d149ad8b6", null ],
+    [ "UuidSvc", "d0/d0f/a09346.html#a62b027156b2f87d8e240614e9d797fd5", null ],
+    [ "UuidType", "d0/d0f/a09346.html#ae07087c9caa323f854b9b8a73d0355ed", null ]
 ];

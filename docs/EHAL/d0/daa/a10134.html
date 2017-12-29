@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __MagSensor_Data Struct Reference</title>
+<title>EHAL: __GasSensor_Config Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,37 +86,52 @@ $(document).ready(function(){initNavTree('d0/daa/a10134.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../da/d66/a10131.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__MagSensor_Data Struct Reference</div>  </div>
+<div class="title">__GasSensor_Config Struct Reference<div class="ingroups"><a class="el" href="../../db/d69/a08585.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Gas sensor configuration data.  
+ <a href="../../d0/daa/a10134.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac54e9bd9e9568e333f78a5b782e01a91"><td class="memItemLeft" align="right" valign="top"><a id="ac54e9bd9e9568e333f78a5b782e01a91"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timestamp</b></td></tr>
-<tr class="separator:ac54e9bd9e9568e333f78a5b782e01a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ca6664061ff9cfdb0e1f345b5d035e0"><td class="memItemLeft" align="right" valign="top"><a id="a7ca6664061ff9cfdb0e1f345b5d035e0"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>x</b></td></tr>
-<tr class="separator:a7ca6664061ff9cfdb0e1f345b5d035e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d6360ff7ee0fb004662c504c5e0d02"><td class="memItemLeft" align="right" valign="top"><a id="a35d6360ff7ee0fb004662c504c5e0d02"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>y</b></td></tr>
-<tr class="separator:a35d6360ff7ee0fb004662c504c5e0d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76f0e4397c6f075c4995251ba3732ee5"><td class="memItemLeft" align="right" valign="top"><a id="a76f0e4397c6f075c4995251ba3732ee5"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>z</b></td></tr>
-<tr class="separator:a76f0e4397c6f075c4995251ba3732ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0637e0512c8a2daada7c39679b9e2a98"><td class="memItemLeft" align="right" valign="top"><a id="a0637e0512c8a2daada7c39679b9e2a98"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html#a0637e0512c8a2daada7c39679b9e2a98">DevAddr</a></td></tr>
+<tr class="memdesc:a0637e0512c8a2daada7c39679b9e2a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Either <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> dev address or CS index select if <a class="el" href="../../db/d6a/a10206.html">SPI</a> is used. <br /></td></tr>
+<tr class="separator:a0637e0512c8a2daada7c39679b9e2a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="memItemLeft" align="right" valign="top"><a id="a7f37bc3aa68756fa62ef501cdfcd09de"></a>
+<a class="el" href="../../db/d69/a08585.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html#a7f37bc3aa68756fa62ef501cdfcd09de">OpMode</a></td></tr>
+<tr class="memdesc:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating mode. <br /></td></tr>
+<tr class="separator:a7f37bc3aa68756fa62ef501cdfcd09de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b77d55fd50bba600f22c84ec5b822b5"><td class="memItemLeft" align="right" valign="top"><a id="a6b77d55fd50bba600f22c84ec5b822b5"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html#a6b77d55fd50bba600f22c84ec5b822b5">Freq</a></td></tr>
+<tr class="memdesc:a6b77d55fd50bba600f22c84ec5b822b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling frequency in Hz if continuous mode is used. <br /></td></tr>
+<tr class="separator:a6b77d55fd50bba600f22c84ec5b822b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb3671532681aeb00cd4ddba7f5272fb"><td class="memItemLeft" align="right" valign="top"><a id="acb3671532681aeb00cd4ddba7f5272fb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html#acb3671532681aeb00cd4ddba7f5272fb">NbHeatPoint</a></td></tr>
+<tr class="memdesc:acb3671532681aeb00cd4ddba7f5272fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of heating point in profile. <br /></td></tr>
+<tr class="separator:acb3671532681aeb00cd4ddba7f5272fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fc51eb0233ffe1293f24d04c965b40"><td class="memItemLeft" align="right" valign="top"><a id="ab2fc51eb0233ffe1293f24d04c965b40"></a>
+const <a class="el" href="../../db/d69/a08585.html#ga0fd7f352bfc5f13ca3a223a0effc8cc5">GASSENSOR_HEAT</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/a10134.html#ab2fc51eb0233ffe1293f24d04c965b40">pHeatProfile</a></td></tr>
+<tr class="memdesc:ab2fc51eb0233ffe1293f24d04c965b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to array of heating temperature profile. <br /></td></tr>
+<tr class="separator:ab2fc51eb0233ffe1293f24d04c965b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/de1/a02513_source.html#l00045">45</a> of file <a class="el" href="../../dc/de1/a02513_source.html">mag_sensor.h</a>.</p>
+<div class="textblock"><p>Gas sensor configuration data. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/dc0/a10377.html#_a17">env_tph_demo.cpp</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="../../de/dbd/a02507_source.html#l00073">73</a> of file <a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/sensors/<a class="el" href="../../dc/de1/a02513_source.html">mag_sensor.h</a></li>
+<li>include/sensors/<a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/daa/a10134.html">__MagSensor_Data</a></li>
+    <li class="navelem"><a class="el" href="../../d0/daa/a10134.html">__GasSensor_Config</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

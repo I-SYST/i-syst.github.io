@@ -1,16 +1,7 @@
 var a10078 =
 [
-    [ "Mode", "d6/dd8/a10078.html#a99ede4039ea4cfb8a581d6a64bd2ad3a", null ],
-    [ "Mode", "d6/dd8/a10078.html#ac204998334357f61c86d2ba0d00a0c6b", null ],
-    [ "SamplingFrequency", "d6/dd8/a10078.html#a9c01ef7a4be6d7d761c2d3d21dac5273", null ],
-    [ "SamplingFrequency", "d6/dd8/a10078.html#a7e568a75e69fa2267797b979734d2a2f", null ],
-    [ "StartSampling", "d6/dd8/a10078.html#a5a73ed62e4d1dae30bb37d30e136e8e4", null ],
-    [ "State", "d6/dd8/a10078.html#a1900bf4a12ae4230bac622c3d5ca69f6", null ],
-    [ "State", "d6/dd8/a10078.html#adede45b41ca10e8923e3d08e19c701b8", null ],
-    [ "UpdateData", "d6/dd8/a10078.html#aae0fa6770b3df2cf539809d2ddf5a8e5", null ],
-    [ "vOpMode", "d6/dd8/a10078.html#a396bd9351a8ba3bf2d5b81611524b3fd", null ],
-    [ "vpTimer", "d6/dd8/a10078.html#ac7d78def8a2b5cbafb049a0e4ea56abd", null ],
-    [ "vSampFreq", "d6/dd8/a10078.html#a5fffe57232939e6f962a618f0834c3e7", null ],
-    [ "vSampleCnt", "d6/dd8/a10078.html#a75fd299a6271faa9aa19f2b7321909c8", null ],
-    [ "vState", "d6/dd8/a10078.html#a2719a55d424b5ab0139913fbbca3c041", null ]
+    [ "Csd", "d6/dd8/a10078.html#a33183f757d15a5aa0c1845dd20c45a26", null ],
+    [ "pSerIntrf", "d6/dd8/a10078.html#a1b16fa35aee76f8034bb84bdfae8e382", null ],
+    [ "SectSize", "d6/dd8/a10078.html#a7a613de9cb73a992ae915b3ccbd78582", null ],
+    [ "TotalSect", "d6/dd8/a10078.html#a8b4019e70ad237f042527bef5f4df0dc", null ]
 ];

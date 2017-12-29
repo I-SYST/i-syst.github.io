@@ -1,12 +1,6 @@
 var a09306 =
 [
-    [ "EvtCB", "df/d6f/a09306.html#ab00ac236fe20e1b174765f4df0ea4de2", null ],
-    [ "PacketSize", "df/d6f/a09306.html#af815048a0b6434f618347cc47d53c945", null ],
-    [ "pBleSrv", "df/d6f/a09306.html#a9e79d89361f1a8f630a11c3ff3557d0e", null ],
-    [ "pRxFifoMem", "df/d6f/a09306.html#a0399b7ab8530857916a0810966d71927", null ],
-    [ "pTxFifoMem", "df/d6f/a09306.html#a86531d3d5d69fe5b9c05cde05cbc8b44", null ],
-    [ "RxCharIdx", "df/d6f/a09306.html#a97f3c5f4ddae9c558c680d6cf4dff20c", null ],
-    [ "RxFifoMemSize", "df/d6f/a09306.html#a96978241f6d6cef91bda5b3219634073", null ],
-    [ "TxCharIdx", "df/d6f/a09306.html#a7a83d77f215c9b3a1e0423622efbbb87", null ],
-    [ "TxFifoMemSize", "df/d6f/a09306.html#ab8120c26e0d5628b146c97f22e435f5b", null ]
+    [ "ConnHdl", "df/d6f/a09306.html#ad4d0d03477853be6735fd3c7feb94e91", null ],
+    [ "Srvc", "df/d6f/a09306.html#a1b33b0ad384d47ca464a8e839796c9cc", null ],
+    [ "SrvcCnt", "df/d6f/a09306.html#acafb85785e5bdb98f98b8e844eb78ad8", null ]
 ];

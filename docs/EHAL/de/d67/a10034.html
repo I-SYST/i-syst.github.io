@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: LEDMXCFG Struct Reference</title>
+<title>EHAL: __iopin_cfg Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,40 +86,56 @@ $(document).ready(function(){initNavTree('de/d67/a10034.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d4/d0e/a10031.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LEDMXCFG Struct Reference</div>  </div>
+<div class="title">__iopin_cfg Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>I/O pin configuration data.  
+ <a href="../../de/d67/a10034.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af3f2080628b8bec01b4cd9406a9e1b7d"><td class="memItemLeft" align="right" valign="top"><a id="af3f2080628b8bec01b4cd9406a9e1b7d"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>pIOCfg</b></td></tr>
-<tr class="separator:af3f2080628b8bec01b4cd9406a9e1b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595ade3f6f825c2363b38fcac8dc7acf"><td class="memItemLeft" align="right" valign="top"><a id="a595ade3f6f825c2363b38fcac8dc7acf"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>NbPanel</b></td></tr>
-<tr class="separator:a595ade3f6f825c2363b38fcac8dc7acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdb637a5e8a5a3b9e8d703219e7764bd"><td class="memItemLeft" align="right" valign="top"><a id="acdb637a5e8a5a3b9e8d703219e7764bd"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>PanelAddr</b> [LEDMX_MAX_PANEL]</td></tr>
-<tr class="separator:acdb637a5e8a5a3b9e8d703219e7764bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9405f37c72fac22fa152f1c34c693c8b"><td class="memItemLeft" align="right" valign="top"><a id="a9405f37c72fac22fa152f1c34c693c8b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FontLen</b></td></tr>
-<tr class="separator:a9405f37c72fac22fa152f1c34c693c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1dca0be7645f9494540bbc5a813b48"><td class="memItemLeft" align="right" valign="top"><a id="a8d1dca0be7645f9494540bbc5a813b48"></a>
-<a class="el" href="../../dc/d25/a10046.html">LEDMXFONT_BITMAP</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><b>pFont</b></td></tr>
-<tr class="separator:a8d1dca0be7645f9494540bbc5a813b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="memItemLeft" align="right" valign="top"><a id="ae319bd5ff2cbeebfae335d16bee41aa6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#ae319bd5ff2cbeebfae335d16bee41aa6">PortNo</a></td></tr>
+<tr class="memdesc:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Port number. <br /></td></tr>
+<tr class="separator:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d105422f997f4f7919a9fc913b10c31"><td class="memItemLeft" align="right" valign="top"><a id="a3d105422f997f4f7919a9fc913b10c31"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#a3d105422f997f4f7919a9fc913b10c31">PinNo</a></td></tr>
+<tr class="memdesc:a3d105422f997f4f7919a9fc913b10c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin number. <br /></td></tr>
+<tr class="separator:a3d105422f997f4f7919a9fc913b10c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69d270b5bd3061e53f6651bb974f6f2"><td class="memItemLeft" align="right" valign="top"><a id="ad69d270b5bd3061e53f6651bb974f6f2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#ad69d270b5bd3061e53f6651bb974f6f2">PinOp</a></td></tr>
+<tr class="memdesc:ad69d270b5bd3061e53f6651bb974f6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin function select index from 0, MCU dependent. <br /></td></tr>
+<tr class="separator:ad69d270b5bd3061e53f6651bb974f6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="memItemLeft" align="right" valign="top"><a id="a96fb3d8a0a2a458106d20bd2bc3dcf4b"></a>
+<a class="el" href="../../dc/d5c/a02459.html#a0a697dc51aa080b84aa2ed55710e1860">IOPINDIR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#a96fb3d8a0a2a458106d20bd2bc3dcf4b">PinDir</a></td></tr>
+<tr class="memdesc:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin direction. <br /></td></tr>
+<tr class="separator:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cea02cb69ca3d86442332d235548acb"><td class="memItemLeft" align="right" valign="top"><a id="a6cea02cb69ca3d86442332d235548acb"></a>
+<a class="el" href="../../dc/d5c/a02459.html#a6c3b189b0b30db5ca6089c0435c63dbb">IOPINRES</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#a6cea02cb69ca3d86442332d235548acb">Res</a></td></tr>
+<tr class="memdesc:a6cea02cb69ca3d86442332d235548acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin resistor setting. <br /></td></tr>
+<tr class="separator:a6cea02cb69ca3d86442332d235548acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595a7cfa954171380240961886605c70"><td class="memItemLeft" align="right" valign="top"><a id="a595a7cfa954171380240961886605c70"></a>
+<a class="el" href="../../dc/d5c/a02459.html#a85d93d9e2356392c5384d9099702eb7d">IOPINTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/a10034.html#a595a7cfa954171380240961886605c70">Type</a></td></tr>
+<tr class="memdesc:a595a7cfa954171380240961886605c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O type. <br /></td></tr>
+<tr class="separator:a595a7cfa954171380240961886605c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d61/a02474_source.html#l00093">93</a> of file <a class="el" href="../../d5/d61/a02474_source.html">ledmx.h</a>.</p>
+<div class="textblock"><p>I/O pin configuration data. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/dc0/a10377.html#_a0">env_tph_demo.cpp</a>, and <a class="el" href="../../de/d1f/a10376.html#_a12">TPHSensorTag.cpp</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="../../dc/d5c/a02459_source.html#l00083">83</a> of file <a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/miscdev/<a class="el" href="../../d5/d61/a02474_source.html">ledmx.h</a></li>
+<li>include/<a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d67/a10034.html">LEDMXCFG</a></li>
+    <li class="navelem"><a class="el" href="../../de/d67/a10034.html">__iopin_cfg</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

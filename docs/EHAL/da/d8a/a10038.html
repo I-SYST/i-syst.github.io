@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: LEDMXDEV Struct Reference</title>
+<title>EHAL: VERS Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,40 +86,58 @@ $(document).ready(function(){initNavTree('da/d8a/a10038.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d5/d49/a10035.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LEDMXDEV Struct Reference</div>  </div>
+<div class="title">VERS Struct Reference<div class="ingroups"><a class="el" href="../../d4/db4/a08575.html">Utilities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a50bbfd3c905099d6e45e26cdc8e67808"><td class="memItemLeft" align="right" valign="top"><a id="a50bbfd3c905099d6e45e26cdc8e67808"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>NbPanel</b></td></tr>
-<tr class="separator:a50bbfd3c905099d6e45e26cdc8e67808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab223df73a9032c4d020d983cf0e4be8"><td class="memItemLeft" align="right" valign="top"><a id="aab223df73a9032c4d020d983cf0e4be8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>PanelAddr</b> [LEDMX_MAX_PANEL]</td></tr>
-<tr class="separator:aab223df73a9032c4d020d983cf0e4be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d400fbc22b61f5cbfda417539809b63"><td class="memItemLeft" align="right" valign="top"><a id="a6d400fbc22b61f5cbfda417539809b63"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FontLen</b></td></tr>
-<tr class="separator:a6d400fbc22b61f5cbfda417539809b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aa9f92ad298afbfe5633f939574a171"><td class="memItemLeft" align="right" valign="top"><a id="a8aa9f92ad298afbfe5633f939574a171"></a>
-<a class="el" href="../../dc/d25/a10046.html">LEDMXFONT_BITMAP</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><b>pFont</b></td></tr>
-<tr class="separator:a8aa9f92ad298afbfe5633f939574a171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d2cac018329b4f20298f1c3b289a1c"><td class="memItemLeft" align="right" valign="top"><a id="af6d2cac018329b4f20298f1c3b289a1c"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>pIODev</b></td></tr>
-<tr class="separator:af6d2cac018329b4f20298f1c3b289a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653125ebb409e36aad8fcad663d97245"><td class="memItemLeft" ><a id="a653125ebb409e36aad8fcad663d97245"></a>
+union {</td></tr>
+<tr class="memitem:ab9cbb23bc46d538e7bb72ceb9e19bdbe"><td class="memItemLeft" >
+&#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="../../da/d8a/a10038.html#a40fd0a59d19d0dd24807f3ed99dc5e75">Vers</a></td></tr>
+<tr class="memdesc:ab9cbb23bc46d538e7bb72ceb9e19bdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verion number 0xMMmm, MM = Major, mm = minor (MM.mm) <br /></td></tr>
+<tr class="separator:ab9cbb23bc46d538e7bb72ceb9e19bdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a69d3d37db645a2b3bd273c9a32b47"><td class="memItemLeft" ><a id="a06a69d3d37db645a2b3bd273c9a32b47"></a>
+&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:adca13ffdf7de9fbaa766885876e7bb8a"><td class="memItemLeft" >
+&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;<a class="el" href="../../da/d8a/a10038.html#a8af14efaeb7bc8130ce90f0a097afae8">Minor</a>:8</td></tr>
+<tr class="memdesc:adca13ffdf7de9fbaa766885876e7bb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version major. <br /></td></tr>
+<tr class="separator:adca13ffdf7de9fbaa766885876e7bb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9bd95793d2a83987725bf3afbfbe9d"><td class="memItemLeft" >
+&#160;&#160;&#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;<a class="el" href="../../da/d8a/a10038.html#a9543a350f654beba85fa242c725f96ab">Major</a>:8</td></tr>
+<tr class="memdesc:afb9bd95793d2a83987725bf3afbfbe9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version minor. <br /></td></tr>
+<tr class="separator:afb9bd95793d2a83987725bf3afbfbe9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a69d3d37db645a2b3bd273c9a32b47"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a06a69d3d37db645a2b3bd273c9a32b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653125ebb409e36aad8fcad663d97245"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a653125ebb409e36aad8fcad663d97245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a610ef2446c63520a05f84ca673565355"><td class="memItemLeft" align="right" valign="top"><a id="a610ef2446c63520a05f84ca673565355"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8a/a10038.html#a610ef2446c63520a05f84ca673565355">SubVers</a></td></tr>
+<tr class="memdesc:a610ef2446c63520a05f84ca673565355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subversion. <br /></td></tr>
+<tr class="separator:a610ef2446c63520a05f84ca673565355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d149b923ecef984a9d2f48ed6698eb3"><td class="memItemLeft" align="right" valign="top"><a id="a0d149b923ecef984a9d2f48ed6698eb3"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8a/a10038.html#a0d149b923ecef984a9d2f48ed6698eb3">Build</a></td></tr>
+<tr class="memdesc:a0d149b923ecef984a9d2f48ed6698eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build number. <br /></td></tr>
+<tr class="separator:a0d149b923ecef984a9d2f48ed6698eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d61/a02474_source.html#l00101">101</a> of file <a class="el" href="../../d5/d61/a02474_source.html">ledmx.h</a>.</p>
+<div class="textblock"><p>Structure defining software version.</p>
+<p>Version number MM.mm.ssss.bbbbbbbb<br />
+Where MM = Major, mm = minor, ssss = Subversion, bbbbbbbb = Build number </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d35/a02468_source.html#l00081">81</a> of file <a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/miscdev/<a class="el" href="../../d5/d61/a02474_source.html">ledmx.h</a></li>
+<li>include/<a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../da/d8a/a10038.html">LEDMXDEV</a></li>
+    <li class="navelem"><a class="el" href="../../da/d8a/a10038.html">VERS</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

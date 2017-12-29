@@ -1,12 +1,11 @@
 var a09994 =
 [
-    [ "FatFS", "de/dad/a09994.html#a9c74b5778e2bd668632e74815bf87673", null ],
-    [ "~FatFS", "de/dad/a09994.html#a66a817d4f2f84f79b694c490d8de8282", null ],
-    [ "Close", "de/dad/a09994.html#a587698ea3f70f81dfff6124c2f6c975b", null ],
-    [ "ClusToSect", "de/dad/a09994.html#a3c178373430dff5424ff30a801573a34", null ],
-    [ "Find", "de/dad/a09994.html#a796310a282ae53f9792a4e248c9a17e6", null ],
-    [ "Init", "de/dad/a09994.html#aa835902c4c87784f2d51138617e11986", null ],
-    [ "Open", "de/dad/a09994.html#abd041364ec5aea11ae01396e94475510", null ],
-    [ "Read", "de/dad/a09994.html#a619bc03d66a5d6d09db2946a13733de5", null ],
-    [ "Write", "de/dad/a09994.html#a75c525205f5b0d543e3fbe18c4c8fa31", null ]
+    [ "Attr", "de/dad/a09994.html#ad3b9b26c8c8c2f72ceae310f2ccc531c", null ],
+    [ "Chksum", "de/dad/a09994.html#a35b56d4f7e311f455c17c0d24d786d54", null ],
+    [ "FstClusLO", "de/dad/a09994.html#a251b1ed0592da621bc6ff23942339c30", null ],
+    [ "Name1", "de/dad/a09994.html#a9e6316e4e7ea4e430abd5bfa24793745", null ],
+    [ "Name2", "de/dad/a09994.html#a0b885a19269b5fe0dfa29d8a820fec1b", null ],
+    [ "Name3", "de/dad/a09994.html#abadecfc0276224ae0f1e32998ccad7c3", null ],
+    [ "Ord", "de/dad/a09994.html#a9e256ddebaaba2b401e0fd363102bb6a", null ],
+    [ "Type", "de/dad/a09994.html#a2902981ca34c278ddae0cd48f364f2b6", null ]
 ];

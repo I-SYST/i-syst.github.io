@@ -1,9 +1,11 @@
 var a09158 =
 [
-    [ "PCOR", "d2/dd7/a09158.html#a34fb9ec4faa6844853bcf05c48cceb4a", null ],
-    [ "PDDR", "d2/dd7/a09158.html#ad3b41ef02e6bfbe52a8459b45c3e3559", null ],
-    [ "PDIR", "d2/dd7/a09158.html#a3ee5e535bc4b3d1bd61cd9a853173d60", null ],
-    [ "PDOR", "d2/dd7/a09158.html#a7687ed151bb22b61df62c1161a7ea041", null ],
-    [ "PSOR", "d2/dd7/a09158.html#a51987694e33ef0a0d79e45f27621767c", null ],
-    [ "PTOR", "d2/dd7/a09158.html#ac4d469435865de374da0405520c9f524", null ]
+    [ "DAR", "d2/dd7/a09158.html#adbc7cbe9425704ce98e9d8485ff2a555", null ],
+    [ "DCR", "d2/dd7/a09158.html#afa67688eee65935f79df815d47c7e400", null ],
+    [ "DMA", "d2/dd7/a09158.html#a42f78e278fc6d1ae6332fe2e255e81d2", null ],
+    [ "DMA_DSR_ACCESS8BIT", "d2/dd7/a09158.html#a7a8d8246152374cdfdba0b893d0410bf", null ],
+    [ "DSR", "d2/dd7/a09158.html#a7e5029eae45531c7e4f42c65fb3eb823", null ],
+    [ "DSR_BCR", "d2/dd7/a09158.html#af4baee4fdddfd3bea47a776541500832", null ],
+    [ "RESERVED_0", "d2/dd7/a09158.html#a8049b5654491886d2ac76dd2a8d33b9d", null ],
+    [ "SAR", "d2/dd7/a09158.html#af772e8c5ccda72b23f6460494c12857a", null ]
 ];

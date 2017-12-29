@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: UsbHidDevice_Impl Class Reference</title>
+<title>EHAL: UsbHidDevice Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -84,140 +84,85 @@ $(document).ready(function(){initNavTree('d9/d14/a10334.html','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d6/d32/a10331.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">UsbHidDevice_Impl Class Reference</div>  </div>
+<div class="title">UsbHidDevice Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for UsbHidDevice_Impl:</div>
+Inheritance diagram for UsbHidDevice:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d9/d14/a10334.png" usemap="#UsbHidDevice_5FImpl_map" alt=""/>
-  <map id="UsbHidDevice_5FImpl_map" name="UsbHidDevice_5FImpl_map">
-<area href="../../de/d84/a10314.html" alt="UsbHidDevice" shape="rect" coords="0,0,121,24"/>
-<area href="../../de/d84/a10314.html" alt="UsbHidDevice" shape="rect" coords="131,0,252,24"/>
+  <img src="../../d9/d14/a10334.png" usemap="#UsbHidDevice_map" alt=""/>
+  <map id="UsbHidDevice_map" name="UsbHidDevice_map">
+<area href="../../d2/d1f/a10354.html" alt="UsbHidDevice_Impl" shape="rect" coords="0,56,121,80"/>
+<area href="../../d8/dc3/a10374.html" title="USB HID device class implementation on Windows. " alt="UsbHidDeviceWin" shape="rect" coords="131,56,252,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac5ef705322d2366ffb9af9570a4a9be0"><td class="memItemLeft" align="right" valign="top"><a id="ac5ef705322d2366ffb9af9570a4a9be0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>UsbHidDevice_Impl</b> (IOHIDDeviceRef HidDev=NULL)</td></tr>
-<tr class="separator:ac5ef705322d2366ffb9af9570a4a9be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a036f63f31c10e3bd4dff44f7d014b61a"><td class="memItemLeft" align="right" valign="top"><a id="a036f63f31c10e3bd4dff44f7d014b61a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ReadDeviceInfo</b> ()</td></tr>
-<tr class="separator:a036f63f31c10e3bd4dff44f7d014b61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a955526f74610479e699e45d48ac653"><td class="memItemLeft" align="right" valign="top"><a id="a3a955526f74610479e699e45d48ac653"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (IOHIDDeviceRef HidDev)</td></tr>
-<tr class="separator:a3a955526f74610479e699e45d48ac653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1265cdd0414ccefc7f70d32a1e8a9f0"><td class="memItemLeft" align="right" valign="top"><a id="ab1265cdd0414ccefc7f70d32a1e8a9f0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>GetDeviceCapabilities</b> ()</td></tr>
-<tr class="separator:ab1265cdd0414ccefc7f70d32a1e8a9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc734b37fc148580d8b540572820ca7"><td class="memItemLeft" align="right" valign="top"><a id="afbc734b37fc148580d8b540572820ca7"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize, bool CtrlTrans=true)</td></tr>
-<tr class="separator:afbc734b37fc148580d8b540572820ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a673a5f2c70dc6a5f2ed12ae9c8bd001a"><td class="memItemLeft" align="right" valign="top"><a id="a673a5f2c70dc6a5f2ed12ae9c8bd001a"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteOutputReport</b> (int RepNo, uint8_t *pBuf, uint32_t Bufsize, bool CtrlTrans=true)</td></tr>
-<tr class="separator:a673a5f2c70dc6a5f2ed12ae9c8bd001a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a146f06c34a3bf79b7c06788039591ff5"><td class="memItemLeft" align="right" valign="top"><a id="a146f06c34a3bf79b7c06788039591ff5"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a146f06c34a3bf79b7c06788039591ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a907eaa70af2aa4af60a2e7db31a127f6"><td class="memItemLeft" align="right" valign="top"><a id="a907eaa70af2aa4af60a2e7db31a127f6"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a907eaa70af2aa4af60a2e7db31a127f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486c58e8a8d8b5cae4a9a4714c685524"><td class="memItemLeft" align="right" valign="top"><a id="a486c58e8a8d8b5cae4a9a4714c685524"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::string &amp;sn)</td></tr>
-<tr class="separator:a486c58e8a8d8b5cae4a9a4714c685524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9434df5ac26aa0669cdfd434642ce550"><td class="memItemLeft" align="right" valign="top"><a id="a9434df5ac26aa0669cdfd434642ce550"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a9434df5ac26aa0669cdfd434642ce550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c677a8485250768d0eff4e9e7c9ab7"><td class="memItemLeft" align="right" valign="top"><a id="a57c677a8485250768d0eff4e9e7c9ab7"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WaitResponse</b> (int TimeOutSec)</td></tr>
-<tr class="separator:a57c677a8485250768d0eff4e9e7c9ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f6d4409e223e03ac6a084e27c07a427"><td class="memItemLeft" align="right" valign="top"><a id="a8f6d4409e223e03ac6a084e27c07a427"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (HANDLE hDev)</td></tr>
-<tr class="separator:a8f6d4409e223e03ac6a084e27c07a427"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9af44f561854e0ebe2c6b5cee16d146"><td class="memItemLeft" align="right" valign="top"><a id="ab9af44f561854e0ebe2c6b5cee16d146"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterWindowNotifications</b> (HWND hWnd)</td></tr>
-<tr class="separator:ab9af44f561854e0ebe2c6b5cee16d146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81c5469b85ffb314ce7b5ce62b6f837d"><td class="memItemLeft" align="right" valign="top"><a id="a81c5469b85ffb314ce7b5ce62b6f837d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterServiceNotifications</b> (SERVICE_STATUS_HANDLE hService)</td></tr>
-<tr class="separator:a81c5469b85ffb314ce7b5ce62b6f837d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64dc6398ffd6c2c6ecc3c12bcc2db2ad"><td class="memItemLeft" align="right" valign="top"><a id="a64dc6398ffd6c2c6ecc3c12bcc2db2ad"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetDeviceCapabilities</b> ()</td></tr>
-<tr class="separator:a64dc6398ffd6c2c6ecc3c12bcc2db2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78ce4fc61558d099504894f974183fbb"><td class="memItemLeft" align="right" valign="top"><a id="a78ce4fc61558d099504894f974183fbb"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize, bool CtrlTrans=true)</td></tr>
-<tr class="separator:a78ce4fc61558d099504894f974183fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f62cdf49094db8e8e342d30a76c1c9"><td class="memItemLeft" align="right" valign="top"><a id="a66f62cdf49094db8e8e342d30a76c1c9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteOutputReport</b> (int RepNo, uint8_t *pBuf, uint32_t Bufsize, bool CtrlTrans=true)</td></tr>
-<tr class="separator:a66f62cdf49094db8e8e342d30a76c1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e78d75b6362c64b0aaefa902d07992"><td class="memItemLeft" align="right" valign="top"><a id="a71e78d75b6362c64b0aaefa902d07992"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a71e78d75b6362c64b0aaefa902d07992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b26a03fa46e4a3b0b98bcfec80aed6c"><td class="memItemLeft" align="right" valign="top"><a id="a5b26a03fa46e4a3b0b98bcfec80aed6c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a5b26a03fa46e4a3b0b98bcfec80aed6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355663a00b47a2b41104f83361346912"><td class="memItemLeft" align="right" valign="top"><a id="a355663a00b47a2b41104f83361346912"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>WaitResponse</b> (int TimeoutSec)</td></tr>
-<tr class="separator:a355663a00b47a2b41104f83361346912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40cadafc2cf5ba9a77110e6fd9a1c8e4"><td class="memItemLeft" align="right" valign="top"><a id="a40cadafc2cf5ba9a77110e6fd9a1c8e4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::wstring &amp;sn)</td></tr>
-<tr class="separator:a40cadafc2cf5ba9a77110e6fd9a1c8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6686cd86249307fbd64cec4b75a2c1c0"><td class="memItemLeft" align="right" valign="top"><a id="a6686cd86249307fbd64cec4b75a2c1c0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::string &amp;sn)</td></tr>
-<tr class="separator:a6686cd86249307fbd64cec4b75a2c1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a043b010714b9435a32d6edca4e16ddf1"><td class="memItemLeft" align="right" valign="top"><a id="a043b010714b9435a32d6edca4e16ddf1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetProductString</b> (std::wstring &amp;pd)</td></tr>
-<tr class="separator:a043b010714b9435a32d6edca4e16ddf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9434df5ac26aa0669cdfd434642ce550"><td class="memItemLeft" align="right" valign="top"><a id="a9434df5ac26aa0669cdfd434642ce550"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)</td></tr>
-<tr class="separator:a9434df5ac26aa0669cdfd434642ce550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a3002ff41fe55a575781274bc21cdf"><td class="memItemLeft" align="right" valign="top"><a id="ab6a3002ff41fe55a575781274bc21cdf"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize, bool CtrlTrans=true)=0</td></tr>
+<tr class="separator:ab6a3002ff41fe55a575781274bc21cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c895fd73accf8e7cdc2039d5944854"><td class="memItemLeft" align="right" valign="top"><a id="ae8c895fd73accf8e7cdc2039d5944854"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteOutputReport</b> (int RepNo, uint8_t *pBuf, uint32_t Bufsize, bool CtrlTrans=true)=0</td></tr>
+<tr class="separator:ae8c895fd73accf8e7cdc2039d5944854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b56c03c1c4715b706d22f81be7086a0"><td class="memItemLeft" align="right" valign="top"><a id="a9b56c03c1c4715b706d22f81be7086a0"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:a9b56c03c1c4715b706d22f81be7086a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memItemLeft" align="right" valign="top"><a id="aafd172ec69b29c6a5dfa961e17415a1a"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memItemLeft" align="right" valign="top"><a id="ae3f9fe1c42a9ee7fc614d2ae3fb54575"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::string &amp;sn)=0</td></tr>
+<tr class="separator:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dae75a0e5965c5401ddb1bee593b88"><td class="memItemLeft" align="right" valign="top"><a id="a31dae75a0e5965c5401ddb1bee593b88"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:a31dae75a0e5965c5401ddb1bee593b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memItemLeft" align="right" valign="top"><a id="af01f14929114d40d6ed2b89d4b2ebda9"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WaitResponse</b> (int TimeOutSec)=0</td></tr>
+<tr class="separator:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac0439f53f8edff8b0c819673ef653a5a"><td class="memItemLeft" align="right" valign="top"><a id="ac0439f53f8edff8b0c819673ef653a5a"></a>
+static <a class="el" href="../../d9/d14/a10334.html">UsbHidDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Create</b> ()</td></tr>
+<tr class="separator:ac0439f53f8edff8b0c819673ef653a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a036f63f31c10e3bd4dff44f7d014b61a"><td class="memItemLeft" align="right" valign="top"><a id="a036f63f31c10e3bd4dff44f7d014b61a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ReadDeviceInfo</b> ()</td></tr>
-<tr class="separator:a036f63f31c10e3bd4dff44f7d014b61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e42bdf135bf271049529f74bd6741b"><td class="memItemLeft" align="right" valign="top"><a id="a36e42bdf135bf271049529f74bd6741b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ReadDeviceInfo</b> ()=0</td></tr>
+<tr class="separator:a36e42bdf135bf271049529f74bd6741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:abd31060f61c498b9c2096c4d886ca37a"><td class="memItemLeft" align="right" valign="top"><a id="abd31060f61c498b9c2096c4d886ca37a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>IOHIDDeviceReportCallback</b> (void *inContext, IOReturn inResult, void *inSender, IOHIDReportType inType, uint32_t inReportID, uint8_t *inReport, CFIndex InReportLength)</td></tr>
-<tr class="separator:abd31060f61c498b9c2096c4d886ca37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a10314"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a10314')"><img src="../../closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="../../de/d84/a10314.html">UsbHidDevice</a></td></tr>
-<tr class="memitem:ac0439f53f8edff8b0c819673ef653a5a inherit pub_static_methods_a10314"><td class="memItemLeft" align="right" valign="top"><a id="ac0439f53f8edff8b0c819673ef653a5a"></a>
-static <a class="el" href="../../de/d84/a10314.html">UsbHidDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Create</b> ()</td></tr>
-<tr class="separator:ac0439f53f8edff8b0c819673ef653a5a inherit pub_static_methods_a10314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a10314"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a10314')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../de/d84/a10314.html">UsbHidDevice</a></td></tr>
-<tr class="memitem:a7c1b49acb269d5c71d9157ce974fd4a9 inherit pro_attribs_a10314"><td class="memItemLeft" align="right" valign="top"><a id="a7c1b49acb269d5c71d9157ce974fd4a9"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memItemLeft" align="right" valign="top"><a id="a7c1b49acb269d5c71d9157ce974fd4a9"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxInRepSize</b></td></tr>
-<tr class="separator:a7c1b49acb269d5c71d9157ce974fd4a9 inherit pro_attribs_a10314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6aac94356bb91a7343a74a000bd19f8 inherit pro_attribs_a10314"><td class="memItemLeft" align="right" valign="top"><a id="ad6aac94356bb91a7343a74a000bd19f8"></a>
+<tr class="separator:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6aac94356bb91a7343a74a000bd19f8"><td class="memItemLeft" align="right" valign="top"><a id="ad6aac94356bb91a7343a74a000bd19f8"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxOutRepSize</b></td></tr>
-<tr class="separator:ad6aac94356bb91a7343a74a000bd19f8 inherit pro_attribs_a10314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a8201617b375a7b6cd02a1f0ec8a03b inherit pro_attribs_a10314"><td class="memItemLeft" align="right" valign="top"><a id="a1a8201617b375a7b6cd02a1f0ec8a03b"></a>
+<tr class="separator:ad6aac94356bb91a7343a74a000bd19f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memItemLeft" align="right" valign="top"><a id="a1a8201617b375a7b6cd02a1f0ec8a03b"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxFeatRepSize</b></td></tr>
-<tr class="separator:a1a8201617b375a7b6cd02a1f0ec8a03b inherit pro_attribs_a10314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d36/a10537_source.html#l00043">43</a> of file <a class="el" href="../../d7/d36/a10537_source.html">usb_hidhost_impl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d23/a02558_source.html#l00043">43</a> of file <a class="el" href="../../df/d23/a02558_source.html">usb_hidhost.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>OSX/EHAL/include/<a class="el" href="../../d7/d36/a10537_source.html">usb_hidhost_impl.h</a></li>
+<li>include/usb/<a class="el" href="../../df/d23/a02558_source.html">usb_hidhost.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d14/a10334.html">UsbHidDevice_Impl</a></li>
+    <li class="navelem"><a class="el" href="../../d9/d14/a10334.html">UsbHidDevice</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

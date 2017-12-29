@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __GyroSensor_Config Struct Reference</title>
+<title>EHAL: __GasSensor_Data Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,37 +86,43 @@ $(document).ready(function(){initNavTree('d1/dab/a10126.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../de/d7f/a10123.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__GyroSensor_Config Struct Reference</div>  </div>
+<div class="title">__GasSensor_Data Struct Reference<div class="ingroups"><a class="el" href="../../db/d69/a08585.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Gas sensor data.  
+ <a href="../../d1/dab/a10126.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a82c118645fc0a593a15e0ed6e698a3f8"><td class="memItemLeft" align="right" valign="top"><a id="a82c118645fc0a593a15e0ed6e698a3f8"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>DevAddr</b></td></tr>
-<tr class="separator:a82c118645fc0a593a15e0ed6e698a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ccaf76cafad621e627cfb792a9e918"><td class="memItemLeft" align="right" valign="top"><a id="ab8ccaf76cafad621e627cfb792a9e918"></a>
-<a class="el" href="../../d3/d4a/a08566.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OpMode</b></td></tr>
-<tr class="separator:ab8ccaf76cafad621e627cfb792a9e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5beb1abb9d6a8af6d180f3e0069f36ba"><td class="memItemLeft" align="right" valign="top"><a id="a5beb1abb9d6a8af6d180f3e0069f36ba"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Freq</b></td></tr>
-<tr class="separator:a5beb1abb9d6a8af6d180f3e0069f36ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2652a938108a4cf8f2bfba6a32d6d0a"><td class="memItemLeft" align="right" valign="top"><a id="af2652a938108a4cf8f2bfba6a32d6d0a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bInter</b></td></tr>
-<tr class="separator:af2652a938108a4cf8f2bfba6a32d6d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1e4da145bbba372bcb67803ef69cdd"><td class="memItemLeft" align="right" valign="top"><a id="a5f1e4da145bbba372bcb67803ef69cdd"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/a10126.html#a5f1e4da145bbba372bcb67803ef69cdd">Timestamp</a></td></tr>
+<tr class="memdesc:a5f1e4da145bbba372bcb67803ef69cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time stamp in msec. <br /></td></tr>
+<tr class="separator:a5f1e4da145bbba372bcb67803ef69cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcee3d25d7c16ccfdc67792a569cd4a"><td class="memItemLeft" align="right" valign="top"><a id="a4dcee3d25d7c16ccfdc67792a569cd4a"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/a10126.html#a4dcee3d25d7c16ccfdc67792a569cd4a">GasRes</a> [<a class="el" href="../../db/d69/a08585.html#ga5f3cc94e1e41117008af2975ebe3128b">GASSENSOR_MEASUREMENT_POINT_MAX</a>]</td></tr>
+<tr class="memdesc:a4dcee3d25d7c16ccfdc67792a569cd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gas resistance value. <br /></td></tr>
+<tr class="separator:a4dcee3d25d7c16ccfdc67792a569cd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0f1cb35a6b63ff9872efd59b1676bd"><td class="memItemLeft" align="right" valign="top"><a id="a1a0f1cb35a6b63ff9872efd59b1676bd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/a10126.html#a1a0f1cb35a6b63ff9872efd59b1676bd">MeasIdx</a></td></tr>
+<tr class="memdesc:a1a0f1cb35a6b63ff9872efd59b1676bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Latest measure point index. <br /></td></tr>
+<tr class="separator:a1a0f1cb35a6b63ff9872efd59b1676bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/df4/a02510_source.html#l00052">52</a> of file <a class="el" href="../../dd/df4/a02510_source.html">gyro_sensor.h</a>.</p>
+<div class="textblock"><p>Gas sensor data. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dbd/a02507_source.html#l00056">56</a> of file <a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/sensors/<a class="el" href="../../dd/df4/a02510_source.html">gyro_sensor.h</a></li>
+<li>include/sensors/<a class="el" href="../../de/dbd/a02507_source.html">gas_sensor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/dab/a10126.html">__GyroSensor_Config</a></li>
+    <li class="navelem"><a class="el" href="../../d1/dab/a10126.html">__GasSensor_Data</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: FATFS_FD Struct Reference</title>
+<title>EHAL: __FATFS_ShortName Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,32 +86,96 @@ $(document).ready(function(){initNavTree('d2/d97/a09990.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../db/dea/a09987.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">FATFS_FD Struct Reference</div>  </div>
+<div class="title">__FATFS_ShortName Struct Reference<div class="ingroups"><a class="el" href="../../d2/d78/a08584.html">Storage</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7d569d7ae9fd2ba7220545782f5d1839"><td class="memItemLeft" align="right" valign="top"><a id="a7d569d7ae9fd2ba7220545782f5d1839"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>pFs</b></td></tr>
-<tr class="separator:a7d569d7ae9fd2ba7220545782f5d1839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3656ae82d398997d4549e6fb50dfbcdd"><td class="memItemLeft" align="right" valign="top"><a id="a3656ae82d398997d4549e6fb50dfbcdd"></a>
-<a class="el" href="../../d9/dd0/a10198.html">DIR</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DirEntry</b></td></tr>
-<tr class="separator:a3656ae82d398997d4549e6fb50dfbcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d202335942665f1f54c2951ba7831a9"><td class="memItemLeft" align="right" valign="top"><a id="a8d202335942665f1f54c2951ba7831a9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>CurClus</b></td></tr>
-<tr class="separator:a8d202335942665f1f54c2951ba7831a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5515155fe3b01574ebdc93b19340cbde"><td class="memItemLeft" align="right" valign="top"><a id="a5515155fe3b01574ebdc93b19340cbde"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SectIdx</b></td></tr>
-<tr class="separator:a5515155fe3b01574ebdc93b19340cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6de1045933b6027733f04ad6ae95ed69"><td class="memItemLeft" align="right" valign="top"><a id="a6de1045933b6027733f04ad6ae95ed69"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SectOff</b></td></tr>
-<tr class="separator:a6de1045933b6027733f04ad6ae95ed69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af646f910041a1ae99c7e32e3e0870469"><td class="memItemLeft" align="right" valign="top"><a id="af646f910041a1ae99c7e32e3e0870469"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#af646f910041a1ae99c7e32e3e0870469">Name</a> [11]</td></tr>
+<tr class="memdesc:af646f910041a1ae99c7e32e3e0870469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Short name. <br /></td></tr>
+<tr class="separator:af646f910041a1ae99c7e32e3e0870469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c2da9636f4cd9ea6ffad2358ccc2d9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a57c2da9636f4cd9ea6ffad2358ccc2d9">Attr</a></td></tr>
+<tr class="separator:a57c2da9636f4cd9ea6ffad2358ccc2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249ea3fec73517d924105e4e3f023201"><td class="memItemLeft" align="right" valign="top"><a id="a249ea3fec73517d924105e4e3f023201"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a249ea3fec73517d924105e4e3f023201">NTRes</a></td></tr>
+<tr class="memdesc:a249ea3fec73517d924105e4e3f023201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved for use by Windows NT. Set value to 0. <br /></td></tr>
+<tr class="separator:a249ea3fec73517d924105e4e3f023201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbc8367d7797260a2d469a37228aedf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a4dbc8367d7797260a2d469a37228aedf">CrtTimeTenth</a></td></tr>
+<tr class="separator:a4dbc8367d7797260a2d469a37228aedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c21d4e30b792e97572f8a00963ce56a"><td class="memItemLeft" align="right" valign="top"><a id="a5c21d4e30b792e97572f8a00963ce56a"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a5c21d4e30b792e97572f8a00963ce56a">CrtTime</a></td></tr>
+<tr class="memdesc:a5c21d4e30b792e97572f8a00963ce56a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time file was created. <br /></td></tr>
+<tr class="separator:a5c21d4e30b792e97572f8a00963ce56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cf14dfb1fe6fb2eba1fd25b12a8572"><td class="memItemLeft" align="right" valign="top"><a id="a63cf14dfb1fe6fb2eba1fd25b12a8572"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a63cf14dfb1fe6fb2eba1fd25b12a8572">CrtDate</a></td></tr>
+<tr class="memdesc:a63cf14dfb1fe6fb2eba1fd25b12a8572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Date file was created. <br /></td></tr>
+<tr class="separator:a63cf14dfb1fe6fb2eba1fd25b12a8572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33dfce24f6b7384f20b15f931b48d83a"><td class="memItemLeft" align="right" valign="top"><a id="a33dfce24f6b7384f20b15f931b48d83a"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a33dfce24f6b7384f20b15f931b48d83a">lstAccDate</a></td></tr>
+<tr class="memdesc:a33dfce24f6b7384f20b15f931b48d83a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last access date. Note that there is no last access time, only a date. <br /></td></tr>
+<tr class="separator:a33dfce24f6b7384f20b15f931b48d83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1439f715e71299a1dd3e6f12af5fe4b"><td class="memItemLeft" align="right" valign="top"><a id="aa1439f715e71299a1dd3e6f12af5fe4b"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#aa1439f715e71299a1dd3e6f12af5fe4b">FstClusHI</a></td></tr>
+<tr class="memdesc:aa1439f715e71299a1dd3e6f12af5fe4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">High word of this entry’s first cluster number (always 0 for a FAT12 or FAT16 volume). <br /></td></tr>
+<tr class="separator:aa1439f715e71299a1dd3e6f12af5fe4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5daacdae492857b14f8c9c7a03966130"><td class="memItemLeft" align="right" valign="top"><a id="a5daacdae492857b14f8c9c7a03966130"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a5daacdae492857b14f8c9c7a03966130">WrtTime</a></td></tr>
+<tr class="memdesc:a5daacdae492857b14f8c9c7a03966130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time of last write. Note that file creation is considered a write. <br /></td></tr>
+<tr class="separator:a5daacdae492857b14f8c9c7a03966130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5ad4e151264cce3e1df559ea24b823"><td class="memItemLeft" align="right" valign="top"><a id="a4e5ad4e151264cce3e1df559ea24b823"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#a4e5ad4e151264cce3e1df559ea24b823">WrtDate</a></td></tr>
+<tr class="memdesc:a4e5ad4e151264cce3e1df559ea24b823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Date of last write. Note that file creation is considered a write. <br /></td></tr>
+<tr class="separator:a4e5ad4e151264cce3e1df559ea24b823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9bcbbb9aaba7455bfb2a65ce0ad9ab"><td class="memItemLeft" align="right" valign="top"><a id="aec9bcbbb9aaba7455bfb2a65ce0ad9ab"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#aec9bcbbb9aaba7455bfb2a65ce0ad9ab">FstClusLO</a></td></tr>
+<tr class="memdesc:aec9bcbbb9aaba7455bfb2a65ce0ad9ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Low word of this entry’s first cluster number. <br /></td></tr>
+<tr class="separator:aec9bcbbb9aaba7455bfb2a65ce0ad9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af009e4b813fb250c203887caf54c0be2"><td class="memItemLeft" align="right" valign="top"><a id="af009e4b813fb250c203887caf54c0be2"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html#af009e4b813fb250c203887caf54c0be2">FileSize</a></td></tr>
+<tr class="memdesc:af009e4b813fb250c203887caf54c0be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">32-bit DWORD holding this file’s size in bytes. <br /></td></tr>
+<tr class="separator:af009e4b813fb250c203887caf54c0be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00283">283</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00209">209</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a57c2da9636f4cd9ea6ffad2358ccc2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c2da9636f4cd9ea6ffad2358ccc2d9">&#9670;&nbsp;</a></span>Attr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __FATFS_ShortName::Attr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>File attributes: 0x01 - ATTR_READ_ONLY 0x02 - ATTR_HIDDEN 0x04 - ATTR_SYSTEM 0x08 - ATTR_VOLUME_ID 0x10 - ATTR_DIRECTORY 0x20 - ATTR_ARCHIVE ATTR_LONG_NAME is defined as follows: (ATTR_READ_ONLY | ATTR_HIDDEN | ATTR_SYSTEM | ATTR_VOLUME_ID) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00211">211</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
+
+</div>
+</div>
+<a id="a4dbc8367d7797260a2d469a37228aedf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dbc8367d7797260a2d469a37228aedf">&#9670;&nbsp;</a></span>CrtTimeTenth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __FATFS_ShortName::CrtTimeTenth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Millisecond stamp at file creation time. This field actually contains a count of tenths of a second. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00221">221</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/<a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -119,7 +183,7 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SectOff</b></td><
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/d97/a09990.html">FATFS_FD</a></li>
+    <li class="navelem"><a class="el" href="../../d2/d97/a09990.html">__FATFS_ShortName</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

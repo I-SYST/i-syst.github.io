@@ -1,13 +1,23 @@
 var a09434 =
 [
-    [ "DFU_Detach", "db/d55/a09434.html#a809a176d5e6c34a9e5fdcf0d0edc7eb5", null ],
-    [ "DFU_Done", "db/d55/a09434.html#a589965bd4374a35f7b33c0319d638bf7", null ],
-    [ "DFU_Ep0_Hdlr", "db/d55/a09434.html#aea0473c1958121a5dada0dc014bd115a", null ],
-    [ "DFU_Read", "db/d55/a09434.html#a33adee815e7a4730394519a93879c68a", null ],
-    [ "DFU_Write", "db/d55/a09434.html#a88a170153b9d3d186a7fe4d4106eacc4", null ],
-    [ "intf_desc", "db/d55/a09434.html#a2e5f31b4c872dad5f481796b42755330", null ],
-    [ "mem_base", "db/d55/a09434.html#a492c4cb17874d0c51ed7c7c0d01d05c7", null ],
-    [ "mem_size", "db/d55/a09434.html#ad80d6de873114d4cf494c7e542d37cd6", null ],
-    [ "pad", "db/d55/a09434.html#a4c9ac57ce8fe7033b86f201de0c62ae1", null ],
-    [ "wTransferSize", "db/d55/a09434.html#a13622f03c7523aa22d65e52d1606757b", null ]
+    [ "CIC_GetRequest", "db/d55/a09434.html#aadc2d449632161791e28171ccc57c40c", null ],
+    [ "CIC_SetRequest", "db/d55/a09434.html#a197cf0338ec04d3f7b46ad017876efef", null ],
+    [ "cif_num", "db/d55/a09434.html#aa5d5eb3fb65c474006f34723ad725c06", null ],
+    [ "ClrCommFeature", "db/d55/a09434.html#aead1f9bd0e1282afa883b3579d806b06", null ],
+    [ "dif_num", "db/d55/a09434.html#adb5bf5a89634243f9beddb8176974ea9", null ],
+    [ "epin_num", "db/d55/a09434.html#acf5d614d555b429cdf3ca84fded6dd4d", null ],
+    [ "epint_num", "db/d55/a09434.html#a8e5c597bcd2ce007b4e1cc86a4db5525", null ],
+    [ "epout_num", "db/d55/a09434.html#a76bbee6f8bb028eadf5e323492dc5324", null ],
+    [ "GetCommFeature", "db/d55/a09434.html#a7df6e0040ba72d12b0e0ade73c7ac1cd", null ],
+    [ "GetEncpsResp", "db/d55/a09434.html#a6a012165812fb63cdbd60155364c8e57", null ],
+    [ "line_coding", "db/d55/a09434.html#a71239a2408cdf0ab9b28dcf43d7f848c", null ],
+    [ "notice_buf", "db/d55/a09434.html#a4dc6bf5a034d9067bf5d23cd7bf2a75a", null ],
+    [ "pad", "db/d55/a09434.html#a15a516404b6edaca7abf70b1ebd7c9d9", null ],
+    [ "pad0", "db/d55/a09434.html#a18f4fdcdbd3b54922e3b36fa9036b8a5", null ],
+    [ "pUsbCtrl", "db/d55/a09434.html#ad8be45fcac7215eeb448f727ef4910f6", null ],
+    [ "SendBreak", "db/d55/a09434.html#abde3126a2d95f8e8f82617b2ad32d6ca", null ],
+    [ "SendEncpsCmd", "db/d55/a09434.html#a91820922a47d726829ac30e7dea688a7", null ],
+    [ "SetCommFeature", "db/d55/a09434.html#aa6a0b31da0fcc967103703c5971526c0", null ],
+    [ "SetCtrlLineState", "db/d55/a09434.html#a23ee01e370e0903d5a76ddfd63fb614c", null ],
+    [ "SetLineCode", "db/d55/a09434.html#aeac95ccc98ca3e848166b80fb17c0f8f", null ]
 ];

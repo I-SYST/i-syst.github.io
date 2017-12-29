@@ -1,8 +1,8 @@
 var a10010 =
 [
-    [ "Checksum", "d9/db8/a10010.html#a32a7f16a44b580d040a928361ff66161", null ],
-    [ "Count", "d9/db8/a10010.html#afe0a0003f70ad1501ccc411a34d37fd3", null ],
-    [ "Data", "d9/db8/a10010.html#a74aace5bde187d2333deca55e3dda91d", null ],
-    [ "Offset", "d9/db8/a10010.html#a091fedf1007da6d128f1cd3842fa4f39", null ],
-    [ "Type", "d9/db8/a10010.html#a1fcc1d0b77a87cd4b69e473b1c0cf44c", null ]
+    [ "CurClus", "d9/db8/a10010.html#a8d202335942665f1f54c2951ba7831a9", null ],
+    [ "DirEntry", "d9/db8/a10010.html#a3656ae82d398997d4549e6fb50dfbcdd", null ],
+    [ "pFs", "d9/db8/a10010.html#a7d569d7ae9fd2ba7220545782f5d1839", null ],
+    [ "SectIdx", "d9/db8/a10010.html#a5515155fe3b01574ebdc93b19340cbde", null ],
+    [ "SectOff", "d9/db8/a10010.html#a6de1045933b6027733f04ad6ae95ed69", null ]
 ];

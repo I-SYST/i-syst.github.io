@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Backward Compatibility</title>
+<title>EHAL: RTC Peripheral Access Layer</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -82,10 +82,87 @@ $(document).ready(function(){initNavTree('db/de2/a08556.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#groups">Modules</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Backward Compatibility</div>  </div>
+<div class="title">RTC Peripheral Access Layer<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:d7/d7a/a08557"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a08557.html">RTC Register Masks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d59/a09258.html">RTC_Type</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga4265e665d56225412e57a61d87417022"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a08556.html#ga4265e665d56225412e57a61d87417022">RTC_BASE</a>&#160;&#160;&#160;(0x4003D000u)</td></tr>
+<tr class="separator:ga4265e665d56225412e57a61d87417022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5359a088f5d8b20ce74d920e46059304"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a08556.html#ga5359a088f5d8b20ce74d920e46059304">RTC</a>&#160;&#160;&#160;((<a class="el" href="../../d5/d59/a09258.html">RTC_Type</a> *)<a class="el" href="../../db/de2/a08556.html#ga4265e665d56225412e57a61d87417022">RTC_BASE</a>)</td></tr>
+<tr class="separator:ga5359a088f5d8b20ce74d920e46059304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga738e3debaa10128244df5d47fb7634d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a08556.html#ga738e3debaa10128244df5d47fb7634d4">RTC_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../db/de2/a08556.html#ga5359a088f5d8b20ce74d920e46059304">RTC</a> }</td></tr>
+<tr class="separator:ga738e3debaa10128244df5d47fb7634d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga5359a088f5d8b20ce74d920e46059304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5359a088f5d8b20ce74d920e46059304">&#9670;&nbsp;</a></span>RTC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTC&#160;&#160;&#160;((<a class="el" href="../../d5/d59/a09258.html">RTC_Type</a> *)<a class="el" href="../../db/de2/a08556.html#ga4265e665d56225412e57a61d87417022">RTC_BASE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Peripheral RTC base pointer </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02973">2973</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
+<a id="ga4265e665d56225412e57a61d87417022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4265e665d56225412e57a61d87417022">&#9670;&nbsp;</a></span>RTC_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTC_BASE&#160;&#160;&#160;(0x4003D000u)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Peripheral RTC base address </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02971">2971</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
+<a id="ga738e3debaa10128244df5d47fb7634d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga738e3debaa10128244df5d47fb7634d4">&#9670;&nbsp;</a></span>RTC_BASES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTC_BASES&#160;&#160;&#160;{ <a class="el" href="../../db/de2/a08556.html#ga5359a088f5d8b20ce74d920e46059304">RTC</a> }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Array initializer of RTC peripheral base pointers </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02975">2975</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

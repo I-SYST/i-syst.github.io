@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: SMC_Type Struct Reference</title>
+<title>EHAL: PORT_Type Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,7 +86,7 @@ $(document).ready(function(){initNavTree('df/dc1/a09246.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d5/d95/a09243.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SMC_Type Struct Reference<div class="ingroups"><a class="el" href="../../dd/d5b/a08491.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d3/d31/a08542.html">SMC Peripheral Access Layer</a></div></div>  </div>
+<div class="title">PORT_Type Struct Reference<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../df/d7b/a08550.html">PORT Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -94,85 +94,88 @@ $(document).ready(function(){initNavTree('df/dc1/a09246.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aeb1160606f3387d12dadc263eec7b749"><td class="memItemLeft" align="right" valign="top">__IO uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#aeb1160606f3387d12dadc263eec7b749">PMPROT</a></td></tr>
-<tr class="separator:aeb1160606f3387d12dadc263eec7b749"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8623b594bbc8c61e5d223101fc90d97"><td class="memItemLeft" align="right" valign="top">__IO uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#ab8623b594bbc8c61e5d223101fc90d97">PMCTRL</a></td></tr>
-<tr class="separator:ab8623b594bbc8c61e5d223101fc90d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae7ce3860f0e8c664e2e345e8936dbdc"><td class="memItemLeft" align="right" valign="top">__IO uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#aae7ce3860f0e8c664e2e345e8936dbdc">STOPCTRL</a></td></tr>
-<tr class="separator:aae7ce3860f0e8c664e2e345e8936dbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f12c170087f5adb138c07010fc7027"><td class="memItemLeft" align="right" valign="top">__I uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#af4f12c170087f5adb138c07010fc7027">PMSTAT</a></td></tr>
-<tr class="separator:af4f12c170087f5adb138c07010fc7027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff5dc350e7bf1f89668d15e100f1dc5"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#a1ff5dc350e7bf1f89668d15e100f1dc5">PCR</a> [32]</td></tr>
+<tr class="separator:a1ff5dc350e7bf1f89668d15e100f1dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4eae4ee06e554db6797dbbcf67f9655"><td class="memItemLeft" align="right" valign="top">__O uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#ab4eae4ee06e554db6797dbbcf67f9655">GPCLR</a></td></tr>
+<tr class="separator:ab4eae4ee06e554db6797dbbcf67f9655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb92b388adf5799a5a59817ae6cbf7d1"><td class="memItemLeft" align="right" valign="top">__O uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#adb92b388adf5799a5a59817ae6cbf7d1">GPCHR</a></td></tr>
+<tr class="separator:adb92b388adf5799a5a59817ae6cbf7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5d263a42068e10e61f53ab57fe56d4"><td class="memItemLeft" align="right" valign="top"><a id="aeb5d263a42068e10e61f53ab57fe56d4"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED_0</b> [24]</td></tr>
+<tr class="separator:aeb5d263a42068e10e61f53ab57fe56d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20069f4ac88fc12066ba90eea8fcbb58"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/a09246.html#a20069f4ac88fc12066ba90eea8fcbb58">ISFR</a></td></tr>
+<tr class="separator:a20069f4ac88fc12066ba90eea8fcbb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>SMC - Register Layout Typedef </p>
+<div class="textblock"><p>PORT - Register Layout Typedef </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03256">3256</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02587">2587</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab8623b594bbc8c61e5d223101fc90d97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8623b594bbc8c61e5d223101fc90d97">&#9670;&nbsp;</a></span>PMCTRL</h2>
+<a id="adb92b388adf5799a5a59817ae6cbf7d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb92b388adf5799a5a59817ae6cbf7d1">&#9670;&nbsp;</a></span>GPCHR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint8_t SMC_Type::PMCTRL</td>
+          <td class="memname">__O uint32_t PORT_Type::GPCHR</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Power Mode Control register, offset: 0x1 </p>
+<p>Global Pin Control High Register, offset: 0x84 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03258">3258</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02590">2590</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
-<a id="aeb1160606f3387d12dadc263eec7b749"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb1160606f3387d12dadc263eec7b749">&#9670;&nbsp;</a></span>PMPROT</h2>
+<a id="ab4eae4ee06e554db6797dbbcf67f9655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4eae4ee06e554db6797dbbcf67f9655">&#9670;&nbsp;</a></span>GPCLR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint8_t SMC_Type::PMPROT</td>
+          <td class="memname">__O uint32_t PORT_Type::GPCLR</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Power Mode Protection register, offset: 0x0 </p>
+<p>Global Pin Control Low Register, offset: 0x80 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03257">3257</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02589">2589</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
-<a id="af4f12c170087f5adb138c07010fc7027"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4f12c170087f5adb138c07010fc7027">&#9670;&nbsp;</a></span>PMSTAT</h2>
+<a id="a20069f4ac88fc12066ba90eea8fcbb58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20069f4ac88fc12066ba90eea8fcbb58">&#9670;&nbsp;</a></span>ISFR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__I uint8_t SMC_Type::PMSTAT</td>
+          <td class="memname">__IO uint32_t PORT_Type::ISFR</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Power Mode Status register, offset: 0x3 </p>
+<p>Interrupt Status Flag Register, offset: 0xA0 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03260">3260</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02592">2592</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
-<a id="aae7ce3860f0e8c664e2e345e8936dbdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae7ce3860f0e8c664e2e345e8936dbdc">&#9670;&nbsp;</a></span>STOPCTRL</h2>
+<a id="a1ff5dc350e7bf1f89668d15e100f1dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ff5dc350e7bf1f89668d15e100f1dc5">&#9670;&nbsp;</a></span>PCR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint8_t SMC_Type::STOPCTRL</td>
+          <td class="memname">__IO uint32_t PORT_Type::PCR[32]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stop Control Register, offset: 0x2 </p>
+<p>Pin Control Register n, array offset: 0x0, array step: 0x4 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03259">3259</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02588">2588</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +187,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/dc1/a09246.html">SMC_Type</a></li>
+    <li class="navelem"><a class="el" href="../../df/dc1/a09246.html">PORT_Type</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

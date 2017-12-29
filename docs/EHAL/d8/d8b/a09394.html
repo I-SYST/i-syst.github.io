@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _PLC_UART_Dev Struct Reference</title>
+<title>EHAL: SSPDEV Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,40 +86,37 @@ $(document).ready(function(){initNavTree('d8/d8b/a09394.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../df/d9b/a09391.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_PLC_UART_Dev Struct Reference</div>  </div>
+<div class="title">SSPDEV Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a26ae9a900f207b3c68bd96c03f91813e"><td class="memItemLeft" align="right" valign="top"><a id="a26ae9a900f207b3c68bd96c03f91813e"></a>
+<tr class="memitem:a7b761de5e247b88bd5cad40e09722d4c"><td class="memItemLeft" align="right" valign="top"><a id="a7b761de5e247b88bd5cad40e09722d4c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>DevNo</b></td></tr>
-<tr class="separator:a26ae9a900f207b3c68bd96c03f91813e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc5329b72679b8a9e8378e878443e23"><td class="memItemLeft" align="right" valign="top"><a id="a9bc5329b72679b8a9e8378e878443e23"></a>
-<a class="el" href="../../d6/d0e/a09378.html">LPCUARTREG</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUartReg</b></td></tr>
-<tr class="separator:a9bc5329b72679b8a9e8378e878443e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5648c36f779690d71bd09ade8ff182f9"><td class="memItemLeft" align="right" valign="top"><a id="a5648c36f779690d71bd09ade8ff182f9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMode</b></td></tr>
-<tr class="separator:a5648c36f779690d71bd09ade8ff182f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3203883a5de5f6ee96558542ca80e3db"><td class="memItemLeft" align="right" valign="top"><a id="a3203883a5de5f6ee96558542ca80e3db"></a>
-<a class="el" href="../../d9/d95/a10226.html">UARTDEV</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUartDev</b></td></tr>
-<tr class="separator:a3203883a5de5f6ee96558542ca80e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa11e0bf70d7291fbbff76c5cebd6060d"><td class="memItemLeft" align="right" valign="top"><a id="aa11e0bf70d7291fbbff76c5cebd6060d"></a>
-volatile bool&#160;</td><td class="memItemRight" valign="bottom"><b>bTxReady</b></td></tr>
-<tr class="separator:aa11e0bf70d7291fbbff76c5cebd6060d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7b761de5e247b88bd5cad40e09722d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23007df27e0e375968667123c650a3b"><td class="memItemLeft" align="right" valign="top"><a id="ae23007df27e0e375968667123c650a3b"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>PClkFreq</b></td></tr>
+<tr class="separator:ae23007df27e0e375968667123c650a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10543129763f3d9aec6f3f8cc9fcba2a"><td class="memItemLeft" align="right" valign="top"><a id="a10543129763f3d9aec6f3f8cc9fcba2a"></a>
+<a class="el" href="../../da/d2f/a09390.html">LPCSSPREG</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pSspReg</b></td></tr>
+<tr class="separator:a10543129763f3d9aec6f3f8cc9fcba2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40af1cb63642f107c87341c63bfd862"><td class="memItemLeft" align="right" valign="top"><a id="ab40af1cb63642f107c87341c63bfd862"></a>
+<a class="el" href="../../d4/d86/a10202.html">SPIDEV</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pSpiDev</b></td></tr>
+<tr class="separator:ab40af1cb63642f107c87341c63bfd862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d77/a02096_source.html#l00252">252</a> of file <a class="el" href="../../dd/d77/a02096_source.html">uart_lpcxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1e/a02093_source.html#l00097">97</a> of file <a class="el" href="../../d3/d1e/a02093_source.html">spi_lpcxx.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../dd/d77/a02096_source.html">uart_lpcxx.h</a></li>
+<li>ARM/NXP/include/<a class="el" href="../../d3/d1e/a02093_source.html">spi_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d8b/a09394.html">_PLC_UART_Dev</a></li>
+    <li class="navelem"><a class="el" href="../../d8/d8b/a09394.html">SSPDEV</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

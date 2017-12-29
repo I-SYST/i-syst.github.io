@@ -1,15 +1,10 @@
 var a09986 =
 [
-    [ "DataStartSectNo", "d4/de7/a09986.html#adc3f8b06ed49b0414fd8835245dfa042", null ],
-    [ "Fat1SectNo", "d4/de7/a09986.html#aad077d900000700d0ec75175df204037", null ],
-    [ "Fat2SectNo", "d4/de7/a09986.html#a47bc41ddaf2300d37d3abd8b8303d63e", null ],
-    [ "FatType", "d4/de7/a09986.html#a1380238ac115c192b79546b7946eb11e", null ],
-    [ "PartStartSectNo", "d4/de7/a09986.html#adbdaed951eac71fbe96bb4a7e3c0c968", null ],
-    [ "pBootSect", "d4/de7/a09986.html#ab4f8bfa03bd6ce8c125ad55f4baa6d0e", null ],
-    [ "pFat1", "d4/de7/a09986.html#a25bb77bcc24720448243a2f1414ce2bb", null ],
-    [ "pFat32Info", "d4/de7/a09986.html#a0576060088011eeb650cabec7ae52054", null ],
-    [ "pMbrSect", "d4/de7/a09986.html#a67dd35b8b470c533db0ed567c6fbaad3", null ],
-    [ "pRootDir", "d4/de7/a09986.html#af62759e7530bd638273b7dee7c6537f3", null ],
-    [ "RootDirSectNo", "d4/de7/a09986.html#a2f55a4d522936c27fc29f08bbdf1de5a", null ],
-    [ "TotalSectors", "d4/de7/a09986.html#a02d9b8c715c62b6d44f564ac1be1a07e", null ]
+    [ "Free_Count", "d4/de7/a09986.html#ae12eee7c04f076371d7126091bf01113", null ],
+    [ "LeadSig", "d4/de7/a09986.html#a57e0cd854a0da850f057c8dbf7d0b434", null ],
+    [ "Nxt_Free", "d4/de7/a09986.html#a0a000117b26db8ac6ccd821c02a94404", null ],
+    [ "Reserved1", "d4/de7/a09986.html#a91f9eb025ebe519eff7bb051212cdfc2", null ],
+    [ "Reserved2", "d4/de7/a09986.html#a270aa11cd28d3ae84e044eef968e8551", null ],
+    [ "StrucSig", "d4/de7/a09986.html#afae549f36520f9d7f2fdfb4c7e36a6db", null ],
+    [ "TrailSig", "d4/de7/a09986.html#a95e967c2ca06c057160047a721be635f", null ]
 ];

@@ -1,10 +1,5 @@
 var a09322 =
 [
-    [ "LongWrBuffSize", "d1/d6c/a09322.html#a6377eea4fb574d9f7d99223dba93f061", null ],
-    [ "NbChar", "d1/d6c/a09322.html#a7a5720468ad8c78f0946a6845b3edd1c", null ],
-    [ "pCharArray", "d1/d6c/a09322.html#abf10967fadd0c8a9d8d6373ca9acb148", null ],
-    [ "pLongWrBuff", "d1/d6c/a09322.html#a51730104c69c56c7225a47c6249bf39a", null ],
-    [ "SecType", "d1/d6c/a09322.html#a164ad4016ab5b2c8f9b99872bd701c29", null ],
-    [ "UuidBase", "d1/d6c/a09322.html#a1398b6f7ddd7dffa15054601a36a7754", null ],
-    [ "UuidSvc", "d1/d6c/a09322.html#aaef7529888288dc82b7c3e3563df7c64", null ]
+    [ "Data", "d1/d6c/a09322.html#a9dc9a455a478fd0e417272ffe7811883", null ],
+    [ "Len", "d1/d6c/a09322.html#aa87c2b8717a24460f7bc613c5d9ccb6e", null ]
 ];

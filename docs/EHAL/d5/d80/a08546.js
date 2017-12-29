@@ -1,23 +1,19 @@
 var a08546 =
 [
-    [ "TPM Register Masks", "d0/d98/a08547.html", null ],
-    [ "TPM_Type", "d2/d02/a09254.html", [
-      [ "CnSC", "d2/d02/a09254.html#a3fbf98cd4ed535962519dd5014a37a5b", null ],
-      [ "CNT", "d2/d02/a09254.html#a896df1de7ef2d6f21b14125801930b18", null ],
-      [ "CnV", "d2/d02/a09254.html#ab8cfe6651f0ed5a39fa66ae9748046f9", null ],
-      [ "CONF", "d2/d02/a09254.html#a6670b1d4c867e10492d42f2dff4c80b9", null ],
-      [ "CONTROLS", "d2/d02/a09254.html#aa09b6e0acc49a25ced21aa1ea368e323", null ],
-      [ "MOD", "d2/d02/a09254.html#a5568adb87a9f1410b3d003f8dc94f36c", null ],
-      [ "RESERVED_0", "d2/d02/a09254.html#a260b0af7b8cdccb04030353ffa0d354b", null ],
-      [ "RESERVED_1", "d2/d02/a09254.html#a7fa5682fff85ed08f6e532f17cd41a32", null ],
-      [ "SC", "d2/d02/a09254.html#a6b39b132b13eaba36b30afc619637992", null ],
-      [ "STATUS", "d2/d02/a09254.html#af139e79fdb6db938e7dee9d61b763755", null ]
+    [ "PIT Register Masks", "d0/d98/a08547.html", null ],
+    [ "PIT_Type", "db/d44/a09234.html", [
+      [ "CHANNEL", "db/d44/a09234.html#a33a64c323e20d70e4087ec426376d7f1", null ],
+      [ "CVAL", "db/d44/a09234.html#af98efdc8f0866cbaa72e83cfa391cac9", null ],
+      [ "LDVAL", "db/d44/a09234.html#a6880c80d3b65e0e5831b72371f607224", null ],
+      [ "LTMR64H", "db/d44/a09234.html#ae9ce421fcde49cce87a5aa9982a8515b", null ],
+      [ "LTMR64L", "db/d44/a09234.html#a2dee532f44b3946ac4239fe524fdb17a", null ],
+      [ "MCR", "db/d44/a09234.html#ac2befe5f01ae11bccda33a84cff453b0", null ],
+      [ "RESERVED_0", "db/d44/a09234.html#a79d63eb12d78e59ec24a1a92b73e4d47", null ],
+      [ "RESERVED_1", "db/d44/a09234.html#a9075afe1c349f376f6cee26c7ffe6c61", null ],
+      [ "TCTRL", "db/d44/a09234.html#a1efb9476e302dfe00faf684173c5b6ea", null ],
+      [ "TFLG", "db/d44/a09234.html#af54765dd193a93cd7bddf1eb6b0c30fa", null ]
     ] ],
-    [ "TPM0", "d5/d80/a08546.html#ga255cfcfa3e71e5e8bc0f8eb3272de220", null ],
-    [ "TPM0_BASE", "d5/d80/a08546.html#gafce6fdf5fb48d6c6b77a8c5a86ae50c2", null ],
-    [ "TPM1", "d5/d80/a08546.html#ga2e4965bffa80b3aab662e2d60096ae53", null ],
-    [ "TPM1_BASE", "d5/d80/a08546.html#ga563e0e90d795a6083656fd2d61c0f694", null ],
-    [ "TPM2", "d5/d80/a08546.html#ga833a0146c6466718ff4e2ffa215355ea", null ],
-    [ "TPM2_BASE", "d5/d80/a08546.html#gac3255fe3941602acc3b942bb6d885611", null ],
-    [ "TPM_BASES", "d5/d80/a08546.html#gaeb746a3b5c47063cb64409cc6f0ba715", null ]
+    [ "PIT", "d5/d80/a08546.html#gaf181c9e6602b6432a0bf1a9243808968", null ],
+    [ "PIT_BASE", "d5/d80/a08546.html#gaf00b86ba33a2cfe7bb100b4f01905f41", null ],
+    [ "PIT_BASES", "d5/d80/a08546.html#ga0de78c2bccafb17d6b1d1fdad387f4c7", null ]
 ];

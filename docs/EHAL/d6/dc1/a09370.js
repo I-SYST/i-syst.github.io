@@ -1,12 +1,17 @@
 var a09370 =
 [
-    [ "CPSR", "d6/dc1/a09370.html#ac9ddb52207ae42385b01af1cd22bc2cc", null ],
-    [ "CR0", "d6/dc1/a09370.html#aba23fcb79b38a657f4a52c323be323b2", null ],
-    [ "CR1", "d6/dc1/a09370.html#a663dc4e9aa10b21cfd7d6700cbc56df6", null ],
-    [ "DR", "d6/dc1/a09370.html#a18eeef2e42db89597c94cc2387598c89", null ],
-    [ "ICR", "d6/dc1/a09370.html#a6d0a5371463a2292de9735f26ca05c7a", null ],
-    [ "IMSC", "d6/dc1/a09370.html#a6d59c1545605b425a046926740d96a00", null ],
-    [ "MIS", "d6/dc1/a09370.html#a21b94ca26ca39336443824f3116baf24", null ],
-    [ "RIS", "d6/dc1/a09370.html#a488dfb3cf7a81db3ed5212d6e03bac7f", null ],
-    [ "SR", "d6/dc1/a09370.html#a4247a70df2e31aef9921be2004c575ca", null ]
+    [ "TimerHFnRF5x", "d6/dc1/a09370.html#a549bac8fe36a40a2395e86f8665bbab2", null ],
+    [ "~TimerHFnRF5x", "d6/dc1/a09370.html#a902ae260fcca770a139b1edbb64b3e06", null ],
+    [ "Disable", "d6/dc1/a09370.html#ae20f5ab4bd1cb5cb8c9f42547a478636", null ],
+    [ "DisableTimerTrigger", "d6/dc1/a09370.html#ac9aabe95d0c7ec038c9e278883aeb8a6", null ],
+    [ "Enable", "d6/dc1/a09370.html#a3ed7ce8a091fb1f783746c98c42f9d58", null ],
+    [ "EnableTimerTrigger", "d6/dc1/a09370.html#a300de1883159c98f93d22cceb7efdf29", null ],
+    [ "EnableTimerTrigger", "d6/dc1/a09370.html#a531e7c21009c2295161e33e03cfdf48b", null ],
+    [ "Frequency", "d6/dc1/a09370.html#afe108d8cc6e832c4e9694c91ffcccc17", null ],
+    [ "GetFreeTimerTrigger", "d6/dc1/a09370.html#ac7b8b9c8c7d20f36644f9836c1c760cc", null ],
+    [ "Init", "d6/dc1/a09370.html#a3cdd71f100ce2c8103dfee041923a8fb", null ],
+    [ "IRQHandler", "d6/dc1/a09370.html#a83f029cce0056adf9a2ed8b839adaf88", null ],
+    [ "MaxTimerTrigger", "d6/dc1/a09370.html#a172a2dd2b1bebbe92cf92324797f6238", null ],
+    [ "Reset", "d6/dc1/a09370.html#a7e0982edfbf31d8198d314b88c8744aa", null ],
+    [ "TickCount", "d6/dc1/a09370.html#ad8d24e3467dcc6c2672ad32b509bdf14", null ]
 ];

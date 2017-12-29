@@ -1,19 +1,15 @@
 var a08512 =
 [
-    [ "LLWU Register Masks", "df/d45/a08513.html", null ],
-    [ "LLWU_Type", "d3/dd3/a09178.html", [
-      [ "F1", "d3/dd3/a09178.html#a7a06923d73cbfb32196f92cec9832679", null ],
-      [ "F2", "d3/dd3/a09178.html#a2e0cf4aaae8993a69589806facbdb943", null ],
-      [ "F3", "d3/dd3/a09178.html#a3c0a1985283644dfd4d68600e899b55f", null ],
-      [ "FILT1", "d3/dd3/a09178.html#aa94a3a9f881724ef6ed7658e387aa159", null ],
-      [ "FILT2", "d3/dd3/a09178.html#a5736205996ff7fc8e4eba49f8f0e44ea", null ],
-      [ "ME", "d3/dd3/a09178.html#aded2b9c734957e9882cefccb5029c51f", null ],
-      [ "PE1", "d3/dd3/a09178.html#af4e20147909cf3d6a8ec04750fc36833", null ],
-      [ "PE2", "d3/dd3/a09178.html#a95ff50f29c9dd8bb33ab20a0cbb24a67", null ],
-      [ "PE3", "d3/dd3/a09178.html#aea83255d229cf9f16973c2e2c289d084", null ],
-      [ "PE4", "d3/dd3/a09178.html#a3e7dd04bfade7dc646336a69827f8d8f", null ]
+    [ "CMP Register Masks", "df/d45/a08513.html", null ],
+    [ "CMP_Type", "db/d8b/a09146.html", [
+      [ "CR0", "db/d8b/a09146.html#ad84d485b61d0a301e766a2b58e0c2b39", null ],
+      [ "CR1", "db/d8b/a09146.html#a47763017202bec732ed0b9fe089f0820", null ],
+      [ "DACCR", "db/d8b/a09146.html#a13eed556a0b4ba771dbe4cf5ff71d156", null ],
+      [ "FPR", "db/d8b/a09146.html#a47d6d877c8d3ddc7febc7314cf1a0376", null ],
+      [ "MUXCR", "db/d8b/a09146.html#a6d02ec6f721c03aadaab1c0555cd9fdd", null ],
+      [ "SCR", "db/d8b/a09146.html#a5ba1232e4d84912b6f6110d2b3194cb8", null ]
     ] ],
-    [ "LLWU", "da/d89/a08512.html#gaed2d6ced03dff7739533096e53983dbe", null ],
-    [ "LLWU_BASE", "da/d89/a08512.html#ga5596067d46debe317ac368bfc5db21f8", null ],
-    [ "LLWU_BASES", "da/d89/a08512.html#ga466e35ad6d2ba38c48fbfc6b7f3888be", null ]
+    [ "CMP0", "da/d89/a08512.html#ga2cf98276319113bb5d9ece4d7d7ed09d", null ],
+    [ "CMP0_BASE", "da/d89/a08512.html#gaa174cde56b35e3d6a74b2a752296c268", null ],
+    [ "CMP_BASES", "da/d89/a08512.html#gabf206bc1e82fe1a9dea1ccedaf253afb", null ]
 ];

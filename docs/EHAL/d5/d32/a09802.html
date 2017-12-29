@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: LPC_CANAF_RAM_TypeDef Struct Reference</title>
+<title>EHAL: LPC_WDT_TypeDef Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,19 +86,37 @@ $(document).ready(function(){initNavTree('d5/d32/a09802.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d6/da5/a09799.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LPC_CANAF_RAM_TypeDef Struct Reference</div>  </div>
+<div class="title">LPC_WDT_TypeDef Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4aa976ce2626f44c67748abac073c9b6"><td class="memItemLeft" align="right" valign="top"><a id="a4aa976ce2626f44c67748abac073c9b6"></a>
-__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mask</b> [512]</td></tr>
-<tr class="separator:a4aa976ce2626f44c67748abac073c9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d97828d135ab2479191efbcde299ad"><td class="memItemLeft" align="right" valign="top"><a id="a43d97828d135ab2479191efbcde299ad"></a>
+__IO uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>WDMOD</b></td></tr>
+<tr class="separator:a43d97828d135ab2479191efbcde299ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee4c20a33fe0ae42acea8483a6df2f5"><td class="memItemLeft" align="right" valign="top"><a id="a1ee4c20a33fe0ae42acea8483a6df2f5"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED0</b> [3]</td></tr>
+<tr class="separator:a1ee4c20a33fe0ae42acea8483a6df2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3785da39c5efbfbe5f615a23b36d17"><td class="memItemLeft" align="right" valign="top"><a id="a3f3785da39c5efbfbe5f615a23b36d17"></a>
+__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>WDTC</b></td></tr>
+<tr class="separator:a3f3785da39c5efbfbe5f615a23b36d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8634bafd3c6f17146d04293d7064822b"><td class="memItemLeft" align="right" valign="top"><a id="a8634bafd3c6f17146d04293d7064822b"></a>
+__O uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>WDFEED</b></td></tr>
+<tr class="separator:a8634bafd3c6f17146d04293d7064822b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524d555cdde50ce943fb40d7d4403d82"><td class="memItemLeft" align="right" valign="top"><a id="a524d555cdde50ce943fb40d7d4403d82"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED1</b> [3]</td></tr>
+<tr class="separator:a524d555cdde50ce943fb40d7d4403d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e695a8014d4d6e61ef9eaf15a967dc"><td class="memItemLeft" align="right" valign="top"><a id="a30e695a8014d4d6e61ef9eaf15a967dc"></a>
+__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>WDTV</b></td></tr>
+<tr class="separator:a30e695a8014d4d6e61ef9eaf15a967dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dfabd1869bff86b6382764df0937ec2"><td class="memItemLeft" align="right" valign="top"><a id="a0dfabd1869bff86b6382764df0937ec2"></a>
+__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>WDCLKSEL</b></td></tr>
+<tr class="separator:a0dfabd1869bff86b6382764df0937ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d6/dd2/a02243_source.html#l00665">665</a> of file <a class="el" href="../../d6/dd2/a02243_source.html">LPC17xx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd2/a02243_source.html#l00563">563</a> of file <a class="el" href="../../d6/dd2/a02243_source.html">LPC17xx.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>ARM/NXP/LPC17xx/CMSIS/Include/<a class="el" href="../../d6/dd2/a02243_source.html">LPC17xx.h</a></li>
 </ul>
@@ -107,7 +125,7 @@ __IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mask</b> [51
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d32/a09802.html">LPC_CANAF_RAM_TypeDef</a></li>
+    <li class="navelem"><a class="el" href="../../d5/d32/a09802.html">LPC_WDT_TypeDef</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

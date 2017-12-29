@@ -1,17 +1,19 @@
 var a09786 =
 [
-    [ "ADCR", "de/d1a/a09786.html#ab0949d845f781071595de5c830fab8a7", null ],
-    [ "ADDR0", "de/d1a/a09786.html#a3168f35782efa83907f5a1001b5a53e7", null ],
-    [ "ADDR1", "de/d1a/a09786.html#a7413587e4871c63fecf13646dce2f873", null ],
-    [ "ADDR2", "de/d1a/a09786.html#a806e8066ea08898ff51e5ff2f10823b3", null ],
-    [ "ADDR3", "de/d1a/a09786.html#acac24a0ba2d73729b86a021bcad63ad6", null ],
-    [ "ADDR4", "de/d1a/a09786.html#a92bfddc3c7b32379c91fcde0f43df495", null ],
-    [ "ADDR5", "de/d1a/a09786.html#ac698d7e4437bf3230071dc3d8274f4bd", null ],
-    [ "ADDR6", "de/d1a/a09786.html#a607f501dbfce5b3fd777a7a4a480a353", null ],
-    [ "ADDR7", "de/d1a/a09786.html#a40afea4e61d223f707998d5f22dbfc7c", null ],
-    [ "ADGDR", "de/d1a/a09786.html#a9a3d600737fba2be947a6b528cc48891", null ],
-    [ "ADINTEN", "de/d1a/a09786.html#a3867c156abd33ddafeb3b51e7b1da97c", null ],
-    [ "ADSTAT", "de/d1a/a09786.html#a731ad153d3d54d3ba2677eecb30c3097", null ],
-    [ "ADTRM", "de/d1a/a09786.html#aa66f6667bdd2b2110f2e25e7c8da94a9", null ],
-    [ "RESERVED0", "de/d1a/a09786.html#a40cf73fb4dbf0486e17c338b59481012", null ]
+    [ "I2ADR0", "de/d1a/a09786.html#a2b8bd06894697a92090ebff19efc9568", null ],
+    [ "I2ADR1", "de/d1a/a09786.html#a4b5978241a790c38417a1ef872e663df", null ],
+    [ "I2ADR2", "de/d1a/a09786.html#a69b881b2edd482d8e33df2617592d457", null ],
+    [ "I2ADR3", "de/d1a/a09786.html#aadffb35682aaa5bddea920a4cb0a0246", null ],
+    [ "I2CONCLR", "de/d1a/a09786.html#a3251518905db7b64c27cb38ca9863fb2", null ],
+    [ "I2CONSET", "de/d1a/a09786.html#a24f797c8b2d60a001ade61b79aed6a16", null ],
+    [ "I2DAT", "de/d1a/a09786.html#a61742ea91ae9c2922d72433666477fb0", null ],
+    [ "I2DATA_BUFFER", "de/d1a/a09786.html#ab1a646fb963fbf20b91ebcdf1e70fcfa", null ],
+    [ "I2MASK0", "de/d1a/a09786.html#a9017881d37664444929d9e36baa65589", null ],
+    [ "I2MASK1", "de/d1a/a09786.html#a71ee8a47fe07eb71675d3d97874e898f", null ],
+    [ "I2MASK2", "de/d1a/a09786.html#a9a17d8876473ebcc8378e76762ad7d08", null ],
+    [ "I2MASK3", "de/d1a/a09786.html#a3e47944a2b1d1d5666ee37fcda81519f", null ],
+    [ "I2SCLH", "de/d1a/a09786.html#af01afde227e49278f1c0e6a2041ce261", null ],
+    [ "I2SCLL", "de/d1a/a09786.html#acb1c72614b4277afac12c2152a47dc26", null ],
+    [ "I2STAT", "de/d1a/a09786.html#a31c1d47ac80feae537f5e52a1822ac35", null ],
+    [ "MMCTRL", "de/d1a/a09786.html#a132689ac34ccf6d86dc52216b4c4987c", null ]
 ];

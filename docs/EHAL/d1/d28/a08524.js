@@ -1,23 +1,23 @@
 var a08524 =
 [
-    [ "NV Register Masks", "d1/df9/a08525.html", null ],
-    [ "NV_Type", "dd/d49/a09206.html", [
-      [ "BACKKEY0", "dd/d49/a09206.html#a84e62b140feac9fcae8b251607c814e7", null ],
-      [ "BACKKEY1", "dd/d49/a09206.html#ad90570e3331407893b892cd722c8566c", null ],
-      [ "BACKKEY2", "dd/d49/a09206.html#ab01f94708b68f34fd5b40a18b21c6d76", null ],
-      [ "BACKKEY3", "dd/d49/a09206.html#a99c28a1d24b507ca392b62abd7326c22", null ],
-      [ "BACKKEY4", "dd/d49/a09206.html#a0bc51ff64f2fe752028b0cf769f95f66", null ],
-      [ "BACKKEY5", "dd/d49/a09206.html#ae2121000a273d32aeeaf2f4100ea3471", null ],
-      [ "BACKKEY6", "dd/d49/a09206.html#a39aa00a01f54dd8348854da97790e930", null ],
-      [ "BACKKEY7", "dd/d49/a09206.html#ade5b560a7ad515e084070fde57ea32d7", null ],
-      [ "FOPT", "dd/d49/a09206.html#aaabff2875971400e0975d365fd8bdd30", null ],
-      [ "FPROT0", "dd/d49/a09206.html#a0a1513e86bf3647e0179fc0f547a9b1e", null ],
-      [ "FPROT1", "dd/d49/a09206.html#a4e85ed3eff018d579013a9e26e987f35", null ],
-      [ "FPROT2", "dd/d49/a09206.html#a4d8b08ba5cfdb89cf82724db412bc041", null ],
-      [ "FPROT3", "dd/d49/a09206.html#a681eb6e0560291b4c2e83e4e85923347", null ],
-      [ "FSEC", "dd/d49/a09206.html#afb5e12b7f518197a87e81432749ba73d", null ]
+    [ "GPIO Register Masks", "d1/df9/a08525.html", null ],
+    [ "GPIO_Type", "df/d6c/a09186.html", [
+      [ "PCOR", "df/d6c/a09186.html#a6c70e08238cd1fda316a11095b493719", null ],
+      [ "PDDR", "df/d6c/a09186.html#a45c27e8ed0373953904b073c03bd1de5", null ],
+      [ "PDIR", "df/d6c/a09186.html#a269fc0ec9450f3e86b2acddef2db7999", null ],
+      [ "PDOR", "df/d6c/a09186.html#a361aec1ddf4e89774ea1d4a0fddd6ef4", null ],
+      [ "PSOR", "df/d6c/a09186.html#a669ea2d1371abbcd552de208ea9230bc", null ],
+      [ "PTOR", "df/d6c/a09186.html#aec9404442ba35916e2a747d2d0bf73de", null ]
     ] ],
-    [ "FTFA_FlashConfig", "d1/d28/a08524.html#gaf75019f28fbe0be805db316ab76bda45", null ],
-    [ "FTFA_FlashConfig_BASE", "d1/d28/a08524.html#ga1e6dbd99b75dd6c501dddbdbc8141ea7", null ],
-    [ "NV_BASES", "d1/d28/a08524.html#ga23e4e2db513617e5cf3f40bb5191058c", null ]
+    [ "GPIO_BASES", "d1/d28/a08524.html#ga6dcb35020dceb1c58b30c07906840780", null ],
+    [ "PTA", "d1/d28/a08524.html#ga953adcb40e14085a9ffd1aa0ae40084b", null ],
+    [ "PTA_BASE", "d1/d28/a08524.html#ga6e3037b53880ddd4072d88ed493e6581", null ],
+    [ "PTB", "d1/d28/a08524.html#gab245b794143f5d4aea6d1a5336b8b33e", null ],
+    [ "PTB_BASE", "d1/d28/a08524.html#ga8cd67de0ed62c0fe8395cc6e40af2451", null ],
+    [ "PTC", "d1/d28/a08524.html#ga7deefa3e1c7e45e4ccb31a8117bc181f", null ],
+    [ "PTC_BASE", "d1/d28/a08524.html#gafee763d072e472e36b335f8944b5de96", null ],
+    [ "PTD", "d1/d28/a08524.html#gacee2910b398755be94f612b243052efe", null ],
+    [ "PTD_BASE", "d1/d28/a08524.html#gaa002f1a0c5f963f8d162916b91e21bf0", null ],
+    [ "PTE", "d1/d28/a08524.html#ga074482d761e5bcd022a14aa7b8c294d7", null ],
+    [ "PTE_BASE", "d1/d28/a08524.html#gaac65442c7407ccb219eea68a45c2bdc6", null ]
 ];

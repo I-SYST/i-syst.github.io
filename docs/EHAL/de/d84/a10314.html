@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: UsbHidDevice Class Reference</title>
+<title>EHAL: __USB_OTG_Descriptor Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,86 +83,80 @@ $(document).ready(function(){initNavTree('de/d84/a10314.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../da/d70/a10311.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">UsbHidDevice Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">__USB_OTG_Descriptor Struct Reference<div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for UsbHidDevice:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../de/d84/a10314.png" usemap="#UsbHidDevice_map" alt=""/>
-  <map id="UsbHidDevice_map" name="UsbHidDevice_map">
-<area href="../../d9/d14/a10334.html" alt="UsbHidDevice_Impl" shape="rect" coords="0,56,121,80"/>
-<area href="../../d9/d14/a10334.html" alt="UsbHidDevice_Impl" shape="rect" coords="131,56,252,80"/>
-</map>
- </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ab6a3002ff41fe55a575781274bc21cdf"><td class="memItemLeft" align="right" valign="top"><a id="ab6a3002ff41fe55a575781274bc21cdf"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize, bool CtrlTrans=true)=0</td></tr>
-<tr class="separator:ab6a3002ff41fe55a575781274bc21cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c895fd73accf8e7cdc2039d5944854"><td class="memItemLeft" align="right" valign="top"><a id="ae8c895fd73accf8e7cdc2039d5944854"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteOutputReport</b> (int RepNo, uint8_t *pBuf, uint32_t Bufsize, bool CtrlTrans=true)=0</td></tr>
-<tr class="separator:ae8c895fd73accf8e7cdc2039d5944854"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b56c03c1c4715b706d22f81be7086a0"><td class="memItemLeft" align="right" valign="top"><a id="a9b56c03c1c4715b706d22f81be7086a0"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
-<tr class="separator:a9b56c03c1c4715b706d22f81be7086a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memItemLeft" align="right" valign="top"><a id="aafd172ec69b29c6a5dfa961e17415a1a"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
-<tr class="separator:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memItemLeft" align="right" valign="top"><a id="ae3f9fe1c42a9ee7fc614d2ae3fb54575"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::string &amp;sn)=0</td></tr>
-<tr class="separator:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31dae75a0e5965c5401ddb1bee593b88"><td class="memItemLeft" align="right" valign="top"><a id="a31dae75a0e5965c5401ddb1bee593b88"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
-<tr class="separator:a31dae75a0e5965c5401ddb1bee593b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memItemLeft" align="right" valign="top"><a id="af01f14929114d40d6ed2b89d4b2ebda9"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WaitResponse</b> (int TimeOutSec)=0</td></tr>
-<tr class="separator:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0439f53f8edff8b0c819673ef653a5a"><td class="memItemLeft" align="right" valign="top"><a id="ac0439f53f8edff8b0c819673ef653a5a"></a>
-static <a class="el" href="../../de/d84/a10314.html">UsbHidDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Create</b> ()</td></tr>
-<tr class="separator:ac0439f53f8edff8b0c819673ef653a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a36e42bdf135bf271049529f74bd6741b"><td class="memItemLeft" align="right" valign="top"><a id="a36e42bdf135bf271049529f74bd6741b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ReadDeviceInfo</b> ()=0</td></tr>
-<tr class="separator:a36e42bdf135bf271049529f74bd6741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memItemLeft" align="right" valign="top"><a id="a7c1b49acb269d5c71d9157ce974fd4a9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxInRepSize</b></td></tr>
-<tr class="separator:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6aac94356bb91a7343a74a000bd19f8"><td class="memItemLeft" align="right" valign="top"><a id="ad6aac94356bb91a7343a74a000bd19f8"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxOutRepSize</b></td></tr>
-<tr class="separator:ad6aac94356bb91a7343a74a000bd19f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memItemLeft" align="right" valign="top"><a id="a1a8201617b375a7b6cd02a1f0ec8a03b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxFeatRepSize</b></td></tr>
-<tr class="separator:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2aa788bd41a6cb58810f9987f68e86d2"><td class="memItemLeft" align="right" valign="top"><a id="a2aa788bd41a6cb58810f9987f68e86d2"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d84/a10314.html#a2aa788bd41a6cb58810f9987f68e86d2">bLength</a></td></tr>
+<tr class="memdesc:a2aa788bd41a6cb58810f9987f68e86d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of Descriptor. <br /></td></tr>
+<tr class="separator:a2aa788bd41a6cb58810f9987f68e86d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2484e1e9d2c7aa481b74e4ba8eba0571"><td class="memItemLeft" align="right" valign="top"><a id="a2484e1e9d2c7aa481b74e4ba8eba0571"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d84/a10314.html#a2484e1e9d2c7aa481b74e4ba8eba0571">bDescriptorType</a></td></tr>
+<tr class="memdesc:a2484e1e9d2c7aa481b74e4ba8eba0571"><td class="mdescLeft">&#160;</td><td class="mdescRight">OTG type = 9. <br /></td></tr>
+<tr class="separator:a2484e1e9d2c7aa481b74e4ba8eba0571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a597d60b88551c71f34d81c12f64bd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d84/a10314.html#a59a597d60b88551c71f34d81c12f64bd">bmAttributes</a></td></tr>
+<tr class="separator:a59a597d60b88551c71f34d81c12f64bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a7b952bd790ab6ddb2908059505d26"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d84/a10314.html#ad3a7b952bd790ab6ddb2908059505d26">bcdOTG</a></td></tr>
+<tr class="separator:ad3a7b952bd790ab6ddb2908059505d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/d23/a02558_source.html#l00039">39</a> of file <a class="el" href="../../df/d23/a02558_source.html">usb_hidhost.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/usb/<a class="el" href="../../df/d23/a02558_source.html">usb_hidhost.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00326">326</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad3a7b952bd790ab6ddb2908059505d26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a7b952bd790ab6ddb2908059505d26">&#9670;&nbsp;</a></span>bcdOTG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t __USB_OTG_Descriptor::bcdOTG</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>OTG OTG and EH supplement release number in binary-coded decimal (i.e. 2.0 is 0200H). This field identifies the release of the OTG and EH supplement with which the device and its descriptors are compliant. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00334">334</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+
+</div>
+</div>
+<a id="a59a597d60b88551c71f34d81c12f64bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a597d60b88551c71f34d81c12f64bd">&#9670;&nbsp;</a></span>bmAttributes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_OTG_Descriptor::bmAttributes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Attribute Fields</p><ul>
+<li>D7...3: Reserved (reset to zero)</li>
+<li>D2: ADP support</li>
+<li>D1: HNP support</li>
+<li>D0: SRP support </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00329">329</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/usb/<a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d84/a10314.html">UsbHidDevice</a></li>
+    <li class="navelem"><a class="el" href="../../de/d84/a10314.html">__USB_OTG_Descriptor</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

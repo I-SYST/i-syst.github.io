@@ -1,10 +1,18 @@
 var a09966 =
 [
-    [ "Free_Count", "df/d5b/a09966.html#a6ab36ad15b07354cf2171984bef9e058", null ],
-    [ "LeadSig", "df/d5b/a09966.html#acf0ac8369e152ad62e21c2659348a3f9", null ],
-    [ "Nxt_Free", "df/d5b/a09966.html#a1478e1dc3ada8467bd11c07473e98a9a", null ],
-    [ "Reserved1", "df/d5b/a09966.html#ae3e84ccdae9826e835d4ce624cab5045", null ],
-    [ "Reserved2", "df/d5b/a09966.html#a3c3ed5d36a9214af1fb1725ee84129c7", null ],
-    [ "StrucSig", "df/d5b/a09966.html#a7d728bc29c6940c3ff22ea125986c5d8", null ],
-    [ "TrailSig", "df/d5b/a09966.html#af54b83a7b3a9810b948b7a9f9ad4c016", null ]
+    [ "FlashDiskIO", "df/d5b/a09966.html#a26eefd7648f2d7987c4f5e9bae219734", null ],
+    [ "~FlashDiskIO", "df/d5b/a09966.html#a6b4dbae77f044b62fc1716ba03dfde74", null ],
+    [ "Erase", "df/d5b/a09966.html#ab38416e6a7a4ad7677a850c5c0706ae8", null ],
+    [ "EraseBlock", "df/d5b/a09966.html#a08167eba7644599c55f8e116f74cf479", null ],
+    [ "GetMinEraseSize", "df/d5b/a09966.html#aa50edbed2c72a7efae8857e8f4f3e1e1", null ],
+    [ "GetMinWriteSize", "df/d5b/a09966.html#a4c2679954da305fc4d5655dde6a50512", null ],
+    [ "GetSize", "df/d5b/a09966.html#abf0fbfc4991c6622e71b0b6e9608535e", null ],
+    [ "Init", "df/d5b/a09966.html#ac2b85a6ba9fba94efe19e8309f8919ba", null ],
+    [ "ReadId", "df/d5b/a09966.html#a417bd8b21a31c2eae04627d0c51b39a8", null ],
+    [ "ReadStatus", "df/d5b/a09966.html#a64544d487abb6cde0248b2e7ec7e6582", null ],
+    [ "SectRead", "df/d5b/a09966.html#a1d0aa6da18d8a02af00b33972c845b68", null ],
+    [ "SectWrite", "df/d5b/a09966.html#ab4653340f8e32cd2aaae305eaacc1131", null ],
+    [ "WaitReady", "df/d5b/a09966.html#aaf09917d450c77f456b8ce0fa6720c33", null ],
+    [ "WriteDisable", "df/d5b/a09966.html#a59284ee7016493a64b87380cd970dae5", null ],
+    [ "WriteEnable", "df/d5b/a09966.html#a12e0657ab61abf350996766704f6926f", null ]
 ];

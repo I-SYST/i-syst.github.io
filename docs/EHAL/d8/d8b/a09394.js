@@ -1,8 +1,7 @@
 var a09394 =
 [
-    [ "bTxReady", "d8/d8b/a09394.html#aa11e0bf70d7291fbbff76c5cebd6060d", null ],
-    [ "DevNo", "d8/d8b/a09394.html#a26ae9a900f207b3c68bd96c03f91813e", null ],
-    [ "DMAMode", "d8/d8b/a09394.html#a5648c36f779690d71bd09ade8ff182f9", null ],
-    [ "pUartDev", "d8/d8b/a09394.html#a3203883a5de5f6ee96558542ca80e3db", null ],
-    [ "pUartReg", "d8/d8b/a09394.html#a9bc5329b72679b8a9e8378e878443e23", null ]
+    [ "DevNo", "d8/d8b/a09394.html#a7b761de5e247b88bd5cad40e09722d4c", null ],
+    [ "PClkFreq", "d8/d8b/a09394.html#ae23007df27e0e375968667123c650a3b", null ],
+    [ "pSpiDev", "d8/d8b/a09394.html#ab40af1cb63642f107c87341c63bfd862", null ],
+    [ "pSspReg", "d8/d8b/a09394.html#a10543129763f3d9aec6f3f8cc9fcba2a", null ]
 ];

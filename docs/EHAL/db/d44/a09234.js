@@ -1,16 +1,13 @@
 var a09234 =
 [
-    [ "COMPID", "db/d44/a09234.html#a29c79dc5608f079e4e9c92f29ee268ea", null ],
-    [ "ENTRY", "db/d44/a09234.html#a5989ed4bd007dd1cbdc1e2b60b7e4b6c", null ],
-    [ "PERIPHID0", "db/d44/a09234.html#aee418d504db9fdd71aa4d1bb05677eeb", null ],
-    [ "PERIPHID1", "db/d44/a09234.html#a235e8c943594532e8e0a5bbb97b4e7e5", null ],
-    [ "PERIPHID2", "db/d44/a09234.html#a43f035bc086a6c9959dde3e943d9c71c", null ],
-    [ "PERIPHID3", "db/d44/a09234.html#a9b3bf99f08b8f7b357493c0743cc0ce2", null ],
-    [ "PERIPHID4", "db/d44/a09234.html#aaec55198466664fa61b28364e5c48ffc", null ],
-    [ "PERIPHID5", "db/d44/a09234.html#a9aeb5c5840a95f1a33696f2f72786c19", null ],
-    [ "PERIPHID6", "db/d44/a09234.html#a1636c5dcfb4d992339f7b89a4669106a", null ],
-    [ "PERIPHID7", "db/d44/a09234.html#a1f090571c050a9c39871c4ecd72fa867", null ],
-    [ "RESERVED_0", "db/d44/a09234.html#ad1c11f88b68f27d5bd8dec08926fb5ff", null ],
-    [ "SYSACCESS", "db/d44/a09234.html#a851ad5e20cdeaac40c36ba02bef85a7b", null ],
-    [ "TABLEMARK", "db/d44/a09234.html#a4f154ffd079958033b8aba9bff12d5c9", null ]
+    [ "CHANNEL", "db/d44/a09234.html#a33a64c323e20d70e4087ec426376d7f1", null ],
+    [ "CVAL", "db/d44/a09234.html#af98efdc8f0866cbaa72e83cfa391cac9", null ],
+    [ "LDVAL", "db/d44/a09234.html#a6880c80d3b65e0e5831b72371f607224", null ],
+    [ "LTMR64H", "db/d44/a09234.html#ae9ce421fcde49cce87a5aa9982a8515b", null ],
+    [ "LTMR64L", "db/d44/a09234.html#a2dee532f44b3946ac4239fe524fdb17a", null ],
+    [ "MCR", "db/d44/a09234.html#ac2befe5f01ae11bccda33a84cff453b0", null ],
+    [ "RESERVED_0", "db/d44/a09234.html#a79d63eb12d78e59ec24a1a92b73e4d47", null ],
+    [ "RESERVED_1", "db/d44/a09234.html#a9075afe1c349f376f6cee26c7ffe6c61", null ],
+    [ "TCTRL", "db/d44/a09234.html#a1efb9476e302dfe00faf684173c5b6ea", null ],
+    [ "TFLG", "db/d44/a09234.html#af54765dd193a93cd7bddf1eb6b0c30fa", null ]
 ];

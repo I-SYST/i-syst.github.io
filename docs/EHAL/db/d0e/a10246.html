@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _USB_Country_Functional_Descriptor Struct Reference</title>
+<title>EHAL: __Uart_Dev Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,41 +86,106 @@ $(document).ready(function(){initNavTree('db/d0e/a10246.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d9/d35/a10243.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_USB_Country_Functional_Descriptor Struct Reference</div>  </div>
+<div class="title">__Uart_Dev Struct Reference<div class="ingroups"><a class="el" href="../../d2/d95/a08583.html">Device Interface</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> driver data require by low level functions.  
+ <a href="../../db/d0e/a10246.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d1/d1a/a02546_source.html">uart.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a070a390c16f193e3790b8ade58daaa72"><td class="memItemLeft" align="right" valign="top"><a id="a070a390c16f193e3790b8ade58daaa72"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bFunctionLength</b></td></tr>
-<tr class="separator:a070a390c16f193e3790b8ade58daaa72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792db38904359e4a5bee057dc54a44cf"><td class="memItemLeft" align="right" valign="top"><a id="a792db38904359e4a5bee057dc54a44cf"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bDescriptorType</b></td></tr>
-<tr class="separator:a792db38904359e4a5bee057dc54a44cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe17f724b7a5d6a5b4d1ad695ab6119f"><td class="memItemLeft" align="right" valign="top"><a id="afe17f724b7a5d6a5b4d1ad695ab6119f"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bDescriptorSubtype</b></td></tr>
-<tr class="separator:afe17f724b7a5d6a5b4d1ad695ab6119f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac966f440599743273d32d9c599eccb39"><td class="memItemLeft" align="right" valign="top"><a id="ac966f440599743273d32d9c599eccb39"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>iCountryCodeRelDate</b></td></tr>
-<tr class="separator:ac966f440599743273d32d9c599eccb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5a57fa7f5befdbedd20c469ee38d7d4"><td class="memItemLeft" align="right" valign="top"><a id="ac5a57fa7f5befdbedd20c469ee38d7d4"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#ac5a57fa7f5befdbedd20c469ee38d7d4">wCountryCode</a> [1]</td></tr>
-<tr class="memdesc:ac5a57fa7f5befdbedd20c469ee38d7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">mm=month, and yyyy=year. <br /></td></tr>
-<tr class="separator:ac5a57fa7f5befdbedd20c469ee38d7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1fc080b2c3bb02b24baaf56779167f"><td class="memItemLeft" align="right" valign="top"><a id="afc1fc080b2c3bb02b24baaf56779167f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#afc1fc080b2c3bb02b24baaf56779167f">Rate</a></td></tr>
+<tr class="memdesc:afc1fc080b2c3bb02b24baaf56779167f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Baudrate, set to 0 for auto baudrate. <br /></td></tr>
+<tr class="separator:afc1fc080b2c3bb02b24baaf56779167f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6663cf999ce8602d0221a5790cc06aa0"><td class="memItemLeft" align="right" valign="top"><a id="a6663cf999ce8602d0221a5790cc06aa0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a6663cf999ce8602d0221a5790cc06aa0">DataBits</a></td></tr>
+<tr class="memdesc:a6663cf999ce8602d0221a5790cc06aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of data bits. <br /></td></tr>
+<tr class="separator:a6663cf999ce8602d0221a5790cc06aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7819c546831570e5dffb330017d5daa6"><td class="memItemLeft" align="right" valign="top"><a id="a7819c546831570e5dffb330017d5daa6"></a>
+UART_PARITY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a7819c546831570e5dffb330017d5daa6">Parity</a></td></tr>
+<tr class="memdesc:a7819c546831570e5dffb330017d5daa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data parity. <br /></td></tr>
+<tr class="separator:a7819c546831570e5dffb330017d5daa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc2116d280828488277958c03a440fce"><td class="memItemLeft" align="right" valign="top"><a id="abc2116d280828488277958c03a440fce"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#abc2116d280828488277958c03a440fce">StopBits</a></td></tr>
+<tr class="memdesc:abc2116d280828488277958c03a440fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of stop bits. <br /></td></tr>
+<tr class="separator:abc2116d280828488277958c03a440fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efafe14aee75b45aec580d56aed8a6a"><td class="memItemLeft" align="right" valign="top"><a id="a8efafe14aee75b45aec580d56aed8a6a"></a>
+UART_FLWCTRL&#160;</td><td class="memItemRight" valign="bottom"><b>FlowControl</b></td></tr>
+<tr class="separator:a8efafe14aee75b45aec580d56aed8a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95d034d0ac6ac6f5dec2176ffb2cb10"><td class="memItemLeft" align="right" valign="top"><a id="ac95d034d0ac6ac6f5dec2176ffb2cb10"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#ac95d034d0ac6ac6f5dec2176ffb2cb10">bIntMode</a></td></tr>
+<tr class="memdesc:ac95d034d0ac6ac6f5dec2176ffb2cb10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt mdoe. <br /></td></tr>
+<tr class="separator:ac95d034d0ac6ac6f5dec2176ffb2cb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa164c4459585910705bacc00f6c3dcd8"><td class="memItemLeft" align="right" valign="top"><a id="aa164c4459585910705bacc00f6c3dcd8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#aa164c4459585910705bacc00f6c3dcd8">bIrDAMode</a></td></tr>
+<tr class="memdesc:aa164c4459585910705bacc00f6c3dcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable IrDA. <br /></td></tr>
+<tr class="separator:aa164c4459585910705bacc00f6c3dcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b3ddf5a523ad5beb49199381227a42"><td class="memItemLeft" align="right" valign="top"><a id="a85b3ddf5a523ad5beb49199381227a42"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a85b3ddf5a523ad5beb49199381227a42">bIrDAInvert</a></td></tr>
+<tr class="memdesc:a85b3ddf5a523ad5beb49199381227a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">IrDA input inverted. <br /></td></tr>
+<tr class="separator:a85b3ddf5a523ad5beb49199381227a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea803195844fa8b1b3f1d4d54079d62"><td class="memItemLeft" align="right" valign="top"><a id="abea803195844fa8b1b3f1d4d54079d62"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#abea803195844fa8b1b3f1d4d54079d62">bIrDAFixPulse</a></td></tr>
+<tr class="memdesc:abea803195844fa8b1b3f1d4d54079d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable IrDA fix pulse. <br /></td></tr>
+<tr class="separator:abea803195844fa8b1b3f1d4d54079d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637f571699d413f907b401ef1284f21b"><td class="memItemLeft" align="right" valign="top"><a id="a637f571699d413f907b401ef1284f21b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a637f571699d413f907b401ef1284f21b">IrDAPulseDiv</a></td></tr>
+<tr class="memdesc:a637f571699d413f907b401ef1284f21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix pulse divider. <br /></td></tr>
+<tr class="separator:a637f571699d413f907b401ef1284f21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e8aea41f97f87c08d7e73d13941d480"><td class="memItemLeft" align="right" valign="top"><a id="a6e8aea41f97f87c08d7e73d13941d480"></a>
+<a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a6e8aea41f97f87c08d7e73d13941d480">DevIntrf</a></td></tr>
+<tr class="memdesc:a6e8aea41f97f87c08d7e73d13941d480"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> interface implementation. <br /></td></tr>
+<tr class="separator:a6e8aea41f97f87c08d7e73d13941d480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f1c413b6b9eb9a032f05068e2ea818"><td class="memItemLeft" align="right" valign="top"><a id="a26f1c413b6b9eb9a032f05068e2ea818"></a>
+<a class="el" href="../../d2/d95/a08583.html#gabf3df5053a4622a5a2cfbd0f64589cc9">UARTEVTCB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a26f1c413b6b9eb9a032f05068e2ea818">EvtCallback</a></td></tr>
+<tr class="memdesc:a26f1c413b6b9eb9a032f05068e2ea818"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d7b/a10250.html" title="UART base class. ">UART</a> event callback. <br /></td></tr>
+<tr class="separator:a26f1c413b6b9eb9a032f05068e2ea818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d415a2083ebbac3ff283a37ba2fd96b"><td class="memItemLeft" align="right" valign="top"><a id="a8d415a2083ebbac3ff283a37ba2fd96b"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a8d415a2083ebbac3ff283a37ba2fd96b">pObj</a></td></tr>
+<tr class="memdesc:a8d415a2083ebbac3ff283a37ba2fd96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to <a class="el" href="../../d6/d7b/a10250.html" title="UART base class. ">UART</a> object instance. <br /></td></tr>
+<tr class="separator:a8d415a2083ebbac3ff283a37ba2fd96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c721f71298179bfeab7a386b96c491"><td class="memItemLeft" align="right" valign="top"><a id="a66c721f71298179bfeab7a386b96c491"></a>
+<a class="el" href="../../da/dda/a08581.html#gaae79d56c0d7b2f11e91183b24e30415d">HCFIFO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a66c721f71298179bfeab7a386b96c491">hRxFifo</a></td></tr>
+<tr class="memdesc:a66c721f71298179bfeab7a386b96c491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx FIFO handle. <br /></td></tr>
+<tr class="separator:a66c721f71298179bfeab7a386b96c491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da483f9cf251526a0a2a6e8093c4a92"><td class="memItemLeft" align="right" valign="top"><a id="a1da483f9cf251526a0a2a6e8093c4a92"></a>
+<a class="el" href="../../da/dda/a08581.html#gaae79d56c0d7b2f11e91183b24e30415d">HCFIFO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a1da483f9cf251526a0a2a6e8093c4a92">hTxFifo</a></td></tr>
+<tr class="memdesc:a1da483f9cf251526a0a2a6e8093c4a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Fifo handle. <br /></td></tr>
+<tr class="separator:a1da483f9cf251526a0a2a6e8093c4a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4f488704b60c07b55f89c84a94e5eb"><td class="memItemLeft" align="right" valign="top"><a id="a5b4f488704b60c07b55f89c84a94e5eb"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a5b4f488704b60c07b55f89c84a94e5eb">LineState</a></td></tr>
+<tr class="memdesc:a5b4f488704b60c07b55f89c84a94e5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line state. <br /></td></tr>
+<tr class="separator:a5b4f488704b60c07b55f89c84a94e5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d850b765a081c8206d22d1b7b3175e"><td class="memItemLeft" align="right" valign="top"><a id="ab2d850b765a081c8206d22d1b7b3175e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#ab2d850b765a081c8206d22d1b7b3175e">hStdIn</a></td></tr>
+<tr class="memdesc:ab2d850b765a081c8206d22d1b7b3175e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to retarget stdin. <br /></td></tr>
+<tr class="separator:ab2d850b765a081c8206d22d1b7b3175e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3e184bf56f76001c412b55c4cfde81"><td class="memItemLeft" align="right" valign="top"><a id="a7e3e184bf56f76001c412b55c4cfde81"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#a7e3e184bf56f76001c412b55c4cfde81">hStdOut</a></td></tr>
+<tr class="memdesc:a7e3e184bf56f76001c412b55c4cfde81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to retarget stdout. <br /></td></tr>
+<tr class="separator:a7e3e184bf56f76001c412b55c4cfde81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa24c6cb98e2e6a9a389a213ac5bc5cf5"><td class="memItemLeft" align="right" valign="top"><a id="aa24c6cb98e2e6a9a389a213ac5bc5cf5"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0e/a10246.html#aa24c6cb98e2e6a9a389a213ac5bc5cf5">RxOECnt</a></td></tr>
+<tr class="memdesc:aa24c6cb98e2e6a9a389a213ac5bc5cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx overrun error count. <br /></td></tr>
+<tr class="separator:aa24c6cb98e2e6a9a389a213ac5bc5cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/df5/a02549_source.html#l00255">255</a> of file <a class="el" href="../../d0/df5/a02549_source.html">usb_cdcdef.h</a>.</p>
+<div class="textblock"><p><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> driver data require by low level functions. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d1a/a02546_source.html#l00153">153</a> of file <a class="el" href="../../d1/d1a/a02546_source.html">uart.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/usb/<a class="el" href="../../d0/df5/a02549_source.html">usb_cdcdef.h</a></li>
+<li>include/<a class="el" href="../../d1/d1a/a02546_source.html">uart.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/d0e/a10246.html">_USB_Country_Functional_Descriptor</a></li>
+    <li class="navelem"><a class="el" href="../../db/d0e/a10246.html">__Uart_Dev</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,7 +1,8 @@
 var a09246 =
 [
-    [ "PMCTRL", "df/dc1/a09246.html#ab8623b594bbc8c61e5d223101fc90d97", null ],
-    [ "PMPROT", "df/dc1/a09246.html#aeb1160606f3387d12dadc263eec7b749", null ],
-    [ "PMSTAT", "df/dc1/a09246.html#af4f12c170087f5adb138c07010fc7027", null ],
-    [ "STOPCTRL", "df/dc1/a09246.html#aae7ce3860f0e8c664e2e345e8936dbdc", null ]
+    [ "GPCHR", "df/dc1/a09246.html#adb92b388adf5799a5a59817ae6cbf7d1", null ],
+    [ "GPCLR", "df/dc1/a09246.html#ab4eae4ee06e554db6797dbbcf67f9655", null ],
+    [ "ISFR", "df/dc1/a09246.html#a20069f4ac88fc12066ba90eea8fcbb58", null ],
+    [ "PCR", "df/dc1/a09246.html#a1ff5dc350e7bf1f89668d15e100f1dc5", null ],
+    [ "RESERVED_0", "df/dc1/a09246.html#aeb5d263a42068e10e61f53ab57fe56d4", null ]
 ];

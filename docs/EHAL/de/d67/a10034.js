@@ -1,8 +1,9 @@
 var a10034 =
 [
-    [ "FontLen", "de/d67/a10034.html#a9405f37c72fac22fa152f1c34c693c8b", null ],
-    [ "NbPanel", "de/d67/a10034.html#a595ade3f6f825c2363b38fcac8dc7acf", null ],
-    [ "PanelAddr", "de/d67/a10034.html#acdb637a5e8a5a3b9e8d703219e7764bd", null ],
-    [ "pFont", "de/d67/a10034.html#a8d1dca0be7645f9494540bbc5a813b48", null ],
-    [ "pIOCfg", "de/d67/a10034.html#af3f2080628b8bec01b4cd9406a9e1b7d", null ]
+    [ "PinDir", "de/d67/a10034.html#a96fb3d8a0a2a458106d20bd2bc3dcf4b", null ],
+    [ "PinNo", "de/d67/a10034.html#a3d105422f997f4f7919a9fc913b10c31", null ],
+    [ "PinOp", "de/d67/a10034.html#ad69d270b5bd3061e53f6651bb974f6f2", null ],
+    [ "PortNo", "de/d67/a10034.html#ae319bd5ff2cbeebfae335d16bee41aa6", null ],
+    [ "Res", "de/d67/a10034.html#a6cea02cb69ca3d86442332d235548acb", null ],
+    [ "Type", "de/d67/a10034.html#a595a7cfa954171380240961886605c70", null ]
 ];

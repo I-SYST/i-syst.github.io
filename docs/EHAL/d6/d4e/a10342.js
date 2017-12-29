@@ -1,10 +1,7 @@
 var a10342 =
 [
-    [ "__init__", "d6/d4e/a10342.html#aec5dbd173cac29712334d6b66c9dccb4", null ],
-    [ "connect", "d6/d4e/a10342.html#a3d5f76a19456d05bd73bfc92b5f18bea", null ],
-    [ "disconnect", "d6/d4e/a10342.html#ae8785ca5485b357d9d8df3c8a8f60614", null ],
-    [ "prbs8", "d6/d4e/a10342.html#a48d79503bf9065ec6967dc7b4bb41b33", null ],
-    [ "receivedPacket", "d6/d4e/a10342.html#a836a6e147e06c1f77408517afff3a9c5", null ],
-    [ "address", "d6/d4e/a10342.html#aa0ff07700f8d6574b547a4cc7354a6e7", null ],
-    [ "sc", "d6/d4e/a10342.html#a69cffd46b1d50d4e045e7ec0e49c9732", null ]
+    [ "bCSWStatus", "d6/d4e/a10342.html#abe0ad0d15709e1e5e972600979026306", null ],
+    [ "dCSWDataResidue", "d6/d4e/a10342.html#a91d5631ad98d51a4ebded6acc2ce82d9", null ],
+    [ "dCSWSignature", "d6/d4e/a10342.html#a5664533ed021a63133fdf20fb25941b6", null ],
+    [ "dCSWTag", "d6/d4e/a10342.html#a5ed80b510989e9db75adcdaae18c6e98", null ]
 ];

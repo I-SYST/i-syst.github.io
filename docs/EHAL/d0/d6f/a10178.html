@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _SPI_Config Struct Reference</title>
+<title>EHAL: __TPHSensor_Data Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,65 +86,49 @@ $(document).ready(function(){initNavTree('d0/d6f/a10178.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d0/dac/a10175.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_SPI_Config Struct Reference</div>  </div>
+<div class="title">__TPHSensor_Data Struct Reference<div class="ingroups"><a class="el" href="../../db/d69/a08585.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>TPH sensor data.  
+ <a href="../../d0/d6f/a10178.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a10742c73410a75291f66ccb90e5d961b"><td class="memItemLeft" align="right" valign="top"><a id="a10742c73410a75291f66ccb90e5d961b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>DevNo</b></td></tr>
-<tr class="separator:a10742c73410a75291f66ccb90e5d961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c11651bce6b9f142ee2515da943294"><td class="memItemLeft" align="right" valign="top"><a id="a30c11651bce6b9f142ee2515da943294"></a>
-SPIMODE&#160;</td><td class="memItemRight" valign="bottom"><b>Mode</b></td></tr>
-<tr class="separator:a30c11651bce6b9f142ee2515da943294"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b37a7fe857cebaa2f99a4b3468a4874"><td class="memItemLeft" align="right" valign="top"><a id="a1b37a7fe857cebaa2f99a4b3468a4874"></a>
-const <a class="el" href="../../dc/d5c/a02459.html#a59a6a3477ccb89a9339a2493966d70f4">IOPINCFG</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pIOPinMap</b></td></tr>
-<tr class="separator:a1b37a7fe857cebaa2f99a4b3468a4874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a481f1dd1f390e305eeccaa00f3e75c1d"><td class="memItemLeft" align="right" valign="top"><a id="a481f1dd1f390e305eeccaa00f3e75c1d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>NbIOPins</b></td></tr>
-<tr class="separator:a481f1dd1f390e305eeccaa00f3e75c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8070cc75d2bc37b967aabae86cbe9b3a"><td class="memItemLeft" align="right" valign="top"><a id="a8070cc75d2bc37b967aabae86cbe9b3a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Rate</b></td></tr>
-<tr class="separator:a8070cc75d2bc37b967aabae86cbe9b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5e76bd2d84c8a40282bb312493e29f1"><td class="memItemLeft" align="right" valign="top"><a id="aa5e76bd2d84c8a40282bb312493e29f1"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>DataSize</b></td></tr>
-<tr class="separator:aa5e76bd2d84c8a40282bb312493e29f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5d0704e983583c693d53eb56f19e91"><td class="memItemLeft" align="right" valign="top"><a id="a1a5d0704e983583c693d53eb56f19e91"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxRetry</b></td></tr>
-<tr class="separator:a1a5d0704e983583c693d53eb56f19e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb0a939e8806ec3984f324a4fa871082"><td class="memItemLeft" align="right" valign="top"><a id="abb0a939e8806ec3984f324a4fa871082"></a>
-SPIDATABIT&#160;</td><td class="memItemRight" valign="bottom"><b>BitOrder</b></td></tr>
-<tr class="separator:abb0a939e8806ec3984f324a4fa871082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90200b8d8372fbc1097b60d6d7df4689"><td class="memItemLeft" align="right" valign="top"><a id="a90200b8d8372fbc1097b60d6d7df4689"></a>
-SPIDATAPHASE&#160;</td><td class="memItemRight" valign="bottom"><b>DataPhase</b></td></tr>
-<tr class="separator:a90200b8d8372fbc1097b60d6d7df4689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24e4183a1e83caa97ac68965fe0dece8"><td class="memItemLeft" align="right" valign="top"><a id="a24e4183a1e83caa97ac68965fe0dece8"></a>
-SPICLKPOL&#160;</td><td class="memItemRight" valign="bottom"><b>ClkPol</b></td></tr>
-<tr class="separator:a24e4183a1e83caa97ac68965fe0dece8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ffcf598a34c5c13a0948292edee1d43"><td class="memItemLeft" align="right" valign="top"><a id="a7ffcf598a34c5c13a0948292edee1d43"></a>
-SPICSEL&#160;</td><td class="memItemRight" valign="bottom"><b>ChipSel</b></td></tr>
-<tr class="separator:a7ffcf598a34c5c13a0948292edee1d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb4b546f9c253647efb508bc54cc740a"><td class="memItemLeft" align="right" valign="top"><a id="aeb4b546f9c253647efb508bc54cc740a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>IntPrio</b></td></tr>
-<tr class="separator:aeb4b546f9c253647efb508bc54cc740a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ca496f36056dfebdb3d5751cae37c8"><td class="memItemLeft" align="right" valign="top"><a id="a29ca496f36056dfebdb3d5751cae37c8"></a>
-<a class="el" href="../../d9/dd6/a02441.html#acd97c93703facb48731148990b41911f">DEVINTRF_EVTCB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EvtCB</b></td></tr>
-<tr class="separator:a29ca496f36056dfebdb3d5751cae37c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d089a70b3e6689c2acf62c3773d8a41"><td class="memItemLeft" align="right" valign="top"><a id="a0d089a70b3e6689c2acf62c3773d8a41"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/a10178.html#a0d089a70b3e6689c2acf62c3773d8a41">Timestamp</a></td></tr>
+<tr class="memdesc:a0d089a70b3e6689c2acf62c3773d8a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time stamp count in millisecond. <br /></td></tr>
+<tr class="separator:a0d089a70b3e6689c2acf62c3773d8a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9177cc5710e9a01c59f93fcad946a4fa"><td class="memItemLeft" align="right" valign="top"><a id="a9177cc5710e9a01c59f93fcad946a4fa"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/a10178.html#a9177cc5710e9a01c59f93fcad946a4fa">Pressure</a></td></tr>
+<tr class="memdesc:a9177cc5710e9a01c59f93fcad946a4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Barometric pressure in Pa no decimal. <br /></td></tr>
+<tr class="separator:a9177cc5710e9a01c59f93fcad946a4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae684f05d276c701b8f9dd76215d47b06"><td class="memItemLeft" align="right" valign="top"><a id="ae684f05d276c701b8f9dd76215d47b06"></a>
+int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/a10178.html#ae684f05d276c701b8f9dd76215d47b06">Temperature</a></td></tr>
+<tr class="memdesc:ae684f05d276c701b8f9dd76215d47b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temperature in degree C, 2 decimals fixed point. <br /></td></tr>
+<tr class="separator:ae684f05d276c701b8f9dd76215d47b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39376b9ca0996f3ae52dfad745145968"><td class="memItemLeft" align="right" valign="top"><a id="a39376b9ca0996f3ae52dfad745145968"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/a10178.html#a39376b9ca0996f3ae52dfad745145968">Humidity</a></td></tr>
+<tr class="memdesc:a39376b9ca0996f3ae52dfad745145968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative humidity in %, 2 decimals fixed point. <br /></td></tr>
+<tr class="separator:a39376b9ca0996f3ae52dfad745145968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../dd/dcf/a10352.html#_a8">env_tph_demo.cpp</a>, and <a class="el" href="../../d5/d80/a10351.html#_a18">TPHSensorTag.cpp</a>.</dd>
+<div class="textblock"><p>TPH sensor data. </p>
+<p>Structure defining TPH sensor data </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/dc0/a10377.html#_a21">env_tph_demo.cpp</a>, and <a class="el" href="../../de/d1f/a10376.html#_a33">TPHSensorTag.cpp</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="../../d8/d65/a02528_source.html#l00094">94</a> of file <a class="el" href="../../d8/d65/a02528_source.html">spi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da8/a02522_source.html#l00057">57</a> of file <a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="../../d8/d65/a02528_source.html">spi.h</a></li>
+<li>include/sensors/<a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d6f/a10178.html">_SPI_Config</a></li>
+    <li class="navelem"><a class="el" href="../../d0/d6f/a10178.html">__TPHSensor_Data</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

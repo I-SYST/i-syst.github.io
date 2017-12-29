@@ -1,9 +1,11 @@
 var a10310 =
 [
-    [ "bcdHID", "d5/dea/a10310.html#ad3e75327c8cced3f1fa05bf2dee86f22", null ],
-    [ "bCountryCode", "d5/dea/a10310.html#a12b9af59270f434bfd2c0d7b99912989", null ],
-    [ "bDescriptorType", "d5/dea/a10310.html#a8bf8366829a3e7bc6246595af0115e11", null ],
-    [ "bLength", "d5/dea/a10310.html#ae94e4e0bdf70d8aa220883d7173666ea", null ],
-    [ "bNumDescriptors", "d5/dea/a10310.html#a11e85b724748ec700e6b88f99f007811", null ],
-    [ "RepDesc", "d5/dea/a10310.html#ad4a13160ab2faff292bcde9c71806ccd", null ]
+    [ "bDescriptorType", "d5/dea/a10310.html#a0d239504330308fec769f1a5a5ed9836", null ],
+    [ "bFirstInterface", "d5/dea/a10310.html#ab2b19ca5a235a62df120a836529f4a15", null ],
+    [ "bFunctionClass", "d5/dea/a10310.html#a936b1527b215bc394a2066e021eeaad5", null ],
+    [ "bFunctionProtocol", "d5/dea/a10310.html#a85882d901660fc12bf67f4eebf67ab88", null ],
+    [ "bFunctionSubClass", "d5/dea/a10310.html#a63a6458d21a5ccebd81a3c24e617eb21", null ],
+    [ "bInterfaceCount", "d5/dea/a10310.html#ac60f193d165605764fc40b0884c090d1", null ],
+    [ "bLength", "d5/dea/a10310.html#a6f2c3753ad232829628a41937e397bfc", null ],
+    [ "iFunction", "d5/dea/a10310.html#adbc5986f11d0bd882fa9dbf904787e34", null ]
 ];

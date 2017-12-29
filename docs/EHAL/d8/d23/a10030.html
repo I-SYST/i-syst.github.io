@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: APP_INFO Struct Reference</title>
+<title>EHAL: IHEXDATA Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,41 +86,50 @@ $(document).ready(function(){initNavTree('d8/d23/a10030.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d9/d66/a10027.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">APP_INFO Struct Reference<div class="ingroups"><a class="el" href="../../d7/d7a/a08557.html">Utilities</a></div></div>  </div>
+<div class="title">IHEXDATA Struct Reference<div class="ingroups"><a class="el" href="../../d4/db4/a08575.html">Utilities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a>&gt;</code></p>
+<p>Structure containing results of parsed HEX record line.  
+ <a href="../../d8/d23/a10030.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa57d5f364fa8803ba90edffc9568ad6b"><td class="memItemLeft" align="right" valign="top"><a id="aa57d5f364fa8803ba90edffc9568ad6b"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#aa57d5f364fa8803ba90edffc9568ad6b">Name</a> [<a class="el" href="../../d7/d7a/a08557.html#ga3fdf79a4e4ea0481a19367e5c4af6256">APPINFO_NAMESIZE_MAX</a>]</td></tr>
-<tr class="memdesc:aa57d5f364fa8803ba90edffc9568ad6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Application signature. <br /></td></tr>
-<tr class="separator:aa57d5f364fa8803ba90edffc9568ad6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfb67f140888592523655cf4040b1039"><td class="memItemLeft" align="right" valign="top"><a id="abfb67f140888592523655cf4040b1039"></a>
-<a class="el" href="../../d3/d77/a10018.html">VERS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#abfb67f140888592523655cf4040b1039">Vers</a></td></tr>
-<tr class="memdesc:abfb67f140888592523655cf4040b1039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version number. <br /></td></tr>
-<tr class="separator:abfb67f140888592523655cf4040b1039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adea01c1e8b506baa3e37aa331fd7c092"><td class="memItemLeft" align="right" valign="top"><a id="adea01c1e8b506baa3e37aa331fd7c092"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#adea01c1e8b506baa3e37aa331fd7c092">Private</a> [<a class="el" href="../../d7/d7a/a08557.html#gaff24c2dddfd9434365828a0b4d4cf06f">APPINFO_PRIVATESIZE_MAX</a>]</td></tr>
-<tr class="memdesc:adea01c1e8b506baa3e37aa331fd7c092"><td class="mdescLeft">&#160;</td><td class="mdescRight">APPINFO_PRIVATESIZE_MAX bytes private data. <br /></td></tr>
-<tr class="separator:adea01c1e8b506baa3e37aa331fd7c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0a0003f70ad1501ccc411a34d37fd3"><td class="memItemLeft" align="right" valign="top"><a id="afe0a0003f70ad1501ccc411a34d37fd3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#afe0a0003f70ad1501ccc411a34d37fd3">Count</a></td></tr>
+<tr class="memdesc:afe0a0003f70ad1501ccc411a34d37fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data count. <br /></td></tr>
+<tr class="separator:afe0a0003f70ad1501ccc411a34d37fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091fedf1007da6d128f1cd3842fa4f39"><td class="memItemLeft" align="right" valign="top"><a id="a091fedf1007da6d128f1cd3842fa4f39"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#a091fedf1007da6d128f1cd3842fa4f39">Offset</a></td></tr>
+<tr class="memdesc:a091fedf1007da6d128f1cd3842fa4f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Address offset. <br /></td></tr>
+<tr class="separator:a091fedf1007da6d128f1cd3842fa4f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="memItemLeft" align="right" valign="top"><a id="a1fcc1d0b77a87cd4b69e473b1c0cf44c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#a1fcc1d0b77a87cd4b69e473b1c0cf44c">Type</a></td></tr>
+<tr class="memdesc:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record type. <br /></td></tr>
+<tr class="separator:a1fcc1d0b77a87cd4b69e473b1c0cf44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a7f16a44b580d040a928361ff66161"><td class="memItemLeft" align="right" valign="top"><a id="a32a7f16a44b580d040a928361ff66161"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/a10030.html#a32a7f16a44b580d040a928361ff66161">Checksum</a></td></tr>
+<tr class="memdesc:a32a7f16a44b580d040a928361ff66161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record checksum. <br /></td></tr>
+<tr class="separator:a32a7f16a44b580d040a928361ff66161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74aace5bde187d2333deca55e3dda91d"><td class="memItemLeft" align="right" valign="top"><a id="a74aace5bde187d2333deca55e3dda91d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> [IHEX_MAX_RECSIZE]</td></tr>
+<tr class="separator:a74aace5bde187d2333deca55e3dda91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Structure defining Application data.</p>
-<p>It contains application identifier (Name), version and application specific private data This data is usually static const located at specific location where bootloader/dfu can access to validate. </p>
+<div class="textblock"><p>Structure containing results of parsed HEX record line. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d35/a02468_source.html#l00105">105</a> of file <a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dcb/a02456_source.html#l00057">57</a> of file <a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a></li>
+<li>include/<a class="el" href="../../d5/dcb/a02456_source.html">intelhex.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d23/a10030.html">APP_INFO</a></li>
+    <li class="navelem"><a class="el" href="../../d8/d23/a10030.html">IHEXDATA</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

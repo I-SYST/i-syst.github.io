@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _USB_HID_Report_Descriptor Struct Reference</title>
+<title>EHAL: __USB_Endpoint_Descriptor Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,31 +86,124 @@ $(document).ready(function(){initNavTree('d5/dc2/a10306.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d6/d62/a10303.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_USB_HID_Report_Descriptor Struct Reference</div>  </div>
+<div class="title">__USB_Endpoint_Descriptor Struct Reference<div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad0e94aaff7398c74d3ad70414b883b50"><td class="memItemLeft" align="right" valign="top"><a id="ad0e94aaff7398c74d3ad70414b883b50"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bDescriptorType</b></td></tr>
-<tr class="separator:ad0e94aaff7398c74d3ad70414b883b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a696cb1aeedc0ba801b0aeefb73c3200b"><td class="memItemLeft" align="right" valign="top"><a id="a696cb1aeedc0ba801b0aeefb73c3200b"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wDescriptorLength</b></td></tr>
-<tr class="separator:a696cb1aeedc0ba801b0aeefb73c3200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab074135da1b8bc8fb5cc71c3602f26cb"><td class="memItemLeft" align="right" valign="top"><a id="ab074135da1b8bc8fb5cc71c3602f26cb"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#ab074135da1b8bc8fb5cc71c3602f26cb">bLength</a></td></tr>
+<tr class="memdesc:ab074135da1b8bc8fb5cc71c3602f26cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of Descriptor in Bytes (7 bytes) <br /></td></tr>
+<tr class="separator:ab074135da1b8bc8fb5cc71c3602f26cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16cd9d60318a989f0865647d39cb61b4"><td class="memItemLeft" align="right" valign="top"><a id="a16cd9d60318a989f0865647d39cb61b4"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#a16cd9d60318a989f0865647d39cb61b4">bDescriptorType</a></td></tr>
+<tr class="memdesc:a16cd9d60318a989f0865647d39cb61b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Endpoint Descriptor (0x05) <br /></td></tr>
+<tr class="separator:a16cd9d60318a989f0865647d39cb61b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e3db496780bffe0986320a51a96a2a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#a47e3db496780bffe0986320a51a96a2a">bEndpointAddress</a></td></tr>
+<tr class="separator:a47e3db496780bffe0986320a51a96a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839cfb5dcf113954a87c0d7fbd2e72fe"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#a839cfb5dcf113954a87c0d7fbd2e72fe">bmAttributes</a></td></tr>
+<tr class="separator:a839cfb5dcf113954a87c0d7fbd2e72fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3461f605cbcd07be64b13e4ec1fde84b"><td class="memItemLeft" align="right" valign="top"><a id="a3461f605cbcd07be64b13e4ec1fde84b"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#a3461f605cbcd07be64b13e4ec1fde84b">wMaxPacketSize</a></td></tr>
+<tr class="memdesc:a3461f605cbcd07be64b13e4ec1fde84b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum Packet Size this endpoint is capable of sending or receiving. <br /></td></tr>
+<tr class="separator:a3461f605cbcd07be64b13e4ec1fde84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5a15331d7688b4543911e62c862fcc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html#acf5a15331d7688b4543911e62c862fcc">bInterval</a></td></tr>
+<tr class="separator:acf5a15331d7688b4543911e62c862fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/d1b/a02555_source.html#l00112">112</a> of file <a class="el" href="../../d8/d1b/a02555_source.html">usb_hiddef.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/usb/<a class="el" href="../../d8/d1b/a02555_source.html">usb_hiddef.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00272">272</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a47e3db496780bffe0986320a51a96a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e3db496780bffe0986320a51a96a2a">&#9670;&nbsp;</a></span>bEndpointAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_Endpoint_Descriptor::bEndpointAddress</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Endpoint Address</p><ul>
+<li>Bits 0..3b Endpoint Number.</li>
+<li>Bits 4..6b Reserved. Set to Zero</li>
+<li>Bits 7 Direction 0 = Out, 1 = In (Ignored for Control Endpoints) </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00275">275</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+
+</div>
+</div>
+<a id="acf5a15331d7688b4543911e62c862fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5a15331d7688b4543911e62c862fcc">&#9670;&nbsp;</a></span>bInterval</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_Endpoint_Descriptor::bInterval</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interval for polling endpoint data transfers. Value in frame counts. Ignored for Bulk &amp; Control Endpoints. Isochronous must equal 1 and field may range from 1 to 255 for interrupt endpoints. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00298">298</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+
+</div>
+</div>
+<a id="a839cfb5dcf113954a87c0d7fbd2e72fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839cfb5dcf113954a87c0d7fbd2e72fe">&#9670;&nbsp;</a></span>bmAttributes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_Endpoint_Descriptor::bmAttributes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Bits 0..1 Transfer Type<ul>
+<li>00 = Control</li>
+<li>01 = Isochronous</li>
+<li>10 = Bulk</li>
+<li>11 = Interrupt</li>
+</ul>
+</li>
+<li>Bits 2..7 are reserved.</li>
+</ul>
+<p>If Isochronous endpoint,</p><ul>
+<li>Bits 3..2 = Synchronisation Type (Iso Mode)<ul>
+<li>00 = No Synchonisation</li>
+<li>01 = Asynchronous</li>
+<li>10 = Adaptive</li>
+<li>11 = Synchronous</li>
+</ul>
+</li>
+<li>Bits 5..4 = Usage Type (Iso Mode)<ul>
+<li>00 = Data Endpoint</li>
+<li>01 = Feedback Endpoint</li>
+<li>10 = Explicit Feedback Data Endpoint</li>
+<li>11 = Reserved </li>
+</ul>
+</li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00279">279</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/usb/<a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/dc2/a10306.html">_USB_HID_Report_Descriptor</a></li>
+    <li class="navelem"><a class="el" href="../../d5/dc2/a10306.html">__USB_Endpoint_Descriptor</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

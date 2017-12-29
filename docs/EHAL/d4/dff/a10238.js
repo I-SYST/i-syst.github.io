@@ -1,7 +1,29 @@
 var a10238 =
 [
-    [ "bcdCDC", "d4/dff/a10238.html#a1226485e0c799b38b18f32da1b9b0195", null ],
-    [ "bDescriptorSubtype", "d4/dff/a10238.html#a96ff8c86d78707f455fe8420c5fa79ed", null ],
-    [ "bDescriptorType", "d4/dff/a10238.html#a17d656874136dff762c2eecfabb44705", null ],
-    [ "bFunctionLength", "d4/dff/a10238.html#a498843f1029deeb9e8eadf205d7ac420", null ]
+    [ "Disable", "d4/dff/a10238.html#a9e40b580728fa3ae699d230be77a2ba1", null ],
+    [ "DisableTimerTrigger", "d4/dff/a10238.html#ad1ab9f1110479333a1114151a98a38de", null ],
+    [ "Enable", "d4/dff/a10238.html#a598fc331b4bfccb85f1e9eaa82c5b481", null ],
+    [ "EnableTimerTrigger", "d4/dff/a10238.html#ae6b0c227b0b4f13733378c1fe158ca36", null ],
+    [ "EnableTimerTrigger", "d4/dff/a10238.html#aa6d9be42f7d625675e1d3dc9191197a3", null ],
+    [ "EnableTimerTrigger", "d4/dff/a10238.html#a356a22a77e0d40e32a75e242ae70eb73", null ],
+    [ "EnableTimerTrigger", "d4/dff/a10238.html#ab84e66211731a32eb0428381ff120b7a", null ],
+    [ "FindAvailTimerTrigger", "d4/dff/a10238.html#a0074a5c186df766dfabcb9d892c6c491", null ],
+    [ "Frequency", "d4/dff/a10238.html#ad29cae94c4fa009adeb0118e0776466e", null ],
+    [ "Frequency", "d4/dff/a10238.html#a2c18f91386221ba63b01b2b471ab7edd", null ],
+    [ "Init", "d4/dff/a10238.html#a5268738c258d310a4e0513c5f439a8f4", null ],
+    [ "MaxTimerTrigger", "d4/dff/a10238.html#a7003edf9ca6ab692a04522defe31d6cf", null ],
+    [ "mSecond", "d4/dff/a10238.html#ace1cca645f21bf79744f2d04590b0840", null ],
+    [ "mSecond", "d4/dff/a10238.html#a53e7845c2fb77bffcbc98dc50a120067", null ],
+    [ "nSecond", "d4/dff/a10238.html#a8dbc48a9196fd1c8a1661dde09d6a339", null ],
+    [ "nSecond", "d4/dff/a10238.html#a5f96f5f7e9af6e1bc2daef5c4391d3e9", null ],
+    [ "Reset", "d4/dff/a10238.html#a404a03464831fab0f2321b33b9869826", null ],
+    [ "TickCount", "d4/dff/a10238.html#ae5aa5e09dbe2813895b174042fdc9ed6", null ],
+    [ "uSecond", "d4/dff/a10238.html#a39dc91365315661a5338e3fc94424135", null ],
+    [ "uSecond", "d4/dff/a10238.html#ab0e7339b0677cdcb138c7ac55f2ab431", null ],
+    [ "vDevNo", "d4/dff/a10238.html#aa3efe68161184bb259db64d023b65611", null ],
+    [ "vEvtHandler", "d4/dff/a10238.html#a17e463768d6fb5bde20dbff19b967641", null ],
+    [ "vFreq", "d4/dff/a10238.html#afc187a8aea7fdb211ae1bb7bd5645621", null ],
+    [ "vLastCount", "d4/dff/a10238.html#ab3c98be2019ac4b964bf3b0dfbbfebad", null ],
+    [ "vnsPeriod", "d4/dff/a10238.html#aeaae26631745679daaf72573021a8252", null ],
+    [ "vRollover", "d4/dff/a10238.html#a5c21dda893085bbfaba6b155c03ac47b", null ]
 ];

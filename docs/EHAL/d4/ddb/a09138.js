@@ -1,11 +1,9 @@
 var a09138 =
 [
-    [ "DAR", "d4/ddb/a09138.html#adbc7cbe9425704ce98e9d8485ff2a555", null ],
-    [ "DCR", "d4/ddb/a09138.html#afa67688eee65935f79df815d47c7e400", null ],
-    [ "DMA", "d4/ddb/a09138.html#a42f78e278fc6d1ae6332fe2e255e81d2", null ],
-    [ "DMA_DSR_ACCESS8BIT", "d4/ddb/a09138.html#a7a8d8246152374cdfdba0b893d0410bf", null ],
-    [ "DSR", "d4/ddb/a09138.html#a7e5029eae45531c7e4f42c65fb3eb823", null ],
-    [ "DSR_BCR", "d4/ddb/a09138.html#af4baee4fdddfd3bea47a776541500832", null ],
-    [ "RESERVED_0", "d4/ddb/a09138.html#a8049b5654491886d2ac76dd2a8d33b9d", null ],
-    [ "SAR", "d4/ddb/a09138.html#af772e8c5ccda72b23f6460494c12857a", null ]
+    [ "FDProt", "d4/ddb/a09138.html#a4c9913b43bbfd31b85e52bf0a65d5cb2", null ],
+    [ "FEProt", "d4/ddb/a09138.html#a07c465e58e90e2c90151a92589323bd0", null ],
+    [ "FOpt", "d4/ddb/a09138.html#a558e913e8a69293011d49d1689d0a428", null ],
+    [ "FProt", "d4/ddb/a09138.html#a422f36ec910443b22c73241c549dd4af", null ],
+    [ "FSec", "d4/ddb/a09138.html#a10d10d7d875dddc4f6984ebf963fcf4d", null ],
+    [ "Key", "d4/ddb/a09138.html#a469595f32a2f461316bc92af4c810d7c", null ]
 ];

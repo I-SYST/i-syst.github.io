@@ -1,7 +1,11 @@
 var a10294 =
 [
-    [ "bcdOTG", "d0/db2/a10294.html#ad15576c9d31f1e69ed30effc90943ae5", null ],
-    [ "bDescriptorType", "d0/db2/a10294.html#a474b85a312f2a1f39441c530af6c1bf8", null ],
-    [ "bLength", "d0/db2/a10294.html#ad450b545139f599304c8a329b418cd9c", null ],
-    [ "bmAttributes", "d0/db2/a10294.html#ad3d2f1aab90e1567ecb492df30602851", null ]
+    [ "bConfigurationValue", "d0/db2/a10294.html#a3832a38c2e49a0d35d2a8f24ed731dfb", null ],
+    [ "bDescriptorType", "d0/db2/a10294.html#a700f03247fc958cc1760b348e9bb99e6", null ],
+    [ "bLength", "d0/db2/a10294.html#a7c59ea2997f650b8835d366384f54f7f", null ],
+    [ "bmAttributes", "d0/db2/a10294.html#a8d1cf2b9f4b01c410456adeb880ec082", null ],
+    [ "bMaxPower", "d0/db2/a10294.html#a2665fdfca021f0825413295ec73967e2", null ],
+    [ "bNumInterfaces", "d0/db2/a10294.html#a79e3084e57029da30a23d799887fa1a3", null ],
+    [ "iConfiguration", "d0/db2/a10294.html#a4588faedf6a0e2b8b16bd7cf8dbc7b42", null ],
+    [ "wTotalLength", "d0/db2/a10294.html#a2c2740bc9d14c1c5c4277bbe6301f6af", null ]
 ];

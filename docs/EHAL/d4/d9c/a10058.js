@@ -1,7 +1,8 @@
 var a10058 =
 [
-    [ "Csd", "d4/d9c/a10058.html#a33183f757d15a5aa0c1845dd20c45a26", null ],
-    [ "pSerIntrf", "d4/d9c/a10058.html#a1b16fa35aee76f8034bb84bdfae8e382", null ],
-    [ "SectSize", "d4/d9c/a10058.html#a7a613de9cb73a992ae915b3ccbd78582", null ],
-    [ "TotalSect", "d4/d9c/a10058.html#a8b4019e70ad237f042527bef5f4df0dc", null ]
+    [ "FontLen", "d4/d9c/a10058.html#a6d400fbc22b61f5cbfda417539809b63", null ],
+    [ "NbPanel", "d4/d9c/a10058.html#a50bbfd3c905099d6e45e26cdc8e67808", null ],
+    [ "PanelAddr", "d4/d9c/a10058.html#aab223df73a9032c4d020d983cf0e4be8", null ],
+    [ "pFont", "d4/d9c/a10058.html#a8aa9f92ad298afbfe5633f939574a171", null ],
+    [ "pIODev", "d4/d9c/a10058.html#af6d2cac018329b4f20298f1c3b289a1c", null ]
 ];

@@ -1,10 +1,6 @@
 var a10318 =
 [
-    [ "bCBWCBLength", "dc/d20/a10318.html#a0085ea7af7dfdd9e3e49d7930ea9b773", null ],
-    [ "bCBWLUN", "dc/d20/a10318.html#a138e4c241ccd47b0c29bd103315c4a93", null ],
-    [ "bmCBWFlags", "dc/d20/a10318.html#ab5d509bb53486af3b5707a0730a93fe4", null ],
-    [ "CBWCB", "dc/d20/a10318.html#a511b525b278d199aa849eb476e1cc57c", null ],
-    [ "dCBWDataTransferLength", "dc/d20/a10318.html#aede21deeb2d5c1de69ebeb000b4a7997", null ],
-    [ "dCBWSignature", "dc/d20/a10318.html#a0e78d4a8392c11555ec1a47b7125cc4b", null ],
-    [ "dCBWTag", "dc/d20/a10318.html#a3808a43c3f8b1ad8cfec8429f169aae2", null ]
+    [ "bDescriptorType", "dc/d20/a10318.html#a93c94175d6d20996a156fc2716633c16", null ],
+    [ "bLength", "dc/d20/a10318.html#abbd0ea7c4e80973efccb93f48aab1970", null ],
+    [ "wLangId", "dc/d20/a10318.html#aa440d5a65f40072748bf365e7e14615d", null ]
 ];

@@ -1,4 +1,5 @@
 var a09866 =
 [
-    [ "State", "dd/d94/a09866.html#ae24d4dbf61e247535b70306e7301a203", null ]
+    [ "Data", "dd/d94/a09866.html#a3eca5820e36084f87a47d06ef74009d7", null ],
+    [ "Type", "dd/d94/a09866.html#a62e2b9d44ebc332e189a35ecad1abca4", null ]
 ];

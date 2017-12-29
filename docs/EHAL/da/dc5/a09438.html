@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: USBD_DFU_API_T Struct Reference</title>
+<title>EHAL: USB_SETUP_PACKET Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,31 +86,50 @@ $(document).ready(function(){initNavTree('da/dc5/a09438.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/d0d/a09435.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">USBD_DFU_API_T Struct Reference</div>  </div>
+<div class="title">USB_SETUP_PACKET Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9c3c8fa960a6a78525e5f6d23e6148e6"><td class="memItemLeft" align="right" valign="top"><a id="a9c3c8fa960a6a78525e5f6d23e6148e6"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetMemSize</b> )(<a class="el" href="../../db/d55/a09434.html">USBD_DFU_INIT_PARAM_T</a> *param)</td></tr>
-<tr class="separator:a9c3c8fa960a6a78525e5f6d23e6148e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a145713beeea6615ca8cce249ba704d"><td class="memItemLeft" align="right" valign="top"><a id="a2a145713beeea6615ca8cce249ba704d"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> )(USBD_HANDLE_T hUsb, <a class="el" href="../../db/d55/a09434.html">USBD_DFU_INIT_PARAM_T</a> *param, uint32_t init_state)</td></tr>
-<tr class="separator:a2a145713beeea6615ca8cce249ba704d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f07c0a69cb096f6f215b3ac153daa93"><td class="memItemLeft" align="right" valign="top"><a id="a2f07c0a69cb096f6f215b3ac153daa93"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bmRequestType</b></td></tr>
+<tr class="separator:a2f07c0a69cb096f6f215b3ac153daa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d0935c2a5a6440b8135c4e96e834fb"><td class="memItemLeft" align="right" valign="top"><a id="ae4d0935c2a5a6440b8135c4e96e834fb"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bRequest</b></td></tr>
+<tr class="separator:ae4d0935c2a5a6440b8135c4e96e834fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6072f1e4b613fa57a78f3c582397bb2b"><td class="memItemLeft" align="right" valign="top"><a id="a6072f1e4b613fa57a78f3c582397bb2b"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wValue</b></td></tr>
+<tr class="separator:a6072f1e4b613fa57a78f3c582397bb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3265cb1de64991d9bde486a7bc01cff"><td class="memItemLeft" align="right" valign="top"><a id="ab3265cb1de64991d9bde486a7bc01cff"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wIndex</b></td></tr>
+<tr class="separator:ab3265cb1de64991d9bde486a7bc01cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd38819037e7f1bc3de004f7e554cf32"><td class="memItemLeft" align="right" valign="top"><a id="afd38819037e7f1bc3de004f7e554cf32"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wLength</b></td></tr>
+<tr class="separator:afd38819037e7f1bc3de004f7e554cf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d5d0163a7e2b32cdd0dd727f7f1d63"><td class="memItemLeft" align="right" valign="top"><a id="a29d5d0163a7e2b32cdd0dd727f7f1d63"></a>
+<a class="el" href="../../df/d01/a09494.html">REQUEST_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bmRequestType</b></td></tr>
+<tr class="separator:a29d5d0163a7e2b32cdd0dd727f7f1d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d5a04ff4a9a86ad485cd36a9769754"><td class="memItemLeft" align="right" valign="top"><a id="a45d5a04ff4a9a86ad485cd36a9769754"></a>
+<a class="el" href="../../d7/dde/a09502.html">WORD_BYTE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wValue</b></td></tr>
+<tr class="separator:a45d5a04ff4a9a86ad485cd36a9769754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b950e5d9f1391a334572aad824c8f77"><td class="memItemLeft" align="right" valign="top"><a id="a7b950e5d9f1391a334572aad824c8f77"></a>
+<a class="el" href="../../d7/dde/a09502.html">WORD_BYTE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wIndex</b></td></tr>
+<tr class="separator:a7b950e5d9f1391a334572aad824c8f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/a02108_source.html#l00117">117</a> of file <a class="el" href="../../d8/dd8/a02108_source.html">usbd_dfu_lpcxx.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d8/dd8/a02108_source.html">usbd_dfu_lpcxx.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../db/d7a/a02105_source.html#l00055">55</a> of file <a class="el" href="../../db/d7a/a02105_source.html">usbd_core_lpcxx.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following files:<ul>
+<li>ARM/NXP/include/<a class="el" href="../../db/d7a/a02105_source.html">usbd_core_lpcxx.h</a></li>
+<li>ARM/NXP/include/<a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../da/dc5/a09438.html">USBD_DFU_API_T</a></li>
+    <li class="navelem"><a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,17 +1,16 @@
 var a09334 =
 [
-    [ "BaseAddr0", "db/d42/a09334.html#ad32233a9d0082f95a2b4ddaa3baf978d", null ],
-    [ "BaseAddr1", "db/d42/a09334.html#a99c3d7b81a61447e3c2fa5f920e44e12", null ],
-    [ "EvtCB", "db/d42/a09334.html#a317a68883867b50eae8019c729cf85f7", null ],
-    [ "Mode", "db/d42/a09334.html#a9a104728cb5c0f0247028ee5e7df235c", null ],
-    [ "NbRetry", "db/d42/a09334.html#abef7fb34f368911e94798a290f2c3425", null ],
-    [ "PacketSize", "db/d42/a09334.html#abbb2ab754ee51b05b48852c879355f80", null ],
-    [ "PipePrefix", "db/d42/a09334.html#ac03ba54b6e06e208ea769440c21bf284", null ],
-    [ "Protocol", "db/d42/a09334.html#a38cf12bc073ead6e2076b275a8d356fc", null ],
-    [ "pRxFifoMem", "db/d42/a09334.html#a5324592dcac7d94a05d91a9d0360d1f7", null ],
-    [ "pTxFifoMem", "db/d42/a09334.html#af6812507923909ce0f53e5de7edd6787", null ],
-    [ "Rate", "db/d42/a09334.html#a9cd5044b06bf40d1f71fb8121979bfd6", null ],
-    [ "RxFifoMemSize", "db/d42/a09334.html#a8ee5f73dd7447766c4cd322107164255", null ],
-    [ "TxFifoMemSize", "db/d42/a09334.html#afa8fb7b581c0c04b183a2be2c6656558", null ],
-    [ "TxPower", "db/d42/a09334.html#ab43f42b54b528dcc58afddbb939139b0", null ]
+    [ "Disable", "db/d42/a09334.html#af1e57cae520818d225162f38b7918b78", null ],
+    [ "Enable", "db/d42/a09334.html#a38a6e6db0c472cc2d1aceee1b8fb33e0", null ],
+    [ "Init", "db/d42/a09334.html#a50167a4c90a1ceebbcf3a955f9b17aad", null ],
+    [ "operator DEVINTRF *", "db/d42/a09334.html#a86d7f163ff7beb8aa6adf43bde5bc574", null ],
+    [ "Rate", "db/d42/a09334.html#a662c7ca8256f10b39b86953eedc208a3", null ],
+    [ "Rate", "db/d42/a09334.html#afee6750a5df55a4fbe9ad2ca63527361", null ],
+    [ "RequestToSend", "db/d42/a09334.html#a9bf02e19ca85fc1d015d8a1a641883ec", null ],
+    [ "RxData", "db/d42/a09334.html#a0b6f565c119cfe6f4b7707103e9ce721", null ],
+    [ "StartRx", "db/d42/a09334.html#a47cd6fcddb7d2c3a42b55da0273c03f2", null ],
+    [ "StartTx", "db/d42/a09334.html#a53f955a9433c17a9d56ab4c672d00ab0", null ],
+    [ "StopRx", "db/d42/a09334.html#a8b02fa0b91ecc98c5c2fd5028f2b210a", null ],
+    [ "StopTx", "db/d42/a09334.html#a9c0cea9b8679093cc501af48b2b6126e", null ],
+    [ "TxData", "db/d42/a09334.html#a905cbc09d85dcd3dc59eb2bb68964b86", null ]
 ];

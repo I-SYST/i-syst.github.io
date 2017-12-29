@@ -1,14 +1,10 @@
 var a09318 =
 [
-    [ "bNotify", "dd/d31/a09318.html#aeb9f19df0623f8fe92b7c35abc6da105", null ],
-    [ "Hdl", "dd/d31/a09318.html#a69cff76720b3602e1eae5a0edd5e6c8d", null ],
-    [ "MaxDataLen", "dd/d31/a09318.html#af6fcc0d02e47993a944ccf34325c97fa", null ],
-    [ "pDefValue", "dd/d31/a09318.html#a8e611662145cdca66168f814bec64b29", null ],
-    [ "pDesc", "dd/d31/a09318.html#ae3ca63f321ceb99367a2ad92d42d21b0", null ],
-    [ "Property", "dd/d31/a09318.html#a98cf27cb86fc51d515272eb4dcd07bb1", null ],
-    [ "SetNotifCB", "dd/d31/a09318.html#ae6a674ef33de92a028bd192a62a5590a", null ],
-    [ "TxCompleteCB", "dd/d31/a09318.html#a5450133b570afe951d7641f0cab8b494", null ],
-    [ "Uuid", "dd/d31/a09318.html#a2d5986e4e24ce92f05cc3ea79dc92a8d", null ],
-    [ "ValueLen", "dd/d31/a09318.html#a5f671265cec80afbc45c5efe206e91d3", null ],
-    [ "WrCB", "dd/d31/a09318.html#a9a557097acc7d1787b0d8dee6c232d5e", null ]
+    [ "EnterDfu", "dd/d31/a09318.html#ae118ddec7b95a186b037c2586a52e6f5", null ],
+    [ "Init", "dd/d31/a09318.html#a14158d55f26f398b0bbee819d1a7b9c9", null ],
+    [ "InitCustomData", "dd/d31/a09318.html#ae81b98659252fa5aef4382529e683fa6", null ],
+    [ "InitServices", "dd/d31/a09318.html#a03a215522198e16ed8b2a3e5e897a71c", null ],
+    [ "ProcessEvt", "dd/d31/a09318.html#ab0528d69c41aba8035d8196286f7549e", null ],
+    [ "SrvcEvtDispatch", "dd/d31/a09318.html#a17432219c20d04014de0c4d192568503", null ],
+    [ "Start", "dd/d31/a09318.html#ab5c1c04227169a587c19a6451e7c2872", null ]
 ];

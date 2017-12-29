@@ -1,11 +1,7 @@
 var a10070 =
 [
-    [ "AddrLen", "df/d2c/a10070.html#a99af89a788499e05c24ed49e611e5461", null ],
-    [ "DevAddr", "df/d2c/a10070.html#afa25fb78638bdbff72b959e568752a50", null ],
-    [ "PageSize", "df/d2c/a10070.html#afa1a6f09d1509da89cbb782eec4cb84a", null ],
-    [ "pInterf", "df/d2c/a10070.html#a806e9b2e8bf8547e8bb15a2b347a3801", null ],
-    [ "pWaitCB", "df/d2c/a10070.html#a4d6332fe5123ffee37cc24dca9ccd506", null ],
-    [ "Size", "df/d2c/a10070.html#a2a100b271d705cf87a9cbc8e119c9ffb", null ],
-    [ "WrDelay", "df/d2c/a10070.html#ab8d7afd302902d914e5f04d8c8754e99", null ],
-    [ "WrProtPin", "df/d2c/a10070.html#af19dea69d2ee63a457dbc49122326ba6", null ]
+    [ "Nsac", "df/d2c/a10070.html#afdee451ad2d3d4efe8b35d5eb2c7a1c7", null ],
+    [ "Rsvd1", "df/d2c/a10070.html#a60aa5268c144d0c7d30674d05e962c1c", null ],
+    [ "Taac", "df/d2c/a10070.html#a2ab54acc8096b0341f63191925195f49", null ],
+    [ "Vers", "df/d2c/a10070.html#a607d4deb32e0cfd84d9ccbc819fbe4f0", null ]
 ];

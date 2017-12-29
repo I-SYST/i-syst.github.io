@@ -1,13 +1,17 @@
 var a08514 =
 [
-    [ "LPTMR Register Masks", "da/dde/a08515.html", null ],
-    [ "LPTMR_Type", "d9/d7f/a09182.html", [
-      [ "CMR", "d9/d7f/a09182.html#aa5b60a4852b1f75b35ac4535ec8fde47", null ],
-      [ "CNR", "d9/d7f/a09182.html#a3a78ce6eb96610b773e9683eb31eb56f", null ],
-      [ "CSR", "d9/d7f/a09182.html#a429aba6c7571f26fdc0c6315c0f920a7", null ],
-      [ "PSR", "d9/d7f/a09182.html#a762750e61f8a71eae4ee81d9cc02fc51", null ]
+    [ "DAC Register Masks", "da/dde/a08515.html", null ],
+    [ "DAC_Type", "df/d4a/a09150.html", [
+      [ "C0", "df/d4a/a09150.html#a49f8406d0fa0efc705eb2c0c43ecf30c", null ],
+      [ "C1", "df/d4a/a09150.html#afb00f6857479eca5081afacc76b9b621", null ],
+      [ "C2", "df/d4a/a09150.html#a4128157a759ed11a7ac5b3daf56cd7d2", null ],
+      [ "DAT", "df/d4a/a09150.html#a6a8bb73892733bd5b6e40ccf510d1599", null ],
+      [ "DATH", "df/d4a/a09150.html#ad8322a8c7a81901521c43219cb6fbca6", null ],
+      [ "DATL", "df/d4a/a09150.html#a0f61f3cd5d904066d9050e97aab24734", null ],
+      [ "RESERVED_0", "df/d4a/a09150.html#abbc4bc85ecfbd85886af621cf49c4464", null ],
+      [ "SR", "df/d4a/a09150.html#acee3e246d2964c0a7165755319ad8d72", null ]
     ] ],
-    [ "LPTMR0", "d2/d7f/a08514.html#gaba0c3bc8a32ad5a884c99e019dbdef85", null ],
-    [ "LPTMR0_BASE", "d2/d7f/a08514.html#ga024f362857a8b928d96cf3b3f5106793", null ],
-    [ "LPTMR_BASES", "d2/d7f/a08514.html#ga6268765a66cbad770c74b5db8f2171c0", null ]
+    [ "DAC0", "d2/d7f/a08514.html#gadfe0025fe66918c644e110c3b055c955", null ],
+    [ "DAC0_BASE", "d2/d7f/a08514.html#gada12ca8452e773fd8f38041872934efc", null ],
+    [ "DAC_BASES", "d2/d7f/a08514.html#gaad3bd138b185ee4a6897c8e0e39373be", null ]
 ];

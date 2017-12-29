@@ -1,19 +1,15 @@
 var a09362 =
 [
-    [ "I2ADR0", "de/d4e/a09362.html#aee0be5b40f43575fd8baaf6f3aef72c1", null ],
-    [ "I2ADR1", "de/d4e/a09362.html#aaa45fa007a0b1bf3401554596b7d67c0", null ],
-    [ "I2ADR2", "de/d4e/a09362.html#a7adf7cca910d8dc1ad3f3e95cb8e83fb", null ],
-    [ "I2ADR3", "de/d4e/a09362.html#a529b3bf11841e35d89ff574a16f3f463", null ],
-    [ "I2CONCLR", "de/d4e/a09362.html#a9f05919a310876aa8de17c1a86320a10", null ],
-    [ "I2CONSET", "de/d4e/a09362.html#a85b047f07b3a8bb6020eb5c929933a85", null ],
-    [ "I2DAT", "de/d4e/a09362.html#a998c133e893b3b828cd58eef72b4f557", null ],
-    [ "I2DATA_BUFFER", "de/d4e/a09362.html#a264f1b8fe4b8589f137aeaaaad7866b8", null ],
-    [ "I2MASK0", "de/d4e/a09362.html#aeabe16a16f8130d444aaa951bcacc158", null ],
-    [ "I2MASK1", "de/d4e/a09362.html#a07ce5a3bfe556904a4bddcabaf82e44a", null ],
-    [ "I2MASK2", "de/d4e/a09362.html#a8e0122cf8957ca03f7f2dee17b606300", null ],
-    [ "I2MASK3", "de/d4e/a09362.html#add962b4332c4d9276d4cd69321d93848", null ],
-    [ "I2SCLH", "de/d4e/a09362.html#a2c4d70e58ca431c209982c7a073d5597", null ],
-    [ "I2SCLL", "de/d4e/a09362.html#a1908738fd4e50db25c281738d2f02e0e", null ],
-    [ "I2STAT", "de/d4e/a09362.html#a152350fa1af45d5b8c2f0a95a67eaa2d", null ],
-    [ "MMCTRL", "de/d4e/a09362.html#ab243c1e105aefed9d32eadaf1f3313e7", null ]
+    [ "CsPins", "de/d4e/a09362.html#a07248bc5bb0ee95e6cdda8036b2a8aa4", null ],
+    [ "CsPorts", "de/d4e/a09362.html#aa8c8b060ee76cdd88a9d166a6416a9a3", null ],
+    [ "CsType", "de/d4e/a09362.html#a12d905d88df5c775c8610421f3d1184a", null ],
+    [ "DataPin", "de/d4e/a09362.html#a28cfdd8e62b6f6ceb1cc676a85dc7e43", null ],
+    [ "DataPort", "de/d4e/a09362.html#a372ecdb154be2861d51b8f19a5a16a60", null ],
+    [ "EnPin", "de/d4e/a09362.html#a92b03fb105203ee8a7c09875186bf3cf", null ],
+    [ "EnPort", "de/d4e/a09362.html#a3724df31201335ba91e500b729f2e594", null ],
+    [ "NbCsPins", "de/d4e/a09362.html#af62c753ebf2ce8959ed8264a566eb3eb", null ],
+    [ "RdPin", "de/d4e/a09362.html#a9078b97dbfb2567a865956f6b6025142", null ],
+    [ "RdPort", "de/d4e/a09362.html#aab1de6b6fb825f65959e5b0017b8b1e0", null ],
+    [ "WrPin", "de/d4e/a09362.html#ac7626ef61cc4014bbf5ef82862a4868d", null ],
+    [ "WrPort", "de/d4e/a09362.html#afa9df3556d7bcc25b2817d1e80af55e4", null ]
 ];

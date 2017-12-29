@@ -1,12 +1,19 @@
 var a08530 =
 [
-    [ "PMC Register Masks", "d4/dbc/a08531.html", null ],
-    [ "PMC_Type", "dc/d11/a09222.html", [
-      [ "LVDSC1", "dc/d11/a09222.html#a2aa5e7cebe52d9d7fbe071a4751b2a6c", null ],
-      [ "LVDSC2", "dc/d11/a09222.html#abc2abe9e83245fcd84da5a78bbea23ea", null ],
-      [ "REGSC", "dc/d11/a09222.html#a23fa3c271bf9f25b06221b037553f936", null ]
+    [ "LLWU Register Masks", "d4/dbc/a08531.html", null ],
+    [ "LLWU_Type", "d8/def/a09198.html", [
+      [ "F1", "d8/def/a09198.html#a7a06923d73cbfb32196f92cec9832679", null ],
+      [ "F2", "d8/def/a09198.html#a2e0cf4aaae8993a69589806facbdb943", null ],
+      [ "F3", "d8/def/a09198.html#a3c0a1985283644dfd4d68600e899b55f", null ],
+      [ "FILT1", "d8/def/a09198.html#aa94a3a9f881724ef6ed7658e387aa159", null ],
+      [ "FILT2", "d8/def/a09198.html#a5736205996ff7fc8e4eba49f8f0e44ea", null ],
+      [ "ME", "d8/def/a09198.html#aded2b9c734957e9882cefccb5029c51f", null ],
+      [ "PE1", "d8/def/a09198.html#af4e20147909cf3d6a8ec04750fc36833", null ],
+      [ "PE2", "d8/def/a09198.html#a95ff50f29c9dd8bb33ab20a0cbb24a67", null ],
+      [ "PE3", "d8/def/a09198.html#aea83255d229cf9f16973c2e2c289d084", null ],
+      [ "PE4", "d8/def/a09198.html#a3e7dd04bfade7dc646336a69827f8d8f", null ]
     ] ],
-    [ "PMC", "de/d71/a08530.html#ga979c6d379c67bc2f3e8eb6efcb509f69", null ],
-    [ "PMC_BASE", "de/d71/a08530.html#ga4e92bd47dc68cc81e62c344586a4cdfa", null ],
-    [ "PMC_BASES", "de/d71/a08530.html#gab60c4d50378b9e17b781670c6c0def9b", null ]
+    [ "LLWU", "de/d71/a08530.html#gaed2d6ced03dff7739533096e53983dbe", null ],
+    [ "LLWU_BASE", "de/d71/a08530.html#ga5596067d46debe317ac368bfc5db21f8", null ],
+    [ "LLWU_BASES", "de/d71/a08530.html#ga466e35ad6d2ba38c48fbfc6b7f3888be", null ]
 ];

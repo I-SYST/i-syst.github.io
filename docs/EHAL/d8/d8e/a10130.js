@@ -1,5 +1,5 @@
 var a10130 =
 [
-    [ "Init", "d8/d8e/a10130.html#a4ce12b077d78b544a61d42addd386ee4", null ],
-    [ "Read", "d8/d8e/a10130.html#a60dbd9ed61d9ad2dfff24d633120a753", null ]
+    [ "Dur", "d8/d8e/a10130.html#a6ff60c9b09f4abd18a44ccde1d3560c7", null ],
+    [ "Temp", "d8/d8e/a10130.html#a50e49e850b61d1ec41958c5e7343691a", null ]
 ];

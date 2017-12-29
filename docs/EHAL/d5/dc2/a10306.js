@@ -1,5 +1,9 @@
 var a10306 =
 [
-    [ "bDescriptorType", "d5/dc2/a10306.html#ad0e94aaff7398c74d3ad70414b883b50", null ],
-    [ "wDescriptorLength", "d5/dc2/a10306.html#a696cb1aeedc0ba801b0aeefb73c3200b", null ]
+    [ "bDescriptorType", "d5/dc2/a10306.html#a16cd9d60318a989f0865647d39cb61b4", null ],
+    [ "bEndpointAddress", "d5/dc2/a10306.html#a47e3db496780bffe0986320a51a96a2a", null ],
+    [ "bInterval", "d5/dc2/a10306.html#acf5a15331d7688b4543911e62c862fcc", null ],
+    [ "bLength", "d5/dc2/a10306.html#ab074135da1b8bc8fb5cc71c3602f26cb", null ],
+    [ "bmAttributes", "d5/dc2/a10306.html#a839cfb5dcf113954a87c0d7fbd2e72fe", null ],
+    [ "wMaxPacketSize", "d5/dc2/a10306.html#a3461f605cbcd07be64b13e4ec1fde84b", null ]
 ];

@@ -1,12 +1,12 @@
 var a08548 =
 [
-    [ "TSI Register Masks", "db/db6/a08549.html", null ],
-    [ "TSI_Type", "d7/d42/a09262.html", [
-      [ "DATA", "d7/d42/a09262.html#a72534b6801402c0bd164b303a6c62915", null ],
-      [ "GENCS", "d7/d42/a09262.html#a80787b87ff094252f51f10fb1bba3ee5", null ],
-      [ "TSHD", "d7/d42/a09262.html#a0c186c2b608af571b13010c5cb4cb91d", null ]
+    [ "PMC Register Masks", "db/db6/a08549.html", null ],
+    [ "PMC_Type", "dd/dca/a09242.html", [
+      [ "LVDSC1", "dd/dca/a09242.html#a2aa5e7cebe52d9d7fbe071a4751b2a6c", null ],
+      [ "LVDSC2", "dd/dca/a09242.html#abc2abe9e83245fcd84da5a78bbea23ea", null ],
+      [ "REGSC", "dd/dca/a09242.html#a23fa3c271bf9f25b06221b037553f936", null ]
     ] ],
-    [ "TSI0", "d8/d2e/a08548.html#ga2c7d71b60c1e9a79fb1f5a0f966b5e82", null ],
-    [ "TSI0_BASE", "d8/d2e/a08548.html#ga4f4029c5109ad3bccf1575309f9dbc51", null ],
-    [ "TSI_BASES", "d8/d2e/a08548.html#gab3df93f976cb67ed5e3c7c67507a7dd7", null ]
+    [ "PMC", "d8/d2e/a08548.html#ga979c6d379c67bc2f3e8eb6efcb509f69", null ],
+    [ "PMC_BASE", "d8/d2e/a08548.html#ga4e92bd47dc68cc81e62c344586a4cdfa", null ],
+    [ "PMC_BASES", "d8/d2e/a08548.html#gab60c4d50378b9e17b781670c6c0def9b", null ]
 ];

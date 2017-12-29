@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: TPM Peripheral Access Layer</title>
+<title>EHAL: PIT Peripheral Access Layer</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -87,155 +87,79 @@ $(document).ready(function(){initNavTree('d5/d80/a08546.html','../../');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">TPM Peripheral Access Layer<div class="ingroups"><a class="el" href="../../dd/d5b/a08491.html">Device Peripheral Access Layer</a></div></div>  </div>
+<div class="title">PIT Peripheral Access Layer<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:d0/d98/a08547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d98/a08547.html">TPM Register Masks</a></td></tr>
+<tr class="memitem:d0/d98/a08547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d98/a08547.html">PIT Register Masks</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/a09254.html">TPM_Type</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d44/a09234.html">PIT_Type</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gafce6fdf5fb48d6c6b77a8c5a86ae50c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#gafce6fdf5fb48d6c6b77a8c5a86ae50c2">TPM0_BASE</a>&#160;&#160;&#160;(0x40038000u)</td></tr>
-<tr class="separator:gafce6fdf5fb48d6c6b77a8c5a86ae50c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga255cfcfa3e71e5e8bc0f8eb3272de220"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#ga255cfcfa3e71e5e8bc0f8eb3272de220">TPM0</a>&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gafce6fdf5fb48d6c6b77a8c5a86ae50c2">TPM0_BASE</a>)</td></tr>
-<tr class="separator:ga255cfcfa3e71e5e8bc0f8eb3272de220"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga563e0e90d795a6083656fd2d61c0f694"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#ga563e0e90d795a6083656fd2d61c0f694">TPM1_BASE</a>&#160;&#160;&#160;(0x40039000u)</td></tr>
-<tr class="separator:ga563e0e90d795a6083656fd2d61c0f694"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e4965bffa80b3aab662e2d60096ae53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#ga2e4965bffa80b3aab662e2d60096ae53">TPM1</a>&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#ga563e0e90d795a6083656fd2d61c0f694">TPM1_BASE</a>)</td></tr>
-<tr class="separator:ga2e4965bffa80b3aab662e2d60096ae53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac3255fe3941602acc3b942bb6d885611"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#gac3255fe3941602acc3b942bb6d885611">TPM2_BASE</a>&#160;&#160;&#160;(0x4003A000u)</td></tr>
-<tr class="separator:gac3255fe3941602acc3b942bb6d885611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga833a0146c6466718ff4e2ffa215355ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#ga833a0146c6466718ff4e2ffa215355ea">TPM2</a>&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gac3255fe3941602acc3b942bb6d885611">TPM2_BASE</a>)</td></tr>
-<tr class="separator:ga833a0146c6466718ff4e2ffa215355ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb746a3b5c47063cb64409cc6f0ba715"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#gaeb746a3b5c47063cb64409cc6f0ba715">TPM_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../d5/d80/a08546.html#ga255cfcfa3e71e5e8bc0f8eb3272de220">TPM0</a>, <a class="el" href="../../d5/d80/a08546.html#ga2e4965bffa80b3aab662e2d60096ae53">TPM1</a>, <a class="el" href="../../d5/d80/a08546.html#ga833a0146c6466718ff4e2ffa215355ea">TPM2</a> }</td></tr>
-<tr class="separator:gaeb746a3b5c47063cb64409cc6f0ba715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf00b86ba33a2cfe7bb100b4f01905f41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#gaf00b86ba33a2cfe7bb100b4f01905f41">PIT_BASE</a>&#160;&#160;&#160;(0x40037000u)</td></tr>
+<tr class="separator:gaf00b86ba33a2cfe7bb100b4f01905f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf181c9e6602b6432a0bf1a9243808968"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#gaf181c9e6602b6432a0bf1a9243808968">PIT</a>&#160;&#160;&#160;((<a class="el" href="../../db/d44/a09234.html">PIT_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gaf00b86ba33a2cfe7bb100b4f01905f41">PIT_BASE</a>)</td></tr>
+<tr class="separator:gaf181c9e6602b6432a0bf1a9243808968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0de78c2bccafb17d6b1d1fdad387f4c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d80/a08546.html#ga0de78c2bccafb17d6b1d1fdad387f4c7">PIT_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../d5/d80/a08546.html#gaf181c9e6602b6432a0bf1a9243808968">PIT</a> }</td></tr>
+<tr class="separator:ga0de78c2bccafb17d6b1d1fdad387f4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga255cfcfa3e71e5e8bc0f8eb3272de220"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga255cfcfa3e71e5e8bc0f8eb3272de220">&#9670;&nbsp;</a></span>TPM0</h2>
+<a id="gaf181c9e6602b6432a0bf1a9243808968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf181c9e6602b6432a0bf1a9243808968">&#9670;&nbsp;</a></span>PIT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TPM0&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gafce6fdf5fb48d6c6b77a8c5a86ae50c2">TPM0_BASE</a>)</td>
+          <td class="memname">#define PIT&#160;&#160;&#160;((<a class="el" href="../../db/d44/a09234.html">PIT_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gaf00b86ba33a2cfe7bb100b4f01905f41">PIT_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Peripheral TPM0 base pointer </p>
+<p>Peripheral PIT base pointer </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03597">3597</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02493">2493</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
-<a id="gafce6fdf5fb48d6c6b77a8c5a86ae50c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafce6fdf5fb48d6c6b77a8c5a86ae50c2">&#9670;&nbsp;</a></span>TPM0_BASE</h2>
+<a id="gaf00b86ba33a2cfe7bb100b4f01905f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf00b86ba33a2cfe7bb100b4f01905f41">&#9670;&nbsp;</a></span>PIT_BASE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TPM0_BASE&#160;&#160;&#160;(0x40038000u)</td>
+          <td class="memname">#define PIT_BASE&#160;&#160;&#160;(0x40037000u)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Peripheral TPM0 base address </p>
+<p>Peripheral PIT base address </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03595">3595</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02491">2491</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>
-<a id="ga2e4965bffa80b3aab662e2d60096ae53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2e4965bffa80b3aab662e2d60096ae53">&#9670;&nbsp;</a></span>TPM1</h2>
+<a id="ga0de78c2bccafb17d6b1d1fdad387f4c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0de78c2bccafb17d6b1d1fdad387f4c7">&#9670;&nbsp;</a></span>PIT_BASES</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TPM1&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#ga563e0e90d795a6083656fd2d61c0f694">TPM1_BASE</a>)</td>
+          <td class="memname">#define PIT_BASES&#160;&#160;&#160;{ <a class="el" href="../../d5/d80/a08546.html#gaf181c9e6602b6432a0bf1a9243808968">PIT</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Peripheral TPM1 base pointer </p>
+<p>Array initializer of PIT peripheral base pointers </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03601">3601</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="ga563e0e90d795a6083656fd2d61c0f694"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga563e0e90d795a6083656fd2d61c0f694">&#9670;&nbsp;</a></span>TPM1_BASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TPM1_BASE&#160;&#160;&#160;(0x40039000u)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral TPM1 base address </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03599">3599</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="ga833a0146c6466718ff4e2ffa215355ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga833a0146c6466718ff4e2ffa215355ea">&#9670;&nbsp;</a></span>TPM2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TPM2&#160;&#160;&#160;((<a class="el" href="../../d2/d02/a09254.html">TPM_Type</a> *)<a class="el" href="../../d5/d80/a08546.html#gac3255fe3941602acc3b942bb6d885611">TPM2_BASE</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral TPM2 base pointer </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03605">3605</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="gac3255fe3941602acc3b942bb6d885611"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3255fe3941602acc3b942bb6d885611">&#9670;&nbsp;</a></span>TPM2_BASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TPM2_BASE&#160;&#160;&#160;(0x4003A000u)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral TPM2 base address </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03603">3603</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="gaeb746a3b5c47063cb64409cc6f0ba715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb746a3b5c47063cb64409cc6f0ba715">&#9670;&nbsp;</a></span>TPM_BASES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TPM_BASES&#160;&#160;&#160;{ <a class="el" href="../../d5/d80/a08546.html#ga255cfcfa3e71e5e8bc0f8eb3272de220">TPM0</a>, <a class="el" href="../../d5/d80/a08546.html#ga2e4965bffa80b3aab662e2d60096ae53">TPM1</a>, <a class="el" href="../../d5/d80/a08546.html#ga833a0146c6466718ff4e2ffa215355ea">TPM2</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Array initializer of TPM peripheral base pointers </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l03607">3607</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02495">2495</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
 
 </div>
 </div>

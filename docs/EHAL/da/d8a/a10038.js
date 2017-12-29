@@ -1,8 +1,8 @@
 var a10038 =
 [
-    [ "FontLen", "da/d8a/a10038.html#a6d400fbc22b61f5cbfda417539809b63", null ],
-    [ "NbPanel", "da/d8a/a10038.html#a50bbfd3c905099d6e45e26cdc8e67808", null ],
-    [ "PanelAddr", "da/d8a/a10038.html#aab223df73a9032c4d020d983cf0e4be8", null ],
-    [ "pFont", "da/d8a/a10038.html#a8aa9f92ad298afbfe5633f939574a171", null ],
-    [ "pIODev", "da/d8a/a10038.html#af6d2cac018329b4f20298f1c3b289a1c", null ]
+    [ "Build", "da/d8a/a10038.html#a0d149b923ecef984a9d2f48ed6698eb3", null ],
+    [ "Major", "da/d8a/a10038.html#a9543a350f654beba85fa242c725f96ab", null ],
+    [ "Minor", "da/d8a/a10038.html#a8af14efaeb7bc8130ce90f0a097afae8", null ],
+    [ "SubVers", "da/d8a/a10038.html#a610ef2446c63520a05f84ca673565355", null ],
+    [ "Vers", "da/d8a/a10038.html#a40fd0a59d19d0dd24807f3ed99dc5e75", null ]
 ];

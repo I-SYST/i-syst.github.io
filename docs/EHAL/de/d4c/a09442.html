@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: USB_HID_REPORT_T Struct Reference</title>
+<title>EHAL: USBD_CORE_API_T Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,38 +86,49 @@ $(document).ready(function(){initNavTree('de/d4c/a09442.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d9/d26/a09439.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">USB_HID_REPORT_T Struct Reference</div>  </div>
+<div class="title">USBD_CORE_API_T Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a94940b840d230071272a05099cea7b4d"><td class="memItemLeft" align="right" valign="top"><a id="a94940b840d230071272a05099cea7b4d"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>len</b></td></tr>
-<tr class="separator:a94940b840d230071272a05099cea7b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6cea0cf62691e6d36cfc165cc636b1b"><td class="memItemLeft" align="right" valign="top"><a id="af6cea0cf62691e6d36cfc165cc636b1b"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>idle_time</b></td></tr>
-<tr class="separator:af6cea0cf62691e6d36cfc165cc636b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed7a1eea84ca976184a13914dd4522d9"><td class="memItemLeft" align="right" valign="top"><a id="aed7a1eea84ca976184a13914dd4522d9"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>__pad</b></td></tr>
-<tr class="separator:aed7a1eea84ca976184a13914dd4522d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65cbf5d9f327828a4ecae2f9ae0980c0"><td class="memItemLeft" align="right" valign="top"><a id="a65cbf5d9f327828a4ecae2f9ae0980c0"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>desc</b></td></tr>
-<tr class="separator:a65cbf5d9f327828a4ecae2f9ae0980c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae574ad59dc3d1bd9dd7b13477092bba"><td class="memItemLeft" align="right" valign="top"><a id="aae574ad59dc3d1bd9dd7b13477092bba"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterClassHandler</b> )(USBD_HANDLE_T hUsb, USB_EP_HANDLER_T pfn, void *data)</td></tr>
+<tr class="separator:aae574ad59dc3d1bd9dd7b13477092bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cd9239c6e776064877207b8b0c12694"><td class="memItemLeft" align="right" valign="top"><a id="a6cd9239c6e776064877207b8b0c12694"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterEpHandler</b> )(USBD_HANDLE_T hUsb, uint32_t ep_index, USB_EP_HANDLER_T pfn, void *data)</td></tr>
+<tr class="separator:a6cd9239c6e776064877207b8b0c12694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae410120de4687101af468899f37c3512"><td class="memItemLeft" align="right" valign="top"><a id="ae410120de4687101af468899f37c3512"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetupStage</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:ae410120de4687101af468899f37c3512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf3c0a60cd62bb13eb42b03e189db99"><td class="memItemLeft" align="right" valign="top"><a id="a6bf3c0a60cd62bb13eb42b03e189db99"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DataInStage</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a6bf3c0a60cd62bb13eb42b03e189db99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff5912bb5c1ac9f6cde9a615fc93fc7"><td class="memItemLeft" align="right" valign="top"><a id="a9ff5912bb5c1ac9f6cde9a615fc93fc7"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DataOutStage</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a9ff5912bb5c1ac9f6cde9a615fc93fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332af4d366799797e6b1de4f3e45c53d"><td class="memItemLeft" align="right" valign="top"><a id="a332af4d366799797e6b1de4f3e45c53d"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StatusInStage</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a332af4d366799797e6b1de4f3e45c53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eed89c6ad80a9d3bf41d4fed684b934"><td class="memItemLeft" align="right" valign="top"><a id="a7eed89c6ad80a9d3bf41d4fed684b934"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StatusOutStage</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a7eed89c6ad80a9d3bf41d4fed684b934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85d994c5149ead049d3ad8724a37433"><td class="memItemLeft" align="right" valign="top"><a id="aa85d994c5149ead049d3ad8724a37433"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StallEp0</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:aa85d994c5149ead049d3ad8724a37433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d64/a02111_source.html#l00016">16</a> of file <a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following files:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a></li>
-<li>ARM/NXP/include/<a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../db/d7a/a02105_source.html#l00079">79</a> of file <a class="el" href="../../db/d7a/a02105_source.html">usbd_core_lpcxx.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>ARM/NXP/include/<a class="el" href="../../db/d7a/a02105_source.html">usbd_core_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d4c/a09442.html">USB_HID_REPORT_T</a></li>
+    <li class="navelem"><a class="el" href="../../de/d4c/a09442.html">USBD_CORE_API_T</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

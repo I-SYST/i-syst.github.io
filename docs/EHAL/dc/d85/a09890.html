@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __ADC_Data_Packet Struct Reference</title>
+<title>EHAL: __CFIFO_Header Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,37 +86,63 @@ $(document).ready(function(){initNavTree('dc/d85/a09890.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../de/da2/a09887.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__ADC_Data_Packet Struct Reference<div class="ingroups"><a class="el" href="../../de/d41/a08564.html">Converters</a></div></div>  </div>
+<div class="title">__CFIFO_Header Struct Reference<div class="ingroups"><a class="el" href="../../da/dda/a08581.html">FIFO</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Header defining a circular fifo memory block.  
+ <a href="../../dc/d85/a09890.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../de/d76/a02417_source.html">cfifo.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a093770ea42a47410fa2faef26b164ab2"><td class="memItemLeft" align="right" valign="top"><a id="a093770ea42a47410fa2faef26b164ab2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#a093770ea42a47410fa2faef26b164ab2">Timestamp</a></td></tr>
-<tr class="memdesc:a093770ea42a47410fa2faef26b164ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time stamp base on conversion rate in continuous mode, 0 if SINGLE. <br /></td></tr>
-<tr class="separator:a093770ea42a47410fa2faef26b164ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1bbf234edc5baa9b8f89b5ef39b416"><td class="memItemLeft" align="right" valign="top"><a id="a8d1bbf234edc5baa9b8f89b5ef39b416"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#a8d1bbf234edc5baa9b8f89b5ef39b416">Chan</a></td></tr>
-<tr class="memdesc:a8d1bbf234edc5baa9b8f89b5ef39b416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Channel number. <br /></td></tr>
-<tr class="separator:a8d1bbf234edc5baa9b8f89b5ef39b416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a000bb9325a03124879a69654ce9a2395"><td class="memItemLeft" align="right" valign="top"><a id="a000bb9325a03124879a69654ce9a2395"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#a000bb9325a03124879a69654ce9a2395">Data</a></td></tr>
-<tr class="memdesc:a000bb9325a03124879a69654ce9a2395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converted data in Volt. <br /></td></tr>
-<tr class="separator:a000bb9325a03124879a69654ce9a2395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29e52db3176d0459eb3f0ba318c771c"><td class="memItemLeft" align="right" valign="top"><a id="ad29e52db3176d0459eb3f0ba318c771c"></a>
+volatile int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#ad29e52db3176d0459eb3f0ba318c771c">PutIdx</a></td></tr>
+<tr class="memdesc:ad29e52db3176d0459eb3f0ba318c771c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index to start of empty data block. <br /></td></tr>
+<tr class="separator:ad29e52db3176d0459eb3f0ba318c771c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a3440ecef12e3c643fe771e8d746f9"><td class="memItemLeft" align="right" valign="top"><a id="ae2a3440ecef12e3c643fe771e8d746f9"></a>
+volatile int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#ae2a3440ecef12e3c643fe771e8d746f9">GetIdx</a></td></tr>
+<tr class="memdesc:ae2a3440ecef12e3c643fe771e8d746f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index to start of used data block. <br /></td></tr>
+<tr class="separator:ae2a3440ecef12e3c643fe771e8d746f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd525b56d07c1d94abe609ae9d45cab6"><td class="memItemLeft" align="right" valign="top"><a id="abd525b56d07c1d94abe609ae9d45cab6"></a>
+int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#abd525b56d07c1d94abe609ae9d45cab6">MaxIdxCnt</a></td></tr>
+<tr class="memdesc:abd525b56d07c1d94abe609ae9d45cab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max block count. <br /></td></tr>
+<tr class="separator:abd525b56d07c1d94abe609ae9d45cab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ade6c2235722aa3cca79b6fd458c4f"><td class="memItemLeft" align="right" valign="top"><a id="af8ade6c2235722aa3cca79b6fd458c4f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#af8ade6c2235722aa3cca79b6fd458c4f">bBlocking</a></td></tr>
+<tr class="memdesc:af8ade6c2235722aa3cca79b6fd458c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">False to push out when FIFO is full (drop) <br /></td></tr>
+<tr class="separator:af8ade6c2235722aa3cca79b6fd458c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5381421dd195487d5a3b03d4f24e56e"><td class="memItemLeft" align="right" valign="top"><a id="ab5381421dd195487d5a3b03d4f24e56e"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#ab5381421dd195487d5a3b03d4f24e56e">DropCnt</a></td></tr>
+<tr class="memdesc:ab5381421dd195487d5a3b03d4f24e56e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count dropped block. <br /></td></tr>
+<tr class="separator:ab5381421dd195487d5a3b03d4f24e56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b06d08f6f19593e3ee84fb6bf80ccba"><td class="memItemLeft" align="right" valign="top"><a id="a7b06d08f6f19593e3ee84fb6bf80ccba"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#a7b06d08f6f19593e3ee84fb6bf80ccba">BlkSize</a></td></tr>
+<tr class="memdesc:a7b06d08f6f19593e3ee84fb6bf80ccba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block size in bytes. <br /></td></tr>
+<tr class="separator:a7b06d08f6f19593e3ee84fb6bf80ccba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f504439d6886f4275463ce4012ffee"><td class="memItemLeft" align="right" valign="top"><a id="ab6f504439d6886f4275463ce4012ffee"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#ab6f504439d6886f4275463ce4012ffee">MemSize</a></td></tr>
+<tr class="memdesc:ab6f504439d6886f4275463ce4012ffee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total FIFO memory size allocated. <br /></td></tr>
+<tr class="separator:ab6f504439d6886f4275463ce4012ffee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595b228dfa646d871fe615be4cbcb740"><td class="memItemLeft" align="right" valign="top"><a id="a595b228dfa646d871fe615be4cbcb740"></a>
+uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d85/a09890.html#a595b228dfa646d871fe615be4cbcb740">pMemStart</a></td></tr>
+<tr class="memdesc:a595b228dfa646d871fe615be4cbcb740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start of FIFO data memory. <br /></td></tr>
+<tr class="separator:a595b228dfa646d871fe615be4cbcb740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d2b/a02420_source.html#l00135">135</a> of file <a class="el" href="../../d5/d2b/a02420_source.html">adc_device.h</a>.</p>
+<div class="textblock"><p>Header defining a circular fifo memory block. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d76/a02417_source.html#l00050">50</a> of file <a class="el" href="../../de/d76/a02417_source.html">cfifo.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/converters/<a class="el" href="../../d5/d2b/a02420_source.html">adc_device.h</a></li>
+<li>include/<a class="el" href="../../de/d76/a02417_source.html">cfifo.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d85/a09890.html">__ADC_Data_Packet</a></li>
+    <li class="navelem"><a class="el" href="../../dc/d85/a09890.html">__CFIFO_Header</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

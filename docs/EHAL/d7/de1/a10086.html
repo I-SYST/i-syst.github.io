@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __AccelSensor_Config Struct Reference</title>
+<title>EHAL: __Seep_Config Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,46 +86,55 @@ $(document).ready(function(){initNavTree('d7/de1/a10086.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d0/dc9/a10083.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__AccelSensor_Config Struct Reference</div>  </div>
+<div class="title">__Seep_Config Struct Reference<div class="ingroups"><a class="el" href="../../d2/d78/a08584.html">Storage</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Structure defining Serial EEPROM device.  
+ <a href="../../d7/de1/a10086.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aaa3cb0f39f5d673645a32e3f8b8fd4a2"><td class="memItemLeft" align="right" valign="top"><a id="aaa3cb0f39f5d673645a32e3f8b8fd4a2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>DevAddr</b></td></tr>
-<tr class="separator:aaa3cb0f39f5d673645a32e3f8b8fd4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36404f0c64079f56f2f7774497424544"><td class="memItemLeft" align="right" valign="top"><a id="a36404f0c64079f56f2f7774497424544"></a>
-<a class="el" href="../../d3/d4a/a08566.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OpMode</b></td></tr>
-<tr class="separator:a36404f0c64079f56f2f7774497424544"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61fad39909f3b668368d774a7242628"><td class="memItemLeft" align="right" valign="top"><a id="ae61fad39909f3b668368d774a7242628"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Freq</b></td></tr>
-<tr class="separator:ae61fad39909f3b668368d774a7242628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858d68f4d9a059f6a1bafb047af15154"><td class="memItemLeft" align="right" valign="top"><a id="a858d68f4d9a059f6a1bafb047af15154"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bInter</b></td></tr>
-<tr class="separator:a858d68f4d9a059f6a1bafb047af15154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9db5e663c409f5de8bdb81734f794545"><td class="memItemLeft" align="right" valign="top"><a id="a9db5e663c409f5de8bdb81734f794545"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>IntPort</b></td></tr>
-<tr class="separator:a9db5e663c409f5de8bdb81734f794545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abceddfabfa627512e93b54d1cc17a556"><td class="memItemLeft" align="right" valign="top"><a id="abceddfabfa627512e93b54d1cc17a556"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>IntPin</b></td></tr>
-<tr class="separator:abceddfabfa627512e93b54d1cc17a556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e14a50716240a7744ec619a949afd5"><td class="memItemLeft" align="right" valign="top"><a id="ae7e14a50716240a7744ec619a949afd5"></a>
-ACCELINTCB&#160;</td><td class="memItemRight" valign="bottom"><b>IntHandler</b></td></tr>
-<tr class="separator:ae7e14a50716240a7744ec619a949afd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff68954f1c1c9cd12d65694d48d05ff"><td class="memItemLeft" align="right" valign="top"><a id="a5ff68954f1c1c9cd12d65694d48d05ff"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>DevAddr</b></td></tr>
+<tr class="separator:a5ff68954f1c1c9cd12d65694d48d05ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0049db4f27be68682d35b2dfd9b9ee0"><td class="memItemLeft" align="right" valign="top"><a id="ab0049db4f27be68682d35b2dfd9b9ee0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>AddrLen</b></td></tr>
+<tr class="separator:ab0049db4f27be68682d35b2dfd9b9ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a928b1d7a2b6d2f0f81cef59ffbf93cdf"><td class="memItemLeft" align="right" valign="top"><a id="a928b1d7a2b6d2f0f81cef59ffbf93cdf"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>PageSize</b></td></tr>
+<tr class="separator:a928b1d7a2b6d2f0f81cef59ffbf93cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61795edeb3e22d3b9894db44c6e96890"><td class="memItemLeft" align="right" valign="top"><a id="a61795edeb3e22d3b9894db44c6e96890"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Size</b></td></tr>
+<tr class="separator:a61795edeb3e22d3b9894db44c6e96890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b894028f1f5881b4631d2577cb26ca"><td class="memItemLeft" align="right" valign="top"><a id="a56b894028f1f5881b4631d2577cb26ca"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>WrDelay</b></td></tr>
+<tr class="separator:a56b894028f1f5881b4631d2577cb26ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a589014ed03b7388a26470d7e7bde7693"><td class="memItemLeft" align="right" valign="top"><a id="a589014ed03b7388a26470d7e7bde7693"></a>
+<a class="el" href="../../dc/d5c/a02459.html#a59a6a3477ccb89a9339a2493966d70f4">IOPINCFG</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WrProtPin</b></td></tr>
+<tr class="separator:a589014ed03b7388a26470d7e7bde7693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac68e6ed0a18157e3b486ae38f5bea5"><td class="memItemLeft" align="right" valign="top"><a id="a1ac68e6ed0a18157e3b486ae38f5bea5"></a>
+<a class="el" href="../../d2/d78/a08584.html#gadf71350c30facfad0476e0920a1534cf">SEEPCB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pInitCB</b></td></tr>
+<tr class="separator:a1ac68e6ed0a18157e3b486ae38f5bea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ade676ff24935cf4c9a9939d664fa0"><td class="memItemLeft" align="right" valign="top"><a id="a83ade676ff24935cf4c9a9939d664fa0"></a>
+<a class="el" href="../../d2/d78/a08584.html#gadf71350c30facfad0476e0920a1534cf">SEEPCB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pWaitCB</b></td></tr>
+<tr class="separator:a83ade676ff24935cf4c9a9939d664fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d6/d90/a02492_source.html#l00054">54</a> of file <a class="el" href="../../d6/d90/a02492_source.html">accel_sensor.h</a>.</p>
+<div class="textblock"><p>Structure defining Serial EEPROM device. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d2b/a02486_source.html#l00064">64</a> of file <a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/sensors/<a class="el" href="../../d6/d90/a02492_source.html">accel_sensor.h</a></li>
+<li>include/<a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de1/a10086.html">__AccelSensor_Config</a></li>
+    <li class="navelem"><a class="el" href="../../d7/de1/a10086.html">__Seep_Config</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

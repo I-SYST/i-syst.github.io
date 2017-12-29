@@ -1,6 +1,10 @@
 var a10106 =
 [
-    [ "GasRes", "d7/d08/a10106.html#a4dcee3d25d7c16ccfdc67792a569cd4a", null ],
-    [ "MeasIdx", "d7/d08/a10106.html#a1a0f1cb35a6b63ff9872efd59b1676bd", null ],
-    [ "Timestamp", "d7/d08/a10106.html#a5f1e4da145bbba372bcb67803ef69cdd", null ]
+    [ "bInter", "d7/d08/a10106.html#a858d68f4d9a059f6a1bafb047af15154", null ],
+    [ "DevAddr", "d7/d08/a10106.html#aaa3cb0f39f5d673645a32e3f8b8fd4a2", null ],
+    [ "Freq", "d7/d08/a10106.html#ae61fad39909f3b668368d774a7242628", null ],
+    [ "IntHandler", "d7/d08/a10106.html#ae7e14a50716240a7744ec619a949afd5", null ],
+    [ "IntPin", "d7/d08/a10106.html#abceddfabfa627512e93b54d1cc17a556", null ],
+    [ "IntPort", "d7/d08/a10106.html#a9db5e663c409f5de8bdb81734f794545", null ],
+    [ "OpMode", "d7/d08/a10106.html#a36404f0c64079f56f2f7774497424544", null ]
 ];

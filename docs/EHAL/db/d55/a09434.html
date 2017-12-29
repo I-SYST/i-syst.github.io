@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: USBD_DFU_INIT_PARAM_T Struct Reference</title>
+<title>EHAL: _CDC_CTRL_T Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,55 +86,85 @@ $(document).ready(function(){initNavTree('db/d55/a09434.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d4/d5c/a09431.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">USBD_DFU_INIT_PARAM_T Struct Reference</div>  </div>
+<div class="title">_CDC_CTRL_T Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a492c4cb17874d0c51ed7c7c0d01d05c7"><td class="memItemLeft" align="right" valign="top"><a id="a492c4cb17874d0c51ed7c7c0d01d05c7"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_base</b></td></tr>
-<tr class="separator:a492c4cb17874d0c51ed7c7c0d01d05c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad80d6de873114d4cf494c7e542d37cd6"><td class="memItemLeft" align="right" valign="top"><a id="ad80d6de873114d4cf494c7e542d37cd6"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_size</b></td></tr>
-<tr class="separator:ad80d6de873114d4cf494c7e542d37cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13622f03c7523aa22d65e52d1606757b"><td class="memItemLeft" align="right" valign="top"><a id="a13622f03c7523aa22d65e52d1606757b"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wTransferSize</b></td></tr>
-<tr class="separator:a13622f03c7523aa22d65e52d1606757b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c9ac57ce8fe7033b86f201de0c62ae1"><td class="memItemLeft" align="right" valign="top"><a id="a4c9ac57ce8fe7033b86f201de0c62ae1"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>pad</b></td></tr>
-<tr class="separator:a4c9ac57ce8fe7033b86f201de0c62ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e5f31b4c872dad5f481796b42755330"><td class="memItemLeft" align="right" valign="top"><a id="a2e5f31b4c872dad5f481796b42755330"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>intf_desc</b></td></tr>
-<tr class="separator:a2e5f31b4c872dad5f481796b42755330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88a170153b9d3d186a7fe4d4106eacc4"><td class="memItemLeft" align="right" valign="top"><a id="a88a170153b9d3d186a7fe4d4106eacc4"></a>
-uint8_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>DFU_Write</b> )(uint32_t block_num, uint8_t **src, uint32_t length, uint8_t *bwPollTimeout)</td></tr>
-<tr class="separator:a88a170153b9d3d186a7fe4d4106eacc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33adee815e7a4730394519a93879c68a"><td class="memItemLeft" align="right" valign="top"><a id="a33adee815e7a4730394519a93879c68a"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>DFU_Read</b> )(uint32_t block_num, uint8_t **dst, uint32_t length)</td></tr>
-<tr class="separator:a33adee815e7a4730394519a93879c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a589965bd4374a35f7b33c0319d638bf7"><td class="memItemLeft" align="right" valign="top"><a id="a589965bd4374a35f7b33c0319d638bf7"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DFU_Done</b> )(void)</td></tr>
-<tr class="separator:a589965bd4374a35f7b33c0319d638bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a809a176d5e6c34a9e5fdcf0d0edc7eb5"><td class="memItemLeft" align="right" valign="top"><a id="a809a176d5e6c34a9e5fdcf0d0edc7eb5"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DFU_Detach</b> )(USBD_HANDLE_T hUsb)</td></tr>
-<tr class="separator:a809a176d5e6c34a9e5fdcf0d0edc7eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0473c1958121a5dada0dc014bd115a"><td class="memItemLeft" align="right" valign="top"><a id="aea0473c1958121a5dada0dc014bd115a"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>DFU_Ep0_Hdlr</b> )(USBD_HANDLE_T hUsb, void *data, uint32_t event)</td></tr>
-<tr class="separator:aea0473c1958121a5dada0dc014bd115a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8be45fcac7215eeb448f727ef4910f6"><td class="memItemLeft" align="right" valign="top"><a id="ad8be45fcac7215eeb448f727ef4910f6"></a>
+<a class="el" href="../../d6/d23/a09450.html">USB_CORE_CTRL_T</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pUsbCtrl</b></td></tr>
+<tr class="separator:ad8be45fcac7215eeb448f727ef4910f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc6bf5a034d9067bf5d23cd7bf2a75a"><td class="memItemLeft" align="right" valign="top"><a id="a4dc6bf5a034d9067bf5d23cd7bf2a75a"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>notice_buf</b> [12]</td></tr>
+<tr class="separator:a4dc6bf5a034d9067bf5d23cd7bf2a75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71239a2408cdf0ab9b28dcf43d7f848c"><td class="memItemLeft" align="right" valign="top"><a id="a71239a2408cdf0ab9b28dcf43d7f848c"></a>
+<a class="el" href="../../d6/d42/a09422.html">CDC_LINE_CODING</a>&#160;</td><td class="memItemRight" valign="bottom"><b>line_coding</b></td></tr>
+<tr class="separator:a71239a2408cdf0ab9b28dcf43d7f848c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f4fdcdbd3b54922e3b36fa9036b8a5"><td class="memItemLeft" align="right" valign="top"><a id="a18f4fdcdbd3b54922e3b36fa9036b8a5"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pad0</b></td></tr>
+<tr class="separator:a18f4fdcdbd3b54922e3b36fa9036b8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d5eb3fb65c474006f34723ad725c06"><td class="memItemLeft" align="right" valign="top"><a id="aa5d5eb3fb65c474006f34723ad725c06"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>cif_num</b></td></tr>
+<tr class="separator:aa5d5eb3fb65c474006f34723ad725c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5bf5a89634243f9beddb8176974ea9"><td class="memItemLeft" align="right" valign="top"><a id="adb5bf5a89634243f9beddb8176974ea9"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>dif_num</b></td></tr>
+<tr class="separator:adb5bf5a89634243f9beddb8176974ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5d614d555b429cdf3ca84fded6dd4d"><td class="memItemLeft" align="right" valign="top"><a id="acf5d614d555b429cdf3ca84fded6dd4d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>epin_num</b></td></tr>
+<tr class="separator:acf5d614d555b429cdf3ca84fded6dd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76bbee6f8bb028eadf5e323492dc5324"><td class="memItemLeft" align="right" valign="top"><a id="a76bbee6f8bb028eadf5e323492dc5324"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>epout_num</b></td></tr>
+<tr class="separator:a76bbee6f8bb028eadf5e323492dc5324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5c597bcd2ce007b4e1cc86a4db5525"><td class="memItemLeft" align="right" valign="top"><a id="a8e5c597bcd2ce007b4e1cc86a4db5525"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>epint_num</b></td></tr>
+<tr class="separator:a8e5c597bcd2ce007b4e1cc86a4db5525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a516404b6edaca7abf70b1ebd7c9d9"><td class="memItemLeft" align="right" valign="top"><a id="a15a516404b6edaca7abf70b1ebd7c9d9"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pad</b> [3]</td></tr>
+<tr class="separator:a15a516404b6edaca7abf70b1ebd7c9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91820922a47d726829ac30e7dea688a7"><td class="memItemLeft" align="right" valign="top"><a id="a91820922a47d726829ac30e7dea688a7"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SendEncpsCmd</b> )(USBD_HANDLE_T hCDC, uint8_t *buffer, uint16_t len)</td></tr>
+<tr class="separator:a91820922a47d726829ac30e7dea688a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a012165812fb63cdbd60155364c8e57"><td class="memItemLeft" align="right" valign="top"><a id="a6a012165812fb63cdbd60155364c8e57"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetEncpsResp</b> )(USBD_HANDLE_T hCDC, uint8_t **buffer, uint16_t *len)</td></tr>
+<tr class="separator:a6a012165812fb63cdbd60155364c8e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a0b31da0fcc967103703c5971526c0"><td class="memItemLeft" align="right" valign="top"><a id="aa6a0b31da0fcc967103703c5971526c0"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetCommFeature</b> )(USBD_HANDLE_T hCDC, uint16_t feature, uint8_t *buffer, uint16_t len)</td></tr>
+<tr class="separator:aa6a0b31da0fcc967103703c5971526c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df6e0040ba72d12b0e0ade73c7ac1cd"><td class="memItemLeft" align="right" valign="top"><a id="a7df6e0040ba72d12b0e0ade73c7ac1cd"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetCommFeature</b> )(USBD_HANDLE_T hCDC, uint16_t feature, uint8_t **pBuffer, uint16_t *len)</td></tr>
+<tr class="separator:a7df6e0040ba72d12b0e0ade73c7ac1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead1f9bd0e1282afa883b3579d806b06"><td class="memItemLeft" align="right" valign="top"><a id="aead1f9bd0e1282afa883b3579d806b06"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>ClrCommFeature</b> )(USBD_HANDLE_T hCDC, uint16_t feature)</td></tr>
+<tr class="separator:aead1f9bd0e1282afa883b3579d806b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ee01e370e0903d5a76ddfd63fb614c"><td class="memItemLeft" align="right" valign="top"><a id="a23ee01e370e0903d5a76ddfd63fb614c"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetCtrlLineState</b> )(USBD_HANDLE_T hCDC, uint16_t state)</td></tr>
+<tr class="separator:a23ee01e370e0903d5a76ddfd63fb614c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde3126a2d95f8e8f82617b2ad32d6ca"><td class="memItemLeft" align="right" valign="top"><a id="abde3126a2d95f8e8f82617b2ad32d6ca"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SendBreak</b> )(USBD_HANDLE_T hCDC, uint16_t state)</td></tr>
+<tr class="separator:abde3126a2d95f8e8f82617b2ad32d6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac95ccc98ca3e848166b80fb17c0f8f"><td class="memItemLeft" align="right" valign="top"><a id="aeac95ccc98ca3e848166b80fb17c0f8f"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetLineCode</b> )(USBD_HANDLE_T hCDC, <a class="el" href="../../d6/d42/a09422.html">CDC_LINE_CODING</a> *line_coding)</td></tr>
+<tr class="separator:aeac95ccc98ca3e848166b80fb17c0f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc2d449632161791e28171ccc57c40c"><td class="memItemLeft" align="right" valign="top"><a id="aadc2d449632161791e28171ccc57c40c"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>CIC_GetRequest</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t *length)</td></tr>
+<tr class="separator:aadc2d449632161791e28171ccc57c40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197cf0338ec04d3f7b46ad017876efef"><td class="memItemLeft" align="right" valign="top"><a id="a197cf0338ec04d3f7b46ad017876efef"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>CIC_SetRequest</b> )(USBD_HANDLE_T hCdc, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t length)</td></tr>
+<tr class="separator:a197cf0338ec04d3f7b46ad017876efef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/dd8/a02108_source.html#l00015">15</a> of file <a class="el" href="../../d8/dd8/a02108_source.html">usbd_dfu_lpcxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dfe/a02102_source.html#l00424">424</a> of file <a class="el" href="../../d0/dfe/a02102_source.html">usbd_cdc_lpcxx.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d8/dd8/a02108_source.html">usbd_dfu_lpcxx.h</a></li>
+<li>ARM/NXP/include/<a class="el" href="../../d0/dfe/a02102_source.html">usbd_cdc_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/d55/a09434.html">USBD_DFU_INIT_PARAM_T</a></li>
+    <li class="navelem"><a class="el" href="../../db/d55/a09434.html">_CDC_CTRL_T</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

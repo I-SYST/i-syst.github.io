@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: USBD_HW_API_T Struct Reference</title>
+<title>EHAL: USBD_HID_INIT_PARAM_T Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,94 +86,70 @@ $(document).ready(function(){initNavTree('d1/d73/a09466.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d6/db9/a09463.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">USBD_HW_API_T Struct Reference</div>  </div>
+<div class="title">USBD_HID_INIT_PARAM_T Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6e90ac839d61faae3fbc8f283aa8e124"><td class="memItemLeft" align="right" valign="top"><a id="a6e90ac839d61faae3fbc8f283aa8e124"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetMemSize</b> )(<a class="el" href="../../d3/d21/a09462.html">USBD_API_INIT_PARAM_T</a> *param)</td></tr>
-<tr class="separator:a6e90ac839d61faae3fbc8f283aa8e124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d4ad46d3fc8e79a0547d5c7d076c7f"><td class="memItemLeft" align="right" valign="top"><a id="a02d4ad46d3fc8e79a0547d5c7d076c7f"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> )(USBD_HANDLE_T *phUsb, <a class="el" href="../../d2/d63/a09458.html">USB_CORE_DESCS_T</a> *pDesc, <a class="el" href="../../d3/d21/a09462.html">USBD_API_INIT_PARAM_T</a> *param)</td></tr>
-<tr class="separator:a02d4ad46d3fc8e79a0547d5c7d076c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae152aafafa983110a27f8cba00869ddd"><td class="memItemLeft" align="right" valign="top"><a id="ae152aafafa983110a27f8cba00869ddd"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>Connect</b> )(USBD_HANDLE_T hUsb, uint32_t con)</td></tr>
-<tr class="separator:ae152aafafa983110a27f8cba00869ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d5d60f79a3f8b6ea97c8cfd3ac5cf4"><td class="memItemLeft" align="right" valign="top"><a id="a17d5d60f79a3f8b6ea97c8cfd3ac5cf4"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ISR</b> )(USBD_HANDLE_T hUsb)</td></tr>
-<tr class="separator:a17d5d60f79a3f8b6ea97c8cfd3ac5cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93590d17dfc70d1985e3a638a34e2328"><td class="memItemLeft" align="right" valign="top"><a id="a93590d17dfc70d1985e3a638a34e2328"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>Reset</b> )(USBD_HANDLE_T hUsb)</td></tr>
-<tr class="separator:a93590d17dfc70d1985e3a638a34e2328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab487782f080f7b3f668230973c0f736"><td class="memItemLeft" align="right" valign="top"><a id="aab487782f080f7b3f668230973c0f736"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ForceFullSpeed</b> )(USBD_HANDLE_T hUsb, uint32_t cfg)</td></tr>
-<tr class="separator:aab487782f080f7b3f668230973c0f736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcecc3e7e4a531c50a5a44d04bafc5c7"><td class="memItemLeft" align="right" valign="top"><a id="adcecc3e7e4a531c50a5a44d04bafc5c7"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>WakeUpCfg</b> )(USBD_HANDLE_T hUsb, uint32_t cfg)</td></tr>
-<tr class="separator:adcecc3e7e4a531c50a5a44d04bafc5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f73a80de6e419b914671cdb63d9907c"><td class="memItemLeft" align="right" valign="top"><a id="a0f73a80de6e419b914671cdb63d9907c"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetAddress</b> )(USBD_HANDLE_T hUsb, uint32_t adr)</td></tr>
-<tr class="separator:a0f73a80de6e419b914671cdb63d9907c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5182a8079d44fe26bd144f0bf1151248"><td class="memItemLeft" align="right" valign="top"><a id="a5182a8079d44fe26bd144f0bf1151248"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>Configure</b> )(USBD_HANDLE_T hUsb, uint32_t cfg)</td></tr>
-<tr class="separator:a5182a8079d44fe26bd144f0bf1151248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0dca2c28259043d5e3d4da94a6253b"><td class="memItemLeft" align="right" valign="top"><a id="a7a0dca2c28259043d5e3d4da94a6253b"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ConfigEP</b> )(USBD_HANDLE_T hUsb, <a class="el" href="../../da/d94/a10286.html">USB_ENDPOINT_DESC</a> *pEPD)</td></tr>
-<tr class="separator:a7a0dca2c28259043d5e3d4da94a6253b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbcc4a55d448cd3819c03f9e33494ccb"><td class="memItemLeft" align="right" valign="top"><a id="abbcc4a55d448cd3819c03f9e33494ccb"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DirCtrlEP</b> )(USBD_HANDLE_T hUsb, uint32_t dir)</td></tr>
-<tr class="separator:abbcc4a55d448cd3819c03f9e33494ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05b60e49d8ad9c294b98272bb107b709"><td class="memItemLeft" align="right" valign="top"><a id="a05b60e49d8ad9c294b98272bb107b709"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>EnableEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum)</td></tr>
-<tr class="separator:a05b60e49d8ad9c294b98272bb107b709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9ecb2fc00c45841a94bc30e15ad997"><td class="memItemLeft" align="right" valign="top"><a id="aaf9ecb2fc00c45841a94bc30e15ad997"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>DisableEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum)</td></tr>
-<tr class="separator:aaf9ecb2fc00c45841a94bc30e15ad997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0f731900d60f8c0e2871691d6a28fe4"><td class="memItemLeft" align="right" valign="top"><a id="ae0f731900d60f8c0e2871691d6a28fe4"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ResetEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum)</td></tr>
-<tr class="separator:ae0f731900d60f8c0e2871691d6a28fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af239126cbe2852de3ead20e4d1d09267"><td class="memItemLeft" align="right" valign="top"><a id="af239126cbe2852de3ead20e4d1d09267"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetStallEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum)</td></tr>
-<tr class="separator:af239126cbe2852de3ead20e4d1d09267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39d5d888a937e53e748bc0ae7d7cd9fe"><td class="memItemLeft" align="right" valign="top"><a id="a39d5d888a937e53e748bc0ae7d7cd9fe"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ClrStallEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum)</td></tr>
-<tr class="separator:a39d5d888a937e53e748bc0ae7d7cd9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a311527ecfecda84683af037f43af9267"><td class="memItemLeft" align="right" valign="top"><a id="a311527ecfecda84683af037f43af9267"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>SetTestMode</b> )(USBD_HANDLE_T hUsb, uint8_t mode)</td></tr>
-<tr class="separator:a311527ecfecda84683af037f43af9267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d262adadfca5854f58a0d9fbc64264"><td class="memItemLeft" align="right" valign="top"><a id="a05d262adadfca5854f58a0d9fbc64264"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>ReadEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum, uint8_t *pData)</td></tr>
-<tr class="separator:a05d262adadfca5854f58a0d9fbc64264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3836dd318867695aa94607a90bb17c"><td class="memItemLeft" align="right" valign="top"><a id="aed3836dd318867695aa94607a90bb17c"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>ReadReqEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum, uint8_t *pData, uint32_t len)</td></tr>
-<tr class="separator:aed3836dd318867695aa94607a90bb17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23373bba3bf3e01ebdca6b01dd551c4c"><td class="memItemLeft" align="right" valign="top"><a id="a23373bba3bf3e01ebdca6b01dd551c4c"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>ReadSetupPkt</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum, uint32_t *pData)</td></tr>
-<tr class="separator:a23373bba3bf3e01ebdca6b01dd551c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa50b2f1dfc2c1e02965fd0bf5c13dce2"><td class="memItemLeft" align="right" valign="top"><a id="aa50b2f1dfc2c1e02965fd0bf5c13dce2"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>WriteEP</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum, uint8_t *pData, uint32_t cnt)</td></tr>
-<tr class="separator:aa50b2f1dfc2c1e02965fd0bf5c13dce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6c8b3c8cebf6fc5b9b9747d2e5b404c"><td class="memItemLeft" align="right" valign="top"><a id="ab6c8b3c8cebf6fc5b9b9747d2e5b404c"></a>
-void(*&#160;</td><td class="memItemRight" valign="bottom"><b>WakeUp</b> )(USBD_HANDLE_T hUsb)</td></tr>
-<tr class="separator:ab6c8b3c8cebf6fc5b9b9747d2e5b404c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249998d32f3e59b64d58a094c89437b7"><td class="memItemLeft" align="right" valign="top"><a id="a249998d32f3e59b64d58a094c89437b7"></a>
-uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>EnableEvent</b> )(USBD_HANDLE_T hUsb, uint32_t EPNum, uint32_t event_type, uint32_t enable)</td></tr>
-<tr class="separator:a249998d32f3e59b64d58a094c89437b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d038d9f30b525482c7b7c82b68ac00"><td class="memItemLeft" align="right" valign="top"><a id="a72d038d9f30b525482c7b7c82b68ac00"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_base</b></td></tr>
+<tr class="separator:a72d038d9f30b525482c7b7c82b68ac00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9e0c9e4db38404329009120202c8b7"><td class="memItemLeft" align="right" valign="top"><a id="a1a9e0c9e4db38404329009120202c8b7"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_size</b></td></tr>
+<tr class="separator:a1a9e0c9e4db38404329009120202c8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e75a05cb02d51e3684ce1fd9217ad7"><td class="memItemLeft" align="right" valign="top"><a id="ad4e75a05cb02d51e3684ce1fd9217ad7"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>max_reports</b></td></tr>
+<tr class="separator:ad4e75a05cb02d51e3684ce1fd9217ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dffab3433820cd53bd485675b86635"><td class="memItemLeft" align="right" valign="top"><a id="ad3dffab3433820cd53bd485675b86635"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pad</b> [3]</td></tr>
+<tr class="separator:ad3dffab3433820cd53bd485675b86635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed94e0f954d4adcc82172a2cda097bb"><td class="memItemLeft" align="right" valign="top"><a id="a0ed94e0f954d4adcc82172a2cda097bb"></a>
+uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>intf_desc</b></td></tr>
+<tr class="separator:a0ed94e0f954d4adcc82172a2cda097bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ba1e535bc64be3d555564944323ea2"><td class="memItemLeft" align="right" valign="top"><a id="a73ba1e535bc64be3d555564944323ea2"></a>
+<a class="el" href="../../d3/d21/a09462.html">USB_HID_REPORT_T</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>report_data</b></td></tr>
+<tr class="separator:a73ba1e535bc64be3d555564944323ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fda0543d3f737fc039afe9c7914787b"><td class="memItemLeft" align="right" valign="top"><a id="a0fda0543d3f737fc039afe9c7914787b"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetReport</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t *length)</td></tr>
+<tr class="separator:a0fda0543d3f737fc039afe9c7914787b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d3bfe9526a0d3ae74dba75f48132d7"><td class="memItemLeft" align="right" valign="top"><a id="a95d3bfe9526a0d3ae74dba75f48132d7"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetReport</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuffer, uint16_t length)</td></tr>
+<tr class="separator:a95d3bfe9526a0d3ae74dba75f48132d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad861ae885955577f5d83372eeaecef80"><td class="memItemLeft" align="right" valign="top"><a id="ad861ae885955577f5d83372eeaecef80"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetPhysDesc</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuf, uint16_t *length)</td></tr>
+<tr class="separator:ad861ae885955577f5d83372eeaecef80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b85896c67e5e8e7450d8dced934ad64"><td class="memItemLeft" align="right" valign="top"><a id="a8b85896c67e5e8e7450d8dced934ad64"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetIdle</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t idleTime)</td></tr>
+<tr class="separator:a8b85896c67e5e8e7450d8dced934ad64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18f66c619d73d8a9b51b3813fa264b2"><td class="memItemLeft" align="right" valign="top"><a id="ae18f66c619d73d8a9b51b3813fa264b2"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SetProtocol</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t protocol)</td></tr>
+<tr class="separator:ae18f66c619d73d8a9b51b3813fa264b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3448ed740572f0b60a28447360d9e45"><td class="memItemLeft" align="right" valign="top"><a id="aa3448ed740572f0b60a28447360d9e45"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_EpIn_Hdlr</b> )(USBD_HANDLE_T hUsb, void *data, uint32_t event)</td></tr>
+<tr class="separator:aa3448ed740572f0b60a28447360d9e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea9c0bbccd74bcbebd854304c54d339"><td class="memItemLeft" align="right" valign="top"><a id="a8ea9c0bbccd74bcbebd854304c54d339"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_EpOut_Hdlr</b> )(USBD_HANDLE_T hUsb, void *data, uint32_t event)</td></tr>
+<tr class="separator:a8ea9c0bbccd74bcbebd854304c54d339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6fa997561e84f40c3a37335ef9d7782"><td class="memItemLeft" align="right" valign="top"><a id="ad6fa997561e84f40c3a37335ef9d7782"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_GetReportDesc</b> )(USBD_HANDLE_T hHid, <a class="el" href="../../da/dc5/a09438.html">USB_SETUP_PACKET</a> *pSetup, uint8_t **pBuf, uint16_t *length)</td></tr>
+<tr class="separator:ad6fa997561e84f40c3a37335ef9d7782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e36f1071c8fd6026178f5c970ab3150"><td class="memItemLeft" align="right" valign="top"><a id="a9e36f1071c8fd6026178f5c970ab3150"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>HID_Ep0_Hdlr</b> )(USBD_HANDLE_T hUsb, void *data, uint32_t event)</td></tr>
+<tr class="separator:a9e36f1071c8fd6026178f5c970ab3150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/d4a/a02114_source.html#l00159">159</a> of file <a class="el" href="../../da/d4a/a02114_source.html">usbd_hw_lpcxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d64/a02111_source.html#l00029">29</a> of file <a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../da/d4a/a02114_source.html">usbd_hw_lpcxx.h</a></li>
+<li>ARM/NXP/include/<a class="el" href="../../d4/d64/a02111_source.html">usbd_hid_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d73/a09466.html">USBD_HW_API_T</a></li>
+    <li class="navelem"><a class="el" href="../../d1/d73/a09466.html">USBD_HID_INIT_PARAM_T</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

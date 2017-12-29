@@ -1,6 +1,6 @@
 var a09810 =
 [
-    [ "CANMSR", "df/dee/a09810.html#a0c84a71ed3701140f202c1864d0e8b0b", null ],
-    [ "CANRxSR", "df/dee/a09810.html#abd917011d5f82b5f4f14d4a5d34581b5", null ],
-    [ "CANTxSR", "df/dee/a09810.html#a8b38016c4e2b002c08b429c1c5782d74", null ]
+    [ "DACCNTVAL", "df/dee/a09810.html#ae31627b66bf9b21cdfd825b81d65b252", null ],
+    [ "DACCTRL", "df/dee/a09810.html#a98d077f22452e939c5393ba58460165d", null ],
+    [ "DACR", "df/dee/a09810.html#aeca5925957d02f483828953f108d8472", null ]
 ];

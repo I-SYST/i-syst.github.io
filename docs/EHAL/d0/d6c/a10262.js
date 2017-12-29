@@ -1,8 +1,8 @@
 var a10262 =
 [
-    [ "bmRequestType", "d0/d6c/a10262.html#a20005e5233dfd5c24dfa8f0fec2a2001", null ],
-    [ "bRequest", "d0/d6c/a10262.html#ada124a809c4b12e099a879c2a8d32e07", null ],
-    [ "wIndex", "d0/d6c/a10262.html#a56b98d7568c9c04780691fa3938507f3", null ],
-    [ "wLength", "d0/d6c/a10262.html#a9ae35aae4d116ee278be025929e3653d", null ],
-    [ "wValue", "d0/d6c/a10262.html#abe162e0c683aeae61df821221595995d", null ]
+    [ "bControlInterface", "d0/d6c/a10262.html#ae1423b92a8441d5224fee15e37ddb1fb", null ],
+    [ "bDescriptorSubtype", "d0/d6c/a10262.html#a54eaaa93b057e25eee95bcd8c2266aa1", null ],
+    [ "bDescriptorType", "d0/d6c/a10262.html#a0264c819f45603b2c10a3b0f9442bcbe", null ],
+    [ "bFunctionLength", "d0/d6c/a10262.html#ab31149b6928ecc10aba02caa7f636a32", null ],
+    [ "bSubordinateInterf", "d0/d6c/a10262.html#a9a8787a8031c8daca892d1ba96f9c847", null ]
 ];

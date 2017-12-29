@@ -1,7 +1,8 @@
 var a10134 =
 [
-    [ "Timestamp", "d0/daa/a10134.html#ac54e9bd9e9568e333f78a5b782e01a91", null ],
-    [ "x", "d0/daa/a10134.html#a7ca6664061ff9cfdb0e1f345b5d035e0", null ],
-    [ "y", "d0/daa/a10134.html#a35d6360ff7ee0fb004662c504c5e0d02", null ],
-    [ "z", "d0/daa/a10134.html#a76f0e4397c6f075c4995251ba3732ee5", null ]
+    [ "DevAddr", "d0/daa/a10134.html#a0637e0512c8a2daada7c39679b9e2a98", null ],
+    [ "Freq", "d0/daa/a10134.html#a6b77d55fd50bba600f22c84ec5b822b5", null ],
+    [ "NbHeatPoint", "d0/daa/a10134.html#acb3671532681aeb00cd4ddba7f5272fb", null ],
+    [ "OpMode", "d0/daa/a10134.html#a7f37bc3aa68756fa62ef501cdfcd09de", null ],
+    [ "pHeatProfile", "d0/daa/a10134.html#ab2fc51eb0233ffe1293f24d04c965b40", null ]
 ];

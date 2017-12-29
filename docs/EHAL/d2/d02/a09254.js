@@ -1,13 +1,16 @@
 var a09254 =
 [
-    [ "CnSC", "d2/d02/a09254.html#a3fbf98cd4ed535962519dd5014a37a5b", null ],
-    [ "CNT", "d2/d02/a09254.html#a896df1de7ef2d6f21b14125801930b18", null ],
-    [ "CnV", "d2/d02/a09254.html#ab8cfe6651f0ed5a39fa66ae9748046f9", null ],
-    [ "CONF", "d2/d02/a09254.html#a6670b1d4c867e10492d42f2dff4c80b9", null ],
-    [ "CONTROLS", "d2/d02/a09254.html#aa09b6e0acc49a25ced21aa1ea368e323", null ],
-    [ "MOD", "d2/d02/a09254.html#a5568adb87a9f1410b3d003f8dc94f36c", null ],
-    [ "RESERVED_0", "d2/d02/a09254.html#a260b0af7b8cdccb04030353ffa0d354b", null ],
-    [ "RESERVED_1", "d2/d02/a09254.html#a7fa5682fff85ed08f6e532f17cd41a32", null ],
-    [ "SC", "d2/d02/a09254.html#a6b39b132b13eaba36b30afc619637992", null ],
-    [ "STATUS", "d2/d02/a09254.html#af139e79fdb6db938e7dee9d61b763755", null ]
+    [ "COMPID", "d2/d02/a09254.html#a29c79dc5608f079e4e9c92f29ee268ea", null ],
+    [ "ENTRY", "d2/d02/a09254.html#a5989ed4bd007dd1cbdc1e2b60b7e4b6c", null ],
+    [ "PERIPHID0", "d2/d02/a09254.html#aee418d504db9fdd71aa4d1bb05677eeb", null ],
+    [ "PERIPHID1", "d2/d02/a09254.html#a235e8c943594532e8e0a5bbb97b4e7e5", null ],
+    [ "PERIPHID2", "d2/d02/a09254.html#a43f035bc086a6c9959dde3e943d9c71c", null ],
+    [ "PERIPHID3", "d2/d02/a09254.html#a9b3bf99f08b8f7b357493c0743cc0ce2", null ],
+    [ "PERIPHID4", "d2/d02/a09254.html#aaec55198466664fa61b28364e5c48ffc", null ],
+    [ "PERIPHID5", "d2/d02/a09254.html#a9aeb5c5840a95f1a33696f2f72786c19", null ],
+    [ "PERIPHID6", "d2/d02/a09254.html#a1636c5dcfb4d992339f7b89a4669106a", null ],
+    [ "PERIPHID7", "d2/d02/a09254.html#a1f090571c050a9c39871c4ecd72fa867", null ],
+    [ "RESERVED_0", "d2/d02/a09254.html#ad1c11f88b68f27d5bd8dec08926fb5ff", null ],
+    [ "SYSACCESS", "d2/d02/a09254.html#a851ad5e20cdeaac40c36ba02bef85a7b", null ],
+    [ "TABLEMARK", "d2/d02/a09254.html#a4f154ffd079958033b8aba9bff12d5c9", null ]
 ];

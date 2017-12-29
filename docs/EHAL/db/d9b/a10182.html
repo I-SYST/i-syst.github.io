@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: SPIDEV Struct Reference</title>
+<title>EHAL: __TPHSensor_Config Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,37 +86,60 @@ $(document).ready(function(){initNavTree('db/d9b/a10182.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dd/dcb/a10179.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SPIDEV Struct Reference</div>  </div>
+<div class="title">__TPHSensor_Config Struct Reference<div class="ingroups"><a class="el" href="../../db/d69/a08585.html">Sensors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>TPH sensor configuration.  
+ <a href="../../db/d9b/a10182.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aeca7934653abd3c4eb68c8a8af099a39"><td class="memItemLeft" align="right" valign="top"><a id="aeca7934653abd3c4eb68c8a8af099a39"></a>
-<a class="el" href="../../d0/d6f/a10178.html">SPICFG</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Cfg</b></td></tr>
-<tr class="separator:aeca7934653abd3c4eb68c8a8af099a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaf4742ea3f5580b493a6c0d0b419aff"><td class="memItemLeft" align="right" valign="top"><a id="aeaf4742ea3f5580b493a6c0d0b419aff"></a>
-<a class="el" href="../../d9/dd6/a02441.html#ad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DevIntrf</b></td></tr>
-<tr class="separator:aeaf4742ea3f5580b493a6c0d0b419aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f444dc1130202e5380963364764f183"><td class="memItemLeft" align="right" valign="top"><a id="a9f444dc1130202e5380963364764f183"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FirstRdData</b></td></tr>
-<tr class="separator:a9f444dc1130202e5380963364764f183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d2dd454e498079fce3a6b57e6d3c1a4"><td class="memItemLeft" align="right" valign="top"><a id="a9d2dd454e498079fce3a6b57e6d3c1a4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>CurDevCs</b></td></tr>
-<tr class="separator:a9d2dd454e498079fce3a6b57e6d3c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbcd0d56518e9ffa5befb8e5505b87e"><td class="memItemLeft" align="right" valign="top"><a id="a2bbcd0d56518e9ffa5befb8e5505b87e"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a2bbcd0d56518e9ffa5befb8e5505b87e">DevAddr</a></td></tr>
+<tr class="memdesc:a2bbcd0d56518e9ffa5befb8e5505b87e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Either <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> dev address or CS index select if <a class="el" href="../../db/d6a/a10206.html">SPI</a> is used. <br /></td></tr>
+<tr class="separator:a2bbcd0d56518e9ffa5befb8e5505b87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47941b99a4c1680f73eaad2ea0c5ed2f"><td class="memItemLeft" align="right" valign="top"><a id="a47941b99a4c1680f73eaad2ea0c5ed2f"></a>
+<a class="el" href="../../db/d69/a08585.html#gab6806346832c92842ed34996036e908b">SENSOR_OPMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a47941b99a4c1680f73eaad2ea0c5ed2f">OpMode</a></td></tr>
+<tr class="memdesc:a47941b99a4c1680f73eaad2ea0c5ed2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating mode. <br /></td></tr>
+<tr class="separator:a47941b99a4c1680f73eaad2ea0c5ed2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d32e60735dbb9463d981bb1fbb1c15"><td class="memItemLeft" align="right" valign="top"><a id="a10d32e60735dbb9463d981bb1fbb1c15"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a10d32e60735dbb9463d981bb1fbb1c15">Freq</a></td></tr>
+<tr class="memdesc:a10d32e60735dbb9463d981bb1fbb1c15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling frequency in Hz if continuous mode is used. <br /></td></tr>
+<tr class="separator:a10d32e60735dbb9463d981bb1fbb1c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef64e4e8e8f27ad351dfce07daea26b7"><td class="memItemLeft" align="right" valign="top"><a id="aef64e4e8e8f27ad351dfce07daea26b7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#aef64e4e8e8f27ad351dfce07daea26b7">TempOvrs</a></td></tr>
+<tr class="memdesc:aef64e4e8e8f27ad351dfce07daea26b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oversampling measurement for temperature. <br /></td></tr>
+<tr class="separator:aef64e4e8e8f27ad351dfce07daea26b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe9e910982eed19431d32bbf8da106af"><td class="memItemLeft" align="right" valign="top"><a id="abe9e910982eed19431d32bbf8da106af"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#abe9e910982eed19431d32bbf8da106af">PresOvrs</a></td></tr>
+<tr class="memdesc:abe9e910982eed19431d32bbf8da106af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oversampling measurement for pressure. <br /></td></tr>
+<tr class="separator:abe9e910982eed19431d32bbf8da106af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc706063f8304ebaec9a9eba5913dd3"><td class="memItemLeft" align="right" valign="top"><a id="a5bc706063f8304ebaec9a9eba5913dd3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a5bc706063f8304ebaec9a9eba5913dd3">HumOvrs</a></td></tr>
+<tr class="memdesc:a5bc706063f8304ebaec9a9eba5913dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oversampling measurement for humidity. <br /></td></tr>
+<tr class="separator:a5bc706063f8304ebaec9a9eba5913dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2da694d9fdea31d9cff3d13a81c8082"><td class="memItemLeft" align="right" valign="top"><a id="ad2da694d9fdea31d9cff3d13a81c8082"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#ad2da694d9fdea31d9cff3d13a81c8082">FilterCoeff</a></td></tr>
+<tr class="memdesc:ad2da694d9fdea31d9cff3d13a81c8082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter coefficient select value (this value is device dependent) <br /></td></tr>
+<tr class="separator:ad2da694d9fdea31d9cff3d13a81c8082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/d65/a02528_source.html#l00111">111</a> of file <a class="el" href="../../d8/d65/a02528_source.html">spi.h</a>.</p>
+<div class="textblock"><p>TPH sensor configuration. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/dc0/a10377.html#_a19">env_tph_demo.cpp</a>, and <a class="el" href="../../de/d1f/a10376.html#_a26">TPHSensorTag.cpp</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="../../d7/da8/a02522_source.html#l00071">71</a> of file <a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="../../d8/d65/a02528_source.html">spi.h</a></li>
+<li>include/sensors/<a class="el" href="../../d7/da8/a02522_source.html">tph_sensor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/d9b/a10182.html">SPIDEV</a></li>
+    <li class="navelem"><a class="el" href="../../db/d9b/a10182.html">__TPHSensor_Config</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

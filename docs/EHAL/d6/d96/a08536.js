@@ -1,22 +1,15 @@
 var a08536 =
 [
-    [ "ROM Register Masks", "d8/d6d/a08537.html", null ],
-    [ "ROM_Type", "db/d44/a09234.html", [
-      [ "COMPID", "db/d44/a09234.html#a29c79dc5608f079e4e9c92f29ee268ea", null ],
-      [ "ENTRY", "db/d44/a09234.html#a5989ed4bd007dd1cbdc1e2b60b7e4b6c", null ],
-      [ "PERIPHID0", "db/d44/a09234.html#aee418d504db9fdd71aa4d1bb05677eeb", null ],
-      [ "PERIPHID1", "db/d44/a09234.html#a235e8c943594532e8e0a5bbb97b4e7e5", null ],
-      [ "PERIPHID2", "db/d44/a09234.html#a43f035bc086a6c9959dde3e943d9c71c", null ],
-      [ "PERIPHID3", "db/d44/a09234.html#a9b3bf99f08b8f7b357493c0743cc0ce2", null ],
-      [ "PERIPHID4", "db/d44/a09234.html#aaec55198466664fa61b28364e5c48ffc", null ],
-      [ "PERIPHID5", "db/d44/a09234.html#a9aeb5c5840a95f1a33696f2f72786c19", null ],
-      [ "PERIPHID6", "db/d44/a09234.html#a1636c5dcfb4d992339f7b89a4669106a", null ],
-      [ "PERIPHID7", "db/d44/a09234.html#a1f090571c050a9c39871c4ecd72fa867", null ],
-      [ "RESERVED_0", "db/d44/a09234.html#ad1c11f88b68f27d5bd8dec08926fb5ff", null ],
-      [ "SYSACCESS", "db/d44/a09234.html#a851ad5e20cdeaac40c36ba02bef85a7b", null ],
-      [ "TABLEMARK", "db/d44/a09234.html#a4f154ffd079958033b8aba9bff12d5c9", null ]
+    [ "MCM Register Masks", "d8/d6d/a08537.html", null ],
+    [ "MCM_Type", "d7/dd6/a09210.html", [
+      [ "CPO", "d7/dd6/a09210.html#ab348a25b07589bffba2e65b94448a0fd", null ],
+      [ "PLACR", "d7/dd6/a09210.html#a2c3bc7398673a5943ed0b834dae36881", null ],
+      [ "PLAMC", "d7/dd6/a09210.html#a21b4db9fd3a7335e135c8bf0be800b92", null ],
+      [ "PLASC", "d7/dd6/a09210.html#a7e83a4220c2fc40542aa700b6a98df41", null ],
+      [ "RESERVED_0", "d7/dd6/a09210.html#aa212481a03924a4f4ec5900b0db7eb7c", null ],
+      [ "RESERVED_1", "d7/dd6/a09210.html#af13de9f6724bb698907674c8483bbdf5", null ]
     ] ],
-    [ "ROM", "d6/d96/a08536.html#ga408c4c066164afa1b6aa3f804c3d3528", null ],
-    [ "ROM_BASE", "d6/d96/a08536.html#ga8a652cff0033969443cc2f6f5389fbd9", null ],
-    [ "ROM_BASES", "d6/d96/a08536.html#gad92229cd1552dd4cb65cf0aea570b3a6", null ]
+    [ "MCM", "d6/d96/a08536.html#ga4cd2dcee5e786e36844ed653cfa40096", null ],
+    [ "MCM_BASE", "d6/d96/a08536.html#ga84250d5694181f040a437d9125af3fac", null ],
+    [ "MCM_BASES", "d6/d96/a08536.html#gae039f166cb08b579c33af9badf297578", null ]
 ];

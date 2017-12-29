@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: _USB_Setup_Data Struct Reference</title>
+<title>EHAL: __USB_Union_Functional_Descriptor Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,40 +86,61 @@ $(document).ready(function(){initNavTree('d0/d6c/a10262.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/d6f/a10259.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">_USB_Setup_Data Struct Reference</div>  </div>
+<div class="title">__USB_Union_Functional_Descriptor Struct Reference<div class="ingroups"><a class="el" href="../../d1/dfe/a08586.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a20005e5233dfd5c24dfa8f0fec2a2001"><td class="memItemLeft" align="right" valign="top"><a id="a20005e5233dfd5c24dfa8f0fec2a2001"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bmRequestType</b></td></tr>
-<tr class="separator:a20005e5233dfd5c24dfa8f0fec2a2001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada124a809c4b12e099a879c2a8d32e07"><td class="memItemLeft" align="right" valign="top"><a id="ada124a809c4b12e099a879c2a8d32e07"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bRequest</b></td></tr>
-<tr class="separator:ada124a809c4b12e099a879c2a8d32e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe162e0c683aeae61df821221595995d"><td class="memItemLeft" align="right" valign="top"><a id="abe162e0c683aeae61df821221595995d"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wValue</b></td></tr>
-<tr class="separator:abe162e0c683aeae61df821221595995d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56b98d7568c9c04780691fa3938507f3"><td class="memItemLeft" align="right" valign="top"><a id="a56b98d7568c9c04780691fa3938507f3"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wIndex</b></td></tr>
-<tr class="separator:a56b98d7568c9c04780691fa3938507f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ae35aae4d116ee278be025929e3653d"><td class="memItemLeft" align="right" valign="top"><a id="a9ae35aae4d116ee278be025929e3653d"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wLength</b></td></tr>
-<tr class="separator:a9ae35aae4d116ee278be025929e3653d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab31149b6928ecc10aba02caa7f636a32"><td class="memItemLeft" align="right" valign="top"><a id="ab31149b6928ecc10aba02caa7f636a32"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a10262.html#ab31149b6928ecc10aba02caa7f636a32">bFunctionLength</a></td></tr>
+<tr class="memdesc:ab31149b6928ecc10aba02caa7f636a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of this functional descriptor, in bytes. <br /></td></tr>
+<tr class="separator:ab31149b6928ecc10aba02caa7f636a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0264c819f45603b2c10a3b0f9442bcbe"><td class="memItemLeft" align="right" valign="top"><a id="a0264c819f45603b2c10a3b0f9442bcbe"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a10262.html#a0264c819f45603b2c10a3b0f9442bcbe">bDescriptorType</a></td></tr>
+<tr class="memdesc:a0264c819f45603b2c10a3b0f9442bcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">CS_INTERFACE. <br /></td></tr>
+<tr class="separator:a0264c819f45603b2c10a3b0f9442bcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54eaaa93b057e25eee95bcd8c2266aa1"><td class="memItemLeft" align="right" valign="top"><a id="a54eaaa93b057e25eee95bcd8c2266aa1"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a10262.html#a54eaaa93b057e25eee95bcd8c2266aa1">bDescriptorSubtype</a></td></tr>
+<tr class="memdesc:a54eaaa93b057e25eee95bcd8c2266aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union Functional Descriptor SubType as defined in Table 13. <br /></td></tr>
+<tr class="separator:a54eaaa93b057e25eee95bcd8c2266aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1423b92a8441d5224fee15e37ddb1fb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a10262.html#ae1423b92a8441d5224fee15e37ddb1fb">bControlInterface</a></td></tr>
+<tr class="separator:ae1423b92a8441d5224fee15e37ddb1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8787a8031c8daca892d1ba96f9c847"><td class="memItemLeft" align="right" valign="top"><a id="a9a8787a8031c8daca892d1ba96f9c847"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a10262.html#a9a8787a8031c8daca892d1ba96f9c847">bSubordinateInterf</a> [1]</td></tr>
+<tr class="memdesc:a9a8787a8031c8daca892d1ba96f9c847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface number of first subordinate interface in the union. *. <br /></td></tr>
+<tr class="separator:a9a8787a8031c8daca892d1ba96f9c847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d48/a02552_source.html#l00156">156</a> of file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/usb/<a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../d0/df5/a02549_source.html#l00250">250</a> of file <a class="el" href="../../d0/df5/a02549_source.html">usb_cdcdef.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae1423b92a8441d5224fee15e37ddb1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1423b92a8441d5224fee15e37ddb1fb">&#9670;&nbsp;</a></span>bControlInterface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t __USB_Union_Functional_Descriptor::bControlInterface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The interface number of the Communications or Data Class interface, designated as the controlling interface for the union.* </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/df5/a02549_source.html#l00254">254</a> of file <a class="el" href="../../d0/df5/a02549_source.html">usb_cdcdef.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/usb/<a class="el" href="../../d0/df5/a02549_source.html">usb_cdcdef.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d6c/a10262.html">_USB_Setup_Data</a></li>
+    <li class="navelem"><a class="el" href="../../d0/d6c/a10262.html">__USB_Union_Functional_Descriptor</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,13 +1,23 @@
 var a08542 =
 [
-    [ "SMC Register Masks", "d8/dc0/a08543.html", null ],
-    [ "SMC_Type", "df/dc1/a09246.html", [
-      [ "PMCTRL", "df/dc1/a09246.html#ab8623b594bbc8c61e5d223101fc90d97", null ],
-      [ "PMPROT", "df/dc1/a09246.html#aeb1160606f3387d12dadc263eec7b749", null ],
-      [ "PMSTAT", "df/dc1/a09246.html#af4f12c170087f5adb138c07010fc7027", null ],
-      [ "STOPCTRL", "df/dc1/a09246.html#aae7ce3860f0e8c664e2e345e8936dbdc", null ]
+    [ "NV Register Masks", "d8/dc0/a08543.html", null ],
+    [ "NV_Type", "d1/deb/a09226.html", [
+      [ "BACKKEY0", "d1/deb/a09226.html#a84e62b140feac9fcae8b251607c814e7", null ],
+      [ "BACKKEY1", "d1/deb/a09226.html#ad90570e3331407893b892cd722c8566c", null ],
+      [ "BACKKEY2", "d1/deb/a09226.html#ab01f94708b68f34fd5b40a18b21c6d76", null ],
+      [ "BACKKEY3", "d1/deb/a09226.html#a99c28a1d24b507ca392b62abd7326c22", null ],
+      [ "BACKKEY4", "d1/deb/a09226.html#a0bc51ff64f2fe752028b0cf769f95f66", null ],
+      [ "BACKKEY5", "d1/deb/a09226.html#ae2121000a273d32aeeaf2f4100ea3471", null ],
+      [ "BACKKEY6", "d1/deb/a09226.html#a39aa00a01f54dd8348854da97790e930", null ],
+      [ "BACKKEY7", "d1/deb/a09226.html#ade5b560a7ad515e084070fde57ea32d7", null ],
+      [ "FOPT", "d1/deb/a09226.html#aaabff2875971400e0975d365fd8bdd30", null ],
+      [ "FPROT0", "d1/deb/a09226.html#a0a1513e86bf3647e0179fc0f547a9b1e", null ],
+      [ "FPROT1", "d1/deb/a09226.html#a4e85ed3eff018d579013a9e26e987f35", null ],
+      [ "FPROT2", "d1/deb/a09226.html#a4d8b08ba5cfdb89cf82724db412bc041", null ],
+      [ "FPROT3", "d1/deb/a09226.html#a681eb6e0560291b4c2e83e4e85923347", null ],
+      [ "FSEC", "d1/deb/a09226.html#afb5e12b7f518197a87e81432749ba73d", null ]
     ] ],
-    [ "SMC", "d3/d31/a08542.html#ga6667e81e5b32250febd3d46511d9309d", null ],
-    [ "SMC_BASE", "d3/d31/a08542.html#ga683c9b3b5d9d94fb1ac7c4c18f5aff44", null ],
-    [ "SMC_BASES", "d3/d31/a08542.html#ga3c3dac14aea70e071c763a0fd836963b", null ]
+    [ "FTFA_FlashConfig", "d3/d31/a08542.html#gaf75019f28fbe0be805db316ab76bda45", null ],
+    [ "FTFA_FlashConfig_BASE", "d3/d31/a08542.html#ga1e6dbd99b75dd6c501dddbdbc8141ea7", null ],
+    [ "NV_BASES", "d3/d31/a08542.html#ga23e4e2db513617e5cf3f40bb5191058c", null ]
 ];

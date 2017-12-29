@@ -1,6 +1,5 @@
 var a09874 =
 [
-    [ "Pin", "db/d56/a09874.html#a284faa68ad61489db58871fe562d1c8e", null ],
-    [ "Type", "db/d56/a09874.html#a4effd93bf411115119aadede75fbfe7d", null ],
-    [ "Voltage", "db/d56/a09874.html#a8754dd9c45c87e5d95167927576a5cb2", null ]
+    [ "AirQIdx", "db/d56/a09874.html#adcc19d7619b19ff0fce56e9722c4054c", null ],
+    [ "GasRes", "db/d56/a09874.html#a2e52e8b734f3666df0ea2bf73630d0db", null ]
 ];

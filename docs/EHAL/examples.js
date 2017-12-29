@@ -1,5 +1,6 @@
 var examples =
 [
-    [ "env_tph_demo.cpp", "d1/d3b/a139291.html", null ],
-    [ "TPHSensorTag.cpp", "dc/dd4/a139290.html", null ]
+    [ "BleAdvertiser.cpp", "dd/dd8/a10375.html", null ],
+    [ "env_tph_demo.cpp", "da/dc0/a10377.html", null ],
+    [ "TPHSensorTag.cpp", "de/d1f/a10376.html", null ]
 ];

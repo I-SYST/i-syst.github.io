@@ -1,7 +1,8 @@
 var a10234 =
 [
-    [ "bData", "d4/df3/a10234.html#a22ad4c5f84a636dc9fb6af519a469c9a", null ],
-    [ "bDescriptorSubtype", "d4/df3/a10234.html#a31391368a8cbf38fc0aea2c61bc75eba", null ],
-    [ "bDescriptorType", "d4/df3/a10234.html#a637c533ebfd78bed71cea37eac7cc478", null ],
-    [ "bFunctionLength", "d4/df3/a10234.html#aa1d5d39db7e9719f0860f1aa7082d5c2", null ]
+    [ "ClkSrc", "d4/df3/a10234.html#a246635f4f051e4f727f5b5cf826df97d", null ],
+    [ "DevNo", "d4/df3/a10234.html#af3dfe033cd33f4110bb8385a90597ea6", null ],
+    [ "EvtHandler", "d4/df3/a10234.html#aa71bd4b62b71b32c9550bdea45d79362", null ],
+    [ "Freq", "d4/df3/a10234.html#a58ab795be71e795c01931d6e9edee53f", null ],
+    [ "IntPrio", "d4/df3/a10234.html#a7b09d4436ba099edeeaf9544673eee38", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: WORD_BYTE Union Reference</title>
+<title>EHAL: USBD_API_INIT_PARAM_T Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,31 +86,79 @@ $(document).ready(function(){initNavTree('d4/db0/a09482.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d7/d16/a09479.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">WORD_BYTE Union Reference</div>  </div>
+<div class="title">USBD_API_INIT_PARAM_T Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4cbdbd1a6f1f891f7b07909b68fa3762"><td class="memItemLeft" align="right" valign="top"><a id="a4cbdbd1a6f1f891f7b07909b68fa3762"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>W</b></td></tr>
-<tr class="separator:a4cbdbd1a6f1f891f7b07909b68fa3762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10c955122c6733864ad448942c130e8b"><td class="memItemLeft" align="right" valign="top"><a id="a10c955122c6733864ad448942c130e8b"></a>
-<a class="el" href="../../d4/da8/a09478.html">WB_T</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WB</b></td></tr>
-<tr class="separator:a10c955122c6733864ad448942c130e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2200b18c707f4547fe8dbe465d5a643a"><td class="memItemLeft" align="right" valign="top"><a id="a2200b18c707f4547fe8dbe465d5a643a"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>usb_reg_base</b></td></tr>
+<tr class="separator:a2200b18c707f4547fe8dbe465d5a643a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8739f30e4b9914535d92ca2ce89aa7d6"><td class="memItemLeft" align="right" valign="top"><a id="a8739f30e4b9914535d92ca2ce89aa7d6"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_base</b></td></tr>
+<tr class="separator:a8739f30e4b9914535d92ca2ce89aa7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746219ea1a82b356ec966df059824f72"><td class="memItemLeft" align="right" valign="top"><a id="a746219ea1a82b356ec966df059824f72"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mem_size</b></td></tr>
+<tr class="separator:a746219ea1a82b356ec966df059824f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9eae0114be0454c4cce831715faf585"><td class="memItemLeft" align="right" valign="top"><a id="af9eae0114be0454c4cce831715faf585"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>max_num_ep</b></td></tr>
+<tr class="separator:af9eae0114be0454c4cce831715faf585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f459156b295097fa6e6db6507e2fb76"><td class="memItemLeft" align="right" valign="top"><a id="a1f459156b295097fa6e6db6507e2fb76"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pad0</b> [3]</td></tr>
+<tr class="separator:a1f459156b295097fa6e6db6507e2fb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128486464cd81171d3833fa55e5a619d"><td class="memItemLeft" align="right" valign="top"><a id="a128486464cd81171d3833fa55e5a619d"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Reset_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a128486464cd81171d3833fa55e5a619d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6e36d44a1c668b0b644bb229dfc043"><td class="memItemLeft" align="right" valign="top"><a id="aed6e36d44a1c668b0b644bb229dfc043"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Suspend_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:aed6e36d44a1c668b0b644bb229dfc043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b307dac1d4fc097cdc48f5d5ccbf260"><td class="memItemLeft" align="right" valign="top"><a id="a9b307dac1d4fc097cdc48f5d5ccbf260"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Resume_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a9b307dac1d4fc097cdc48f5d5ccbf260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71aa0f46e3577bda93d32d0e2e2eda7"><td class="memItemLeft" align="right" valign="top"><a id="ab71aa0f46e3577bda93d32d0e2e2eda7"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>reserved_sbz</b></td></tr>
+<tr class="separator:ab71aa0f46e3577bda93d32d0e2e2eda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a5c173c5d6b99ade3bb30ec887cad7"><td class="memItemLeft" align="right" valign="top"><a id="ac6a5c173c5d6b99ade3bb30ec887cad7"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_SOF_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:ac6a5c173c5d6b99ade3bb30ec887cad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a3ae6bb457e426996cee4b0e6e8bc5"><td class="memItemLeft" align="right" valign="top"><a id="a18a3ae6bb457e426996cee4b0e6e8bc5"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_WakeUpCfg</b> )(USBD_HANDLE_T hUsb, uint32_t param1)</td></tr>
+<tr class="separator:a18a3ae6bb457e426996cee4b0e6e8bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca55cae545932a17cbcaf45e6f680495"><td class="memItemLeft" align="right" valign="top"><a id="aca55cae545932a17cbcaf45e6f680495"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Power_Event</b> )(USBD_HANDLE_T hUsb, uint32_t param1)</td></tr>
+<tr class="separator:aca55cae545932a17cbcaf45e6f680495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee22a4072d5926951326941600c6ad4"><td class="memItemLeft" align="right" valign="top"><a id="a4ee22a4072d5926951326941600c6ad4"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Error_Event</b> )(USBD_HANDLE_T hUsb, uint32_t param1)</td></tr>
+<tr class="separator:a4ee22a4072d5926951326941600c6ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb7c7fcbd5ecd3a2b7072147055671e"><td class="memItemLeft" align="right" valign="top"><a id="aeeb7c7fcbd5ecd3a2b7072147055671e"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Configure_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:aeeb7c7fcbd5ecd3a2b7072147055671e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b079bb776457c8c0d46c8dab53ad00"><td class="memItemLeft" align="right" valign="top"><a id="ab8b079bb776457c8c0d46c8dab53ad00"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Interface_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:ab8b079bb776457c8c0d46c8dab53ad00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a0b66763eda61381aa435f9ecb949c"><td class="memItemLeft" align="right" valign="top"><a id="a83a0b66763eda61381aa435f9ecb949c"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>USB_Feature_Event</b> )(USBD_HANDLE_T hUsb)</td></tr>
+<tr class="separator:a83a0b66763eda61381aa435f9ecb949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ae31dbb70633139d2b2f372169e896"><td class="memItemLeft" align="right" valign="top"><a id="a33ae31dbb70633139d2b2f372169e896"></a>
+uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>virt_to_phys</b> )(void *vaddr)</td></tr>
+<tr class="separator:a33ae31dbb70633139d2b2f372169e896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9aa7857d154fefcb268c534887407f"><td class="memItemLeft" align="right" valign="top"><a id="a6d9aa7857d154fefcb268c534887407f"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><b>cache_flush</b> )(uint32_t *start_adr, uint32_t *end_adr)</td></tr>
+<tr class="separator:a6d9aa7857d154fefcb268c534887407f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d79/a02117_source.html#l00045">45</a> of file <a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a>.</p>
-</div><hr/>The documentation for this union was generated from the following file:<ul>
-<li>ARM/NXP/include/<a class="el" href="../../d0/d79/a02117_source.html">usbd_lpcxx.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../da/d4a/a02114_source.html#l00045">45</a> of file <a class="el" href="../../da/d4a/a02114_source.html">usbd_hw_lpcxx.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>ARM/NXP/include/<a class="el" href="../../da/d4a/a02114_source.html">usbd_hw_lpcxx.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/db0/a09482.html">WORD_BYTE</a></li>
+    <li class="navelem"><a class="el" href="../../d4/db0/a09482.html">USBD_API_INIT_PARAM_T</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

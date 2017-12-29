@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __BLE_Service_Char_Data Struct Reference</title>
+<title>EHAL: BleApp Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,61 +83,49 @@ $(document).ready(function(){initNavTree('dd/d31/a09318.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../dc/d2f/a09315.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__BLE_Service_Char_Data Struct Reference</div>  </div>
+<div class="title">BleApp Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2d5986e4e24ce92f05cc3ea79dc92a8d"><td class="memItemLeft" align="right" valign="top"><a id="a2d5986e4e24ce92f05cc3ea79dc92a8d"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>Uuid</b></td></tr>
-<tr class="separator:a2d5986e4e24ce92f05cc3ea79dc92a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6fcc0d02e47993a944ccf34325c97fa"><td class="memItemLeft" align="right" valign="top"><a id="af6fcc0d02e47993a944ccf34325c97fa"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxDataLen</b></td></tr>
-<tr class="separator:af6fcc0d02e47993a944ccf34325c97fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98cf27cb86fc51d515272eb4dcd07bb1"><td class="memItemLeft" align="right" valign="top"><a id="a98cf27cb86fc51d515272eb4dcd07bb1"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Property</b></td></tr>
-<tr class="separator:a98cf27cb86fc51d515272eb4dcd07bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ca63f321ceb99367a2ad92d42d21b0"><td class="memItemLeft" align="right" valign="top"><a id="ae3ca63f321ceb99367a2ad92d42d21b0"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><b>pDesc</b></td></tr>
-<tr class="separator:ae3ca63f321ceb99367a2ad92d42d21b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a557097acc7d1787b0d8dee6c232d5e"><td class="memItemLeft" align="right" valign="top"><a id="a9a557097acc7d1787b0d8dee6c232d5e"></a>
-BLESRVC_WRCB&#160;</td><td class="memItemRight" valign="bottom"><b>WrCB</b></td></tr>
-<tr class="separator:a9a557097acc7d1787b0d8dee6c232d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a674ef33de92a028bd192a62a5590a"><td class="memItemLeft" align="right" valign="top"><a id="ae6a674ef33de92a028bd192a62a5590a"></a>
-BLESRVC_SETNOTCB&#160;</td><td class="memItemRight" valign="bottom"><b>SetNotifCB</b></td></tr>
-<tr class="separator:ae6a674ef33de92a028bd192a62a5590a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5450133b570afe951d7641f0cab8b494"><td class="memItemLeft" align="right" valign="top"><a id="a5450133b570afe951d7641f0cab8b494"></a>
-BLESRVC_TXCOMPLETE&#160;</td><td class="memItemRight" valign="bottom"><b>TxCompleteCB</b></td></tr>
-<tr class="separator:a5450133b570afe951d7641f0cab8b494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e611662145cdca66168f814bec64b29"><td class="memItemLeft" align="right" valign="top"><a id="a8e611662145cdca66168f814bec64b29"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pDefValue</b></td></tr>
-<tr class="separator:a8e611662145cdca66168f814bec64b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f671265cec80afbc45c5efe206e91d3"><td class="memItemLeft" align="right" valign="top"><a id="a5f671265cec80afbc45c5efe206e91d3"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>ValueLen</b></td></tr>
-<tr class="separator:a5f671265cec80afbc45c5efe206e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69cff76720b3602e1eae5a0edd5e6c8d"><td class="memItemLeft" align="right" valign="top"><a id="a69cff76720b3602e1eae5a0edd5e6c8d"></a>
-ble_gatts_char_handles_t&#160;</td><td class="memItemRight" valign="bottom"><b>Hdl</b></td></tr>
-<tr class="separator:a69cff76720b3602e1eae5a0edd5e6c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb9f19df0623f8fe92b7c35abc6da105"><td class="memItemLeft" align="right" valign="top"><a id="aeb9f19df0623f8fe92b7c35abc6da105"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bNotify</b></td></tr>
-<tr class="separator:aeb9f19df0623f8fe92b7c35abc6da105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a14158d55f26f398b0bbee819d1a7b9c9"><td class="memItemLeft" align="right" valign="top"><a id="a14158d55f26f398b0bbee819d1a7b9c9"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (<a class="el" href="../../d7/da5/a09314.html">BLEAPP_CFG</a> &amp;CfgData)</td></tr>
+<tr class="separator:a14158d55f26f398b0bbee819d1a7b9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81b98659252fa5aef4382529e683fa6"><td class="memItemLeft" align="right" valign="top"><a id="ae81b98659252fa5aef4382529e683fa6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InitCustomData</b> ()=0</td></tr>
+<tr class="separator:ae81b98659252fa5aef4382529e683fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a215522198e16ed8b2a3e5e897a71c"><td class="memItemLeft" align="right" valign="top"><a id="a03a215522198e16ed8b2a3e5e897a71c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InitServices</b> ()=0</td></tr>
+<tr class="separator:a03a215522198e16ed8b2a3e5e897a71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17432219c20d04014de0c4d192568503"><td class="memItemLeft" align="right" valign="top"><a id="a17432219c20d04014de0c4d192568503"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SrvcEvtDispatch</b> (ble_evt_t *p_ble_evt)=0</td></tr>
+<tr class="separator:a17432219c20d04014de0c4d192568503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0528d69c41aba8035d8196286f7549e"><td class="memItemLeft" align="right" valign="top"><a id="ab0528d69c41aba8035d8196286f7549e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessEvt</b> ()</td></tr>
+<tr class="separator:ab0528d69c41aba8035d8196286f7549e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae118ddec7b95a186b037c2586a52e6f5"><td class="memItemLeft" align="right" valign="top"><a id="ae118ddec7b95a186b037c2586a52e6f5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EnterDfu</b> ()</td></tr>
+<tr class="separator:ae118ddec7b95a186b037c2586a52e6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c1c04227169a587c19a6451e7c2872"><td class="memItemLeft" align="right" valign="top"><a id="ab5c1c04227169a587c19a6451e7c2872"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:ab5c1c04227169a587c19a6451e7c2872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d27/a00239_source.html#l00092">92</a> of file <a class="el" href="../../d0/d27/a00239_source.html">ble_service.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/Nordic/include/<a class="el" href="../../d0/d27/a00239_source.html">ble_service.h</a></li>
+<p class="definition">Definition at line <a class="el" href="../../d6/de1/a00233_source.html#l00152">152</a> of file <a class="el" href="../../d6/de1/a00233_source.html">ble_app.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>ARM/Nordic/include/<a class="el" href="../../d6/de1/a00233_source.html">ble_app.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d31/a09318.html">__BLE_Service_Char_Data</a></li>
+    <li class="navelem"><a class="el" href="../../dd/d31/a09318.html">BleApp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

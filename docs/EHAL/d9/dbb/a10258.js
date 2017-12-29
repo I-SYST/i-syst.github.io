@@ -1,7 +1,7 @@
 var a10258 =
 [
-    [ "bDescriptorSubtype", "d9/dbb/a10258.html#a1342f6061e30931ad33c6b07aca69660", null ],
-    [ "bDescriptorType", "d9/dbb/a10258.html#ab0d11656bc93ae0080e48c1d46f93047", null ],
-    [ "bFunctionLength", "d9/dbb/a10258.html#a4173fa39f16537864350ec306623d55e", null ],
-    [ "bmCapabilities", "d9/dbb/a10258.html#a572416995ae22b7efcf51a0ccbbf738d", null ]
+    [ "bcdCDC", "d9/dbb/a10258.html#a2beeaae75018e8020dc22442ff4c8b75", null ],
+    [ "bDescriptorSubtype", "d9/dbb/a10258.html#a93599d6e7c28b499b19fa09a8c11891a", null ],
+    [ "bDescriptorType", "d9/dbb/a10258.html#a19dd1085529af74299da7e3e8430befe", null ],
+    [ "bFunctionLength", "d9/dbb/a10258.html#a29f70d61eab2e76eb11e1931d65208b9", null ]
 ];

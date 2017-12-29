@@ -1,10 +1,20 @@
 var a09942 =
 [
-    [ "AddrSize", "d7/d6a/a09942.html#add1ad4d29d5f42621ea3c9d77eaa5d01", null ],
-    [ "DevNo", "d7/d6a/a09942.html#a29a61549a4e0cade418d3a11533ec358", null ],
-    [ "EraseSize", "d7/d6a/a09942.html#ac0c58d1fe746e5d63c2a069476efc782", null ],
-    [ "pInitCB", "d7/d6a/a09942.html#af9ca7d008e3040d3d90fab0f3e440fb1", null ],
-    [ "pWaitCB", "d7/d6a/a09942.html#a49ba10165d2bd22af9894e5baca3e233", null ],
-    [ "TotalSize", "d7/d6a/a09942.html#a68b59bf4c2f6e399d4502c631881edda", null ],
-    [ "WriteSize", "d7/d6a/a09942.html#a273724588aa347099870576c1e0a35b8", null ]
+    [ "Disable", "d7/d6a/a09942.html#ab13d6061e7eb7fbdf6aee8d8857f1ae9", null ],
+    [ "Enable", "d7/d6a/a09942.html#a4b5715acd131e6b0157044c9863a9d3b", null ],
+    [ "operator DEVINTRF *", "d7/d6a/a09942.html#ab0d191e416bf1786942a925944a62c9f", null ],
+    [ "Rate", "d7/d6a/a09942.html#a8053708fd390b6822cd799992bc5b19e", null ],
+    [ "Rate", "d7/d6a/a09942.html#a4f7f31065227032f76eab7443fcd5d3d", null ],
+    [ "Read", "d7/d6a/a09942.html#a8982e73cae9f32e289a7c4a0203c1b43", null ],
+    [ "RequestToSend", "d7/d6a/a09942.html#a2a2d4cc23efb04367f29039e14971bb5", null ],
+    [ "Reset", "d7/d6a/a09942.html#ab946847da78f9b1c1ff55efb20a00247", null ],
+    [ "Rx", "d7/d6a/a09942.html#a5b473ed9faeb9af606882c24863e0821", null ],
+    [ "RxData", "d7/d6a/a09942.html#a2de581e1dc3c92f59bed2e8d27de5dc2", null ],
+    [ "StartRx", "d7/d6a/a09942.html#aceda0114bd7f1d471dcab9def7f7b72f", null ],
+    [ "StartTx", "d7/d6a/a09942.html#adb9cf86ae60d73ae5b394c6487185012", null ],
+    [ "StopRx", "d7/d6a/a09942.html#aa8035222c2787281f20ee7621b8e57eb", null ],
+    [ "StopTx", "d7/d6a/a09942.html#ab17a7d617b029c22347289e44bff92ef", null ],
+    [ "Tx", "d7/d6a/a09942.html#aed2d5b84a3134822760f4d0a7c85f5c2", null ],
+    [ "TxData", "d7/d6a/a09942.html#a1b38beaac74d8e2e5a5473bc0f27c2ff", null ],
+    [ "Write", "d7/d6a/a09942.html#ab61e42e5ce115ea124651d05b4ee2ec2", null ]
 ];

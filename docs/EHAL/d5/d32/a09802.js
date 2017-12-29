@@ -1,4 +1,10 @@
 var a09802 =
 [
-    [ "mask", "d5/d32/a09802.html#a4aa976ce2626f44c67748abac073c9b6", null ]
+    [ "RESERVED0", "d5/d32/a09802.html#a1ee4c20a33fe0ae42acea8483a6df2f5", null ],
+    [ "RESERVED1", "d5/d32/a09802.html#a524d555cdde50ce943fb40d7d4403d82", null ],
+    [ "WDCLKSEL", "d5/d32/a09802.html#a0dfabd1869bff86b6382764df0937ec2", null ],
+    [ "WDFEED", "d5/d32/a09802.html#a8634bafd3c6f17146d04293d7064822b", null ],
+    [ "WDMOD", "d5/d32/a09802.html#a43d97828d135ab2479191efbcde299ad", null ],
+    [ "WDTC", "d5/d32/a09802.html#a3f3785da39c5efbfbe5f615a23b36d17", null ],
+    [ "WDTV", "d5/d32/a09802.html#a30e695a8014d4d6e61ef9eaf15a967dc", null ]
 ];

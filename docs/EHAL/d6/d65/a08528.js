@@ -1,19 +1,33 @@
 var a08528 =
 [
-    [ "PIT Register Masks", "dd/d01/a08529.html", null ],
-    [ "PIT_Type", "db/dd5/a09214.html", [
-      [ "CHANNEL", "db/dd5/a09214.html#a33a64c323e20d70e4087ec426376d7f1", null ],
-      [ "CVAL", "db/dd5/a09214.html#af98efdc8f0866cbaa72e83cfa391cac9", null ],
-      [ "LDVAL", "db/dd5/a09214.html#a6880c80d3b65e0e5831b72371f607224", null ],
-      [ "LTMR64H", "db/dd5/a09214.html#ae9ce421fcde49cce87a5aa9982a8515b", null ],
-      [ "LTMR64L", "db/dd5/a09214.html#a2dee532f44b3946ac4239fe524fdb17a", null ],
-      [ "MCR", "db/dd5/a09214.html#ac2befe5f01ae11bccda33a84cff453b0", null ],
-      [ "RESERVED_0", "db/dd5/a09214.html#a79d63eb12d78e59ec24a1a92b73e4d47", null ],
-      [ "RESERVED_1", "db/dd5/a09214.html#a9075afe1c349f376f6cee26c7ffe6c61", null ],
-      [ "TCTRL", "db/dd5/a09214.html#a1efb9476e302dfe00faf684173c5b6ea", null ],
-      [ "TFLG", "db/dd5/a09214.html#af54765dd193a93cd7bddf1eb6b0c30fa", null ]
+    [ "I2S Register Masks", "dd/d01/a08529.html", null ],
+    [ "I2S_Type", "de/d5d/a09194.html", [
+      [ "MCR", "de/d5d/a09194.html#a1120f8317764b1cd8d7b624175c13a15", null ],
+      [ "MDR", "de/d5d/a09194.html#aec34525af6f820dc003963ede5542ef1", null ],
+      [ "RCR2", "de/d5d/a09194.html#ac0bdbdf0882c75715cd446c6d677ace2", null ],
+      [ "RCR3", "de/d5d/a09194.html#a4d721096f492566c33c2354f7630624f", null ],
+      [ "RCR4", "de/d5d/a09194.html#a29f97512ded526be9f3672d7db6793ac", null ],
+      [ "RCR5", "de/d5d/a09194.html#affd777b7e9dafd3fd7185f034aab4b50", null ],
+      [ "RCSR", "de/d5d/a09194.html#a3e9f96292f8fdc9b1b74b67e4f9f2b96", null ],
+      [ "RDR", "de/d5d/a09194.html#a383a8dc5709d2e59678f84347ae95a23", null ],
+      [ "RESERVED_0", "de/d5d/a09194.html#a6e9ec02e086f7bbf6ac496af862fca19", null ],
+      [ "RESERVED_1", "de/d5d/a09194.html#aa6570652d5ea96d7b254ea6d6af1ca34", null ],
+      [ "RESERVED_2", "de/d5d/a09194.html#a0608eaea2a4c64eda657fc37feaece80", null ],
+      [ "RESERVED_3", "de/d5d/a09194.html#a6751ded0be94b1f27c4782a1df9483d1", null ],
+      [ "RESERVED_4", "de/d5d/a09194.html#ab22e52568cc38c0f09483e4c50c84b16", null ],
+      [ "RESERVED_5", "de/d5d/a09194.html#add9f4a6109388a3e743ef0b11f72bf45", null ],
+      [ "RESERVED_6", "de/d5d/a09194.html#afa3fff8e2674f004ad78881e779c314e", null ],
+      [ "RESERVED_7", "de/d5d/a09194.html#a814063bdea9047b69486bd1073ea8113", null ],
+      [ "RMR", "de/d5d/a09194.html#ab2b55d0a250082bacc98cb3845769560", null ],
+      [ "TCR2", "de/d5d/a09194.html#a4134a86cc4b66d8d7e59fed43bf833ca", null ],
+      [ "TCR3", "de/d5d/a09194.html#a3a79413b288cefdce2291865b42c6a31", null ],
+      [ "TCR4", "de/d5d/a09194.html#ae01402cc631b47ce8128465aa287e6df", null ],
+      [ "TCR5", "de/d5d/a09194.html#a91337041fca47b36ff4f31f29cb273bf", null ],
+      [ "TCSR", "de/d5d/a09194.html#ac267d105f56a5a51a2f96ca821c3e4a7", null ],
+      [ "TDR", "de/d5d/a09194.html#a9eae12b8b4c377a3adf820f320a0a4c0", null ],
+      [ "TMR", "de/d5d/a09194.html#a2ddc0ba302f2eeb23c02a94fabab1af1", null ]
     ] ],
-    [ "PIT", "d6/d65/a08528.html#gaf181c9e6602b6432a0bf1a9243808968", null ],
-    [ "PIT_BASE", "d6/d65/a08528.html#gaf00b86ba33a2cfe7bb100b4f01905f41", null ],
-    [ "PIT_BASES", "d6/d65/a08528.html#ga0de78c2bccafb17d6b1d1fdad387f4c7", null ]
+    [ "I2S0", "d6/d65/a08528.html#gadb0838291c90975e284e5f6a112f5877", null ],
+    [ "I2S0_BASE", "d6/d65/a08528.html#ga7441a9fd88c69575185aa87244e12f85", null ],
+    [ "I2S_BASES", "d6/d65/a08528.html#gad9dc1dc7ad8c432656058ebd63ef1eab", null ]
 ];

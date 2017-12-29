@@ -1,13 +1,20 @@
 var a10194 =
 [
-    [ "d_att", "dd/de9/a10194.html#ab30ccb073e9013dd645d8940728b126a", null ],
-    [ "d_fileno", "dd/de9/a10194.html#a59cacfe40f571638c527ee0409c16049", null ],
-    [ "d_name", "dd/de9/a10194.html#a493ff210982a02728c1b177139bfdb47", null ],
-    [ "d_namelen", "dd/de9/a10194.html#a55b0e68bd1f645b498c16af3402c02ac", null ],
-    [ "d_offset", "dd/de9/a10194.html#a0ab60043438ddb3d0e9d5ae2da2b3dc3", null ],
-    [ "d_size", "dd/de9/a10194.html#a52a204bde90c34e54c05d8e26382cd91", null ],
-    [ "d_type", "dd/de9/a10194.html#adca3b20d5a245f0d8b9f2aa84844b1ff", null ],
-    [ "EntryIdx", "dd/de9/a10194.html#ad57c3a1c7f172d2996748a90aca5015d", null ],
-    [ "EntrySect", "dd/de9/a10194.html#ae1e1bca9b3daad256297372596e62e10", null ],
-    [ "FirstClus", "dd/de9/a10194.html#a434f5b25fe38ab38b0976db708a65d93", null ]
+    [ "TphgBme680", "dd/de9/a10194.html#a26422d76256e3c4884dd728068e4017c", null ],
+    [ "~TphgBme680", "dd/de9/a10194.html#a7bf579fc8fb34eeeae96356529a563d1", null ],
+    [ "Disable", "dd/de9/a10194.html#ab8c0b39ff35d0496044b586a73ec8f3e", null ],
+    [ "Enable", "dd/de9/a10194.html#a82f9402dcb50793090552c291f03367f", null ],
+    [ "Init", "dd/de9/a10194.html#ab6dbbe1b7c51d569a5f2baf49a710557", null ],
+    [ "Init", "dd/de9/a10194.html#a31121093ee0abe5cf4ffb6d734955f38", null ],
+    [ "Mode", "dd/de9/a10194.html#a1a22478e4f88f7fc4b01a3eeb3b0e3e1", null ],
+    [ "Read", "dd/de9/a10194.html#ab083a43a5d40fb4c2ed56ec81aa092a0", null ],
+    [ "Read", "dd/de9/a10194.html#ae4045209c0a6bbaffb0364d8ec3c583d", null ],
+    [ "ReadHumidity", "dd/de9/a10194.html#a97ac0d7d80e936be088dbdb8e3c677e1", null ],
+    [ "ReadPressure", "dd/de9/a10194.html#a4eff9e8d1b8ebc1a83af1fd857f86ef1", null ],
+    [ "ReadTemperature", "dd/de9/a10194.html#adfe862ef4d45ddd02c5bdd2a4d510d27", null ],
+    [ "Reset", "dd/de9/a10194.html#a69ecc91b0be26e39875bfc482eaa7bdb", null ],
+    [ "SamplingFrequency", "dd/de9/a10194.html#a36c1d46042ed71bf5749b4afd9d2172d", null ],
+    [ "SetHeatingProfile", "dd/de9/a10194.html#abbee0ef6f9108c033162a09275a630bf", null ],
+    [ "StartSampling", "dd/de9/a10194.html#a2a2a2e9d8facf052c9996610436b3018", null ],
+    [ "State", "dd/de9/a10194.html#a6427a8420ad5347618583f2d545330f4", null ]
 ];

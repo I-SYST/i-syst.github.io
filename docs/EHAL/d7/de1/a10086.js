@@ -1,10 +1,11 @@
 var a10086 =
 [
-    [ "bInter", "d7/de1/a10086.html#a858d68f4d9a059f6a1bafb047af15154", null ],
-    [ "DevAddr", "d7/de1/a10086.html#aaa3cb0f39f5d673645a32e3f8b8fd4a2", null ],
-    [ "Freq", "d7/de1/a10086.html#ae61fad39909f3b668368d774a7242628", null ],
-    [ "IntHandler", "d7/de1/a10086.html#ae7e14a50716240a7744ec619a949afd5", null ],
-    [ "IntPin", "d7/de1/a10086.html#abceddfabfa627512e93b54d1cc17a556", null ],
-    [ "IntPort", "d7/de1/a10086.html#a9db5e663c409f5de8bdb81734f794545", null ],
-    [ "OpMode", "d7/de1/a10086.html#a36404f0c64079f56f2f7774497424544", null ]
+    [ "AddrLen", "d7/de1/a10086.html#ab0049db4f27be68682d35b2dfd9b9ee0", null ],
+    [ "DevAddr", "d7/de1/a10086.html#a5ff68954f1c1c9cd12d65694d48d05ff", null ],
+    [ "PageSize", "d7/de1/a10086.html#a928b1d7a2b6d2f0f81cef59ffbf93cdf", null ],
+    [ "pInitCB", "d7/de1/a10086.html#a1ac68e6ed0a18157e3b486ae38f5bea5", null ],
+    [ "pWaitCB", "d7/de1/a10086.html#a83ade676ff24935cf4c9a9939d664fa0", null ],
+    [ "Size", "d7/de1/a10086.html#a61795edeb3e22d3b9894db44c6e96890", null ],
+    [ "WrDelay", "d7/de1/a10086.html#a56b894028f1f5881b4631d2577cb26ca", null ],
+    [ "WrProtPin", "d7/de1/a10086.html#a589014ed03b7388a26470d7e7bde7693", null ]
 ];

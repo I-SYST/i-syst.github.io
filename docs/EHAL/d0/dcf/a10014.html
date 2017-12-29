@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: __iopin_cfg Struct Reference</title>
+<title>EHAL: FatFS Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,59 +83,169 @@ $(document).ready(function(){initNavTree('d0/dcf/a10014.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../de/d3f/a10011.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__iopin_cfg Struct Reference</div>  </div>
+<div class="title">FatFS Class Reference<div class="ingroups"><a class="el" href="../../d2/d78/a08584.html">Storage</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>I/O pin configuration data.  
+<p>FAT filesystem base class.  
  <a href="../../d0/dcf/a10014.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="memItemLeft" align="right" valign="top"><a id="ae319bd5ff2cbeebfae335d16bee41aa6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#ae319bd5ff2cbeebfae335d16bee41aa6">PortNo</a></td></tr>
-<tr class="memdesc:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Port number. <br /></td></tr>
-<tr class="separator:ae319bd5ff2cbeebfae335d16bee41aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d105422f997f4f7919a9fc913b10c31"><td class="memItemLeft" align="right" valign="top"><a id="a3d105422f997f4f7919a9fc913b10c31"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a3d105422f997f4f7919a9fc913b10c31">PinNo</a></td></tr>
-<tr class="memdesc:a3d105422f997f4f7919a9fc913b10c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin number. <br /></td></tr>
-<tr class="separator:a3d105422f997f4f7919a9fc913b10c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad69d270b5bd3061e53f6651bb974f6f2"><td class="memItemLeft" align="right" valign="top"><a id="ad69d270b5bd3061e53f6651bb974f6f2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#ad69d270b5bd3061e53f6651bb974f6f2">PinOp</a></td></tr>
-<tr class="memdesc:ad69d270b5bd3061e53f6651bb974f6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin function select index from 0, MCU dependent. <br /></td></tr>
-<tr class="separator:ad69d270b5bd3061e53f6651bb974f6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="memItemLeft" align="right" valign="top"><a id="a96fb3d8a0a2a458106d20bd2bc3dcf4b"></a>
-<a class="el" href="../../dc/d5c/a02459.html#a0a697dc51aa080b84aa2ed55710e1860">IOPINDIR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a96fb3d8a0a2a458106d20bd2bc3dcf4b">PinDir</a></td></tr>
-<tr class="memdesc:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin direction. <br /></td></tr>
-<tr class="separator:a96fb3d8a0a2a458106d20bd2bc3dcf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cea02cb69ca3d86442332d235548acb"><td class="memItemLeft" align="right" valign="top"><a id="a6cea02cb69ca3d86442332d235548acb"></a>
-<a class="el" href="../../dc/d5c/a02459.html#a6c3b189b0b30db5ca6089c0435c63dbb">IOPINRES</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a6cea02cb69ca3d86442332d235548acb">Res</a></td></tr>
-<tr class="memdesc:a6cea02cb69ca3d86442332d235548acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin resistor setting. <br /></td></tr>
-<tr class="separator:a6cea02cb69ca3d86442332d235548acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595a7cfa954171380240961886605c70"><td class="memItemLeft" align="right" valign="top"><a id="a595a7cfa954171380240961886605c70"></a>
-<a class="el" href="../../dc/d5c/a02459.html#a85d93d9e2356392c5384d9099702eb7d">IOPINTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a595a7cfa954171380240961886605c70">Type</a></td></tr>
-<tr class="memdesc:a595a7cfa954171380240961886605c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O type. <br /></td></tr>
-<tr class="separator:a595a7cfa954171380240961886605c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa835902c4c87784f2d51138617e11986"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#aa835902c4c87784f2d51138617e11986">Init</a> (<a class="el" href="../../dd/dbc/a09958.html">DiskIO</a> *pDiskIO)</td></tr>
+<tr class="memdesc:aa835902c4c87784f2d51138617e11986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize FAT FS.  <a href="#aa835902c4c87784f2d51138617e11986">More...</a><br /></td></tr>
+<tr class="separator:aa835902c4c87784f2d51138617e11986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796310a282ae53f9792a4e248c9a17e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a796310a282ae53f9792a4e248c9a17e6">Find</a> (char *pPathName, <a class="el" href="../../d9/d16/a10218.html">DIR</a> *pDir)</td></tr>
+<tr class="memdesc:a796310a282ae53f9792a4e248c9a17e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find path name.  <a href="#a796310a282ae53f9792a4e248c9a17e6">More...</a><br /></td></tr>
+<tr class="separator:a796310a282ae53f9792a4e248c9a17e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd041364ec5aea11ae01396e94475510"><td class="memItemLeft" align="right" valign="top"><a id="abd041364ec5aea11ae01396e94475510"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Open</b> (char *pPathName, int Flags, int Mode)</td></tr>
+<tr class="separator:abd041364ec5aea11ae01396e94475510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587698ea3f70f81dfff6124c2f6c975b"><td class="memItemLeft" align="right" valign="top"><a id="a587698ea3f70f81dfff6124c2f6c975b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Close</b> (int fd)</td></tr>
+<tr class="separator:a587698ea3f70f81dfff6124c2f6c975b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619bc03d66a5d6d09db2946a13733de5"><td class="memItemLeft" align="right" valign="top"><a id="a619bc03d66a5d6d09db2946a13733de5"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Read</b> (int Fd, uint8_t *pBuff, size_t Len)</td></tr>
+<tr class="separator:a619bc03d66a5d6d09db2946a13733de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c525205f5b0d543e3fbe18c4c8fa31"><td class="memItemLeft" align="right" valign="top"><a id="a75c525205f5b0d543e3fbe18c4c8fa31"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b> (int Fd, uint8_t *pBuf, size_t Len)</td></tr>
+<tr class="separator:a75c525205f5b0d543e3fbe18c4c8fa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3c178373430dff5424ff30a801573a34"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html#a3c178373430dff5424ff30a801573a34">ClusToSect</a> (uint32_t ClusNo)</td></tr>
+<tr class="memdesc:a3c178373430dff5424ff30a801573a34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate sector number for cluster.  <a href="#a3c178373430dff5424ff30a801573a34">More...</a><br /></td></tr>
+<tr class="separator:a3c178373430dff5424ff30a801573a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>I/O pin configuration data. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../dd/dcf/a10352.html#_a0">env_tph_demo.cpp</a>, and <a class="el" href="../../d5/d80/a10351.html#_a12">TPHSensorTag.cpp</a>.</dd>
+<div class="textblock"><p>FAT filesystem base class. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00303">303</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3c178373430dff5424ff30a801573a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c178373430dff5424ff30a801573a34">&#9670;&nbsp;</a></span>ClusToSect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t FatFS::ClusToSect </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ClusNo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate sector number for cluster. </p>
+<p>This function find the sector number corresponding the the cluster number passed in the parameter.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ClusNo</td><td>: Cluster number</td></tr>
+  </table>
+  </dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="../../dc/d5c/a02459_source.html#l00083">83</a> of file <a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="../../dc/d5c/a02459_source.html">iopincfg.h</a></li>
+<dl class="section return"><dt>Returns</dt><dd>Sector number </dd></dl>
+
+</div>
+</div>
+<a id="a796310a282ae53f9792a4e248c9a17e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796310a282ae53f9792a4e248c9a17e6">&#9670;&nbsp;</a></span>Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FatFS::Find </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>pPathName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d16/a10218.html">DIR</a> *&#160;</td>
+          <td class="paramname"><em>pDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find path name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPathName</td><td>: Path name to find </td></tr>
+    <tr><td class="paramname">pDir</td><td>: Pointer to directory list</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>true : Pathname found</li>
+<li>false : Not found </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="aa835902c4c87784f2d51138617e11986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa835902c4c87784f2d51138617e11986">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FatFS::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a> *&#160;</td>
+          <td class="paramname"><em>pDiskIO</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize FAT FS. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDiskIO</td><td>: Pointer reference to Disk I/O access interface.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>true : Success</li>
+<li>false : Failed </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>include/<a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/dcf/a10014.html">__iopin_cfg</a></li>
+    <li class="navelem"><a class="el" href="../../d0/dcf/a10014.html">FatFS</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

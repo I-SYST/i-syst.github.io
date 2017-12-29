@@ -1,16 +1,13 @@
 var a09198 =
 [
-    [ "COMP", "d8/def/a09198.html#a606a1dfbfff74854ed6d652a221a3fbb", null ],
-    [ "COMPARATOR", "d8/def/a09198.html#a423edaf7b1768da876fe8feadd13f146", null ],
-    [ "COMPID", "d8/def/a09198.html#a81223eba8521f8e75c46e7774cc2648f", null ],
-    [ "CTRL", "d8/def/a09198.html#a944b36ca890ba583beaef371a6de59d0", null ],
-    [ "DEVICECFG", "d8/def/a09198.html#a8e1fa8c8e1f8e07b41ca20b51f164daa", null ],
-    [ "DEVICETYPID", "d8/def/a09198.html#aa9e474c83dfadd1926f68f4fbdb8def3", null ],
-    [ "FCT", "d8/def/a09198.html#a9ded7fd61aa303451e9e9ebbb9b714f8", null ],
-    [ "MASK", "d8/def/a09198.html#a2f83ce3789ccc050807d9591035ca622", null ],
-    [ "PERIPHID", "d8/def/a09198.html#a9a6614b460e543f6fe752e4b82b68127", null ],
-    [ "RESERVED_0", "d8/def/a09198.html#abe09dec4b2b8a596b042a4a289b7dd89", null ],
-    [ "RESERVED_1", "d8/def/a09198.html#a6f36b9a24eda5fc29dcfca32fc356a9e", null ],
-    [ "RESERVED_2", "d8/def/a09198.html#a48d86e8214d32ad94c59a89b0ca10873", null ],
-    [ "TBCTRL", "d8/def/a09198.html#ac25ffbac07979e47c70c23e9ef41a0a7", null ]
+    [ "F1", "d8/def/a09198.html#a7a06923d73cbfb32196f92cec9832679", null ],
+    [ "F2", "d8/def/a09198.html#a2e0cf4aaae8993a69589806facbdb943", null ],
+    [ "F3", "d8/def/a09198.html#a3c0a1985283644dfd4d68600e899b55f", null ],
+    [ "FILT1", "d8/def/a09198.html#aa94a3a9f881724ef6ed7658e387aa159", null ],
+    [ "FILT2", "d8/def/a09198.html#a5736205996ff7fc8e4eba49f8f0e44ea", null ],
+    [ "ME", "d8/def/a09198.html#aded2b9c734957e9882cefccb5029c51f", null ],
+    [ "PE1", "d8/def/a09198.html#af4e20147909cf3d6a8ec04750fc36833", null ],
+    [ "PE2", "d8/def/a09198.html#a95ff50f29c9dd8bb33ab20a0cbb24a67", null ],
+    [ "PE3", "d8/def/a09198.html#aea83255d229cf9f16973c2e2c289d084", null ],
+    [ "PE4", "d8/def/a09198.html#a3e7dd04bfade7dc646336a69827f8d8f", null ]
 ];

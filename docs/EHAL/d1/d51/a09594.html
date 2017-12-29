@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: LPC_GPIO_GROUP_INTx_Type Struct Reference</title>
+<title>EHAL: LPC_FLASHCTRL_Type Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,83 +86,222 @@ $(document).ready(function(){initNavTree('d1/d51/a09594.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d6/d3b/a09591.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LPC_GPIO_GROUP_INTx_Type Struct Reference<div class="ingroups"><a class="el" href="../../db/dc8/a08558.html">NXP</a> &raquo; <a class="el" href="../../dd/d1d/a08559.html">LPC11Uxx</a> &raquo; <a class="el" href="../../d7/d47/a08561.html">Device_Peripheral_Registers</a></div></div>  </div>
+<div class="title">LPC_FLASHCTRL_Type Struct Reference<div class="ingroups"><a class="el" href="../../dd/d28/a08576.html">NXP</a> &raquo; <a class="el" href="../../d7/d3b/a08577.html">LPC11Uxx</a> &raquo; <a class="el" href="../../d1/dce/a08579.html">Device_Peripheral_Registers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Product name title=UM10462 Chapter title=LPC11U1x GPIO Modification date=3/17/2011 Major revision=0 Minor revision=3 (GPIO_GROUP_INT0)  
+<p>Product name title=UM10462 Chapter title=LPC11U1x Flash programming firmware Modification date=3/17/2011 Major revision=0 Minor revision=3 (FLASHCTRL)  
  <a href="../../d1/d51/a09594.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac937f60f93747a4e2858ec75c1f8166f"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#ac937f60f93747a4e2858ec75c1f8166f">CTRL</a></td></tr>
-<tr class="separator:ac937f60f93747a4e2858ec75c1f8166f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4119937509e6cbace754e9774f4f7da1"><td class="memItemLeft" align="right" valign="top"><a id="a4119937509e6cbace754e9774f4f7da1"></a>
-__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED0</b> [7]</td></tr>
-<tr class="separator:a4119937509e6cbace754e9774f4f7da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe763ffaf701db2980cff17929c286c6"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#afe763ffaf701db2980cff17929c286c6">PORT_POL</a> [2]</td></tr>
-<tr class="separator:afe763ffaf701db2980cff17929c286c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae7826e27afdf1be9c238c4d67adf1bc"><td class="memItemLeft" align="right" valign="top"><a id="aae7826e27afdf1be9c238c4d67adf1bc"></a>
-__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED1</b> [6]</td></tr>
-<tr class="separator:aae7826e27afdf1be9c238c4d67adf1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7456e2da058adcdb038e885e1a6781b"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#ad7456e2da058adcdb038e885e1a6781b">PORT_ENA</a> [2]</td></tr>
-<tr class="separator:ad7456e2da058adcdb038e885e1a6781b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e76ff992a53b6f0d322ba31ceed23a1"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a1e76ff992a53b6f0d322ba31ceed23a1">RESERVED0</a> [4]</td></tr>
+<tr class="separator:a1e76ff992a53b6f0d322ba31ceed23a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935218d47a7a49f946adf9eab4c879f8"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a935218d47a7a49f946adf9eab4c879f8">FLASHCFG</a></td></tr>
+<tr class="separator:a935218d47a7a49f946adf9eab4c879f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c960baaa0123b6be73d4342af7f1f63"><td class="memItemLeft" align="right" valign="top"><a id="a4c960baaa0123b6be73d4342af7f1f63"></a>
+__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED1</b> [3]</td></tr>
+<tr class="separator:a4c960baaa0123b6be73d4342af7f1f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f34045f09782996b016d4d28fc59385"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a3f34045f09782996b016d4d28fc59385">FMSSTART</a></td></tr>
+<tr class="separator:a3f34045f09782996b016d4d28fc59385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c075053616e15f2f53435deb3bfcd0"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a23c075053616e15f2f53435deb3bfcd0">FMSSTOP</a></td></tr>
+<tr class="separator:a23c075053616e15f2f53435deb3bfcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b04a97fcb2700fcf92bdc6ec393047"><td class="memItemLeft" align="right" valign="top"><a id="ad8b04a97fcb2700fcf92bdc6ec393047"></a>
+__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED2</b> [1]</td></tr>
+<tr class="separator:ad8b04a97fcb2700fcf92bdc6ec393047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402795c81bfe0d9a3560dd9cfe784ec3"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a402795c81bfe0d9a3560dd9cfe784ec3">FMSW0</a></td></tr>
+<tr class="separator:a402795c81bfe0d9a3560dd9cfe784ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc341282b3494e79a8ca5ba5eb563559"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#abc341282b3494e79a8ca5ba5eb563559">FMSW1</a></td></tr>
+<tr class="separator:abc341282b3494e79a8ca5ba5eb563559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409818874ee3d884138c96416fafe2ca"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#a409818874ee3d884138c96416fafe2ca">FMSW2</a></td></tr>
+<tr class="separator:a409818874ee3d884138c96416fafe2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b52687fb425ae91ed7937501dfc036"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#ae2b52687fb425ae91ed7937501dfc036">FMSW3</a></td></tr>
+<tr class="separator:ae2b52687fb425ae91ed7937501dfc036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c05e98fac013cde1a119a3e91dde5d4"><td class="memItemLeft" align="right" valign="top"><a id="a5c05e98fac013cde1a119a3e91dde5d4"></a>
+__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED3</b> [1001]</td></tr>
+<tr class="separator:a5c05e98fac013cde1a119a3e91dde5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac196f302787ff85c055a02a32fae86d6"><td class="memItemLeft" align="right" valign="top">__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#ac196f302787ff85c055a02a32fae86d6">FMSTAT</a></td></tr>
+<tr class="separator:ac196f302787ff85c055a02a32fae86d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c56664dd38ea6e92198855afc93af3"><td class="memItemLeft" align="right" valign="top"><a id="a01c56664dd38ea6e92198855afc93af3"></a>
+__I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED4</b> [1]</td></tr>
+<tr class="separator:a01c56664dd38ea6e92198855afc93af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55332ea67635bc3c2cad7d51a9478f6"><td class="memItemLeft" align="right" valign="top">__IO uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09594.html#af55332ea67635bc3c2cad7d51a9478f6">FMSTATCLR</a></td></tr>
+<tr class="separator:af55332ea67635bc3c2cad7d51a9478f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Product name title=UM10462 Chapter title=LPC11U1x GPIO Modification date=3/17/2011 Major revision=0 Minor revision=3 (GPIO_GROUP_INT0) </p>
+<div class="textblock"><p>Product name title=UM10462 Chapter title=LPC11U1x Flash programming firmware Modification date=3/17/2011 Major revision=0 Minor revision=3 (FLASHCTRL) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00527">527</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00316">316</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac937f60f93747a4e2858ec75c1f8166f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac937f60f93747a4e2858ec75c1f8166f">&#9670;&nbsp;</a></span>CTRL</h2>
+<a id="a935218d47a7a49f946adf9eab4c879f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935218d47a7a49f946adf9eab4c879f8">&#9670;&nbsp;</a></span>FLASHCFG</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint32_t LPC_GPIO_GROUP_INTx_Type::CTRL</td>
+          <td class="memname">__IO uint32_t LPC_FLASHCTRL_Type::FLASHCFG</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>&lt; (@ 0x4005C000) GPIO_GROUP_INT0 Structure (@ 0x4005C000) GPIO grouped interrupt control register </p>
+<p>(@ 0x4003C010) Flash memory access time configuration register </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00528">528</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00318">318</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
 
 </div>
 </div>
-<a id="ad7456e2da058adcdb038e885e1a6781b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7456e2da058adcdb038e885e1a6781b">&#9670;&nbsp;</a></span>PORT_ENA</h2>
+<a id="a3f34045f09782996b016d4d28fc59385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f34045f09782996b016d4d28fc59385">&#9670;&nbsp;</a></span>FMSSTART</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint32_t LPC_GPIO_GROUP_INTx_Type::PORT_ENA[2]</td>
+          <td class="memname">__IO uint32_t LPC_FLASHCTRL_Type::FMSSTART</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(@ 0x4005C040) GPIO grouped interrupt port 0/1 enable register </p>
+<p>(@ 0x4003C020) Signature start address register </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00532">532</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00320">320</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
 
 </div>
 </div>
-<a id="afe763ffaf701db2980cff17929c286c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe763ffaf701db2980cff17929c286c6">&#9670;&nbsp;</a></span>PORT_POL</h2>
+<a id="a23c075053616e15f2f53435deb3bfcd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c075053616e15f2f53435deb3bfcd0">&#9670;&nbsp;</a></span>FMSSTOP</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__IO uint32_t LPC_GPIO_GROUP_INTx_Type::PORT_POL[2]</td>
+          <td class="memname">__IO uint32_t LPC_FLASHCTRL_Type::FMSSTOP</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(@ 0x4005C020) GPIO grouped interrupt port 0 polarity register </p>
+<p>(@ 0x4003C024) Signature stop-address register </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00530">530</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00321">321</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="ac196f302787ff85c055a02a32fae86d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac196f302787ff85c055a02a32fae86d6">&#9670;&nbsp;</a></span>FMSTAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::FMSTAT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003CFE0) Signature generation status register </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00328">328</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="af55332ea67635bc3c2cad7d51a9478f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af55332ea67635bc3c2cad7d51a9478f6">&#9670;&nbsp;</a></span>FMSTATCLR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__IO uint32_t LPC_FLASHCTRL_Type::FMSTATCLR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003CFE8) Signature generation status clear register </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00330">330</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="a402795c81bfe0d9a3560dd9cfe784ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402795c81bfe0d9a3560dd9cfe784ec3">&#9670;&nbsp;</a></span>FMSW0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::FMSW0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003C02C) Word 0 [31:0] </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00323">323</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="abc341282b3494e79a8ca5ba5eb563559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc341282b3494e79a8ca5ba5eb563559">&#9670;&nbsp;</a></span>FMSW1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::FMSW1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003C030) Word 1 [63:32] </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00324">324</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="a409818874ee3d884138c96416fafe2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409818874ee3d884138c96416fafe2ca">&#9670;&nbsp;</a></span>FMSW2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::FMSW2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003C034) Word 2 [95:64] </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00325">325</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="ae2b52687fb425ae91ed7937501dfc036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2b52687fb425ae91ed7937501dfc036">&#9670;&nbsp;</a></span>FMSW3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::FMSW3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(@ 0x4003C038) Word 3 [127:96] </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00326">326</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
+
+</div>
+</div>
+<a id="a1e76ff992a53b6f0d322ba31ceed23a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e76ff992a53b6f0d322ba31ceed23a1">&#9670;&nbsp;</a></span>RESERVED0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__I uint32_t LPC_FLASHCTRL_Type::RESERVED0[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; (@ 0x4003C000) FLASHCTRL Structure </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/daa/a02135_source.html#l00317">317</a> of file <a class="el" href="../../df/daa/a02135_source.html">LPC11Uxx.h</a>.</p>
 
 </div>
 </div>
@@ -174,7 +313,7 @@ __I uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED1</b>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d51/a09594.html">LPC_GPIO_GROUP_INTx_Type</a></li>
+    <li class="navelem"><a class="el" href="../../d1/d51/a09594.html">LPC_FLASHCTRL_Type</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

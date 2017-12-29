@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: DMA_Type Struct Reference</title>
+<title>EHAL: FSECCFG Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,142 +86,43 @@ $(document).ready(function(){initNavTree('d4/ddb/a09138.html','../../');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../de/de7/a09135.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">DMA_Type Struct Reference<div class="ingroups"><a class="el" href="../../dd/d5b/a08491.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d3/daf/a08498.html">DMA Peripheral Access Layer</a></div></div>  </div>
+<div class="title">FSECCFG Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8049b5654491886d2ac76dd2a8d33b9d"><td class="memItemLeft" align="right" valign="top"><a id="a8049b5654491886d2ac76dd2a8d33b9d"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RESERVED_0</b> [256]</td></tr>
-<tr class="separator:a8049b5654491886d2ac76dd2a8d33b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42f78e278fc6d1ae6332fe2e255e81d2"><td class="memItemLeft" ><a id="a42f78e278fc6d1ae6332fe2e255e81d2"></a>
-struct {</td></tr>
-<tr class="memitem:a9a549c331cea9020d1096db7caa5dee1"><td class="memItemLeft" >&#160;&#160;&#160;__IO uint32_t&#160;&#160;&#160;<a class="el" href="../../d4/ddb/a09138.html#af772e8c5ccda72b23f6460494c12857a">SAR</a></td></tr>
-<tr class="separator:a9a549c331cea9020d1096db7caa5dee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1899c9dbac08e18237425f1beaf459d"><td class="memItemLeft" >&#160;&#160;&#160;__IO uint32_t&#160;&#160;&#160;<a class="el" href="../../d4/ddb/a09138.html#adbc7cbe9425704ce98e9d8485ff2a555">DAR</a></td></tr>
-<tr class="separator:ac1899c9dbac08e18237425f1beaf459d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab62a5851e21aa7854436b625724d002"><td class="memItemLeft" ><a id="aab62a5851e21aa7854436b625724d002"></a>
-&#160;&#160;&#160;union {</td></tr>
-<tr class="memitem:a5360e9cdfb367bee587940bbdf2a4b8e"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;__IO uint32_t&#160;&#160;&#160;<a class="el" href="../../d4/ddb/a09138.html#af4baee4fdddfd3bea47a776541500832">DSR_BCR</a></td></tr>
-<tr class="separator:a5360e9cdfb367bee587940bbdf2a4b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b95a9c920ed15d9f526e99d4638b40d"><td class="memItemLeft" >
-&#160;&#160;&#160;&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a9b36d00e675a9a404da85b4232d18f4c"><td class="memItemLeft" >
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>RESERVED_0</b> [3]</td></tr>
-<tr class="separator:a9b36d00e675a9a404da85b4232d18f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2067c18bd9fcd7b617991d518752cadf"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__IO uint8_t&#160;&#160;&#160;<a class="el" href="../../d4/ddb/a09138.html#a7e5029eae45531c7e4f42c65fb3eb823">DSR</a></td></tr>
-<tr class="separator:a2067c18bd9fcd7b617991d518752cadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b95a9c920ed15d9f526e99d4638b40d"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;<b>DMA_DSR_ACCESS8BIT</b></td></tr>
-<tr class="separator:a3b95a9c920ed15d9f526e99d4638b40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab62a5851e21aa7854436b625724d002"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:aab62a5851e21aa7854436b625724d002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480d5fd2d1424a6bd50b2a8e41296f27"><td class="memItemLeft" >&#160;&#160;&#160;__IO uint32_t&#160;&#160;&#160;<a class="el" href="../../d4/ddb/a09138.html#afa67688eee65935f79df815d47c7e400">DCR</a></td></tr>
-<tr class="separator:a480d5fd2d1424a6bd50b2a8e41296f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42f78e278fc6d1ae6332fe2e255e81d2"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>DMA</b> [4]</td></tr>
-<tr class="separator:a42f78e278fc6d1ae6332fe2e255e81d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469595f32a2f461316bc92af4c810d7c"><td class="memItemLeft" align="right" valign="top"><a id="a469595f32a2f461316bc92af4c810d7c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b> [8]</td></tr>
+<tr class="separator:a469595f32a2f461316bc92af4c810d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422f36ec910443b22c73241c549dd4af"><td class="memItemLeft" align="right" valign="top"><a id="a422f36ec910443b22c73241c549dd4af"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FProt</b> [4]</td></tr>
+<tr class="separator:a422f36ec910443b22c73241c549dd4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c9913b43bbfd31b85e52bf0a65d5cb2"><td class="memItemLeft" align="right" valign="top"><a id="a4c9913b43bbfd31b85e52bf0a65d5cb2"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FDProt</b></td></tr>
+<tr class="separator:a4c9913b43bbfd31b85e52bf0a65d5cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c465e58e90e2c90151a92589323bd0"><td class="memItemLeft" align="right" valign="top"><a id="a07c465e58e90e2c90151a92589323bd0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FEProt</b></td></tr>
+<tr class="separator:a07c465e58e90e2c90151a92589323bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558e913e8a69293011d49d1689d0a428"><td class="memItemLeft" align="right" valign="top"><a id="a558e913e8a69293011d49d1689d0a428"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FOpt</b></td></tr>
+<tr class="separator:a558e913e8a69293011d49d1689d0a428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d10d7d875dddc4f6984ebf963fcf4d"><td class="memItemLeft" align="right" valign="top"><a id="a10d10d7d875dddc4f6984ebf963fcf4d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>FSec</b></td></tr>
+<tr class="separator:a10d10d7d875dddc4f6984ebf963fcf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>DMA - Register Layout Typedef </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00584">584</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="adbc7cbe9425704ce98e9d8485ff2a555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbc7cbe9425704ce98e9d8485ff2a555">&#9670;&nbsp;</a></span>DAR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__IO uint32_t DMA_Type::DAR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Destination Address Register, array offset: 0x104, array step: 0x10 </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00588">588</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="afa67688eee65935f79df815d47c7e400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa67688eee65935f79df815d47c7e400">&#9670;&nbsp;</a></span>DCR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__IO uint32_t DMA_Type::DCR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>DMA Control Register, array offset: 0x10C, array step: 0x10 </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00596">596</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="a7e5029eae45531c7e4f42c65fb3eb823"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e5029eae45531c7e4f42c65fb3eb823">&#9670;&nbsp;</a></span>DSR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__IO uint8_t DMA_Type::DSR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>DMA_DSR0 register...DMA_DSR3 register., array offset: 0x10B, array step: 0x10 </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00593">593</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="af4baee4fdddfd3bea47a776541500832"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4baee4fdddfd3bea47a776541500832">&#9670;&nbsp;</a></span>DSR_BCR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__IO uint32_t DMA_Type::DSR_BCR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>DMA Status Register / Byte Count Register, array offset: 0x108, array step: 0x10 </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00590">590</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="af772e8c5ccda72b23f6460494c12857a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af772e8c5ccda72b23f6460494c12857a">&#9670;&nbsp;</a></span>SAR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__IO uint32_t DMA_Type::SAR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Source Address Register, array offset: 0x100, array step: 0x10 </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l00587">587</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>ARM/Freescale/KL26xx/CMSIS/include/<a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a></li>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d4/dee/a00008_source.html#l00040">40</a> of file <a class="el" href="../../d4/dee/a00008_source.html">fseccfg.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>ARM/Freescale/include/<a class="el" href="../../d4/dee/a00008_source.html">fseccfg.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/ddb/a09138.html">DMA_Type</a></li>
+    <li class="navelem"><a class="el" href="../../d4/ddb/a09138.html">FSECCFG</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
