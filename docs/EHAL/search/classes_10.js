@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['sdcard',['SDCard',['../d0/d3d/a16491.html',1,'']]],
-  ['sdcfg',['SDCFG',['../d3/d14/a16483.html',1,'']]],
-  ['sdcsd',['SDCSD',['../d9/d5c/a16479.html',1,'']]],
-  ['sddev',['SDDEV',['../dc/dfb/a16487.html',1,'']]],
-  ['seep',['Seep',['../d7/df9/a16503.html',1,'']]],
-  ['sensor',['Sensor',['../d3/deb/a16507.html',1,'']]],
-  ['sim_5ftype',['SIM_Type',['../dd/d7d/a15671.html',1,'']]],
-  ['smc_5ftype',['SMC_Type',['../d1/d2c/a15675.html',1,'']]],
-  ['spi',['SPI',['../dd/d85/a16615.html',1,'']]],
-  ['spi_5ftype',['SPI_Type',['../de/d11/a15679.html',1,'']]],
-  ['spidev',['SPIDEV',['../d1/df8/a16611.html',1,'']]],
-  ['sspdev',['SSPDEV',['../df/de5/a15803.html',1,'']]],
-  ['stddev',['STDDEV',['../de/d02/a16619.html',1,'']]],
-  ['sysstatus',['SysStatus',['../dc/dd7/a16635.html',1,'']]]
+  ['sdcard',['SDCard',['../d1/da0/a138997.html',1,'']]],
+  ['sdcfg',['SDCFG',['../db/d98/a138989.html',1,'']]],
+  ['sdcsd',['SDCSD',['../de/d11/a138985.html',1,'']]],
+  ['sddev',['SDDEV',['../da/d89/a138993.html',1,'']]],
+  ['seep',['Seep',['../d2/d40/a139009.html',1,'']]],
+  ['sensor',['Sensor',['../de/d25/a139013.html',1,'']]],
+  ['sim_5ftype',['SIM_Type',['../de/dd7/a138177.html',1,'']]],
+  ['smc_5ftype',['SMC_Type',['../d5/dfc/a138181.html',1,'']]],
+  ['spi',['SPI',['../de/d89/a139121.html',1,'']]],
+  ['spi_5ftype',['SPI_Type',['../df/d06/a138185.html',1,'']]],
+  ['spidev',['SPIDEV',['../d3/d7d/a139117.html',1,'']]],
+  ['sspdev',['SSPDEV',['../d4/d6e/a138309.html',1,'']]],
+  ['stddev',['STDDEV',['../d7/da0/a139125.html',1,'']]],
+  ['sysstatus',['SysStatus',['../d9/d51/a139141.html',1,'']]]
 ];

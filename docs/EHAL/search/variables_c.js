@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['observe',['OBSERVE',['../d7/d63/a15703.html#aa8cbc53b1ddc255d7be917ba3fc6b1f1',1,'USB_Type']]],
-  ['offset',['Offset',['../dd/d30/a16439.html#a091fedf1007da6d128f1cd3842fa4f39',1,'IHEXDATA']]],
-  ['ofs',['OFS',['../db/df9/a15551.html#a1081f8facbb93133c09e83ef18b90b10',1,'ADC_Type']]],
-  ['opmode',['OpMode',['../d3/d1c/a16543.html#a7f37bc3aa68756fa62ef501cdfcd09de',1,'__GasSensor_Config::OpMode()'],['../d6/da5/a16591.html#a47941b99a4c1680f73eaad2ea0c5ed2f',1,'__TPHSensor_Config::OpMode()']]],
-  ['osr',['OSR',['../db/d52/a15807.html#a49cdb22a8d0eecb74a5fa07f5c3a81c8',1,'LPCUARTREG::OSR()'],['../d3/d81/a15943.html#a88e2c6a0c0cdaefc3ff4cb88d507de87',1,'LPC_USART_Type::OSR()']]],
-  ['otgctl',['OTGCTL',['../d7/d63/a15703.html#a29fdcad4635573158769b379244874c6',1,'USB_Type']]],
-  ['otgicr',['OTGICR',['../d7/d63/a15703.html#ac63531ec3a52f634997a5f27a938232e',1,'USB_Type']]],
-  ['otgistat',['OTGISTAT',['../d7/d63/a15703.html#a33ddb4989093727ebbeaabdcbb30a9be',1,'USB_Type']]],
-  ['otgstat',['OTGSTAT',['../d7/d63/a15703.html#adb73c0ed8ec05b05499d164fee6a6d9c',1,'USB_Type']]],
-  ['ovrsample',['OvrSample',['../d8/d84/a16315.html#a77c318b63ae40c6c2d85fd75232bcd23',1,'__ADC_Config']]]
+  ['name',['Name',['../d8/d68/a138905.html#af646f910041a1ae99c7e32e3e0870469',1,'__FATFS_ShortName::Name()'],['../d6/d6e/a138965.html#aa57d5f364fa8803ba90edffc9568ad6b',1,'APP_INFO::Name()']]],
+  ['name1',['Name1',['../d2/d08/a138909.html#a9e6316e4e7ea4e430abd5bfa24793745',1,'__FATFS_LongName']]],
+  ['name2',['Name2',['../d2/d08/a138909.html#a0b885a19269b5fe0dfa29d8a820fec1b',1,'__FATFS_LongName']]],
+  ['name3',['Name3',['../d2/d08/a138909.html#abadecfc0276224ae0f1e32998ccad7c3',1,'__FATFS_LongName']]],
+  ['nbheatpoint',['NbHeatPoint',['../db/d8a/a139049.html#acb3671532681aeb00cd4ddba7f5272fb',1,'__GasSensor_Config']]],
+  ['nbrefvolt',['NbRefVolt',['../d9/de8/a138821.html#a4ca50beac65c800a09b092e65a0f828e',1,'__ADC_Config']]],
+  ['nmisrc',['NMISRC',['../da/d20/a138521.html#a6533e1a7bed259f180c1caffa3985847',1,'LPC_SYSCON_Type']]],
+  ['nsperiod',['nsPeriod',['../db/d92/a139145.html#a7d88328ac883879dc9876705d62ccd0a',1,'__Timer_Trigger_Info']]],
+  ['ntres',['NTRes',['../d8/d68/a138905.html#a249ea3fec73517d924105e4e3f023201',1,'__FATFS_ShortName']]],
+  ['numfats',['NumFATs',['../d5/d64/a138885.html#a31e6366c31a7871a96834980f4fae6b6',1,'_FATFS_BootSector_BPB']]],
+  ['numheads',['NumHeads',['../d5/d64/a138885.html#a330a0b905829969be383e28baca13aca',1,'_FATFS_BootSector_BPB']]],
+  ['nxt_5ffree',['Nxt_Free',['../d6/d81/a138901.html#a1478e1dc3ada8467bd11c07473e98a9a',1,'_FATFS_FSInfo']]]
 ];

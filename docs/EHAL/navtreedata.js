@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "EHAL", "index.html", [
-    [ "README", "de/d11/a16898.html", null ],
-    [ "EHAL (Embedded Hardware Abstraction Library)", "d8/d06/a16899.html", null ],
+    [ "README", "df/df8/a139408.html", null ],
+    [ "EHAL (Embedded Hardware Abstraction Library)", "d1/dc5/a139409.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -21,7 +21,7 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ],
@@ -32,33 +32,35 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d0/dac/a16407.html#a09bc01c02ca1bfaaca7b7b4404f5f0fa",
-"d1/d92/a16255.html#a8e11aceca00bf0514419a8bedf0bf981",
-"d1/dd6/a14974.html#ga05643847feabba49c1e7e16044278d08",
-"d2/dcc/a16299.html#abd525b56d07c1d94abe609ae9d45cab6",
-"d3/d81/a15943.html#a16e7e8347b94154311979e285bbeabcf",
-"d4/d1c/a14995.html#ga98023a6f322db37b75cd58c87d426a00",
-"d4/dcb/a16767.html#a92290d4bb77067f64d074bd31058af03",
-"d5/db1/a16739.html#a11e85b724748ec700e6b88f99f007811",
-"d6/d49/a14973.html#ga50cd8b47929f18b05efbd0f41253bf8d",
-"d6/dd2/a02243.html#adc209557a5736e29149b96018056fc29",
-"d7/d63/a15703.html#afbe12dd614f13edb2741464672b0d411",
-"d8/d1b/a14938.html#ga2621c8acf26335441da9ced92ca4d29f",
-"d8/dd0/a14936.html#ga4071beeff4d9b5c200686972dd52d855",
-"d9/d9c/a16223.html#a0e8e4468bf1b356f7627e068cd425c29",
-"da/d70/a14976.html#ga0ec6abbf10f7d46ff88e60b86e4c5de9",
-"da/d7c/a14918.html#ga666eb0caeb12ec0e281415592ae89083ab051fac6b15b88454713bb36d96e5dd5",
-"db/d18/a14940.html#ga116e8038e227181784edc27efd68458d",
-"db/d6b/a14949.html#ga64ea285c9775d03c2ab9d9194ad9c65c",
-"dc/d12/a16691.html#a56b98d7568c9c04780691fa3938507f3",
-"dc/d7a/a14946.html#ga5436f4e93034d8536c23eabcac1b1a43",
-"dc/da3/a14984.html#gac273f68643eb40324f598cb4a275b87b",
-"dd/d1b/a16207.html#a611be2bcdbd29eb9e878d11bed860e3a",
-"dd/d85/a16615.html#aaa662df9a5e21efc08f91286e8733b2b",
-"de/d57/a16031.html",
-"df/d4e/a15875.html#a0fda0543d3f737fc039afe9c7914787b",
-"df/db1/a14970.html#gacedaca5a049852ee395767e70f806c14",
-"globals_g.html"
+"d0/de7/a137479.html#ga847c4ae3f2f0aed59df609ca39afb483",
+"d1/d50/a137498.html#gga626e74b427c19697bebedfed8512f9aaa84cb9aa24ff5e3a3da8f2241654bdc86",
+"d2/d40/a139009.html#af3b68a2e978e6409ac09b6a5d5099192",
+"d2/d68/a137423.html#ga666eb0caeb12ec0e281415592ae89083a34ecc6303d93b420da12f2e5c2c8366c",
+"d2/d8c/a138761.html#adea3893da02fe4827be41259426d4fbb",
+"d2/dd6/a137501.html#gga154c3ea37822a81df323baf56502f08fad9e324ca739751b4802f5dfdc79790cf",
+"d2/dd6/a137501.html#gga7facaef10dccef43eaa9dafe55cc5984ad46f3f32a182168716e55422c95e24ad",
+"d2/ded/a138641.html#a0c3e4663051f5c6885cb8562346aa282",
+"d3/de9/a137465.html#ga75efd4534766aaa126efff96d241de61",
+"d4/d8e/a139085.html",
+"d5/d69/a138289.html",
+"d6/d41/a137485.html#ga4c44b0d9f3315d9fad52f1c2b9e2d347",
+"d6/da2/a137475.html#ga12aa3509d85f1dddc69c48821f4f3225",
+"d6/dd2/a02243.html#ac8dc517d5e03d4ca7666c18c89d5052e",
+"d7/d8f/a137483.html#ga14b70379252ea633e8c97c1ab13553c6",
+"d8/d68/a138905.html#a4dbc8367d7797260a2d469a37228aedf",
+"d9/d43/a138205.html#a7a188471da28d30cc94dacf6ad1bf9bc",
+"d9/d7c/a137445.html#gaae89e490a3b7562ea1a9a2992a6a97a7",
+"d9/db1/a137489.html#ga5e760a100c4f43ecfd71952a5f393d77",
+"da/d07/a131375.html#a818a256484910ad2b7c32dccba4f8f49",
+"da/da0/a138377.html",
+"db/da0/a137427.html#ga108adc09b24001dddfd498e14213fea6",
+"dc/d3a/a138917.html#a53c2dcc96e1b7c96709002dc4234c750",
+"dc/de4/a137466.html#ga7c8a7f98a98d8cb125dd57a66720ab30",
+"dd/d56/a138517.html#ae66a875eafeadafac4c1d31debafa448",
+"de/d25/a139013.html#ac7d78def8a2b5cbafb049a0e4ea56abd",
+"df/d06/a131336.html",
+"df/dc1/a138805.html#a7b06d08f6f19593e3ee84fb6bf80ccba",
+"df/de1/a137487.html#gaafe99b12e9534395e8c36a86dd3d2e98"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

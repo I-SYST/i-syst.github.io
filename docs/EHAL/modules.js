@@ -1,14 +1,15 @@
 var modules =
 [
-    [ "Interrupt vector numbers", "da/d7c/a14918.html", "da/d7c/a14918" ],
-    [ "Cortex M0 Core Configuration", "d9/ded/a14919.html", "d9/ded/a14919" ],
-    [ "Device Peripheral Access Layer", "d3/dfe/a14920.html", "d3/dfe/a14920" ],
-    [ "Backward Compatibility", "dd/d1a/a14985.html", null ],
-    [ "Utilities", "df/d23/a14986.html", "df/d23/a14986" ],
-    [ "NXP", "dd/d55/a14987.html", "dd/d55/a14987" ],
-    [ "Bluetooth", "d7/d15/a14991.html", "d7/d15/a14991" ],
-    [ "FIFO", "d6/d88/a14992.html", "d6/d88/a14992" ],
-    [ "Converters", "d0/d80/a14993.html", "d0/d80/a14993" ],
-    [ "Storage", "dc/ddb/a14994.html", "dc/ddb/a14994" ],
-    [ "Sensors", "d4/d1c/a14995.html", "d4/d1c/a14995" ]
+    [ "Interrupt vector numbers", "d2/d68/a137423.html", "d2/d68/a137423" ],
+    [ "Cortex M0 Core Configuration", "d2/d91/a137424.html", "d2/d91/a137424" ],
+    [ "Device Peripheral Access Layer", "d9/d1d/a137425.html", "d9/d1d/a137425" ],
+    [ "Backward Compatibility", "db/d20/a137490.html", null ],
+    [ "Utilities", "df/d15/a137491.html", "df/d15/a137491" ],
+    [ "NXP", "d4/d71/a137492.html", "d4/d71/a137492" ],
+    [ "Bluetooth", "d9/d1d/a137496.html", "d9/d1d/a137496" ],
+    [ "FIFO", "d3/d8f/a137497.html", "d3/d8f/a137497" ],
+    [ "Converters", "d1/d50/a137498.html", "d1/d50/a137498" ],
+    [ "Storage", "dd/dd7/a137499.html", "dd/dd7/a137499" ],
+    [ "Sensors", "dd/d00/a137500.html", "dd/d00/a137500" ],
+    [ "USB", "d2/dd6/a137501.html", "d2/dd6/a137501" ]
 ];
