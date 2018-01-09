@@ -1,11 +1,7 @@
 var a02456 =
 [
-    [ "IHEX_MAX_RECSIZE", "d4/db4/a08575.html#ga2180e2b8097ad1559492c91aa717c3a2", null ],
-    [ "IHEX_RECTYPE_DATA", "d4/db4/a08575.html#gafd4570e5ffc3fab02c5d1674715d5191", null ],
-    [ "IHEX_RECTYPE_EOF", "d4/db4/a08575.html#ga03e56af71d4ceb16db3a9b3c04a57c69", null ],
-    [ "IHEX_RECTYPE_EXTLADDR", "d4/db4/a08575.html#ga369327226d9c91af25c0276bd56470fd", null ],
-    [ "IHEX_RECTYPE_EXTSEG", "d4/db4/a08575.html#gaf94ee957779cac23787ba7f7fc40c12e", null ],
-    [ "IHEX_RECTYPE_STARTLADDR", "d4/db4/a08575.html#gae2ebc4b6ccbf6aa3b23931c976dffe0b", null ],
-    [ "IHEX_RECTYPE_STARTSEG", "d4/db4/a08575.html#ga81537e54d1c537916147026a98c74e38", null ],
-    [ "IHexParseRecord", "d4/db4/a08575.html#gab250c9024d99ce4ca6b0c04fcc1d7b05", null ]
+    [ "crc16_ansi", "da/dd6/a08596.html#ga137aef0a9370475930ff9fa86afc7e67", null ],
+    [ "crc16_ccitt", "da/dd6/a08596.html#gaae77fd05f3254ed2eab4bf7b2eb19b12", null ],
+    [ "crc32", "da/dd6/a08596.html#ga6fbe087d7b64dbffe6c13491762800d9", null ],
+    [ "crc8_ccitt", "da/dd6/a08596.html#ga1c1992652709840b4d5bfd4cd5eeaba4", null ]
 ];

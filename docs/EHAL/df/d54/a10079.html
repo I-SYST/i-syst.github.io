@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Member List</title>
+<title>EHAL: LEDMXDEV Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d2/d7a/a10082.html','../../');});
+$(document).ready(function(){initNavTree('df/d54/a10079.html','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -82,43 +82,44 @@ $(document).ready(function(){initNavTree('d2/d7a/a10082.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../db/d95/a10076.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SDCard Member List</div>  </div>
+<div class="title">LEDMXDEV Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Cmd</b>(uint8_t Cmd, uint32_t param) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>DiskIO</b>() (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/dbc/a09958.html#a3b3d78e8d1778d81286b9768d4f96f90">Erase</a>()</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Flush</b>() (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCacheSect</b>(uint32_t SectNo, bool bLock=false) (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d7a/a10082.html#a90fa3e39c8eb35a862b15d2b43c8dcea">GetNbSect</a>(void)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetResponse</b>(uint8_t *pBuff, int BuffLen) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d7a/a10082.html#ae805e467247865a8ce2f77e45a8f0bff">GetSectSize</a>(void)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d7a/a10082.html#a5b85f24fe8f8e6123ebeec22da7aef7e">GetSize</a>(void)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Init</b>(DeviceIntrf *pDevInterf, uint8_t *pCacheMem=NULL, int CacheMemSize=0) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Init</b>(DeviceIntrf *pDevInterf, DISKIO_CACHE_DESC *pCacheBlk=NULL, int NbCacheBlk=0) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/dbc/a09958.html#a6aa14e617c6a3711b0533b89309d5fc7">Read</a>(uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Read</b>(uint64_t Offset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>ReadData</b>(uint8_t *pBuff, int BuffLen) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>ReadSingleBlock</b>(uint32_t Addr, uint8_t *pData, int Len) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/dbc/a09958.html#a74d0c8d080f4819d18f25de4d9fe47b7">Reset</a>()</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SDCard</b>() (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/d7a/a10082.html#af09ad8bbf6e55f353a29138aea7e0ddf">SectRead</a>(uint32_t SectNo, uint8_t *pData)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/d7a/a10082.html#a6af2ac7de6be74be1fb07b118e7f842b">SectWrite</a>(uint32_t SectNo, uint8_t *pData)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>SetCache</b>(DISKIO_CACHE_DESC *pCacheBlk, int NbCacheBlk) (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Write</b>(uint32_t SetNo, uint32_t SectOffset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Write</b>(uint64_t Offset, uint8_t *pBuff, uint32_t Len) (defined in <a class="el" href="../../dd/dbc/a09958.html">DiskIO</a>)</td><td class="entry"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>WriteData</b>(uint8_t *pData, int Len) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>WriteSingleBlock</b>(uint32_t Addr, uint8_t *pData, int Len) (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~SDCard</b>() (defined in <a class="el" href="../../d2/d7a/a10082.html">SDCard</a>)</td><td class="entry"><a class="el" href="../../d2/d7a/a10082.html">SDCard</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a50bbfd3c905099d6e45e26cdc8e67808"><td class="memItemLeft" align="right" valign="top"><a id="a50bbfd3c905099d6e45e26cdc8e67808"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NbPanel</b></td></tr>
+<tr class="separator:a50bbfd3c905099d6e45e26cdc8e67808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab223df73a9032c4d020d983cf0e4be8"><td class="memItemLeft" align="right" valign="top"><a id="aab223df73a9032c4d020d983cf0e4be8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>PanelAddr</b> [LEDMX_MAX_PANEL]</td></tr>
+<tr class="separator:aab223df73a9032c4d020d983cf0e4be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d400fbc22b61f5cbfda417539809b63"><td class="memItemLeft" align="right" valign="top"><a id="a6d400fbc22b61f5cbfda417539809b63"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>FontLen</b></td></tr>
+<tr class="separator:a6d400fbc22b61f5cbfda417539809b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa9f92ad298afbfe5633f939574a171"><td class="memItemLeft" align="right" valign="top"><a id="a8aa9f92ad298afbfe5633f939574a171"></a>
+<a class="el" href="../../db/dfb/a10087.html">LEDMXFONT_BITMAP</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><b>pFont</b></td></tr>
+<tr class="separator:a8aa9f92ad298afbfe5633f939574a171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d2cac018329b4f20298f1c3b289a1c"><td class="memItemLeft" align="right" valign="top"><a id="af6d2cac018329b4f20298f1c3b289a1c"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>pIODev</b></td></tr>
+<tr class="separator:af6d2cac018329b4f20298f1c3b289a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../dd/dd4/a02498_source.html#l00101">101</a> of file <a class="el" href="../../dd/dd4/a02498_source.html">ledmx.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/miscdev/<a class="el" href="../../dd/dd4/a02498_source.html">ledmx.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../df/d54/a10079.html">LEDMXDEV</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

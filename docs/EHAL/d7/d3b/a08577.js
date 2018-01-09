@@ -1,36 +1,17 @@
 var a08577 =
 [
-    [ "Configuration_of_CMSIS", "d2/d54/a08578.html", "d2/d54/a08578" ],
-    [ "Device_Peripheral_Registers", "d1/dce/a08579.html", "d1/dce/a08579" ],
-    [ "IRQn_Type", "d7/d3b/a08577.html#ga7e1129cd8a196f4284d41db3e82ad5c8", [
-      [ "Reset_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a50ad21f2fd0d54d04b390d5a9145889a", null ],
-      [ "NonMaskableInt_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ade177d9c70c89e084093024b932a4e30", null ],
-      [ "HardFault_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ab1a222a34a32f0ef5ac65e714efc1f85", null ],
-      [ "SVCall_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a4ce820b3cc6cf3a796b41aadc0cf1237", null ],
-      [ "DebugMonitor_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a8e033fcef7aed98a31c60a7de206722c", null ],
-      [ "PendSV_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a03c3cc89984928816d81793fc7bce4a2", null ],
-      [ "SysTick_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6dbff8f8543325f3474cbae2446776e7", null ],
-      [ "FLEX_INT0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a81b504edd5e165325591b8e5771ec68f", null ],
-      [ "GINT0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a2b933af789374a01f2f5ad41e17d7eb5", null ],
-      [ "GINT1_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ac19c1ef022589431663d3e53680410d6", null ],
-      [ "Reserved0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a2095f58b6c0de45b782b1196a0939e02", null ],
-      [ "SSP1_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8adcc0cfa46f0d13c2de0f3e826c10a789", null ],
-      [ "I2C_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8adf8c31fe1c7ade2eb05f1414710dbce7", null ],
-      [ "TIMER_16_0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6f5ed57785374cb1ba3a1256e0d991be", null ],
-      [ "TIMER_16_1_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a9d13f0d0bbeb7bc1c75d512a94d66c9f", null ],
-      [ "TIMER_32_0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a7e40673d4557974606b5d9670c0c50d0", null ],
-      [ "TIMER_32_1_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ac178a073454f598a32b7f95bcaba7679", null ],
-      [ "SSP0_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6c8d6262fd7ecedc57b2fe9209be9765", null ],
-      [ "UART_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a9d9be6e918c912367e393dae3480eabb", null ],
-      [ "USB_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a5078f46ddc47f29eae4aa40bd57d1692", null ],
-      [ "USB_FIQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6c024f11db1cfcea781863a310a18a03", null ],
-      [ "ADC_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a4d69175258ae261dd545001e810421b3", null ],
-      [ "WDT_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a78573b84a4133ef5812b33ce10dcba12", null ],
-      [ "BOD_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ac2ee5960aed41ff349aa7a86c37e9ab2", null ],
-      [ "FMC_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8ab58dc79a081058857f73965f5305479b", null ],
-      [ "Reserved4_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a9880320a990d718ad2459749ee144884", null ],
-      [ "Reserved5_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a8a821fe7adf1f38a119e41910796c56b", null ],
-      [ "USBWakeup_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a420097557204968bc0c2134c17f1423c", null ],
-      [ "Reserved6_IRQn", "d7/d3b/a08577.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6b7f1d8c68bc7bd0a62f19fd0e708838", null ]
-    ] ]
+    [ "RTC Register Masks", "d2/d54/a08578.html", null ],
+    [ "RTC_Type", "dd/d55/a09279.html", [
+      [ "CR", "dd/d55/a09279.html#ac5ff2c2ef6d58e8826deb51d8604c01e", null ],
+      [ "IER", "dd/d55/a09279.html#a80ed5731d6b625b56c6bbeedd8f9bcb8", null ],
+      [ "LR", "dd/d55/a09279.html#ac72766ca7476a2a74bd14042bc88aa05", null ],
+      [ "SR", "dd/d55/a09279.html#ae12dc1e198cb7aa7602e59e36bbf43b6", null ],
+      [ "TAR", "dd/d55/a09279.html#ac67e5fa23e338883e5efd5b036164f26", null ],
+      [ "TCR", "dd/d55/a09279.html#a576676dbe6140e6ac08dfbf9a54aea17", null ],
+      [ "TPR", "dd/d55/a09279.html#ab718ffaf4897a4eec35a15790bae8806", null ],
+      [ "TSR", "dd/d55/a09279.html#a5c8182569d4fb9aa8403e3f5933058a6", null ]
+    ] ],
+    [ "RTC", "d7/d3b/a08577.html#ga5359a088f5d8b20ce74d920e46059304", null ],
+    [ "RTC_BASE", "d7/d3b/a08577.html#ga4265e665d56225412e57a61d87417022", null ],
+    [ "RTC_BASES", "d7/d3b/a08577.html#ga738e3debaa10128244df5d47fb7634d4", null ]
 ];

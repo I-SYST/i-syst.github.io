@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: include/istddef.h File Reference</title>
+<title>EHAL: include/diskio.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -85,14 +85,13 @@ $(document).ready(function(){initNavTree('d2/d35/a02468.html','../../');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
-<div class="title">istddef.h File Reference</div>  </div>
+<div class="title">diskio.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Standard generic defines.  
+<p>Generic disk I/O driver class.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -100,71 +99,62 @@ $(document).ready(function(){initNavTree('d2/d35/a02468.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8a/a10038.html">VERS</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd3/a09967.html">__DiskPartition</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dff/a10050.html">APP_INFO</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d06/a09971.html">__MasterBootRecord</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d52/a09975.html">__DiskIO_Cache_Desc</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df3/a09979.html" title="DiskIO base class. ">DiskIO</a> cache descriptor.  <a href="../../d7/d52/a09975.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df3/a09979.html">DiskIO</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df3/a09979.html" title="DiskIO base class. ">DiskIO</a> base class.  <a href="../../df/df3/a09979.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gaa93f0eb578d23995850d61f7d61c55c1"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#gaa93f0eb578d23995850d61f7d61c55c1">FALSE</a>&#160;&#160;&#160;false</td></tr>
-<tr class="memdesc:gaa93f0eb578d23995850d61f7d61c55c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for backward compatibility, otherwise useless. <br /></td></tr>
-<tr class="separator:gaa93f0eb578d23995850d61f7d61c55c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8cecfc5c5c054d2875c03e77b7be15d"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#gaa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>&#160;&#160;&#160;true</td></tr>
-<tr class="memdesc:gaa8cecfc5c5c054d2875c03e77b7be15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for backward compatibility, otherwise useless. <br /></td></tr>
-<tr class="separator:gaa8cecfc5c5c054d2875c03e77b7be15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga045fc0a8d3a14bee4a9d7a232dd2806b"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#ga045fc0a8d3a14bee4a9d7a232dd2806b">ISYST_BLUETOOTH_ID</a>&#160;&#160;&#160;0x0177</td></tr>
-<tr class="memdesc:ga045fc0a8d3a14bee4a9d7a232dd2806b"><td class="mdescLeft">&#160;</td><td class="mdescRight">I-SYST Bluetooth company identifier. <br /></td></tr>
-<tr class="separator:ga045fc0a8d3a14bee4a9d7a232dd2806b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3fdf79a4e4ea0481a19367e5c4af6256"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#ga3fdf79a4e4ea0481a19367e5c4af6256">APPINFO_NAMESIZE_MAX</a>&#160;&#160;&#160;16</td></tr>
-<tr class="memdesc:ga3fdf79a4e4ea0481a19367e5c4af6256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max size in bytes for application name. <br /></td></tr>
-<tr class="separator:ga3fdf79a4e4ea0481a19367e5c4af6256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff24c2dddfd9434365828a0b4d4cf06f"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#gaff24c2dddfd9434365828a0b4d4cf06f">APPINFO_PRIVATESIZE_MAX</a>&#160;&#160;&#160;16</td></tr>
-<tr class="memdesc:gaff24c2dddfd9434365828a0b4d4cf06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max size in bytes for private data. <br /></td></tr>
-<tr class="separator:gaff24c2dddfd9434365828a0b4d4cf06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab86f3431903a29d4e7745ab1abcb9d81"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a08605.html#gab86f3431903a29d4e7745ab1abcb9d81">DISKIO_SECT_SIZE</a>&#160;&#160;&#160;512</td></tr>
+<tr class="memdesc:gab86f3431903a29d4e7745ab1abcb9d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disk sector size in bytes. <br /></td></tr>
+<tr class="separator:gab86f3431903a29d4e7745ab1abcb9d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04b866b87c34de0e6b35d66856de6fa0"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a08605.html#ga04b866b87c34de0e6b35d66856de6fa0">DISKIO_CACHE_SECT_MAX</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ga04b866b87c34de0e6b35d66856de6fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of cache sector. <br /></td></tr>
+<tr class="separator:ga04b866b87c34de0e6b35d66856de6fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a08605.html#ga74ef3f88d18d49dbc533f5437e7a8068">DISKIO_CACHE_DIRTY_BIT</a>&#160;&#160;&#160;(1&lt;&lt;31)</td></tr>
+<tr class="memdesc:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="mdescLeft">&#160;</td><td class="mdescRight">write to the cache  <a href="../../d5/d6f/a08605.html#ga74ef3f88d18d49dbc533f5437e7a8068">More...</a><br /></td></tr>
+<tr class="separator:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga76a8b016e5ad61faf9062cc387df5016"><td class="memItemLeft" align="right" valign="top">
-typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#ga76a8b016e5ad61faf9062cc387df5016">Bool</a></td></tr>
-<tr class="memdesc:ga76a8b016e5ad61faf9062cc387df5016"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for backward compatibility, otherwise useless. <br /></td></tr>
-<tr class="separator:ga76a8b016e5ad61faf9062cc387df5016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga7a86bbcdb9e7dd05adc5c0a3c8b690b4"><td class="memItemLeft" align="right" valign="top">
-static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#ga7a86bbcdb9e7dd05adc5c0a3c8b690b4">min</a> (int x, int y)</td></tr>
-<tr class="memdesc:ga7a86bbcdb9e7dd05adc5c0a3c8b690b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">An inline min function when there isn't one available. <br /></td></tr>
-<tr class="separator:ga7a86bbcdb9e7dd05adc5c0a3c8b690b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab1129ff547aa5703f170d27cd05bb2ff"><td class="memItemLeft" align="right" valign="top">
-static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#gab1129ff547aa5703f170d27cd05bb2ff">max</a> (int x, int y)</td></tr>
-<tr class="memdesc:gab1129ff547aa5703f170d27cd05bb2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">An inline max function when there isn't one available. <br /></td></tr>
-<tr class="separator:gab1129ff547aa5703f170d27cd05bb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b5104512860ae67e97f849ca52d330d"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="../../d6/dd3/a09967.html">__DiskPartition</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DISKPART</b></td></tr>
+<tr class="separator:ga4b5104512860ae67e97f849ca52d330d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11d00345c49475449e796ee47b4dde82"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="../../d3/d06/a09971.html">__MasterBootRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MBR</b></td></tr>
+<tr class="separator:ga11d00345c49475449e796ee47b4dde82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40bdcc1312ae0462236e683b82f918b4"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="../../d7/d52/a09975.html">__DiskIO_Cache_Desc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a08605.html#ga40bdcc1312ae0462236e683b82f918b4">DISKIO_CACHE_DESC</a></td></tr>
+<tr class="memdesc:ga40bdcc1312ae0462236e683b82f918b4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df3/a09979.html" title="DiskIO base class. ">DiskIO</a> cache descriptor. <br /></td></tr>
+<tr class="separator:ga40bdcc1312ae0462236e683b82f918b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Standard generic defines. </p>
+<div class="textblock"><p>Generic disk I/O driver class. </p>
 <hr/>
-<p>Contains software version data structure and application specific data.<br />
-Mostly for compatibilities.</p>
 <dl class="section author"><dt>Author</dt><dd>Hoang Nguyen Hoan </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Jan. 16, 2012</dd></dl>
-<p>Copyright (c) 2011, I-SYST inc., all rights reserved</p>
+<dl class="section date"><dt>Date</dt><dd>Mar. 1, 2015</dd></dl>
+<p>Copyright (c) 2015, I-SYST, all rights reserved</p>
 <p>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and none of the names : I-SYST or its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p>
 <p>For info or contributing contact : hnhoan at i-syst dot com</p>
 <p>THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p><hr/>
+<p> Modified by Date Description </p><hr/>
 
-<p class="definition">Definition in file <a class="el" href="../../d2/d35/a02468_source.html">istddef.h</a>.</p>
+<p class="definition">Definition in file <a class="el" href="../../d2/d35/a02468_source.html">diskio.h</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../d2/d35/a02468.html">istddef.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../d2/d35/a02468.html">diskio.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

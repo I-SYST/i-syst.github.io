@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: include/prbs.h File Reference</title>
+<title>EHAL: include/intelhex.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,42 +83,75 @@ $(document).ready(function(){initNavTree('d2/d35/a02480.html','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">prbs.h File Reference</div>  </div>
+<div class="title">intelhex.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Pseudorandom binary sequence generator.  
+<p>Intel Hex parser.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="../../d2/d35/a02480_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4d/a10051.html">IHEXDATA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure containing results of parsed HEX record line.  <a href="../../de/d4d/a10051.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gafd4570e5ffc3fab02c5d1674715d5191"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_DATA</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gafd4570e5ffc3fab02c5d1674715d5191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03e56af71d4ceb16db3a9b3c04a57c69"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_EOF</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga03e56af71d4ceb16db3a9b3c04a57c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf94ee957779cac23787ba7f7fc40c12e"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_EXTSEG</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:gaf94ee957779cac23787ba7f7fc40c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81537e54d1c537916147026a98c74e38"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_STARTSEG</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga81537e54d1c537916147026a98c74e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga369327226d9c91af25c0276bd56470fd"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_EXTLADDR</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga369327226d9c91af25c0276bd56470fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2ebc4b6ccbf6aa3b23931c976dffe0b"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_RECTYPE_STARTLADDR</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:gae2ebc4b6ccbf6aa3b23931c976dffe0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2180e2b8097ad1559492c91aa717c3a2"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IHEX_MAX_RECSIZE</b>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:ga2180e2b8097ad1559492c91aa717c3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaba889afb754e6acdf1520e9e6c2d6447"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db4/a08575.html#gaba889afb754e6acdf1520e9e6c2d6447">Prbs8</a> (uint8_t CurVal)</td></tr>
-<tr class="memdesc:gaba889afb754e6acdf1520e9e6c2d6447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate next PRBS value.  <a href="../../d4/db4/a08575.html#gaba889afb754e6acdf1520e9e6c2d6447">More...</a><br /></td></tr>
-<tr class="separator:gaba889afb754e6acdf1520e9e6c2d6447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab250c9024d99ce4ca6b0c04fcc1d7b05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd6/a08596.html#gab250c9024d99ce4ca6b0c04fcc1d7b05">IHexParseRecord</a> (char *pRec, <a class="el" href="../../de/d4d/a10051.html">IHEXDATA</a> *pData)</td></tr>
+<tr class="memdesc:gab250c9024d99ce4ca6b0c04fcc1d7b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse Intel Hex record (one line).  <a href="../../da/dd6/a08596.html#gab250c9024d99ce4ca6b0c04fcc1d7b05">More...</a><br /></td></tr>
+<tr class="separator:gab250c9024d99ce4ca6b0c04fcc1d7b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Pseudorandom binary sequence generator. </p>
+<div class="textblock"><p>Intel Hex parser. </p>
 <hr/>
 <dl class="section author"><dt>Author</dt><dd>Hoang Nguyen Hoan </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Aug. 31, 2016</dd></dl>
-<p>Copyright (c) 2016, I-SYST, all rights reserved</p>
-<p>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and none of the names : I-SYST, I-SYST inc. or its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p>
+<dl class="section date"><dt>Date</dt><dd>Feb. 8, 2015</dd></dl>
+<p>Copyright (c) 2015, I-SYST inc., all rights reserved</p>
+<p>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and none of the names : I-SYST or its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p>
 <p>For info or contributing contact : hnhoan at i-syst dot com</p>
 <p>THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p><hr/>
-<p> Modified by Date Description </p><hr/>
 
-<p class="definition">Definition in file <a class="el" href="../../d2/d35/a02480_source.html">prbs.h</a>.</p>
+<p class="definition">Definition in file <a class="el" href="../../d2/d35/a02480_source.html">intelhex.h</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../d2/d35/a02480.html">prbs.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../d2/d35/a02480.html">intelhex.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

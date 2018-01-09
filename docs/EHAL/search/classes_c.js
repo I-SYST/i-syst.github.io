@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['nrf5xi2cdev',['NRF5XI2CDEV',['../d6/d0e/a09378.html',1,'']]],
-  ['nv_5ftype',['NV_Type',['../d1/deb/a09226.html',1,'']]]
+  ['nrf5xi2cdev',['NRF5XI2CDEV',['../d6/dff/a09399.html',1,'']]],
+  ['nv_5ftype',['NV_Type',['../d0/df9/a09247.html',1,'']]]
 ];

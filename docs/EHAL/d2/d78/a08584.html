@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Storage</title>
+<title>EHAL: SPI Register Masks</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,691 +83,298 @@ $(document).ready(function(){initNavTree('d2/d78/a08584.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Storage</div>  </div>
+<div class="title">SPI Register Masks<div class="ingroups"><a class="el" href="../../de/d71/a08530.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d2/d95/a08583.html">SPI Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d43/a09946.html">__DiskPartition</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da4/a09950.html">__MasterBootRecord</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d73/a09954.html">__DiskIO_Cache_Desc</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dbc/a09958.html" title="DiskIO base class. ">DiskIO</a> cache descriptor.  <a href="../../da/d73/a09954.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html">DiskIO</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dbc/a09958.html" title="DiskIO base class. ">DiskIO</a> base class.  <a href="../../dd/dbc/a09958.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/a09962.html">FLASHDISKIO_CFG</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5b/a09966.html">FlashDiskIO</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flash disk base class.  <a href="../../df/d5b/a09966.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d21/a09970.html">__FATFS_BootSector_BPB</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/a09986.html">__FATFS_FSInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FAT32 File System Info.  <a href="../../d4/de7/a09986.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/a09990.html">__FATFS_ShortName</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dad/a09994.html">__FATFS_LongName</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/a09998.html">__FATFS_DirEntry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/daa/a10002.html">FATFS_VDISKCFG</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d45/a10006.html">FATFS_VDISK</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html">FATFS_FD</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcf/a10014.html">FatFS</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FAT filesystem base class.  <a href="../../d0/dcf/a10014.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de1/a10086.html">__Seep_Config</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure defining Serial EEPROM device.  <a href="../../d7/de1/a10086.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/a10090.html">__Seep_Device</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> internal data.  <a href="../../d2/dc1/a10090.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d08/a10094.html">Seep</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic Serial EEPROM implementation class.  <a href="../../d6/d08/a10094.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gab86f3431903a29d4e7745ab1abcb9d81"><td class="memItemLeft" align="right" valign="top"><a id="gab86f3431903a29d4e7745ab1abcb9d81"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gab86f3431903a29d4e7745ab1abcb9d81">DISKIO_SECT_SIZE</a>&#160;&#160;&#160;512</td></tr>
-<tr class="memdesc:gab86f3431903a29d4e7745ab1abcb9d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disk sector size in bytes. <br /></td></tr>
-<tr class="separator:gab86f3431903a29d4e7745ab1abcb9d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04b866b87c34de0e6b35d66856de6fa0"><td class="memItemLeft" align="right" valign="top"><a id="ga04b866b87c34de0e6b35d66856de6fa0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga04b866b87c34de0e6b35d66856de6fa0">DISKIO_CACHE_SECT_MAX</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:ga04b866b87c34de0e6b35d66856de6fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of cache sector. <br /></td></tr>
-<tr class="separator:ga04b866b87c34de0e6b35d66856de6fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga74ef3f88d18d49dbc533f5437e7a8068">DISKIO_CACHE_DIRTY_BIT</a>&#160;&#160;&#160;(1&lt;&lt;31)</td></tr>
-<tr class="memdesc:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="mdescLeft">&#160;</td><td class="mdescRight">write to the cache  <a href="#ga74ef3f88d18d49dbc533f5437e7a8068">More...</a><br /></td></tr>
-<tr class="separator:ga74ef3f88d18d49dbc533f5437e7a8068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga398ecef8cd8edd8e06b26db25d85485a"><td class="memItemLeft" align="right" valign="top"><a id="ga398ecef8cd8edd8e06b26db25d85485a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_READID</b>&#160;&#160;&#160;0x9F</td></tr>
-<tr class="separator:ga398ecef8cd8edd8e06b26db25d85485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga048b0e40ae8113681952905f3a7481c3"><td class="memItemLeft" align="right" valign="top"><a id="ga048b0e40ae8113681952905f3a7481c3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga048b0e40ae8113681952905f3a7481c3">FLASH_CMD_RDCR</a>&#160;&#160;&#160;0x15</td></tr>
-<tr class="memdesc:ga048b0e40ae8113681952905f3a7481c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read configuration register. <br /></td></tr>
-<tr class="separator:ga048b0e40ae8113681952905f3a7481c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49983bb25fa1088a8a82081f626ef60c"><td class="memItemLeft" align="right" valign="top"><a id="ga49983bb25fa1088a8a82081f626ef60c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga49983bb25fa1088a8a82081f626ef60c">FLASH_CMD_WRSR</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:ga49983bb25fa1088a8a82081f626ef60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Register (Status 1, Configuration 1) <br /></td></tr>
-<tr class="separator:ga49983bb25fa1088a8a82081f626ef60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae3e16ecf088f6e06563651a4c3e61668"><td class="memItemLeft" align="right" valign="top"><a id="gae3e16ecf088f6e06563651a4c3e61668"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_WRITE</b>&#160;&#160;&#160;0x2</td></tr>
-<tr class="separator:gae3e16ecf088f6e06563651a4c3e61668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga076aa34e8794679ee74f45529c076fcd"><td class="memItemLeft" align="right" valign="top"><a id="ga076aa34e8794679ee74f45529c076fcd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_READ</b>&#160;&#160;&#160;0x3</td></tr>
-<tr class="separator:ga076aa34e8794679ee74f45529c076fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab17b8414bd248b8b64fb3fdf07736ba0"><td class="memItemLeft" align="right" valign="top"><a id="gab17b8414bd248b8b64fb3fdf07736ba0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_WRDISABLE</b>&#160;&#160;&#160;0x4</td></tr>
-<tr class="separator:gab17b8414bd248b8b64fb3fdf07736ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1b8f8c1530b156d8924f4913fb270c4f"><td class="memItemLeft" align="right" valign="top"><a id="ga1b8f8c1530b156d8924f4913fb270c4f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_READSTATUS</b>&#160;&#160;&#160;0x5</td></tr>
-<tr class="separator:ga1b8f8c1530b156d8924f4913fb270c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga98eaec46c76a9ddcd7bfc01281566125"><td class="memItemLeft" align="right" valign="top"><a id="ga98eaec46c76a9ddcd7bfc01281566125"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_WRENABLE</b>&#160;&#160;&#160;0x6</td></tr>
-<tr class="separator:ga98eaec46c76a9ddcd7bfc01281566125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga758910824c91edf879e1f15729b82215"><td class="memItemLeft" align="right" valign="top"><a id="ga758910824c91edf879e1f15729b82215"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga758910824c91edf879e1f15729b82215">FLASH_CMD_EN4B</a>&#160;&#160;&#160;0xB7</td></tr>
-<tr class="memdesc:ga758910824c91edf879e1f15729b82215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable 4 bytes address. <br /></td></tr>
-<tr class="separator:ga758910824c91edf879e1f15729b82215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga022fb8da13efdb93eb1a12acd5b107de"><td class="memItemLeft" align="right" valign="top"><a id="ga022fb8da13efdb93eb1a12acd5b107de"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga022fb8da13efdb93eb1a12acd5b107de">FLASH_CMD_EX4B</a>&#160;&#160;&#160;0xE9</td></tr>
-<tr class="memdesc:ga022fb8da13efdb93eb1a12acd5b107de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable 4 bytes address. <br /></td></tr>
-<tr class="separator:ga022fb8da13efdb93eb1a12acd5b107de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88c4a1847202c7d8ca6c7fb2485932fb"><td class="memItemLeft" align="right" valign="top"><a id="ga88c4a1847202c7d8ca6c7fb2485932fb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_BLOCK_ERASE</b>&#160;&#160;&#160;0xD8</td></tr>
-<tr class="separator:ga88c4a1847202c7d8ca6c7fb2485932fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f0c8e336899261a82b5425aba3fe2c2"><td class="memItemLeft" align="right" valign="top"><a id="ga2f0c8e336899261a82b5425aba3fe2c2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_CMD_BULK_ERASE</b>&#160;&#160;&#160;0xC7</td></tr>
-<tr class="separator:ga2f0c8e336899261a82b5425aba3fe2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1b7085018cd9f3ac975d6572c936fa1d"><td class="memItemLeft" align="right" valign="top"><a id="ga1b7085018cd9f3ac975d6572c936fa1d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_STATUS_WIP</b>&#160;&#160;&#160;(1&lt;&lt;0)</td></tr>
-<tr class="separator:ga1b7085018cd9f3ac975d6572c936fa1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadee163890dcbf56c1ff1c92f65bfa5a8"><td class="memItemLeft" align="right" valign="top"><a id="gadee163890dcbf56c1ff1c92f65bfa5a8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gadee163890dcbf56c1ff1c92f65bfa5a8">FATFS_SECTOR_SIZE</a>&#160;&#160;&#160;512</td></tr>
-<tr class="memdesc:gadee163890dcbf56c1ff1c92f65bfa5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bytes per sector. <br /></td></tr>
-<tr class="separator:gadee163890dcbf56c1ff1c92f65bfa5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49c76969bd63b3d373bdc1afaf130ff7"><td class="memItemLeft" align="right" valign="top"><a id="ga49c76969bd63b3d373bdc1afaf130ff7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_NBFAT</b>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ga49c76969bd63b3d373bdc1afaf130ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84c5ac116f7117fff8faf6f45765dd8e"><td class="memItemLeft" align="right" valign="top"><a id="ga84c5ac116f7117fff8faf6f45765dd8e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_RSVDSECCNT_FAT16</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ga84c5ac116f7117fff8faf6f45765dd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab16fdeb6bb42d0ca70dcb9e6e8b2b7e3"><td class="memItemLeft" align="right" valign="top"><a id="gab16fdeb6bb42d0ca70dcb9e6e8b2b7e3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_RSVDSECCNT_FAT32</b>&#160;&#160;&#160;32</td></tr>
-<tr class="separator:gab16fdeb6bb42d0ca70dcb9e6e8b2b7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14bcb71626ea60dbbcf8b27661c6b90d"><td class="memItemLeft" align="right" valign="top"><a id="ga14bcb71626ea60dbbcf8b27661c6b90d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_ROOTENTCNT_FAT16</b>&#160;&#160;&#160;512</td></tr>
-<tr class="separator:ga14bcb71626ea60dbbcf8b27661c6b90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1484eeb74e5674d003c7200b0b520994"><td class="memItemLeft" align="right" valign="top"><a id="ga1484eeb74e5674d003c7200b0b520994"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_ROOTENTCNT_FAT32</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga1484eeb74e5674d003c7200b0b520994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga01b7d66beac160d5b3851b02bac63d11"><td class="memItemLeft" align="right" valign="top"><a id="ga01b7d66beac160d5b3851b02bac63d11"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_MEDIA_FIXED</b>&#160;&#160;&#160;0xF8</td></tr>
-<tr class="separator:ga01b7d66beac160d5b3851b02bac63d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9090ef8c6175cc75d87841f07c03a966"><td class="memItemLeft" align="right" valign="top"><a id="ga9090ef8c6175cc75d87841f07c03a966"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_MEDIA_REMOVEABLE</b>&#160;&#160;&#160;0xF0</td></tr>
-<tr class="separator:ga9090ef8c6175cc75d87841f07c03a966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5081531d966a1b7898bbbc0868470d37"><td class="memItemLeft" align="right" valign="top"><a id="ga5081531d966a1b7898bbbc0868470d37"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT16_CLNSHUT_BITMASK</b>&#160;&#160;&#160;0x8000</td></tr>
-<tr class="separator:ga5081531d966a1b7898bbbc0868470d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4ba8662b328b3c794ef892d8c43f175"><td class="memItemLeft" align="right" valign="top"><a id="gad4ba8662b328b3c794ef892d8c43f175"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT16_HRDERR_BITMASK</b>&#160;&#160;&#160;0x4000</td></tr>
-<tr class="separator:gad4ba8662b328b3c794ef892d8c43f175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf2613e623900bad0a5fd44d4263223c"><td class="memItemLeft" align="right" valign="top"><a id="gacf2613e623900bad0a5fd44d4263223c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT32_CLNSHUT_BITMASK</b>&#160;&#160;&#160;0x80000000L</td></tr>
-<tr class="separator:gacf2613e623900bad0a5fd44d4263223c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga756a6fb4d672c2fc2f1f8de13117d7a5"><td class="memItemLeft" align="right" valign="top"><a id="ga756a6fb4d672c2fc2f1f8de13117d7a5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT32_HRDERR_BITMASK</b>&#160;&#160;&#160;0x40000000L</td></tr>
-<tr class="separator:ga756a6fb4d672c2fc2f1f8de13117d7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga19d34ae55fb2e29df830c11df2219da8"><td class="memItemLeft" align="right" valign="top"><a id="ga19d34ae55fb2e29df830c11df2219da8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_FILE</b>&#160;&#160;&#160;OPEN_MAX</td></tr>
-<tr class="separator:ga19d34ae55fb2e29df830c11df2219da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga93ed497778f6037df8d176aa42c310e8"><td class="memItemLeft" align="right" valign="top"><a id="ga93ed497778f6037df8d176aa42c310e8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_TOTAL_SECTOR</b>(DiskSizeBytes)&#160;&#160;&#160;(DiskSizeBytes / <a class="el" href="../../d2/d78/a08584.html#gadee163890dcbf56c1ff1c92f65bfa5a8">FATFS_SECTOR_SIZE</a>)</td></tr>
-<tr class="separator:ga93ed497778f6037df8d176aa42c310e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf28b1d4c0a2e71a4e136fbf1ce19f8fc"><td class="memItemLeft" align="right" valign="top"><a id="gaf28b1d4c0a2e71a4e136fbf1ce19f8fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_TOTAL_CLUSTER</b>(TotalSectors,  SectPerCluster)&#160;&#160;&#160;(TotalSectors / SectPerCluster)</td></tr>
-<tr class="separator:gaf28b1d4c0a2e71a4e136fbf1ce19f8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafd30ae7e5617c0f1bb66bbbfdda849da"><td class="memItemLeft" align="right" valign="top"><a id="gafd30ae7e5617c0f1bb66bbbfdda849da"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT12_SECTOR_COUNT</b>(TotalClusters)&#160;&#160;&#160;((TotalClusters * 12) / (<a class="el" href="../../d2/d78/a08584.html#gadee163890dcbf56c1ff1c92f65bfa5a8">FATFS_SECTOR_SIZE</a> * 8))</td></tr>
-<tr class="separator:gafd30ae7e5617c0f1bb66bbbfdda849da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96cb8c03e915559d20f5dd696afa4095"><td class="memItemLeft" align="right" valign="top"><a id="ga96cb8c03e915559d20f5dd696afa4095"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT16_SECTOR_COUNT</b>(TotalClusters)&#160;&#160;&#160;((TotalClusters * 16) / (<a class="el" href="../../d2/d78/a08584.html#gadee163890dcbf56c1ff1c92f65bfa5a8">FATFS_SECTOR_SIZE</a> * 8))</td></tr>
-<tr class="separator:ga96cb8c03e915559d20f5dd696afa4095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaddb7c8cf7f50eaedee56ad9ee546480f"><td class="memItemLeft" align="right" valign="top"><a id="gaddb7c8cf7f50eaedee56ad9ee546480f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FAT32_SECTOR_COUNT</b>(TotalClusters)&#160;&#160;&#160;((TotalClusters * 32) / (<a class="el" href="../../d2/d78/a08584.html#gadee163890dcbf56c1ff1c92f65bfa5a8">FATFS_SECTOR_SIZE</a> * 8))</td></tr>
-<tr class="separator:gaddb7c8cf7f50eaedee56ad9ee546480f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02b413d11accc4f1c6ef12637b3b28c4"><td class="memItemLeft" align="right" valign="top"><a id="ga02b413d11accc4f1c6ef12637b3b28c4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_DIRENT_LASTLONG</b>&#160;&#160;&#160;0x40</td></tr>
-<tr class="separator:ga02b413d11accc4f1c6ef12637b3b28c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc464fcf4617cfe3ea1ccbb4f34d2f90"><td class="memItemLeft" align="right" valign="top"><a id="gabc464fcf4617cfe3ea1ccbb4f34d2f90"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_DIRENT_DELETED</b>&#160;&#160;&#160;0xE5</td></tr>
-<tr class="separator:gabc464fcf4617cfe3ea1ccbb4f34d2f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ga4b5104512860ae67e97f849ca52d330d"><td class="memItemLeft" align="right" valign="top"><a id="ga4b5104512860ae67e97f849ca52d330d"></a>
-typedef struct <a class="el" href="../../db/d43/a09946.html">__DiskPartition</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DISKPART</b></td></tr>
-<tr class="separator:ga4b5104512860ae67e97f849ca52d330d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11d00345c49475449e796ee47b4dde82"><td class="memItemLeft" align="right" valign="top"><a id="ga11d00345c49475449e796ee47b4dde82"></a>
-typedef struct <a class="el" href="../../db/da4/a09950.html">__MasterBootRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MBR</b></td></tr>
-<tr class="separator:ga11d00345c49475449e796ee47b4dde82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40bdcc1312ae0462236e683b82f918b4"><td class="memItemLeft" align="right" valign="top"><a id="ga40bdcc1312ae0462236e683b82f918b4"></a>
-typedef struct <a class="el" href="../../da/d73/a09954.html">__DiskIO_Cache_Desc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga40bdcc1312ae0462236e683b82f918b4">DISKIO_CACHE_DESC</a></td></tr>
-<tr class="memdesc:ga40bdcc1312ae0462236e683b82f918b4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/dbc/a09958.html" title="DiskIO base class. ">DiskIO</a> cache descriptor. <br /></td></tr>
-<tr class="separator:ga40bdcc1312ae0462236e683b82f918b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga78719bd18e872781f4a9157b0494a62e"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga78719bd18e872781f4a9157b0494a62e">FLASHDISKIOCB</a>) (int DevNo, <a class="el" href="../../d7/d6a/a09942.html">DeviceIntrf</a> *pInterf)</td></tr>
-<tr class="memdesc:ga78719bd18e872781f4a9157b0494a62e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/d5b/a09966.html" title="Flash disk base class. ">FlashDiskIO</a> callback function.  <a href="#ga78719bd18e872781f4a9157b0494a62e">More...</a><br /></td></tr>
-<tr class="separator:ga78719bd18e872781f4a9157b0494a62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8dfb1785ff26e95f54bed57b4ec2a745"><td class="memItemLeft" align="right" valign="top"><a id="ga8dfb1785ff26e95f54bed57b4ec2a745"></a>
-typedef enum __FATFS_FAT_Entry_Value&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_FATENTRY</b></td></tr>
-<tr class="separator:ga8dfb1785ff26e95f54bed57b4ec2a745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad404e1e1b00f8ed2992a825910441ca"><td class="memItemLeft" align="right" valign="top"><a id="gaad404e1e1b00f8ed2992a825910441ca"></a>
-typedef struct <a class="el" href="../../d6/d21/a09970.html">__FATFS_BootSector_BPB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_BSBPB</b></td></tr>
-<tr class="separator:gaad404e1e1b00f8ed2992a825910441ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1d6290b2e034df7b8a5526c8d1dae9d"><td class="memItemLeft" align="right" valign="top"><a id="gad1d6290b2e034df7b8a5526c8d1dae9d"></a>
-typedef enum <a class="el" href="../../d2/d78/a08584.html#ga2f074a8ef88e1b56025ec2601c2d06ad">__DIR_Attr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_DIRATTR</b></td></tr>
-<tr class="separator:gad1d6290b2e034df7b8a5526c8d1dae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafea3e6fa15295986bed4fe7a8cc2a6cc"><td class="memItemLeft" align="right" valign="top"><a id="gafea3e6fa15295986bed4fe7a8cc2a6cc"></a>
-typedef struct <a class="el" href="../../d4/de7/a09986.html">__FATFS_FSInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gafea3e6fa15295986bed4fe7a8cc2a6cc">FATFS_FSINFO</a></td></tr>
-<tr class="memdesc:gafea3e6fa15295986bed4fe7a8cc2a6cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">FAT32 File System Info. <br /></td></tr>
-<tr class="separator:gafea3e6fa15295986bed4fe7a8cc2a6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d768a1fb639b091afcc79d2dc561e25"><td class="memItemLeft" align="right" valign="top"><a id="ga0d768a1fb639b091afcc79d2dc561e25"></a>
-typedef struct <a class="el" href="../../d2/d97/a09990.html">__FATFS_ShortName</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_SHORTNAME</b></td></tr>
-<tr class="separator:ga0d768a1fb639b091afcc79d2dc561e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae9e86324c54d9c92aa067d3343f7e1b3"><td class="memItemLeft" align="right" valign="top"><a id="gae9e86324c54d9c92aa067d3343f7e1b3"></a>
-typedef struct <a class="el" href="../../de/dad/a09994.html">__FATFS_LongName</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_LONGNAME</b></td></tr>
-<tr class="separator:gae9e86324c54d9c92aa067d3343f7e1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf86c9fb1a8c3dcfb674ff479e0d0000f"><td class="memItemLeft" align="right" valign="top"><a id="gaf86c9fb1a8c3dcfb674ff479e0d0000f"></a>
-typedef union <a class="el" href="../../d8/dd6/a09998.html">__FATFS_DirEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FATFS_DIR</b></td></tr>
-<tr class="separator:gaf86c9fb1a8c3dcfb674ff479e0d0000f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf71350c30facfad0476e0920a1534cf"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gadf71350c30facfad0476e0920a1534cf">SEEPCB</a>) (int DevAddr, <a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pInterf)</td></tr>
-<tr class="memdesc:gadf71350c30facfad0476e0920a1534cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">SEEP callback function.  <a href="#gadf71350c30facfad0476e0920a1534cf">More...</a><br /></td></tr>
-<tr class="separator:gadf71350c30facfad0476e0920a1534cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaffcefaf319739cca003cd7bd7a849c7e"><td class="memItemLeft" align="right" valign="top"><a id="gaffcefaf319739cca003cd7bd7a849c7e"></a>
-typedef struct <a class="el" href="../../d7/de1/a10086.html">__Seep_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gaffcefaf319739cca003cd7bd7a849c7e">SEEP_CFG</a></td></tr>
-<tr class="memdesc:gaffcefaf319739cca003cd7bd7a849c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure defining Serial EEPROM device. <br /></td></tr>
-<tr class="separator:gaffcefaf319739cca003cd7bd7a849c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaac34337bda77c4ca63568429ed36fe9d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d2/dc1/a10090.html">__Seep_Device</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a></td></tr>
-<tr class="memdesc:gaac34337bda77c4ca63568429ed36fe9d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> internal data.  <a href="#gaac34337bda77c4ca63568429ed36fe9d">More...</a><br /></td></tr>
-<tr class="separator:gaac34337bda77c4ca63568429ed36fe9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:gaa6ff16d64f7b6f503c54b8869baca3a3"><td class="memItemLeft" align="right" valign="top"><a id="gaa6ff16d64f7b6f503c54b8869baca3a3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gaa6ff16d64f7b6f503c54b8869baca3a3">FATFS_TYPE</a> { <b>FATFS_TYPE_FAT12</b>, 
-<b>FATFS_TYPE_FAT16</b>, 
-<b>FATFS_TYPE_FAT32</b>
- }<tr class="memdesc:gaa6ff16d64f7b6f503c54b8869baca3a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">FAT type. <br /></td></tr>
-</td></tr>
-<tr class="separator:gaa6ff16d64f7b6f503c54b8869baca3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga461055c0e7c9cc035826e4d154f4dd55"><td class="memItemLeft" align="right" valign="top"><a id="ga461055c0e7c9cc035826e4d154f4dd55"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__FATFS_FAT_Entry_Value</b> { <b>FATFS_FATENTRY_FREE</b> = 0, 
-<b>FATFS_FATENTRY_BAD</b> = 0xFFFFFF7, 
-<b>FATFS_FATENTRY_ALLOCATED</b> = 0xFFFFFFFF
- }</td></tr>
-<tr class="separator:ga461055c0e7c9cc035826e4d154f4dd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f074a8ef88e1b56025ec2601c2d06ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga2f074a8ef88e1b56025ec2601c2d06ad">__DIR_Attr</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06adabd1c4b96a2cc155324b8267ff9a45688">FATFS_DIRATTR_READ_ONLY</a> = 1, 
-<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06ada83df650b04465002776c1130a05a6d47">FATFS_DIRATTR_HIDDEN</a> = 2, 
-<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06adac3931eeda0e3c6c175e70133dd007035">FATFS_DIRATTR_SYSTEM</a> = 4, 
-<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06ada32932746552c4ae6627b9ca37d31da68">FATFS_DIRATTR_VOLUME_ID</a> = 8, 
-<br />
-&#160;&#160;<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06adab5d35a7d41a9e7682db881f32fc61929">FATFS_DIRATTR_DIRECTORY</a> = 0x10, 
-<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06ada39c7383f9a683130b464b884656ee13b">FATFS_DIRATTR_ARCHIVE</a> = 0x20, 
-<a class="el" href="../../d2/d78/a08584.html#gga2f074a8ef88e1b56025ec2601c2d06ada04aafad46458153fa55359f972dc9543">FATFS_DIRATTR_LONG_NAME</a>
-<br />
- }</td></tr>
-<tr class="separator:ga2f074a8ef88e1b56025ec2601c2d06ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga1a186f3216316fe279901c7bd76a4b59"><td class="memItemLeft" align="right" valign="top"><a id="ga1a186f3216316fe279901c7bd76a4b59"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSInit</b> (void *pDiskIO)</td></tr>
-<tr class="separator:ga1a186f3216316fe279901c7bd76a4b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad5b833431a4e6322cfe1d08fc1973a9"><td class="memItemLeft" align="right" valign="top"><a id="gaad5b833431a4e6322cfe1d08fc1973a9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSOpen</b> (void *pDevObj, const char *pPathName, int Flags, int Mode)</td></tr>
-<tr class="separator:gaad5b833431a4e6322cfe1d08fc1973a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafa27baeba4597331c1c71398543da037"><td class="memItemLeft" align="right" valign="top"><a id="gafa27baeba4597331c1c71398543da037"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSClose</b> (void *pDevObj, int Fd)</td></tr>
-<tr class="separator:gafa27baeba4597331c1c71398543da037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga266d9e4f6210a24a43fbe56b0c530dc0"><td class="memItemLeft" align="right" valign="top"><a id="ga266d9e4f6210a24a43fbe56b0c530dc0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSSeek</b> (void *pDevObj, int Fd, int Offset)</td></tr>
-<tr class="separator:ga266d9e4f6210a24a43fbe56b0c530dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64701b5cf3cba2011412f8d529a26126"><td class="memItemLeft" align="right" valign="top"><a id="ga64701b5cf3cba2011412f8d529a26126"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSRead</b> (void *pDevObj, int Fd, uint8_t *pBuff, size_t Len)</td></tr>
-<tr class="separator:ga64701b5cf3cba2011412f8d529a26126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac63b119010e81b99f50ba4f0b7e4ac77"><td class="memItemLeft" align="right" valign="top"><a id="gac63b119010e81b99f50ba4f0b7e4ac77"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSWrite</b> (void *pDevObj, int Fd, uint8_t *pBuff, size_t Len)</td></tr>
-<tr class="separator:gac63b119010e81b99f50ba4f0b7e4ac77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed5abbc2bf74ec1acca46c2b1be7de45"><td class="memItemLeft" align="right" valign="top"><a id="gaed5abbc2bf74ec1acca46c2b1be7de45"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSVDiskGetClusterSector</b> (<a class="el" href="../../dd/d45/a10006.html">FATFS_VDISK</a> *pVDisk, uint32_t ClusterNo)</td></tr>
-<tr class="separator:gaed5abbc2bf74ec1acca46c2b1be7de45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga290e295b901896f69d5a306fa6843422"><td class="memItemLeft" align="right" valign="top"><a id="ga290e295b901896f69d5a306fa6843422"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSVDiskGetSectorData</b> (<a class="el" href="../../dd/d45/a10006.html">FATFS_VDISK</a> *pVDisk, uint32_t SectNo, uint32_t SectOff, int Len)</td></tr>
-<tr class="separator:ga290e295b901896f69d5a306fa6843422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e02639f79cb651094ff7ea27c287def"><td class="memItemLeft" align="right" valign="top"><a id="ga9e02639f79cb651094ff7ea27c287def"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>FATFSVDiskInit</b> (<a class="el" href="../../dd/d45/a10006.html">FATFS_VDISK</a> *pVDisk, const <a class="el" href="../../dd/daa/a10002.html">FATFS_VDISKCFG</a> *pCfg)</td></tr>
-<tr class="separator:ga9e02639f79cb651094ff7ea27c287def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga019c09a1e90052ff224957dcf2b09a60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga019c09a1e90052ff224957dcf2b09a60">SeepInit</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev, const <a class="el" href="../../d2/d78/a08584.html#gaffcefaf319739cca003cd7bd7a849c7e">SEEP_CFG</a> *pCfgData, <a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pInterf)</td></tr>
-<tr class="memdesc:ga019c09a1e90052ff224957dcf2b09a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Serial EEPROM driver.  <a href="#ga019c09a1e90052ff224957dcf2b09a60">More...</a><br /></td></tr>
-<tr class="separator:ga019c09a1e90052ff224957dcf2b09a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa67707dcb5cfba53bf3fe81665d1361c"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gaa67707dcb5cfba53bf3fe81665d1361c">SeepGetSize</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev)</td></tr>
-<tr class="memdesc:gaa67707dcb5cfba53bf3fe81665d1361c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get EEPROM size.  <a href="#gaa67707dcb5cfba53bf3fe81665d1361c">More...</a><br /></td></tr>
-<tr class="separator:gaa67707dcb5cfba53bf3fe81665d1361c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2a44776b854db937928d8db9c65ef25"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gad2a44776b854db937928d8db9c65ef25">SeepGetPageSize</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev)</td></tr>
-<tr class="memdesc:gad2a44776b854db937928d8db9c65ef25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get EEPROM page size.  <a href="#gad2a44776b854db937928d8db9c65ef25">More...</a><br /></td></tr>
-<tr class="separator:gad2a44776b854db937928d8db9c65ef25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0">SeepRead</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev, int Addr, uint8_t *pBuff, int Len)</td></tr>
-<tr class="memdesc:ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Serial EEPROM data.  <a href="#ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0">More...</a><br /></td></tr>
-<tr class="separator:ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6c331d20b8d3090009c0b415fdc4377"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#gaf6c331d20b8d3090009c0b415fdc4377">SeepWrite</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev, int Addr, uint8_t *pData, int Len)</td></tr>
-<tr class="memdesc:gaf6c331d20b8d3090009c0b415fdc4377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write to data to Serial EEPROM.  <a href="#gaf6c331d20b8d3090009c0b415fdc4377">More...</a><br /></td></tr>
-<tr class="separator:gaf6c331d20b8d3090009c0b415fdc4377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga583ebbb8b7d0e0b992698ea3a13fc614"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d78/a08584.html#ga583ebbb8b7d0e0b992698ea3a13fc614">SeepSetWriteProt</a> (<a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *pDev, bool bVal)</td></tr>
-<tr class="memdesc:ga583ebbb8b7d0e0b992698ea3a13fc614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the write protect pin.  <a href="#ga583ebbb8b7d0e0b992698ea3a13fc614">More...</a><br /></td></tr>
-<tr class="separator:ga583ebbb8b7d0e0b992698ea3a13fc614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4764710c6b19d8e403dcbf01a5c2bccc"><td class="memItemLeft" align="right" valign="top"><a id="ga4764710c6b19d8e403dcbf01a5c2bccc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_RFIFOEF_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga4764710c6b19d8e403dcbf01a5c2bccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1cbbcc1cc0366cbb2de91ab7a6890ea"><td class="memItemLeft" align="right" valign="top"><a id="gad1cbbcc1cc0366cbb2de91ab7a6890ea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_RFIFOEF_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad1cbbcc1cc0366cbb2de91ab7a6890ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf9f3a70e870f08913bedfb6fc81d254e"><td class="memItemLeft" align="right" valign="top"><a id="gaf9f3a70e870f08913bedfb6fc81d254e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_TXFULLF_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:gaf9f3a70e870f08913bedfb6fc81d254e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c21cd40c23db58031f63eb77de97bc8"><td class="memItemLeft" align="right" valign="top"><a id="ga8c21cd40c23db58031f63eb77de97bc8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_TXFULLF_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga8c21cd40c23db58031f63eb77de97bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf97800bbb6ab3322fab3eb4bb576e7a4"><td class="memItemLeft" align="right" valign="top"><a id="gaf97800bbb6ab3322fab3eb4bb576e7a4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_TNEAREF_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:gaf97800bbb6ab3322fab3eb4bb576e7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56cdf841cf65c418a9355ca1d5ff5d70"><td class="memItemLeft" align="right" valign="top"><a id="ga56cdf841cf65c418a9355ca1d5ff5d70"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_TNEAREF_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga56cdf841cf65c418a9355ca1d5ff5d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9706f3e0047e012ce5a97501517719a6"><td class="memItemLeft" align="right" valign="top"><a id="ga9706f3e0047e012ce5a97501517719a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_RNFULLF_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:ga9706f3e0047e012ce5a97501517719a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b0543127ae3a9718b758fa07bbe97a0"><td class="memItemLeft" align="right" valign="top"><a id="ga3b0543127ae3a9718b758fa07bbe97a0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_RNFULLF_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga3b0543127ae3a9718b758fa07bbe97a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae3b092b4e35b25cabf209f60637cb1f8"><td class="memItemLeft" align="right" valign="top"><a id="gae3b092b4e35b25cabf209f60637cb1f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_MODF_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:gae3b092b4e35b25cabf209f60637cb1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a037c05626e7bd1f84704dd98d620b9"><td class="memItemLeft" align="right" valign="top"><a id="ga1a037c05626e7bd1f84704dd98d620b9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_MODF_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga1a037c05626e7bd1f84704dd98d620b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f05ea8ee4b9eda3b55af33b0bbfe829"><td class="memItemLeft" align="right" valign="top"><a id="ga3f05ea8ee4b9eda3b55af33b0bbfe829"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPTEF_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:ga3f05ea8ee4b9eda3b55af33b0bbfe829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c56a82dfa277e081682a45488b61b7f"><td class="memItemLeft" align="right" valign="top"><a id="ga6c56a82dfa277e081682a45488b61b7f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPTEF_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:ga6c56a82dfa277e081682a45488b61b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6198d0ae23c413b2635a31550272d63"><td class="memItemLeft" align="right" valign="top"><a id="gac6198d0ae23c413b2635a31550272d63"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPMF_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:gac6198d0ae23c413b2635a31550272d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e59ca0da277d00018b2ee701bd19ec3"><td class="memItemLeft" align="right" valign="top"><a id="ga8e59ca0da277d00018b2ee701bd19ec3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPMF_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga8e59ca0da277d00018b2ee701bd19ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cada84cbeaeb0de6e2c496da39da693"><td class="memItemLeft" align="right" valign="top"><a id="ga1cada84cbeaeb0de6e2c496da39da693"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPRF_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga1cada84cbeaeb0de6e2c496da39da693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f3cb2c492f263ccb54220066f1bb04d"><td class="memItemLeft" align="right" valign="top"><a id="ga8f3cb2c492f263ccb54220066f1bb04d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_S_SPRF_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga8f3cb2c492f263ccb54220066f1bb04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac7263560f1cc81f8f3fb6a7089d5c26"><td class="memItemLeft" align="right" valign="top"><a id="gaac7263560f1cc81f8f3fb6a7089d5c26"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPR_MASK</b>&#160;&#160;&#160;0xFu</td></tr>
+<tr class="separator:gaac7263560f1cc81f8f3fb6a7089d5c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49ebd0e5e9751438bc3968877baf2661"><td class="memItemLeft" align="right" valign="top"><a id="ga49ebd0e5e9751438bc3968877baf2661"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPR_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga49ebd0e5e9751438bc3968877baf2661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fc6dbcc300be115c0e5d1dbc99946a2"><td class="memItemLeft" align="right" valign="top"><a id="ga3fc6dbcc300be115c0e5d1dbc99946a2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPR</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_BR_SPR_SHIFT))&amp;SPI_BR_SPR_MASK)</td></tr>
+<tr class="separator:ga3fc6dbcc300be115c0e5d1dbc99946a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3ca4981d609aac2f31d89c677192f7a"><td class="memItemLeft" align="right" valign="top"><a id="gaf3ca4981d609aac2f31d89c677192f7a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPPR_MASK</b>&#160;&#160;&#160;0x70u</td></tr>
+<tr class="separator:gaf3ca4981d609aac2f31d89c677192f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac53e7d34efb934fe3232632a77301ca3"><td class="memItemLeft" align="right" valign="top"><a id="gac53e7d34efb934fe3232632a77301ca3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPPR_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:gac53e7d34efb934fe3232632a77301ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa708f7ca2a25aa8021d443cc060f64a"><td class="memItemLeft" align="right" valign="top"><a id="gafa708f7ca2a25aa8021d443cc060f64a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_BR_SPPR</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_BR_SPPR_SHIFT))&amp;SPI_BR_SPPR_MASK)</td></tr>
+<tr class="separator:gafa708f7ca2a25aa8021d443cc060f64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaaeac694d1d42228524e96040a9ddf53"><td class="memItemLeft" align="right" valign="top"><a id="gaaaeac694d1d42228524e96040a9ddf53"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPC0_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:gaaaeac694d1d42228524e96040a9ddf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2530719a946cda56c285547a8239ee"><td class="memItemLeft" align="right" valign="top"><a id="gabd2530719a946cda56c285547a8239ee"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPC0_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gabd2530719a946cda56c285547a8239ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05643847feabba49c1e7e16044278d08"><td class="memItemLeft" align="right" valign="top"><a id="ga05643847feabba49c1e7e16044278d08"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPISWAI_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:ga05643847feabba49c1e7e16044278d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae756e76f39bea0b21aac347ba75fd16c"><td class="memItemLeft" align="right" valign="top"><a id="gae756e76f39bea0b21aac347ba75fd16c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPISWAI_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gae756e76f39bea0b21aac347ba75fd16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab50dca40cbee0b9359dd2f27fa0920da"><td class="memItemLeft" align="right" valign="top"><a id="gab50dca40cbee0b9359dd2f27fa0920da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_RXDMAE_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:gab50dca40cbee0b9359dd2f27fa0920da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5460ff43cfcee3211e76bb6ef2321563"><td class="memItemLeft" align="right" valign="top"><a id="ga5460ff43cfcee3211e76bb6ef2321563"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_RXDMAE_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga5460ff43cfcee3211e76bb6ef2321563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4fb07392c6e708f3950587b02109f2f"><td class="memItemLeft" align="right" valign="top"><a id="gab4fb07392c6e708f3950587b02109f2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_BIDIROE_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:gab4fb07392c6e708f3950587b02109f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga228238321389e2344fa3c837fe55492e"><td class="memItemLeft" align="right" valign="top"><a id="ga228238321389e2344fa3c837fe55492e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_BIDIROE_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga228238321389e2344fa3c837fe55492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga447f4723c0ee7499e14bea6cd0c8d3ac"><td class="memItemLeft" align="right" valign="top"><a id="ga447f4723c0ee7499e14bea6cd0c8d3ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_MODFEN_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:ga447f4723c0ee7499e14bea6cd0c8d3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e2e1a75667ba2896d6056f5f886dec5"><td class="memItemLeft" align="right" valign="top"><a id="ga7e2e1a75667ba2896d6056f5f886dec5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_MODFEN_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga7e2e1a75667ba2896d6056f5f886dec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga847c4ae3f2f0aed59df609ca39afb483"><td class="memItemLeft" align="right" valign="top"><a id="ga847c4ae3f2f0aed59df609ca39afb483"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_TXDMAE_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:ga847c4ae3f2f0aed59df609ca39afb483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1162ea05678ca446ca23d5e7ae0bc1f"><td class="memItemLeft" align="right" valign="top"><a id="gaf1162ea05678ca446ca23d5e7ae0bc1f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_TXDMAE_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:gaf1162ea05678ca446ca23d5e7ae0bc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12a1d5a483d087d431bfffa32a8e8848"><td class="memItemLeft" align="right" valign="top"><a id="ga12a1d5a483d087d431bfffa32a8e8848"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPIMODE_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:ga12a1d5a483d087d431bfffa32a8e8848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga055487ffef1cf7e0d3e01e022f35973a"><td class="memItemLeft" align="right" valign="top"><a id="ga055487ffef1cf7e0d3e01e022f35973a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPIMODE_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga055487ffef1cf7e0d3e01e022f35973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga734ac5ba36a5402f92dd9ecf15a7a87b"><td class="memItemLeft" align="right" valign="top"><a id="ga734ac5ba36a5402f92dd9ecf15a7a87b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPMIE_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga734ac5ba36a5402f92dd9ecf15a7a87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33a757ba520cab426978fbfc57957b5b"><td class="memItemLeft" align="right" valign="top"><a id="ga33a757ba520cab426978fbfc57957b5b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C2_SPMIE_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga33a757ba520cab426978fbfc57957b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45f4cb42020607c9ed927bf57cc0ee31"><td class="memItemLeft" align="right" valign="top"><a id="ga45f4cb42020607c9ed927bf57cc0ee31"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_LSBFE_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga45f4cb42020607c9ed927bf57cc0ee31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa81af414d42c393342df48ae8d44c27f"><td class="memItemLeft" align="right" valign="top"><a id="gaa81af414d42c393342df48ae8d44c27f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_LSBFE_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gaa81af414d42c393342df48ae8d44c27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18d4e12a34e268e98cf29ef47ff46e21"><td class="memItemLeft" align="right" valign="top"><a id="ga18d4e12a34e268e98cf29ef47ff46e21"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SSOE_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:ga18d4e12a34e268e98cf29ef47ff46e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5941a1db540652e8da7f3881eb39384"><td class="memItemLeft" align="right" valign="top"><a id="gaa5941a1db540652e8da7f3881eb39384"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SSOE_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaa5941a1db540652e8da7f3881eb39384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf85a831465f0f4f302657b32171f2e6"><td class="memItemLeft" align="right" valign="top"><a id="gaaf85a831465f0f4f302657b32171f2e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_CPHA_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:gaaf85a831465f0f4f302657b32171f2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa305ee06e9cb66ad7ba9aed297debef3"><td class="memItemLeft" align="right" valign="top"><a id="gaa305ee06e9cb66ad7ba9aed297debef3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_CPHA_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:gaa305ee06e9cb66ad7ba9aed297debef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f4bd038e37f3581231f26aafc33c7b1"><td class="memItemLeft" align="right" valign="top"><a id="ga8f4bd038e37f3581231f26aafc33c7b1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_CPOL_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:ga8f4bd038e37f3581231f26aafc33c7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d5b3d92574037e1073a569653cf5a9b"><td class="memItemLeft" align="right" valign="top"><a id="ga1d5b3d92574037e1073a569653cf5a9b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_CPOL_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga1d5b3d92574037e1073a569653cf5a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga747d64528ec249cad76dc87b67e457e6"><td class="memItemLeft" align="right" valign="top"><a id="ga747d64528ec249cad76dc87b67e457e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_MSTR_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:ga747d64528ec249cad76dc87b67e457e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67f4db47142cf9e5cb239db0f5af79d7"><td class="memItemLeft" align="right" valign="top"><a id="ga67f4db47142cf9e5cb239db0f5af79d7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_MSTR_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga67f4db47142cf9e5cb239db0f5af79d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a819839ef92c4a16fcbe0403dada66a"><td class="memItemLeft" align="right" valign="top"><a id="ga9a819839ef92c4a16fcbe0403dada66a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPTIE_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:ga9a819839ef92c4a16fcbe0403dada66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae79e5ea53e13f0697322235e9bb3e005"><td class="memItemLeft" align="right" valign="top"><a id="gae79e5ea53e13f0697322235e9bb3e005"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPTIE_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:gae79e5ea53e13f0697322235e9bb3e005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbe954288bbd6dcd564064de90d1b414"><td class="memItemLeft" align="right" valign="top"><a id="gabbe954288bbd6dcd564064de90d1b414"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPE_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:gabbe954288bbd6dcd564064de90d1b414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21a79703e2147332b7234f62615c2c77"><td class="memItemLeft" align="right" valign="top"><a id="ga21a79703e2147332b7234f62615c2c77"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPE_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga21a79703e2147332b7234f62615c2c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa0dbb3306041f89299298e64d7b7a58"><td class="memItemLeft" align="right" valign="top"><a id="gaaa0dbb3306041f89299298e64d7b7a58"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPIE_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:gaaa0dbb3306041f89299298e64d7b7a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd5c8f15ee05357d76591989eb035d19"><td class="memItemLeft" align="right" valign="top"><a id="gacd5c8f15ee05357d76591989eb035d19"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C1_SPIE_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:gacd5c8f15ee05357d76591989eb035d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68f178e75fdd2455b48a93b0adb40946"><td class="memItemLeft" align="right" valign="top"><a id="ga68f178e75fdd2455b48a93b0adb40946"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_ML_Bits_MASK</b>&#160;&#160;&#160;0xFFu</td></tr>
+<tr class="separator:ga68f178e75fdd2455b48a93b0adb40946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga648aa372a023cce7266b05150e0e3830"><td class="memItemLeft" align="right" valign="top"><a id="ga648aa372a023cce7266b05150e0e3830"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_ML_Bits_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga648aa372a023cce7266b05150e0e3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8620b124087f8e852385abed5aa2ca36"><td class="memItemLeft" align="right" valign="top"><a id="ga8620b124087f8e852385abed5aa2ca36"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_ML_Bits</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_ML_Bits_SHIFT))&amp;SPI_ML_Bits_MASK)</td></tr>
+<tr class="separator:ga8620b124087f8e852385abed5aa2ca36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4cbb3a51e4c35e341dd5440c08bfda2"><td class="memItemLeft" align="right" valign="top"><a id="gaa4cbb3a51e4c35e341dd5440c08bfda2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MH_Bits_MASK</b>&#160;&#160;&#160;0xFFu</td></tr>
+<tr class="separator:gaa4cbb3a51e4c35e341dd5440c08bfda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga871c81eb6f67f7219dc7a6b103345aa2"><td class="memItemLeft" align="right" valign="top"><a id="ga871c81eb6f67f7219dc7a6b103345aa2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MH_Bits_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga871c81eb6f67f7219dc7a6b103345aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97f5b41ce9dc92ac214cf5c593b69def"><td class="memItemLeft" align="right" valign="top"><a id="ga97f5b41ce9dc92ac214cf5c593b69def"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MH_Bits</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_MH_Bits_SHIFT))&amp;SPI_MH_Bits_MASK)</td></tr>
+<tr class="separator:ga97f5b41ce9dc92ac214cf5c593b69def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0bad5d31bd1cb5fef90d0d2220e770f"><td class="memItemLeft" align="right" valign="top"><a id="gab0bad5d31bd1cb5fef90d0d2220e770f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DL_Bits_MASK</b>&#160;&#160;&#160;0xFFu</td></tr>
+<tr class="separator:gab0bad5d31bd1cb5fef90d0d2220e770f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01acf774167b947037841132f02cca41"><td class="memItemLeft" align="right" valign="top"><a id="ga01acf774167b947037841132f02cca41"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DL_Bits_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga01acf774167b947037841132f02cca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86e3bbf34ddf7b9cda3fc9a62e2f6404"><td class="memItemLeft" align="right" valign="top"><a id="ga86e3bbf34ddf7b9cda3fc9a62e2f6404"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DL_Bits</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_DL_Bits_SHIFT))&amp;SPI_DL_Bits_MASK)</td></tr>
+<tr class="separator:ga86e3bbf34ddf7b9cda3fc9a62e2f6404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2bbe93bb6f68edc9ad343fac000ce3a9"><td class="memItemLeft" align="right" valign="top"><a id="ga2bbe93bb6f68edc9ad343fac000ce3a9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DH_Bits_MASK</b>&#160;&#160;&#160;0xFFu</td></tr>
+<tr class="separator:ga2bbe93bb6f68edc9ad343fac000ce3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga994f4c3d8c6a73e19423c162a9418424"><td class="memItemLeft" align="right" valign="top"><a id="ga994f4c3d8c6a73e19423c162a9418424"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DH_Bits_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga994f4c3d8c6a73e19423c162a9418424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c2eb260b79200f0e7d355e83d1e7418"><td class="memItemLeft" align="right" valign="top"><a id="ga5c2eb260b79200f0e7d355e83d1e7418"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_DH_Bits</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;SPI_DH_Bits_SHIFT))&amp;SPI_DH_Bits_MASK)</td></tr>
+<tr class="separator:ga5c2eb260b79200f0e7d355e83d1e7418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e5fe01782cdf8eecd6606aa6f98c520"><td class="memItemLeft" align="right" valign="top"><a id="ga3e5fe01782cdf8eecd6606aa6f98c520"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_SPRFCI_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga3e5fe01782cdf8eecd6606aa6f98c520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3bbcb06fc52355100c7fb5f03d22bf5b"><td class="memItemLeft" align="right" valign="top"><a id="ga3bbcb06fc52355100c7fb5f03d22bf5b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_SPRFCI_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga3bbcb06fc52355100c7fb5f03d22bf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbeb1c93ae61d0aef29e551e72ebbe34"><td class="memItemLeft" align="right" valign="top"><a id="gabbeb1c93ae61d0aef29e551e72ebbe34"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_SPTEFCI_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:gabbeb1c93ae61d0aef29e551e72ebbe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9706f5b51a14a583bbb447bc5baf9c34"><td class="memItemLeft" align="right" valign="top"><a id="ga9706f5b51a14a583bbb447bc5baf9c34"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_SPTEFCI_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga9706f5b51a14a583bbb447bc5baf9c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4fdc1b39a903bdd8385e7e81f08e2f62"><td class="memItemLeft" align="right" valign="top"><a id="ga4fdc1b39a903bdd8385e7e81f08e2f62"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RNFULLFCI_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:ga4fdc1b39a903bdd8385e7e81f08e2f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26d9aa726aeea3c33a074ff23b42f76b"><td class="memItemLeft" align="right" valign="top"><a id="ga26d9aa726aeea3c33a074ff23b42f76b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RNFULLFCI_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga26d9aa726aeea3c33a074ff23b42f76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd5fd3e6e90bfa8948b589ee7ca580c4"><td class="memItemLeft" align="right" valign="top"><a id="gacd5fd3e6e90bfa8948b589ee7ca580c4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TNEAREFCI_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:gacd5fd3e6e90bfa8948b589ee7ca580c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7b766bb397310da69582b677d86a96c"><td class="memItemLeft" align="right" valign="top"><a id="gaa7b766bb397310da69582b677d86a96c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TNEAREFCI_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:gaa7b766bb397310da69582b677d86a96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b8eba03abc577d6c6aec486f753b713"><td class="memItemLeft" align="right" valign="top"><a id="ga6b8eba03abc577d6c6aec486f753b713"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RXFOF_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:ga6b8eba03abc577d6c6aec486f753b713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03a5fc7acce88b2c4e92c99d19a4aafd"><td class="memItemLeft" align="right" valign="top"><a id="ga03a5fc7acce88b2c4e92c99d19a4aafd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RXFOF_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga03a5fc7acce88b2c4e92c99d19a4aafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16c19163e273f02921ac06d03a666e82"><td class="memItemLeft" align="right" valign="top"><a id="ga16c19163e273f02921ac06d03a666e82"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TXFOF_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:ga16c19163e273f02921ac06d03a666e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8365bce3cc0fbd116bc74476e6745a12"><td class="memItemLeft" align="right" valign="top"><a id="ga8365bce3cc0fbd116bc74476e6745a12"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TXFOF_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:ga8365bce3cc0fbd116bc74476e6745a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4bbc3bef95026773e63e1db547cfc0b"><td class="memItemLeft" align="right" valign="top"><a id="gae4bbc3bef95026773e63e1db547cfc0b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RXFERR_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:gae4bbc3bef95026773e63e1db547cfc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a4247195fe2af811f0962d57409a341"><td class="memItemLeft" align="right" valign="top"><a id="ga4a4247195fe2af811f0962d57409a341"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_RXFERR_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga4a4247195fe2af811f0962d57409a341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4926dbd1938268fee182dd16707715fc"><td class="memItemLeft" align="right" valign="top"><a id="ga4926dbd1938268fee182dd16707715fc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TXFERR_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga4926dbd1938268fee182dd16707715fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8521f641da18f25ad36f29fba996adb"><td class="memItemLeft" align="right" valign="top"><a id="gad8521f641da18f25ad36f29fba996adb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CI_TXFERR_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:gad8521f641da18f25ad36f29fba996adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bb5cd89df35f2cac9889810489cef76"><td class="memItemLeft" align="right" valign="top"><a id="ga0bb5cd89df35f2cac9889810489cef76"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_FIFOMODE_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga0bb5cd89df35f2cac9889810489cef76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga58cdf97144959affeaee5aa181cf11e0"><td class="memItemLeft" align="right" valign="top"><a id="ga58cdf97144959affeaee5aa181cf11e0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_FIFOMODE_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga58cdf97144959affeaee5aa181cf11e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec79f2cbf81e417c52e1494a3317a17a"><td class="memItemLeft" align="right" valign="top"><a id="gaec79f2cbf81e417c52e1494a3317a17a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_RNFULLIEN_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:gaec79f2cbf81e417c52e1494a3317a17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0045386d116b230ce58ad47e1e8b51ba"><td class="memItemLeft" align="right" valign="top"><a id="ga0045386d116b230ce58ad47e1e8b51ba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_RNFULLIEN_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga0045386d116b230ce58ad47e1e8b51ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2d0e88383efb0514af6469bac2b9fad"><td class="memItemLeft" align="right" valign="top"><a id="gae2d0e88383efb0514af6469bac2b9fad"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_TNEARIEN_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:gae2d0e88383efb0514af6469bac2b9fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga234a8892dccccf92e27fc91b942c42df"><td class="memItemLeft" align="right" valign="top"><a id="ga234a8892dccccf92e27fc91b942c42df"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_TNEARIEN_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga234a8892dccccf92e27fc91b942c42df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9ebf3262935069bc058301414a2aa27"><td class="memItemLeft" align="right" valign="top"><a id="gab9ebf3262935069bc058301414a2aa27"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_INTCLR_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:gab9ebf3262935069bc058301414a2aa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2334d28efbe27b7c5e33b834e7045477"><td class="memItemLeft" align="right" valign="top"><a id="ga2334d28efbe27b7c5e33b834e7045477"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_INTCLR_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga2334d28efbe27b7c5e33b834e7045477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf5d8902e6f7553c8a19c5c309f19c2f"><td class="memItemLeft" align="right" valign="top"><a id="gadf5d8902e6f7553c8a19c5c309f19c2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_RNFULLF_MARK_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:gadf5d8902e6f7553c8a19c5c309f19c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12621fd3ffc410b2892a21c8ac880b49"><td class="memItemLeft" align="right" valign="top"><a id="ga12621fd3ffc410b2892a21c8ac880b49"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_RNFULLF_MARK_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga12621fd3ffc410b2892a21c8ac880b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeee019eaf12e4b23407a5b0fc8a9f35e"><td class="memItemLeft" align="right" valign="top"><a id="gaeee019eaf12e4b23407a5b0fc8a9f35e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_TNEAREF_MARK_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:gaeee019eaf12e4b23407a5b0fc8a9f35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga617280962112e42d2dacf57b0aae4f05"><td class="memItemLeft" align="right" valign="top"><a id="ga617280962112e42d2dacf57b0aae4f05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_C3_TNEAREF_MARK_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:ga617280962112e42d2dacf57b0aae4f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga74ef3f88d18d49dbc533f5437e7a8068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74ef3f88d18d49dbc533f5437e7a8068">&#9670;&nbsp;</a></span>DISKIO_CACHE_DIRTY_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DISKIO_CACHE_DIRTY_BIT&#160;&#160;&#160;(1&lt;&lt;31)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>write to the cache </p>
-<p>This bit is set in the UseCnt if there was </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/da8/a02444_source.html#l00048">48</a> of file <a class="el" href="../../d4/da8/a02444_source.html">diskio.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ga78719bd18e872781f4a9157b0494a62e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga78719bd18e872781f4a9157b0494a62e">&#9670;&nbsp;</a></span>FLASHDISKIOCB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef bool(* FLASHDISKIOCB) (int DevNo, <a class="el" href="../../d7/d6a/a09942.html">DeviceIntrf</a> *pInterf)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../df/d5b/a09966.html" title="Flash disk base class. ">FlashDiskIO</a> callback function. </p>
-<p>This a general callback function hook for special purpose defined in the <a class="el" href="../../d2/d5e/a09962.html">FLASHDISKIO_CFG</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">DevNo</td><td>: <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> number or address used by the interface </td></tr>
-    <tr><td class="paramname">pInterf</td><td>: Interface used to access the flash (<a class="el" href="../../db/d6a/a10206.html">SPI</a>, <a class="el" href="../../da/d24/a10026.html" title="Genereic I2C base class. ">I2C</a> or whatever</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true - Success<br />
- false - Failed. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d9a/a02447_source.html#l00077">77</a> of file <a class="el" href="../../d8/d9a/a02447_source.html">diskio_flash.h</a>.</p>
-
-</div>
-</div>
-<a id="gadf71350c30facfad0476e0920a1534cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf71350c30facfad0476e0920a1534cf">&#9670;&nbsp;</a></span>SEEPCB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef bool(* SEEPCB) (int DevAddr, <a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *pInterf)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>SEEP callback function. </p>
-<p>This is a general callback function hook for special purpose defined in SEEP_CFG</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">DevAddr</td><td>: <a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> address. </td></tr>
-    <tr><td class="paramname">pInterf</td><td>: Pointer to physical interface connected to the device</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true - success </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d2b/a02486_source.html#l00061">61</a> of file <a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a>.</p>
-
-</div>
-</div>
-<a id="gaac34337bda77c4ca63568429ed36fe9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac34337bda77c4ca63568429ed36fe9d">&#9670;&nbsp;</a></span>SEEPDEV</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="../../d2/dc1/a10090.html">__Seep_Device</a>  <a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d9/d8b/a09934.html" title="Device base class. ">Device</a> internal data. </p>
-<p>Pointer to this structure serve as handle to the implementation function </p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga2f074a8ef88e1b56025ec2601c2d06ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f074a8ef88e1b56025ec2601c2d06ad">&#9670;&nbsp;</a></span>__DIR_Attr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/d78/a08584.html#ga2f074a8ef88e1b56025ec2601c2d06ad">__DIR_Attr</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06adabd1c4b96a2cc155324b8267ff9a45688"></a>FATFS_DIRATTR_READ_ONLY&#160;</td><td class="fielddoc"><p>0x01 - ATTR_READ_ONLY </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06ada83df650b04465002776c1130a05a6d47"></a>FATFS_DIRATTR_HIDDEN&#160;</td><td class="fielddoc"><p>0x02 - ATTR_HIDDEN </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06adac3931eeda0e3c6c175e70133dd007035"></a>FATFS_DIRATTR_SYSTEM&#160;</td><td class="fielddoc"><p>0x04 - ATTR_SYSTEM </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06ada32932746552c4ae6627b9ca37d31da68"></a>FATFS_DIRATTR_VOLUME_ID&#160;</td><td class="fielddoc"><p>0x08 - ATTR_VOLUME_ID </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06adab5d35a7d41a9e7682db881f32fc61929"></a>FATFS_DIRATTR_DIRECTORY&#160;</td><td class="fielddoc"><p>0x10 - ATTR_DIRECTORY </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06ada39c7383f9a683130b464b884656ee13b"></a>FATFS_DIRATTR_ARCHIVE&#160;</td><td class="fielddoc"><p>0x20 - ATTR_ARCHIVE </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga2f074a8ef88e1b56025ec2601c2d06ada04aafad46458153fa55359f972dc9543"></a>FATFS_DIRATTR_LONG_NAME&#160;</td><td class="fielddoc"><p>ATTR_LONG_NAME is defined as follows: </p>
-</td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/db7/a02450_source.html#l00175">175</a> of file <a class="el" href="../../d8/db7/a02450_source.html">fatfs.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="gad2a44776b854db937928d8db9c65ef25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2a44776b854db937928d8db9c65ef25">&#9670;&nbsp;</a></span>SeepGetPageSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static uint16_t SeepGetPageSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get EEPROM page size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Page size in bytes </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d2b/a02486_source.html#l00133">133</a> of file <a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a>.</p>
-
-</div>
-</div>
-<a id="gaa67707dcb5cfba53bf3fe81665d1361c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa67707dcb5cfba53bf3fe81665d1361c">&#9670;&nbsp;</a></span>SeepGetSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static uint32_t SeepGetSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get EEPROM size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Total size in bytes </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d2b/a02486_source.html#l00122">122</a> of file <a class="el" href="../../dc/d2b/a02486_source.html">seep.h</a>.</p>
-
-</div>
-</div>
-<a id="ga019c09a1e90052ff224957dcf2b09a60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga019c09a1e90052ff224957dcf2b09a60">&#9670;&nbsp;</a></span>SeepInit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool SeepInit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/d78/a08584.html#gaffcefaf319739cca003cd7bd7a849c7e">SEEP_CFG</a> *&#160;</td>
-          <td class="paramname"><em>pCfgData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d95/a08583.html#gad773898868dd2431f0ea09bfd2567e0c">DEVINTRF</a> *&#160;</td>
-          <td class="paramname"><em>pInterf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialize Serial EEPROM driver. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data to be initialized </td></tr>
-    <tr><td class="paramname">pCfgData</td><td>: Pointer to serial EEPROM configuration data </td></tr>
-    <tr><td class="paramname">pInterf</td><td>: Pointer to the interface device on which the SEEPROM is connected to</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true - initialization successful </dd></dl>
-
-</div>
-</div>
-<a id="ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d86b7c18a1a1f9ec1ddb3b83d6a0da0">&#9670;&nbsp;</a></span>SeepRead()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int SeepRead </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>pBuff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read Serial EEPROM data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data </td></tr>
-    <tr><td class="paramname">Address</td><td>: Memory address to read </td></tr>
-    <tr><td class="paramname">pBuff</td><td>: Pointer to buffer to receive data </td></tr>
-    <tr><td class="paramname">Len</td><td>: Size of the buffer in bytes</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of bytes read </dd></dl>
-
-</div>
-</div>
-<a id="ga583ebbb8b7d0e0b992698ea3a13fc614"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga583ebbb8b7d0e0b992698ea3a13fc614">&#9670;&nbsp;</a></span>SeepSetWriteProt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SeepSetWriteProt </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>bVal</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the write protect pin. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data </td></tr>
-    <tr><td class="paramname">bVal</td><td>: true - Enable write protect false - Disable write protect </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="gaf6c331d20b8d3090009c0b415fdc4377"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf6c331d20b8d3090009c0b415fdc4377">&#9670;&nbsp;</a></span>SeepWrite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int SeepWrite </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d78/a08584.html#gaac34337bda77c4ca63568429ed36fe9d">SEEPDEV</a> *&#160;</td>
-          <td class="paramname"><em>pDev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>pData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write to data to Serial EEPROM. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pDev</td><td>: Pointer to driver data </td></tr>
-    <tr><td class="paramname">Address</td><td>: Memory address to write </td></tr>
-    <tr><td class="paramname">pData</td><td>: Pointer to data to write </td></tr>
-    <tr><td class="paramname">Len</td><td>: Number of bytes to write</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of bytes written </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

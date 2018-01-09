@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['backward_20compatibility',['Backward Compatibility',['../d4/d3a/a08574.html',1,'']]],
-  ['bluetooth',['Bluetooth',['../da/d14/a08580.html',1,'']]]
+  ['backward_20compatibility',['Backward Compatibility',['../d4/dd0/a08595.html',1,'']]],
+  ['bluetooth',['Bluetooth',['../d8/d16/a08601.html',1,'']]]
 ];

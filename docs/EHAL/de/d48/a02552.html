@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: include/usb/usb_def.h File Reference</title>
+<title>EHAL: include/spi.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,276 +86,165 @@ $(document).ready(function(){initNavTree('de/d48/a02552.html','../../');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">usb_def.h File Reference</div>  </div>
+<div class="title">spi.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Generic USB definitions.  
+<p>Generic <a class="el" href="../../d6/d1e/a10227.html">SPI</a> definitions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/de3/a02483_source.html">iopincfg.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d73/a02465_source.html">device_intrf.h</a>&quot;</code><br />
 </div>
 <p><a href="../../de/d48/a02552_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc9/a10282.html">__USB_Setup_Data</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a10219.html">__SPI_Config</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d94/a10286.html">__USB_Device_Descriptor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/a10223.html">SPIDEV</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/a10290.html">__USB_Device_Qualifier_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db2/a10294.html">__USB_Config_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5b/a10298.html">__USB_Other_Speed_Configuration_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/a10302.html">__USB_Interface_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/a10306.html">__USB_Endpoint_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dea/a10310.html">__USB_Interface_Association_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d84/a10314.html">__USB_OTG_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d20/a10318.html">__USB_String_Language_Descriptor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3c/a10322.html">__USB_String_Descriptor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1e/a10227.html">SPI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gad7ba61aa8870a2d1b2dd8eeb3c72b666"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ENDPADDR_DIRIN</b>(addr)&#160;&#160;&#160;((addr &amp; 0xF) | 0x80)</td></tr>
-<tr class="separator:gad7ba61aa8870a2d1b2dd8eeb3c72b666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99906df09124bd63b6fa9e17eee47ddb"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ENDPADDR_DIROUT</b>(addr)&#160;&#160;&#160;(addr &amp; 0xF)</td></tr>
-<tr class="separator:ga99906df09124bd63b6fa9e17eee47ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66f0754dc35387a70a905e4529fb911f"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MAX_RETRY</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:ga66f0754dc35387a70a905e4529fb911f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a0cfbf2cdb8e9746884e6b12280a379"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MAX_NB_IOPIN</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga7a0cfbf2cdb8e9746884e6b12280a379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44542e98c12ec0932410b48eca7b7cd6"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_SCK_IOPIN_IDX</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga44542e98c12ec0932410b48eca7b7cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97bce17b9568a6ac19f48882573ed876"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MISO_IOPIN_IDX</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga97bce17b9568a6ac19f48882573ed876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9cb38da150380a7bfdf2d68169de82b"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_MOSI_IOPIN_IDX</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:gaa9cb38da150380a7bfdf2d68169de82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceecf33c2528956a07849fe69066d0e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/a08604.html#gaceecf33c2528956a07849fe69066d0e2">SPI_SS_IOPIN_IDX</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:gaceecf33c2528956a07849fe69066d0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">grow to allows multiple devices on same <a class="el" href="../../d6/d1e/a10227.html">SPI</a>.  <a href="../../d4/d48/a08604.html#gaceecf33c2528956a07849fe69066d0e2">More...</a><br /></td></tr>
+<tr class="separator:gaceecf33c2528956a07849fe69066d0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gac3dff8428bafca6dba67010c54c165d9"><td class="memItemLeft" align="right" valign="top">
-typedef enum <a class="el" href="../../d1/dfe/a08586.html#gabb1bd8517d6585a122bf8d9376d79008">__USB_Device_Class</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DEVCLASS</b></td></tr>
-<tr class="separator:gac3dff8428bafca6dba67010c54c165d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4688c89eda4069f7c339c711650b2df"><td class="memItemLeft" align="right" valign="top">
-typedef enum <a class="el" href="../../d1/dfe/a08586.html#ga2e953ec16b6ff5683ea401af670ca47c">__USB_Interface_Class</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_INTRFCLASS</b></td></tr>
-<tr class="separator:gac4688c89eda4069f7c339c711650b2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad29a30072607b6354524053614f7fe09"><td class="memItemLeft" align="right" valign="top">
-typedef enum __USB_Device_State&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DEVSTATE</b></td></tr>
-<tr class="separator:gad29a30072607b6354524053614f7fe09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04dec976c41e944e16125f6c8f086b96"><td class="memItemLeft" align="right" valign="top">
-typedef enum <a class="el" href="../../d1/dfe/a08586.html#gaf16026f27033fe640748c442a228b978">__USB_Standard_Request_Codes</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_REQ</b></td></tr>
-<tr class="separator:ga04dec976c41e944e16125f6c8f086b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ffd34772ff3ec9777458921206d3f0f"><td class="memItemLeft" align="right" valign="top">
-typedef enum <a class="el" href="../../d1/dfe/a08586.html#gace717e151648ee439cbb551442882ec9">__USB_Descriptor_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DESCTYPE</b></td></tr>
-<tr class="separator:ga7ffd34772ff3ec9777458921206d3f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71161b6df036972176020ac505aa4be4"><td class="memItemLeft" align="right" valign="top">
-typedef enum __USB_Standard_Feature_Selectors&#160;</td><td class="memItemRight" valign="bottom"><b>USB_FEATSEL</b></td></tr>
-<tr class="separator:ga71161b6df036972176020ac505aa4be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b700db45a70fbd2899f58201c7d3d09"><td class="memItemLeft" align="right" valign="top">
-typedef enum __USB_Config_Attribute&#160;</td><td class="memItemRight" valign="bottom"><b>USB_CONFATT</b></td></tr>
-<tr class="separator:ga3b700db45a70fbd2899f58201c7d3d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1e042ae44a130355367286d71128a10d"><td class="memItemLeft" align="right" valign="top">
-typedef enum __USB_Request_Type&#160;</td><td class="memItemRight" valign="bottom"><b>USB_REQTYPE</b></td></tr>
-<tr class="separator:ga1e042ae44a130355367286d71128a10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga242b0270c75d9deb75642a5290074ad1"><td class="memItemLeft" align="right" valign="top">
-typedef enum __USB_Request_Type_Mask&#160;</td><td class="memItemRight" valign="bottom"><b>USB_REQTYPE_MASK</b></td></tr>
-<tr class="separator:ga242b0270c75d9deb75642a5290074ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad73f8654853dec55c01fcea8f00c728c"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d4/dc9/a10282.html">__USB_Setup_Data</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_SETUP_DATA</b></td></tr>
-<tr class="separator:gad73f8654853dec55c01fcea8f00c728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad7f04c18545b1334a44141bbec39d383"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../da/d94/a10286.html">__USB_Device_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DEVICE_DESC</b></td></tr>
-<tr class="separator:gad7f04c18545b1334a44141bbec39d383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50058fe214644c4e045ee7c107695461"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d3/d0d/a10290.html">__USB_Device_Qualifier_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DEVICE_QUAL</b></td></tr>
-<tr class="separator:ga50058fe214644c4e045ee7c107695461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf49a30f5c796681263559da68c7b747c"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d0/db2/a10294.html">__USB_Config_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_CONFIG_DESC</b></td></tr>
-<tr class="separator:gaf49a30f5c796681263559da68c7b747c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab429e34d26defeef9c3cdf0f82651cac"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d5/d5b/a10298.html">__USB_Other_Speed_Configuration_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_OSPEED_CONFIG_DESC</b></td></tr>
-<tr class="separator:gab429e34d26defeef9c3cdf0f82651cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56ff7011046682aa4181d4fac1a726ae"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d7/daa/a10302.html">__USB_Interface_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_INTERFACE_DESC</b></td></tr>
-<tr class="separator:ga56ff7011046682aa4181d4fac1a726ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9f9915f05831fb7771e04f7be58fa2c4"><td class="memItemLeft" align="right" valign="top">
-typedef enum <a class="el" href="../../d1/dfe/a08586.html#gac5a56793c7008bd4d121f8a625187181">__USB_Endpoint_Attribute</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ENDPATT</b></td></tr>
-<tr class="separator:ga9f9915f05831fb7771e04f7be58fa2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd39a7a6ea94a166e37a5af555b47c82"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d5/dc2/a10306.html">__USB_Endpoint_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ENDPOINT_DESC</b></td></tr>
-<tr class="separator:gadd39a7a6ea94a166e37a5af555b47c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad936fa30d0c641076542a89b91a8be12"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d5/dea/a10310.html">__USB_Interface_Association_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_IAD_DESC</b></td></tr>
-<tr class="separator:gad936fa30d0c641076542a89b91a8be12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04047457fe8a773f2dacae5b290cd06e"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../de/d84/a10314.html">__USB_OTG_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_OTG_DESC</b></td></tr>
-<tr class="separator:ga04047457fe8a773f2dacae5b290cd06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaffd59212c0b88c48d7e4932eb524251"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../dc/d20/a10318.html">__USB_String_Language_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_STRLANG_DESC</b></td></tr>
-<tr class="separator:gaaffd59212c0b88c48d7e4932eb524251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae22e38e61b34554054ed9ac9bbc8aea8"><td class="memItemLeft" align="right" valign="top">
-typedef struct <a class="el" href="../../d9/d3c/a10322.html">__USB_String_Descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>USB_STR_DESC</b></td></tr>
-<tr class="separator:gae22e38e61b34554054ed9ac9bbc8aea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga24448f6e00cf89bbcef2cb6bb10bdf3c"><td class="memItemLeft" align="right" valign="top">
+typedef enum __SPI_Status&#160;</td><td class="memItemRight" valign="bottom"><b>SPISTATUS</b></td></tr>
+<tr class="separator:ga24448f6e00cf89bbcef2cb6bb10bdf3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94b748f21330a6cc4bbd91251c11b310"><td class="memItemLeft" align="right" valign="top">
+typedef enum __SPI_Mode&#160;</td><td class="memItemRight" valign="bottom"><b>SPIMODE</b></td></tr>
+<tr class="separator:ga94b748f21330a6cc4bbd91251c11b310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga69ae6eebf703e85507911430504e17dc"><td class="memItemLeft" align="right" valign="top">
+typedef enum __SPI_Clk_Polarity&#160;</td><td class="memItemRight" valign="bottom"><b>SPICLKPOL</b></td></tr>
+<tr class="separator:ga69ae6eebf703e85507911430504e17dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdd041598dc17d8dd7492620f3328f69"><td class="memItemLeft" align="right" valign="top">
+typedef enum <a class="el" href="../../d4/d48/a08604.html#gaf75d6d712b575e66a13ae8f895eb52d1">__SPI_Data_Phase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SPIDATAPHASE</b></td></tr>
+<tr class="separator:gabdd041598dc17d8dd7492620f3328f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cf4e15068b6751d3d18afe7d3aaa892"><td class="memItemLeft" align="right" valign="top">
+typedef enum <a class="el" href="../../d4/d48/a08604.html#ga02624d919335b2602b9de418358f0ab9">__SPI_Data_Bit_Order</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SPIDATABIT</b></td></tr>
+<tr class="separator:ga3cf4e15068b6751d3d18afe7d3aaa892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e2432d0a21bdb627361da0297073e7e"><td class="memItemLeft" align="right" valign="top">
+typedef enum __SPI_Chip_Select&#160;</td><td class="memItemRight" valign="bottom"><b>SPICSEL</b></td></tr>
+<tr class="separator:ga4e2432d0a21bdb627361da0297073e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac63eb1d8a671826a48adcc624dacd02c"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="../../dc/de0/a10219.html">__SPI_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SPICFG</b></td></tr>
+<tr class="separator:gac63eb1d8a671826a48adcc624dacd02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gabb1bd8517d6585a122bf8d9376d79008"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/a08586.html#gabb1bd8517d6585a122bf8d9376d79008">__USB_Device_Class</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a7536f030cd01cdbe649123844c8f70e9">USB_DEVCLASS_NONE</a> = 0, 
-<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a286216130bcac78e6e7e08b6aa837d46">USB_DEVCLASS_CDC</a> = 2, 
-<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a873c7c2f59e75fa0ca9f20618e4a83ea">USB_DEVCLASS_HUB</a> = 9, 
-<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a738758ea3545390f09c734de93ecd57a">USB_DEVCLASS_BBOARD</a> = 17, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008aa2db1f88f6e3d767c92eebc412a6536d">USB_DEVCLASS_DIAG</a> = 0xDC, 
-<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a86d686e04291a7bde33410d93dd2ce6d">USB_DEVCLASS_MISC</a> = 0xEF, 
-<a class="el" href="../../d1/dfe/a08586.html#ggabb1bd8517d6585a122bf8d9376d79008a7bc84df4b2a53fd1a5b7d52c67dc42fb">USB_DEVCLASS_VENDOR</a> = 0xFF
-<br />
+<tr class="memitem:ga7f1d394412df501784dab55362cf999c"><td class="memItemLeft" align="right" valign="top"><a id="ga7f1d394412df501784dab55362cf999c"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__SPI_Status</b> { <b>SPISTATUS_OK</b>
  }</td></tr>
-<tr class="separator:gabb1bd8517d6585a122bf8d9376d79008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e953ec16b6ff5683ea401af670ca47c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/a08586.html#ga2e953ec16b6ff5683ea401af670ca47c">__USB_Interface_Class</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca806646c4d3cba325581a9a515390e49c">USB_INTRFCLASS_AUDIO</a> = 1, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47cae3fcfefd8f85a1a7a15c92447459de53">USB_INTRFCLASS_CDC</a> = 2, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca3d766d296b4ff3c06eed6a3ca692a261">USB_INTRFCLASS_HID</a> = 3, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47cac3c06870e65121a02068b8dc343c85fa">USB_INTRFCLASS_PHY</a> = 5, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca18112b2b22d7d170bd977c3e7e84eaa2">USB_INTFRCLASS_IMG</a> = 6, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47cae48df92faac2f571132ca4296e8ceaeb">USB_INTRFCLASS_PRT</a> = 7, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47caab55f3e851bba1d1bb845aea06b29222">USB_INTRFCLASS_MSC</a> = 8, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47caa464344fae2b9d958b319279a24acd30">USB_INTRFCLASS_HUB</a> = 9, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca97b9e430dc295494307b914a7b3a8f5d">USB_INTRFCLASS_DATA</a> = 10, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca4da8c10a90e7b38ee3195ab40ee4f9fe">USB_INTRFCLASS_SMC</a> = 11, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca93ad55f07c97c554478c9a27b86d330a">USB_INTRFCLASS_MMC</a> = 11, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca23749dd35f6feeb1ca09f5d0423670ab">USB_INTRFCLASS_CSEC</a> = 13, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca481b990c3253bd08f0d6c7ad668b01c0">USB_INTRFCLASS_VIDEO</a> = 14, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47caa295ccc26fbf57c2537b9e61b8dd326f">USB_INTRFCLASS_HEALTH</a> = 15, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca8fa92355a640eb1dc4b51a7a0444a02a">USB_INTRFCLASS_AUDVID</a> = 16, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47cae0e8caf0478a16cf282dc1c1cb5b1c14">USB_INTRFCLASS_DIAG</a> = 0xDC, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47cae5baac5538727317be938a692d728d40">USB_INTRFCLASS_WIRELESS</a> = 0xE0, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca236b1d5f0bc5decdd6bfc1aa25af1b6c">USB_INTRFCLASS_MISC</a> = 0xEF, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca13d4308faafe2d17d0bea70c798db685">USB_INTRFCLASS_APP</a> = 0xFE, 
-<a class="el" href="../../d1/dfe/a08586.html#gga2e953ec16b6ff5683ea401af670ca47ca090d98ae72ae5754b55e4dcb21b7eac7">USB_INTRFCLASS_VENDOR</a> = 0xFF
-<br />
+<tr class="separator:ga7f1d394412df501784dab55362cf999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab86a3087dd2df935798ec71f65380192"><td class="memItemLeft" align="right" valign="top"><a id="gab86a3087dd2df935798ec71f65380192"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__SPI_Mode</b> { <b>SPIMODE_MASTER</b>, 
+<b>SPIMODE_SLAVE</b>
  }</td></tr>
-<tr class="separator:ga2e953ec16b6ff5683ea401af670ca47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga794996a8d3ed9c57c141befa3e2e2e60"><td class="memItemLeft" align="right" valign="top"><a id="ga794996a8d3ed9c57c141befa3e2e2e60"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__USB_Device_State</b> { <br />
-&#160;&#160;<b>USB_DEVSTATE_ATTACHED</b> = 1, 
-<b>USB_DEVSTATE_POWERED</b> = 2, 
-<b>USB_DEVSTATE_DEFAULT</b> = 4, 
-<b>USB_DEVSTATE_ADDRESS</b> = 8, 
-<br />
-&#160;&#160;<b>USB_DEVSTATE_CONFIGURED</b> = 0x10, 
-<b>USB_DEVSTATE_SUSPENDED</b> = 0x20
-<br />
+<tr class="separator:gab86a3087dd2df935798ec71f65380192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0687f65e0dc68676fd497d6eb0ca7300"><td class="memItemLeft" align="right" valign="top"><a id="ga0687f65e0dc68676fd497d6eb0ca7300"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__SPI_Clk_Polarity</b> { <b>SPICLKPOL_HIGH</b>, 
+<b>SPICLKPOL_LOW</b>
  }</td></tr>
-<tr class="separator:ga794996a8d3ed9c57c141befa3e2e2e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf16026f27033fe640748c442a228b978"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/a08586.html#gaf16026f27033fe640748c442a228b978">__USB_Standard_Request_Codes</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978aa3f531db07d9720f1c27d383f17b41e7">USB_REQ_GET_STATUS</a> = 0, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a3e7df41451462e9647ea51127b1029cb">USB_REQ_CLEAR_FEATURE</a> = 1, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978ac6f6f92b41b3626f3bee5585bc8ad259">USB_REQ_SET_FEATURE</a> = 3, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a83a1bafe1cb5a0722e661037a7409d38">USB_REQ_SET_ADDRESS</a> = 5, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a1eefe8e6e18013141d267fc8aba28b10">USB_REQ_GET_DESCRIPTOR</a> = 6, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a2297324ad7de09fcff189cb08b6e3357">USB_REQ_SET_DESCRIPTOR</a> = 7, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a70ecb7290067da81c599637126d78c32">USB_REQ_GET_CONFIGURATION</a> = 8, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a8469bf7cfc2e560c005b564fe66db0ee">USB_REQ_SET_CONFIGURATION</a> = 9, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a68374dc6cca8653dcd52953ba9f80b1c">USB_REQ_GET_INTERFACE</a> = 10, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a1af0d8916fca29961f41fb7433126527">USB_REQ_SET_INTERFACE</a> = 11, 
-<a class="el" href="../../d1/dfe/a08586.html#ggaf16026f27033fe640748c442a228b978a0d759eec2d7eab896e61ff927e1752d1">USB_REQ_SYNCH_FRAME</a> = 12
-<br />
+<tr class="separator:ga0687f65e0dc68676fd497d6eb0ca7300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf75d6d712b575e66a13ae8f895eb52d1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/a08604.html#gaf75d6d712b575e66a13ae8f895eb52d1">__SPI_Data_Phase</a> { <a class="el" href="../../d4/d48/a08604.html#ggaf75d6d712b575e66a13ae8f895eb52d1acc282d7746f7a283465678f68a9839d8">SPIDATAPHASE_FIRST_CLK</a>, 
+<a class="el" href="../../d4/d48/a08604.html#ggaf75d6d712b575e66a13ae8f895eb52d1a9a6d8cb0f385f34a472d515ecddbab9c">SPIDATAPHASE_SECOND_CLK</a>
  }</td></tr>
-<tr class="separator:gaf16026f27033fe640748c442a228b978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace717e151648ee439cbb551442882ec9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/a08586.html#gace717e151648ee439cbb551442882ec9">__USB_Descriptor_Type</a> { <br />
-&#160;&#160;<b>USB_DESCTYPE_DEVICE</b> = 1, 
-<b>USB_DESCTYPE_CONFIGURATION</b> = 2, 
-<b>USB_DESCTYPE_STRING</b> = 3, 
-<b>USB_DESCTYPE_INTERFACE</b> = 4, 
-<br />
-&#160;&#160;<b>USB_DESCTYPE_ENDPOINT</b> = 5, 
-<b>USB_DESCTYPE_DEVICE_QUALIFIER</b> = 6, 
-<a class="el" href="../../d1/dfe/a08586.html#ggace717e151648ee439cbb551442882ec9a55e62c7ac4f964da6702cd46454fb5c5">USB_DESCTYPE_OSC</a> = 7, 
-<b>USB_DESCTYPE_INTERFACE_POWER</b> = 8, 
-<br />
-&#160;&#160;<b>USB_DESCTYPE_OTG</b> = 9, 
-<b>USB_DESCTYPE_DEBUG</b> = 10, 
-<a class="el" href="../../d1/dfe/a08586.html#ggace717e151648ee439cbb551442882ec9aaf757ddfba9566cfecb43578d5cfabe9">USB_DESCTYPE_IA</a> = 11, 
-<b>USB_DESCTYPE_HID</b> = 0x21, 
-<br />
-&#160;&#160;<b>USB_DESCTYPE_HID_REPORT</b> = 0x22, 
-<b>USB_DESCTYPE_PHYSICAL</b> = 0x23
-<br />
+<tr class="separator:gaf75d6d712b575e66a13ae8f895eb52d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02624d919335b2602b9de418358f0ab9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/a08604.html#ga02624d919335b2602b9de418358f0ab9">__SPI_Data_Bit_Order</a> { <a class="el" href="../../d4/d48/a08604.html#gga02624d919335b2602b9de418358f0ab9af0d2d515b059620e1af37e1d76dd5a99">SPIDATABIT_MSB</a>, 
+<a class="el" href="../../d4/d48/a08604.html#gga02624d919335b2602b9de418358f0ab9aaef43f3cb0471ab363af74be3e244af3">SPIDATABIT_LSB</a>
  }</td></tr>
-<tr class="separator:gace717e151648ee439cbb551442882ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6acdb1472a6e930e9bbe251a3ac1f691"><td class="memItemLeft" align="right" valign="top"><a id="ga6acdb1472a6e930e9bbe251a3ac1f691"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__USB_Standard_Feature_Selectors</b> { <b>USB_FEATSEL_ENDPOINT_HALT</b> = 0, 
-<b>USB_FEATSEL_DEVICE_REMOTE_WAKEUP</b> = 1, 
-<b>USB_FEATSEL_TEST_MODE</b> = 2
+<tr class="separator:ga02624d919335b2602b9de418358f0ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a2a565ab3f5d36acfc9f6a0618f4348"><td class="memItemLeft" align="right" valign="top"><a id="ga0a2a565ab3f5d36acfc9f6a0618f4348"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__SPI_Chip_Select</b> { <b>SPICSEL_AUTO</b>, 
+<b>SPICSEL_MAN</b>, 
+<b>SPICSEL_EXT</b>
  }</td></tr>
-<tr class="separator:ga6acdb1472a6e930e9bbe251a3ac1f691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab0e18ca27ec84f027e6d7d2ca2e35d5a"><td class="memItemLeft" align="right" valign="top"><a id="gab0e18ca27ec84f027e6d7d2ca2e35d5a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__USB_Config_Attribute</b> { <b>USB_CONFATT_REMOTE_WAKEUP</b> = 0xA0, 
-<b>USB_CONFATT_SELF_POWERED</b> = 0xC0, 
-<b>USB_CONFATT_BUS_POWERED</b> = 0x80
- }</td></tr>
-<tr class="separator:gab0e18ca27ec84f027e6d7d2ca2e35d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba1886f5807b16256791050816e7f86b"><td class="memItemLeft" align="right" valign="top"><a id="gaba1886f5807b16256791050816e7f86b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__USB_Request_Type</b> { <br />
-&#160;&#160;<b>USB_REQTYPE_DEVICE</b> = 0, 
-<b>USB_REQTYPE_INTERFACE</b> = 1, 
-<b>USB_REQTYPE_ENDPOINT</b> = 2, 
-<b>USB_REQTYPE_OTHER</b> = 3, 
-<br />
-&#160;&#160;<b>USB_REQTYPE_STANDARD</b> = (0 &lt;&lt; 5), 
-<b>USB_REQTYPE_CLASS</b> = (1 &lt;&lt; 5), 
-<b>USB_REQTYPE_VEND</b> = (2 &lt;&lt; 5), 
-<b>USB_REQTYPE_RSVD</b> = (3 &lt;&lt; 5), 
-<br />
-&#160;&#160;<b>USB_REQTYPE_DIRDEV</b> = (0 &lt;&lt; 8), 
-<b>USB_REQTYPE_DIRHOST</b> = (1 &lt;&lt; 8)
-<br />
- }</td></tr>
-<tr class="separator:gaba1886f5807b16256791050816e7f86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2bc9252cce9cda49e0ea2e49a7ef3aee"><td class="memItemLeft" align="right" valign="top"><a id="ga2bc9252cce9cda49e0ea2e49a7ef3aee"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>__USB_Request_Type_Mask</b> { <b>USB_REQTYPE_MASK_RECEIPT</b> = 0x1F, 
-<b>USB_REQTYPE_MASK_TYPE</b> = (3 &lt;&lt; 5), 
-<b>USB_REQTYPE_MASK_DIR</b> = 0x80
- }</td></tr>
-<tr class="separator:ga2bc9252cce9cda49e0ea2e49a7ef3aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5a56793c7008bd4d121f8a625187181"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfe/a08586.html#gac5a56793c7008bd4d121f8a625187181">__USB_Endpoint_Attribute</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a7852c293a5082f336e7aaa07271dd5df">USB_ENDPATT_TRANS_CONTROL</a> = 0, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a86526e2b3126e625182b0a4cc65f3c27">USB_ENDPATT_TRANS_ISO</a> = 1, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181aea4deffc488f1873a8d1a564d9dbaf4f">USB_ENDPATT_TRANS_BULK</a> = 2, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a33b7595bce31cb7744964ac2391a5f41">USB_ENDPATT_TRANS_INT</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a2cb17540ef042b480057809bb25ae747">USB_ENDPATT_ISO_NOSYNC</a> = 0, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a2c6899800455ad4c30c17bbcf5919439">USB_ENDPATT_ISO_ASYNC</a> = 4, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a1e6b7373b133bb44e90fa41b55dee44c">USB_ENDPATT_ISO_ADAP</a> = 8, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181ad3394cc8b30d3d46a2ed46dd7df6e40c">USB_ENDPATT_ISO_SYNC</a> = 0xC, 
-<br />
-&#160;&#160;<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a6a565698a2969187f983cc2789004981">USB_ENDPATT_ISO_DATA</a> = 0, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a4d21866cf65aedcd5e6875cefad3bd7e">USB_ENDPATT_ISO_FB</a> = 0x10, 
-<a class="el" href="../../d1/dfe/a08586.html#ggac5a56793c7008bd4d121f8a625187181a8ef5e5ff54b9b6377e75d53b45089f41">USB_ENDPATT_ISO_EXPFB</a> = 0x20
-<br />
- }</td></tr>
-<tr class="separator:gac5a56793c7008bd4d121f8a625187181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ga0a2a565ab3f5d36acfc9f6a0618f4348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaad1d188f4c41be3172617e9c5258464a"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>SPIInit</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, const <a class="el" href="../../dc/de0/a10219.html">SPICFG</a> *pCfgData)</td></tr>
+<tr class="separator:gaad1d188f4c41be3172617e9c5258464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga777ca486494c29332dda40b2eb4d46ca"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPIGetRate</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev)</td></tr>
+<tr class="separator:ga777ca486494c29332dda40b2eb4d46ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99bc5233e0eca85fba25bab1c128f1d5"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPISetRate</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, int Rate)</td></tr>
+<tr class="separator:ga99bc5233e0eca85fba25bab1c128f1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32b863c2747fb84ca6ba477376db3a8d"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SPIEnable</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev)</td></tr>
+<tr class="separator:ga32b863c2747fb84ca6ba477376db3a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e699f1fd2feb7069c55c6fd5d8c9109"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SPIDisable</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev)</td></tr>
+<tr class="separator:ga2e699f1fd2feb7069c55c6fd5d8c9109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab05b95b3a6767e1e88ca2914cff32fc5"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPIRx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, int DevCs, uint8_t *pBuff, int Bufflen)</td></tr>
+<tr class="separator:gab05b95b3a6767e1e88ca2914cff32fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0871e9b19c38e2deb352429a96dd5f03"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPITx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, int DevCs, uint8_t *pData, int DataLen)</td></tr>
+<tr class="separator:ga0871e9b19c38e2deb352429a96dd5f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca2af85f6720fe87d5fa1013cb1aa4b9"><td class="memItemLeft" align="right" valign="top">
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>SPIStartRx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, int DevAddr)</td></tr>
+<tr class="separator:gaca2af85f6720fe87d5fa1013cb1aa4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4faab46c60a8c291d3624771790817b"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPIRxData</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, uint8_t *pBuff, int Bufflen)</td></tr>
+<tr class="separator:gaa4faab46c60a8c291d3624771790817b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga097c6f0f1797683632d58ec558d3b3d9"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SPIStopRx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev)</td></tr>
+<tr class="separator:ga097c6f0f1797683632d58ec558d3b3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed30c8d0efdceab3d5f86ed7d1c6cc7d"><td class="memItemLeft" align="right" valign="top">
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>SPIStartTx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, int DevAddr)</td></tr>
+<tr class="separator:gaed30c8d0efdceab3d5f86ed7d1c6cc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad439a464e01ab86d7d8b72c1ae9d2d80"><td class="memItemLeft" align="right" valign="top">
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>SPITxData</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev, uint8_t *pData, int Datalen)</td></tr>
+<tr class="separator:gad439a464e01ab86d7d8b72c1ae9d2d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c017b1b2c80216e16e9d76138821734"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SPIStopTx</b> (<a class="el" href="../../de/db2/a10223.html">SPIDEV</a> *pDev)</td></tr>
+<tr class="separator:ga5c017b1b2c80216e16e9d76138821734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Generic USB definitions. </p>
+<div class="textblock"><p>Generic <a class="el" href="../../d6/d1e/a10227.html">SPI</a> definitions. </p>
 <hr/>
-<dl class="section author"><dt>Author</dt><dd>Hoang Nguyen Hoan </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>Nov. 1, 2014</dd></dl>
-<p>Copyright (c) 2014, I-SYST inc., all rights reserved</p>
+<pre class="fragment">     Current implementation
+         - Master mode
+         - Polling
+</pre><dl class="section author"><dt>Author</dt><dd>Hoang Nguyen Hoan </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Nov. 20, 2011</dd></dl>
+<p>Copyright (c) 2011, I-SYST inc., all rights reserved</p>
 <p>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and none of the names : I-SYST or its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p>
 <p>For info or contributing contact : hnhoan at i-syst dot com</p>
 <p>THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p><hr/>
 
-<p class="definition">Definition in file <a class="el" href="../../de/d48/a02552_source.html">usb_def.h</a>.</p>
+<p class="definition">Definition in file <a class="el" href="../../de/d48/a02552_source.html">spi.h</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_92245f4cf4cbffd7edc987f9dabb59e7.html">usb</a></li><li class="navelem"><a class="el" href="../../de/d48/a02552.html">usb_def.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../de/d48/a02552.html">spi.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

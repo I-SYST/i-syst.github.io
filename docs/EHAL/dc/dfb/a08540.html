@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: MTBDWT Peripheral Access Layer</title>
+<title>EHAL: DMAMUX Register Masks</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,86 +83,37 @@ $(document).ready(function(){initNavTree('dc/dfb/a08540.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">MTBDWT Peripheral Access Layer<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a></div></div>  </div>
+<div class="title">DMAMUX Register Masks<div class="ingroups"><a class="el" href="../../de/d71/a08530.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d2/d4c/a08539.html">DMAMUX Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:da/da0/a08541"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a08541.html">MTBDWT Register Masks</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d09/a09218.html">MTBDWT_Type</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga35706ac7f77d2b8bad31f491675b3f31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfb/a08540.html#ga35706ac7f77d2b8bad31f491675b3f31">MTBDWT_BASE</a>&#160;&#160;&#160;(0xF0001000u)</td></tr>
-<tr class="separator:ga35706ac7f77d2b8bad31f491675b3f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9727da650f73f6eee83b3886f78b8b7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfb/a08540.html#ga9727da650f73f6eee83b3886f78b8b7a">MTBDWT</a>&#160;&#160;&#160;((<a class="el" href="../../d5/d09/a09218.html">MTBDWT_Type</a> *)<a class="el" href="../../dc/dfb/a08540.html#ga35706ac7f77d2b8bad31f491675b3f31">MTBDWT_BASE</a>)</td></tr>
-<tr class="separator:ga9727da650f73f6eee83b3886f78b8b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac369c79ac18c4ad1a6f6c20bb163e9a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfb/a08540.html#gac369c79ac18c4ad1a6f6c20bb163e9a1">MTBDWT_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../dc/dfb/a08540.html#ga9727da650f73f6eee83b3886f78b8b7a">MTBDWT</a> }</td></tr>
-<tr class="separator:gac369c79ac18c4ad1a6f6c20bb163e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35b279ba0b1c9e817901494cdac305c5"><td class="memItemLeft" align="right" valign="top"><a id="ga35b279ba0b1c9e817901494cdac305c5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_SOURCE_MASK</b>&#160;&#160;&#160;0x3Fu</td></tr>
+<tr class="separator:ga35b279ba0b1c9e817901494cdac305c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2b7553c4599d8e919750598dd03f8a3"><td class="memItemLeft" align="right" valign="top"><a id="gac2b7553c4599d8e919750598dd03f8a3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_SOURCE_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gac2b7553c4599d8e919750598dd03f8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26ed125b670223f11ea326335729bb9b"><td class="memItemLeft" align="right" valign="top"><a id="ga26ed125b670223f11ea326335729bb9b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_SOURCE</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;DMAMUX_CHCFG_SOURCE_SHIFT))&amp;DMAMUX_CHCFG_SOURCE_MASK)</td></tr>
+<tr class="separator:ga26ed125b670223f11ea326335729bb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd2b6158f86bedffb640e73c40cdd0f5"><td class="memItemLeft" align="right" valign="top"><a id="gafd2b6158f86bedffb640e73c40cdd0f5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_TRIG_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:gafd2b6158f86bedffb640e73c40cdd0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga714a6b142fde49d701e3f624bb2417e1"><td class="memItemLeft" align="right" valign="top"><a id="ga714a6b142fde49d701e3f624bb2417e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_TRIG_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga714a6b142fde49d701e3f624bb2417e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga311ccb0a9a00f29da44f8c41b33ba79f"><td class="memItemLeft" align="right" valign="top"><a id="ga311ccb0a9a00f29da44f8c41b33ba79f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_ENBL_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga311ccb0a9a00f29da44f8c41b33ba79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23d6f41370761b5c68e4d49f419aaee9"><td class="memItemLeft" align="right" valign="top"><a id="ga23d6f41370761b5c68e4d49f419aaee9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DMAMUX_CHCFG_ENBL_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga23d6f41370761b5c68e4d49f419aaee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga9727da650f73f6eee83b3886f78b8b7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9727da650f73f6eee83b3886f78b8b7a">&#9670;&nbsp;</a></span>MTBDWT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MTBDWT&#160;&#160;&#160;((<a class="el" href="../../d5/d09/a09218.html">MTBDWT_Type</a> *)<a class="el" href="../../dc/dfb/a08540.html#ga35706ac7f77d2b8bad31f491675b3f31">MTBDWT_BASE</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral MTBDWT base pointer </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02228">2228</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="ga35706ac7f77d2b8bad31f491675b3f31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35706ac7f77d2b8bad31f491675b3f31">&#9670;&nbsp;</a></span>MTBDWT_BASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MTBDWT_BASE&#160;&#160;&#160;(0xF0001000u)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral MTBDWT base address </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02226">2226</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="gac369c79ac18c4ad1a6f6c20bb163e9a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac369c79ac18c4ad1a6f6c20bb163e9a1">&#9670;&nbsp;</a></span>MTBDWT_BASES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MTBDWT_BASES&#160;&#160;&#160;{ <a class="el" href="../../dc/dfb/a08540.html#ga9727da650f73f6eee83b3886f78b8b7a">MTBDWT</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Array initializer of MTBDWT peripheral base pointers </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l02230">2230</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

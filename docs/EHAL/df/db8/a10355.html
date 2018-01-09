@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Member List</title>
+<title>EHAL: UsbHidDevice Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/d3b/a10358.html','../../');});
+$(document).ready(function(){initNavTree('df/db8/a10355.html','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -82,26 +82,87 @@ $(document).ready(function(){initNavTree('d5/d3b/a10358.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../dd/dcf/a10352.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">uartprbs_lb.CommUART Member List</div>  </div>
+<div class="title">UsbHidDevice Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="../../d2/d25/a08607.html">USB</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>__init__</b>(self, address) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>address</b> (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>connect</b>(self) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>disconnect</b>(self) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>prbs8</b>(self, curval) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>receivedPacket</b>(self, length) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>sc</b> (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>send</b>(self, data) (defined in <a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a>)</td><td class="entry"><a class="el" href="../../d5/d3b/a10358.html">uartprbs_lb.CommUART</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="dynheader">
+Inheritance diagram for UsbHidDevice:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../df/db8/a10355.png" usemap="#UsbHidDevice_map" alt=""/>
+  <map id="UsbHidDevice_map" name="UsbHidDevice_map">
+<area href="../../dd/dd8/a10375.html" alt="UsbHidDevice_Impl" shape="rect" coords="0,56,121,80"/>
+<area href="../../dd/da9/a10395.html" title="USB HID device class implementation on Windows. " alt="UsbHidDeviceWin" shape="rect" coords="131,56,252,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab6a3002ff41fe55a575781274bc21cdf"><td class="memItemLeft" align="right" valign="top"><a id="ab6a3002ff41fe55a575781274bc21cdf"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize, bool CtrlTrans=true)=0</td></tr>
+<tr class="separator:ab6a3002ff41fe55a575781274bc21cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c895fd73accf8e7cdc2039d5944854"><td class="memItemLeft" align="right" valign="top"><a id="ae8c895fd73accf8e7cdc2039d5944854"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteOutputReport</b> (int RepNo, uint8_t *pBuf, uint32_t Bufsize, bool CtrlTrans=true)=0</td></tr>
+<tr class="separator:ae8c895fd73accf8e7cdc2039d5944854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b56c03c1c4715b706d22f81be7086a0"><td class="memItemLeft" align="right" valign="top"><a id="a9b56c03c1c4715b706d22f81be7086a0"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:a9b56c03c1c4715b706d22f81be7086a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memItemLeft" align="right" valign="top"><a id="aafd172ec69b29c6a5dfa961e17415a1a"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WriteFeatureReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:aafd172ec69b29c6a5dfa961e17415a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memItemLeft" align="right" valign="top"><a id="ae3f9fe1c42a9ee7fc614d2ae3fb54575"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetSerialNumber</b> (std::string &amp;sn)=0</td></tr>
+<tr class="separator:ae3f9fe1c42a9ee7fc614d2ae3fb54575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dae75a0e5965c5401ddb1bee593b88"><td class="memItemLeft" align="right" valign="top"><a id="a31dae75a0e5965c5401ddb1bee593b88"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessInputReport</b> (int RepNo, uint8_t *pBuf, uint32_t BufSize)=0</td></tr>
+<tr class="separator:a31dae75a0e5965c5401ddb1bee593b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memItemLeft" align="right" valign="top"><a id="af01f14929114d40d6ed2b89d4b2ebda9"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>WaitResponse</b> (int TimeOutSec)=0</td></tr>
+<tr class="separator:af01f14929114d40d6ed2b89d4b2ebda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac0439f53f8edff8b0c819673ef653a5a"><td class="memItemLeft" align="right" valign="top"><a id="ac0439f53f8edff8b0c819673ef653a5a"></a>
+static <a class="el" href="../../df/db8/a10355.html">UsbHidDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Create</b> ()</td></tr>
+<tr class="separator:ac0439f53f8edff8b0c819673ef653a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a36e42bdf135bf271049529f74bd6741b"><td class="memItemLeft" align="right" valign="top"><a id="a36e42bdf135bf271049529f74bd6741b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ReadDeviceInfo</b> ()=0</td></tr>
+<tr class="separator:a36e42bdf135bf271049529f74bd6741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memItemLeft" align="right" valign="top"><a id="a7c1b49acb269d5c71d9157ce974fd4a9"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxInRepSize</b></td></tr>
+<tr class="separator:a7c1b49acb269d5c71d9157ce974fd4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6aac94356bb91a7343a74a000bd19f8"><td class="memItemLeft" align="right" valign="top"><a id="ad6aac94356bb91a7343a74a000bd19f8"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxOutRepSize</b></td></tr>
+<tr class="separator:ad6aac94356bb91a7343a74a000bd19f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memItemLeft" align="right" valign="top"><a id="a1a8201617b375a7b6cd02a1f0ec8a03b"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>vMaxFeatRepSize</b></td></tr>
+<tr class="separator:a1a8201617b375a7b6cd02a1f0ec8a03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d03/a02582_source.html#l00043">43</a> of file <a class="el" href="../../d1/d03/a02582_source.html">usb_hidhost.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>include/usb/<a class="el" href="../../d1/d03/a02582_source.html">usb_hidhost.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../df/db8/a10355.html">UsbHidDevice</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

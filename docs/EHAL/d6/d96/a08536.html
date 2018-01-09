@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: MCM Peripheral Access Layer</title>
+<title>EHAL: DAC Register Masks</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,86 +83,118 @@ $(document).ready(function(){initNavTree('d6/d96/a08536.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">MCM Peripheral Access Layer<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a></div></div>  </div>
+<div class="title">DAC Register Masks<div class="ingroups"><a class="el" href="../../de/d71/a08530.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../d1/ddc/a08535.html">DAC Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:d8/d6d/a08537"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6d/a08537.html">MCM Register Masks</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html">MCM_Type</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga84250d5694181f040a437d9125af3fac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d96/a08536.html#ga84250d5694181f040a437d9125af3fac">MCM_BASE</a>&#160;&#160;&#160;(0xF0003000u)</td></tr>
-<tr class="separator:ga84250d5694181f040a437d9125af3fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4cd2dcee5e786e36844ed653cfa40096"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d96/a08536.html#ga4cd2dcee5e786e36844ed653cfa40096">MCM</a>&#160;&#160;&#160;((<a class="el" href="../../d7/dd6/a09210.html">MCM_Type</a> *)<a class="el" href="../../d6/d96/a08536.html#ga84250d5694181f040a437d9125af3fac">MCM_BASE</a>)</td></tr>
-<tr class="separator:ga4cd2dcee5e786e36844ed653cfa40096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae039f166cb08b579c33af9badf297578"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d96/a08536.html#gae039f166cb08b579c33af9badf297578">MCM_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../d6/d96/a08536.html#ga4cd2dcee5e786e36844ed653cfa40096">MCM</a> }</td></tr>
-<tr class="separator:gae039f166cb08b579c33af9badf297578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06d752efe9ec5bab7d61ccf9c2689345"><td class="memItemLeft" align="right" valign="top"><a id="ga06d752efe9ec5bab7d61ccf9c2689345"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATL_DATA0_MASK</b>&#160;&#160;&#160;0xFFu</td></tr>
+<tr class="separator:ga06d752efe9ec5bab7d61ccf9c2689345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9030129a0f34502c115abd36728d001"><td class="memItemLeft" align="right" valign="top"><a id="gad9030129a0f34502c115abd36728d001"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATL_DATA0_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad9030129a0f34502c115abd36728d001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87995bd867b0ea7e137b5a5a8cbfdf1e"><td class="memItemLeft" align="right" valign="top"><a id="ga87995bd867b0ea7e137b5a5a8cbfdf1e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATL_DATA0</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;DAC_DATL_DATA0_SHIFT))&amp;DAC_DATL_DATA0_MASK)</td></tr>
+<tr class="separator:ga87995bd867b0ea7e137b5a5a8cbfdf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98c0e999ae86d666b5d6fa8df700ba6f"><td class="memItemLeft" align="right" valign="top"><a id="ga98c0e999ae86d666b5d6fa8df700ba6f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATH_DATA1_MASK</b>&#160;&#160;&#160;0xFu</td></tr>
+<tr class="separator:ga98c0e999ae86d666b5d6fa8df700ba6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0056432036b350d3839554982acfbff1"><td class="memItemLeft" align="right" valign="top"><a id="ga0056432036b350d3839554982acfbff1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATH_DATA1_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga0056432036b350d3839554982acfbff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22ebc926dfe59f28a37b532767780fbc"><td class="memItemLeft" align="right" valign="top"><a id="ga22ebc926dfe59f28a37b532767780fbc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_DATH_DATA1</b>(x)&#160;&#160;&#160;(((uint8_t)(((uint8_t)(x))&lt;&lt;DAC_DATH_DATA1_SHIFT))&amp;DAC_DATH_DATA1_MASK)</td></tr>
+<tr class="separator:ga22ebc926dfe59f28a37b532767780fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5af56fd75a9c5b74fe07c8f303d452aa"><td class="memItemLeft" align="right" valign="top"><a id="ga5af56fd75a9c5b74fe07c8f303d452aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_SR_DACBFRPBF_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga5af56fd75a9c5b74fe07c8f303d452aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5581f254327f3d4e57b161b5c771fb1c"><td class="memItemLeft" align="right" valign="top"><a id="ga5581f254327f3d4e57b161b5c771fb1c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_SR_DACBFRPBF_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga5581f254327f3d4e57b161b5c771fb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga662e824677c1a7a94ddd36e90f3d37d5"><td class="memItemLeft" align="right" valign="top"><a id="ga662e824677c1a7a94ddd36e90f3d37d5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_SR_DACBFRPTF_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:ga662e824677c1a7a94ddd36e90f3d37d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1df4286616f5369388e865f5f821ae9"><td class="memItemLeft" align="right" valign="top"><a id="gad1df4286616f5369388e865f5f821ae9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_SR_DACBFRPTF_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gad1df4286616f5369388e865f5f821ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc37ad99d42f4b9d0e26ce03f2ac79ad"><td class="memItemLeft" align="right" valign="top"><a id="gadc37ad99d42f4b9d0e26ce03f2ac79ad"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACBBIEN_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:gadc37ad99d42f4b9d0e26ce03f2ac79ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga956aa991114a1bb71a891e66d7092d1e"><td class="memItemLeft" align="right" valign="top"><a id="ga956aa991114a1bb71a891e66d7092d1e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACBBIEN_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga956aa991114a1bb71a891e66d7092d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8a60a2fa6211ff08bba4b9648fb8daa"><td class="memItemLeft" align="right" valign="top"><a id="gad8a60a2fa6211ff08bba4b9648fb8daa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACBTIEN_MASK</b>&#160;&#160;&#160;0x2u</td></tr>
+<tr class="separator:gad8a60a2fa6211ff08bba4b9648fb8daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f8eb9a96341365badba1280bed49e05"><td class="memItemLeft" align="right" valign="top"><a id="ga1f8eb9a96341365badba1280bed49e05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACBTIEN_SHIFT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga1f8eb9a96341365badba1280bed49e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54a04b9ae84c5a4f8977ae2e1a889717"><td class="memItemLeft" align="right" valign="top"><a id="ga54a04b9ae84c5a4f8977ae2e1a889717"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_LPEN_MASK</b>&#160;&#160;&#160;0x8u</td></tr>
+<tr class="separator:ga54a04b9ae84c5a4f8977ae2e1a889717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97aaa812a3938df3559cb40b893db431"><td class="memItemLeft" align="right" valign="top"><a id="ga97aaa812a3938df3559cb40b893db431"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_LPEN_SHIFT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga97aaa812a3938df3559cb40b893db431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e785d90fec3c1817fc53fea41f41644"><td class="memItemLeft" align="right" valign="top"><a id="ga7e785d90fec3c1817fc53fea41f41644"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACSWTRG_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:ga7e785d90fec3c1817fc53fea41f41644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25e2afd71ee5cc41adde6f072c9d2604"><td class="memItemLeft" align="right" valign="top"><a id="ga25e2afd71ee5cc41adde6f072c9d2604"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACSWTRG_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga25e2afd71ee5cc41adde6f072c9d2604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6dd81bc6500fc4b972c62bde339f31d"><td class="memItemLeft" align="right" valign="top"><a id="gac6dd81bc6500fc4b972c62bde339f31d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACTRGSEL_MASK</b>&#160;&#160;&#160;0x20u</td></tr>
+<tr class="separator:gac6dd81bc6500fc4b972c62bde339f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32f43711fa193364231213bd67c989f4"><td class="memItemLeft" align="right" valign="top"><a id="ga32f43711fa193364231213bd67c989f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACTRGSEL_SHIFT</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:ga32f43711fa193364231213bd67c989f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc1973eafb50599b83de95422477a1f5"><td class="memItemLeft" align="right" valign="top"><a id="gadc1973eafb50599b83de95422477a1f5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACRFS_MASK</b>&#160;&#160;&#160;0x40u</td></tr>
+<tr class="separator:gadc1973eafb50599b83de95422477a1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga495d0702c9899844340d198120a77e33"><td class="memItemLeft" align="right" valign="top"><a id="ga495d0702c9899844340d198120a77e33"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACRFS_SHIFT</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ga495d0702c9899844340d198120a77e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6865b52ae9a9275ef4db48eb3eb5d62a"><td class="memItemLeft" align="right" valign="top"><a id="ga6865b52ae9a9275ef4db48eb3eb5d62a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACEN_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga6865b52ae9a9275ef4db48eb3eb5d62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae8835f0083d5a4e588402a32047e95cb"><td class="memItemLeft" align="right" valign="top"><a id="gae8835f0083d5a4e588402a32047e95cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C0_DACEN_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:gae8835f0083d5a4e588402a32047e95cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61aa82d21d0c84ff4fe42d0856c506bd"><td class="memItemLeft" align="right" valign="top"><a id="ga61aa82d21d0c84ff4fe42d0856c506bd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DACBFEN_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga61aa82d21d0c84ff4fe42d0856c506bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2062351429a9e737c0ac434488b59fe4"><td class="memItemLeft" align="right" valign="top"><a id="ga2062351429a9e737c0ac434488b59fe4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DACBFEN_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga2062351429a9e737c0ac434488b59fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28373e4d9ae322da4f6a37933a340b78"><td class="memItemLeft" align="right" valign="top"><a id="ga28373e4d9ae322da4f6a37933a340b78"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DACBFMD_MASK</b>&#160;&#160;&#160;0x4u</td></tr>
+<tr class="separator:ga28373e4d9ae322da4f6a37933a340b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga779629844ed0967b310e7f2721c54624"><td class="memItemLeft" align="right" valign="top"><a id="ga779629844ed0967b310e7f2721c54624"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DACBFMD_SHIFT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga779629844ed0967b310e7f2721c54624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga091be41dfd851b71978ab7298c372292"><td class="memItemLeft" align="right" valign="top"><a id="ga091be41dfd851b71978ab7298c372292"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DMAEN_MASK</b>&#160;&#160;&#160;0x80u</td></tr>
+<tr class="separator:ga091be41dfd851b71978ab7298c372292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga481f558223c5c36402bebe924bdd00a3"><td class="memItemLeft" align="right" valign="top"><a id="ga481f558223c5c36402bebe924bdd00a3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C1_DMAEN_SHIFT</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga481f558223c5c36402bebe924bdd00a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga329015367026aaee34f54edcbaab61bb"><td class="memItemLeft" align="right" valign="top"><a id="ga329015367026aaee34f54edcbaab61bb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C2_DACBFUP_MASK</b>&#160;&#160;&#160;0x1u</td></tr>
+<tr class="separator:ga329015367026aaee34f54edcbaab61bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d43a79719748e490a572fa6cdc75efe"><td class="memItemLeft" align="right" valign="top"><a id="ga5d43a79719748e490a572fa6cdc75efe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C2_DACBFUP_SHIFT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga5d43a79719748e490a572fa6cdc75efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64b53e5effabf2e736fca6088752e6ea"><td class="memItemLeft" align="right" valign="top"><a id="ga64b53e5effabf2e736fca6088752e6ea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C2_DACBFRP_MASK</b>&#160;&#160;&#160;0x10u</td></tr>
+<tr class="separator:ga64b53e5effabf2e736fca6088752e6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ab880f693c25ecf491d3b76df611456"><td class="memItemLeft" align="right" valign="top"><a id="ga0ab880f693c25ecf491d3b76df611456"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_C2_DACBFRP_SHIFT</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ga0ab880f693c25ecf491d3b76df611456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga4cd2dcee5e786e36844ed653cfa40096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cd2dcee5e786e36844ed653cfa40096">&#9670;&nbsp;</a></span>MCM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCM&#160;&#160;&#160;((<a class="el" href="../../d7/dd6/a09210.html">MCM_Type</a> *)<a class="el" href="../../d6/d96/a08536.html#ga84250d5694181f040a437d9125af3fac">MCM_BASE</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral MCM base pointer </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01976">1976</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="ga84250d5694181f040a437d9125af3fac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga84250d5694181f040a437d9125af3fac">&#9670;&nbsp;</a></span>MCM_BASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCM_BASE&#160;&#160;&#160;(0xF0003000u)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Peripheral MCM base address </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01974">1974</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
-<a id="gae039f166cb08b579c33af9badf297578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae039f166cb08b579c33af9badf297578">&#9670;&nbsp;</a></span>MCM_BASES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCM_BASES&#160;&#160;&#160;{ <a class="el" href="../../d6/d96/a08536.html#ga4cd2dcee5e786e36844ed653cfa40096">MCM</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Array initializer of MCM peripheral base pointers </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01978">1978</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

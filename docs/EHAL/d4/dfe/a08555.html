@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: ROM Register Masks</title>
+<title>EHAL: MCG Peripheral Access Layer</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -83,124 +83,86 @@ $(document).ready(function(){initNavTree('d4/dfe/a08555.html','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#groups">Modules</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">ROM Register Masks<div class="ingroups"><a class="el" href="../../da/d10/a08509.html">Device Peripheral Access Layer</a> &raquo; <a class="el" href="../../de/da8/a08554.html">ROM Peripheral Access Layer</a></div></div>  </div>
+<div class="title">MCG Peripheral Access Layer<div class="ingroups"><a class="el" href="../../de/d71/a08530.html">Device Peripheral Access Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:db/de2/a08556"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a08556.html">MCG Register Masks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d33/a09227.html">MCG_Type</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga1857448185c74895d4ba462f8ebd76a9"><td class="memItemLeft" align="right" valign="top"><a id="ga1857448185c74895d4ba462f8ebd76a9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_ENTRY_ENTRY_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga1857448185c74895d4ba462f8ebd76a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef045dcd4648ca2c223f191d1e013673"><td class="memItemLeft" align="right" valign="top"><a id="gaef045dcd4648ca2c223f191d1e013673"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_ENTRY_ENTRY_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:gaef045dcd4648ca2c223f191d1e013673"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaffee58a0a8c0c3f652a6f88007194dc8"><td class="memItemLeft" align="right" valign="top"><a id="gaffee58a0a8c0c3f652a6f88007194dc8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_ENTRY_ENTRY</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_ENTRY_ENTRY_SHIFT))&amp;ROM_ENTRY_ENTRY_MASK)</td></tr>
-<tr class="separator:gaffee58a0a8c0c3f652a6f88007194dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaac600c2f3e33e425e374ca4f843d63e6"><td class="memItemLeft" align="right" valign="top"><a id="gaac600c2f3e33e425e374ca4f843d63e6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_TABLEMARK_MARK_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gaac600c2f3e33e425e374ca4f843d63e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaffb544cfa94716cfd71a99bb45c7411a"><td class="memItemLeft" align="right" valign="top"><a id="gaffb544cfa94716cfd71a99bb45c7411a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_TABLEMARK_MARK_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:gaffb544cfa94716cfd71a99bb45c7411a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38bfb1952b2f112abc1e01ce0d2d24b1"><td class="memItemLeft" align="right" valign="top"><a id="ga38bfb1952b2f112abc1e01ce0d2d24b1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_TABLEMARK_MARK</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_TABLEMARK_MARK_SHIFT))&amp;ROM_TABLEMARK_MARK_MASK)</td></tr>
-<tr class="separator:ga38bfb1952b2f112abc1e01ce0d2d24b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3acbf5e9fc0f3ad82ae4e0004d0216d"><td class="memItemLeft" align="right" valign="top"><a id="gab3acbf5e9fc0f3ad82ae4e0004d0216d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_SYSACCESS_SYSACCESS_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gab3acbf5e9fc0f3ad82ae4e0004d0216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3490b2f91c6a67625992dbc90f0e5a27"><td class="memItemLeft" align="right" valign="top"><a id="ga3490b2f91c6a67625992dbc90f0e5a27"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_SYSACCESS_SYSACCESS_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga3490b2f91c6a67625992dbc90f0e5a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga169845d2d1c068c7ef4998e8801ac713"><td class="memItemLeft" align="right" valign="top"><a id="ga169845d2d1c068c7ef4998e8801ac713"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_SYSACCESS_SYSACCESS</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_SYSACCESS_SYSACCESS_SHIFT))&amp;ROM_SYSACCESS_SYSACCESS_MASK)</td></tr>
-<tr class="separator:ga169845d2d1c068c7ef4998e8801ac713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad17e07925ea552218422be227581a58f"><td class="memItemLeft" align="right" valign="top"><a id="gad17e07925ea552218422be227581a58f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID4_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gad17e07925ea552218422be227581a58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4ea3b3a45be6eb8eb4372f565af2d5d9"><td class="memItemLeft" align="right" valign="top"><a id="ga4ea3b3a45be6eb8eb4372f565af2d5d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID4_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga4ea3b3a45be6eb8eb4372f565af2d5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab4f815fbbdfce7ff4af7ddeca74eff41"><td class="memItemLeft" align="right" valign="top"><a id="gab4f815fbbdfce7ff4af7ddeca74eff41"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID4_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID4_PERIPHID_SHIFT))&amp;ROM_PERIPHID4_PERIPHID_MASK)</td></tr>
-<tr class="separator:gab4f815fbbdfce7ff4af7ddeca74eff41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga39e8a3441c79c42651efba9100e653a7"><td class="memItemLeft" align="right" valign="top"><a id="ga39e8a3441c79c42651efba9100e653a7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID5_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga39e8a3441c79c42651efba9100e653a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga083194b41cf1109fe5a6e235b2c1f89a"><td class="memItemLeft" align="right" valign="top"><a id="ga083194b41cf1109fe5a6e235b2c1f89a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID5_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga083194b41cf1109fe5a6e235b2c1f89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa801210cd537086eddf2456575251d93"><td class="memItemLeft" align="right" valign="top"><a id="gaa801210cd537086eddf2456575251d93"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID5_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID5_PERIPHID_SHIFT))&amp;ROM_PERIPHID5_PERIPHID_MASK)</td></tr>
-<tr class="separator:gaa801210cd537086eddf2456575251d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae29765428defa80237980d34b67f4fde"><td class="memItemLeft" align="right" valign="top"><a id="gae29765428defa80237980d34b67f4fde"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID6_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gae29765428defa80237980d34b67f4fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cb9b85e1ca798d1897bcef6afce8a79"><td class="memItemLeft" align="right" valign="top"><a id="ga0cb9b85e1ca798d1897bcef6afce8a79"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID6_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga0cb9b85e1ca798d1897bcef6afce8a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacd2a1a4b870a765537be3a9aaae25cba"><td class="memItemLeft" align="right" valign="top"><a id="gacd2a1a4b870a765537be3a9aaae25cba"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID6_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID6_PERIPHID_SHIFT))&amp;ROM_PERIPHID6_PERIPHID_MASK)</td></tr>
-<tr class="separator:gacd2a1a4b870a765537be3a9aaae25cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga46d62ff696136480044fa6bd78597be6"><td class="memItemLeft" align="right" valign="top"><a id="ga46d62ff696136480044fa6bd78597be6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID7_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga46d62ff696136480044fa6bd78597be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga660f3354bf252cb5c5a72b828ba683bd"><td class="memItemLeft" align="right" valign="top"><a id="ga660f3354bf252cb5c5a72b828ba683bd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID7_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga660f3354bf252cb5c5a72b828ba683bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga954df1566228d34b0f016073d865e878"><td class="memItemLeft" align="right" valign="top"><a id="ga954df1566228d34b0f016073d865e878"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID7_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID7_PERIPHID_SHIFT))&amp;ROM_PERIPHID7_PERIPHID_MASK)</td></tr>
-<tr class="separator:ga954df1566228d34b0f016073d865e878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2dfed5a6af54f8d29e984653d14a2d1a"><td class="memItemLeft" align="right" valign="top"><a id="ga2dfed5a6af54f8d29e984653d14a2d1a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID0_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga2dfed5a6af54f8d29e984653d14a2d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaacd7e0172c630fb56d8d465c16111feb"><td class="memItemLeft" align="right" valign="top"><a id="gaacd7e0172c630fb56d8d465c16111feb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID0_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:gaacd7e0172c630fb56d8d465c16111feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e81784ff5ff7bb04e70159467a44e6f"><td class="memItemLeft" align="right" valign="top"><a id="ga4e81784ff5ff7bb04e70159467a44e6f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID0_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID0_PERIPHID_SHIFT))&amp;ROM_PERIPHID0_PERIPHID_MASK)</td></tr>
-<tr class="separator:ga4e81784ff5ff7bb04e70159467a44e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga89bae76549b2b639d154bbab60fa87a6"><td class="memItemLeft" align="right" valign="top"><a id="ga89bae76549b2b639d154bbab60fa87a6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID1_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga89bae76549b2b639d154bbab60fa87a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9370b3491eef6cf277f1b64339d4cacf"><td class="memItemLeft" align="right" valign="top"><a id="ga9370b3491eef6cf277f1b64339d4cacf"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID1_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga9370b3491eef6cf277f1b64339d4cacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67e3b02a049c4ac0c8f3d065175e655e"><td class="memItemLeft" align="right" valign="top"><a id="ga67e3b02a049c4ac0c8f3d065175e655e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID1_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID1_PERIPHID_SHIFT))&amp;ROM_PERIPHID1_PERIPHID_MASK)</td></tr>
-<tr class="separator:ga67e3b02a049c4ac0c8f3d065175e655e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4fd9dca16b12b524b3f7be8cb5d0386"><td class="memItemLeft" align="right" valign="top"><a id="gac4fd9dca16b12b524b3f7be8cb5d0386"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID2_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gac4fd9dca16b12b524b3f7be8cb5d0386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a0032b94f8d01378b20d260317d85d9"><td class="memItemLeft" align="right" valign="top"><a id="ga3a0032b94f8d01378b20d260317d85d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID2_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga3a0032b94f8d01378b20d260317d85d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac890c8c525b06c4792a9bc16569978e1"><td class="memItemLeft" align="right" valign="top"><a id="gac890c8c525b06c4792a9bc16569978e1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID2_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID2_PERIPHID_SHIFT))&amp;ROM_PERIPHID2_PERIPHID_MASK)</td></tr>
-<tr class="separator:gac890c8c525b06c4792a9bc16569978e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f7212db2daf16bb9cd76004eef1f845"><td class="memItemLeft" align="right" valign="top"><a id="ga0f7212db2daf16bb9cd76004eef1f845"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID3_PERIPHID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:ga0f7212db2daf16bb9cd76004eef1f845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga61106adc7eb36f078c312d6111da5941"><td class="memItemLeft" align="right" valign="top"><a id="ga61106adc7eb36f078c312d6111da5941"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID3_PERIPHID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga61106adc7eb36f078c312d6111da5941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa9d92ba0e5acb77de8834d3c921ae4e3"><td class="memItemLeft" align="right" valign="top"><a id="gaa9d92ba0e5acb77de8834d3c921ae4e3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_PERIPHID3_PERIPHID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_PERIPHID3_PERIPHID_SHIFT))&amp;ROM_PERIPHID3_PERIPHID_MASK)</td></tr>
-<tr class="separator:gaa9d92ba0e5acb77de8834d3c921ae4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae20c6541595b7ae93be71b45403230b7"><td class="memItemLeft" align="right" valign="top"><a id="gae20c6541595b7ae93be71b45403230b7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_COMPID_COMPID_MASK</b>&#160;&#160;&#160;0xFFFFFFFFu</td></tr>
-<tr class="separator:gae20c6541595b7ae93be71b45403230b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga348650897eca9cb7d75adcf78efceb33"><td class="memItemLeft" align="right" valign="top"><a id="ga348650897eca9cb7d75adcf78efceb33"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_COMPID_COMPID_SHIFT</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga348650897eca9cb7d75adcf78efceb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2a70f721f69f2c2111320ee1d37e673"><td class="memItemLeft" align="right" valign="top"><a id="gaa2a70f721f69f2c2111320ee1d37e673"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ROM_COMPID_COMPID</b>(x)&#160;&#160;&#160;(((uint32_t)(((uint32_t)(x))&lt;&lt;ROM_COMPID_COMPID_SHIFT))&amp;ROM_COMPID_COMPID_MASK)</td></tr>
-<tr class="separator:gaa2a70f721f69f2c2111320ee1d37e673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad20a4618a24bbbb2edab9643eb6db29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfe/a08555.html#gaad20a4618a24bbbb2edab9643eb6db29">MCG_BASE</a>&#160;&#160;&#160;(0x40064000u)</td></tr>
+<tr class="separator:gaad20a4618a24bbbb2edab9643eb6db29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7ea2d93cafdbe9298ef1dd52be44f88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfe/a08555.html#gad7ea2d93cafdbe9298ef1dd52be44f88">MCG</a>&#160;&#160;&#160;((<a class="el" href="../../d9/d33/a09227.html">MCG_Type</a> *)<a class="el" href="../../d4/dfe/a08555.html#gaad20a4618a24bbbb2edab9643eb6db29">MCG_BASE</a>)</td></tr>
+<tr class="separator:gad7ea2d93cafdbe9298ef1dd52be44f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga462bc560fe3a4fcc406c2a65cdb0da19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfe/a08555.html#ga462bc560fe3a4fcc406c2a65cdb0da19">MCG_BASES</a>&#160;&#160;&#160;{ <a class="el" href="../../d4/dfe/a08555.html#gad7ea2d93cafdbe9298ef1dd52be44f88">MCG</a> }</td></tr>
+<tr class="separator:ga462bc560fe3a4fcc406c2a65cdb0da19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gad7ea2d93cafdbe9298ef1dd52be44f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7ea2d93cafdbe9298ef1dd52be44f88">&#9670;&nbsp;</a></span>MCG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCG&#160;&#160;&#160;((<a class="el" href="../../d9/d33/a09227.html">MCG_Type</a> *)<a class="el" href="../../d4/dfe/a08555.html#gaad20a4618a24bbbb2edab9643eb6db29">MCG_BASE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Peripheral MCG base pointer </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01897">1897</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
+<a id="gaad20a4618a24bbbb2edab9643eb6db29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad20a4618a24bbbb2edab9643eb6db29">&#9670;&nbsp;</a></span>MCG_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCG_BASE&#160;&#160;&#160;(0x40064000u)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Peripheral MCG base address </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01895">1895</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
+<a id="ga462bc560fe3a4fcc406c2a65cdb0da19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga462bc560fe3a4fcc406c2a65cdb0da19">&#9670;&nbsp;</a></span>MCG_BASES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCG_BASES&#160;&#160;&#160;{ <a class="el" href="../../d4/dfe/a08555.html#gad7ea2d93cafdbe9298ef1dd52be44f88">MCG</a> }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Array initializer of MCG peripheral base pointers </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/df9/a00044_source.html#l01899">1899</a> of file <a class="el" href="../../d5/df9/a00044_source.html">MKL26Z4.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

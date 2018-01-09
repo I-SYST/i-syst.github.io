@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Member List</title>
+<title>EHAL: __EnvTPHData Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d9/dc5/a09894.html','../../');});
+$(document).ready(function(){initNavTree('df/d3f/a09891.html','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -82,21 +82,48 @@ $(document).ready(function(){initNavTree('d9/dc5/a09894.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../db/d25/a09888.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__ADC_Reference_Voltage Member List</div>  </div>
+<div class="title">__EnvTPHData Struct Reference<div class="ingroups"><a class="el" href="../../d8/d16/a08601.html">Bluetooth</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/dc5/a09894.html">__ADC_Reference_Voltage</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dc5/a09894.html#a284faa68ad61489db58871fe562d1c8e">Pin</a></td><td class="entry"><a class="el" href="../../d9/dc5/a09894.html">__ADC_Reference_Voltage</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d9/dc5/a09894.html#a4effd93bf411115119aadede75fbfe7d">Type</a></td><td class="entry"><a class="el" href="../../d9/dc5/a09894.html">__ADC_Reference_Voltage</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dc5/a09894.html#a8754dd9c45c87e5d95167927576a5cb2">Voltage</a></td><td class="entry"><a class="el" href="../../d9/dc5/a09894.html">__ADC_Reference_Voltage</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Environmental sensor data.  
+ <a href="../../df/d3f/a09891.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../da/d6b/a02438_source.html">bleadv_mandata.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a3604983d0eb81ba3a1ffdf98d5b08ce2"><td class="memItemLeft" align="right" valign="top"><a id="a3604983d0eb81ba3a1ffdf98d5b08ce2"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/a09891.html#a3604983d0eb81ba3a1ffdf98d5b08ce2">Pressure</a></td></tr>
+<tr class="memdesc:a3604983d0eb81ba3a1ffdf98d5b08ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Barometric pressure in Pa no decimal. <br /></td></tr>
+<tr class="separator:a3604983d0eb81ba3a1ffdf98d5b08ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd2480208876a9232d6f33d498876b3"><td class="memItemLeft" align="right" valign="top"><a id="a8fd2480208876a9232d6f33d498876b3"></a>
+int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/a09891.html#a8fd2480208876a9232d6f33d498876b3">Temperature</a></td></tr>
+<tr class="memdesc:a8fd2480208876a9232d6f33d498876b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temperature in degree C, 2 decimals fixed point. <br /></td></tr>
+<tr class="separator:a8fd2480208876a9232d6f33d498876b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c025a19d3fb1fb78ecb0e40df20b423"><td class="memItemLeft" align="right" valign="top"><a id="a8c025a19d3fb1fb78ecb0e40df20b423"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/a09891.html#a8c025a19d3fb1fb78ecb0e40df20b423">Humidity</a></td></tr>
+<tr class="memdesc:a8c025a19d3fb1fb78ecb0e40df20b423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative humidity in %, 2 decimals fixed point. <br /></td></tr>
+<tr class="separator:a8c025a19d3fb1fb78ecb0e40df20b423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Environmental sensor data. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d7/daf/a10397.html#_a3">TPHSensorTag.cpp</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="../../da/d6b/a02438_source.html#l00067">67</a> of file <a class="el" href="../../da/d6b/a02438_source.html">bleadv_mandata.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/bluetooth/<a class="el" href="../../da/d6b/a02438_source.html">bleadv_mandata.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../df/d3f/a09891.html">__EnvTPHData</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

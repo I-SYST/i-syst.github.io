@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EHAL: Member List</title>
+<title>EHAL: BleApp Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d6/d5c/a09342.html','../../');});
+$(document).ready(function(){initNavTree('d3/def/a09339.html','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -82,25 +82,50 @@ $(document).ready(function(){initNavTree('d6/d5c/a09342.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d9/dbe/a09336.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">__BLE_Service_Config Member List</div>  </div>
+<div class="title">BleApp Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>LongWrBuffSize</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>NbChar</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>pCharArray</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>pLongWrBuff</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SecType</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>UuidBase</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>UuidSvc</b> (defined in <a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a>)</td><td class="entry"><a class="el" href="../../d6/d5c/a09342.html">__BLE_Service_Config</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a14158d55f26f398b0bbee819d1a7b9c9"><td class="memItemLeft" align="right" valign="top"><a id="a14158d55f26f398b0bbee819d1a7b9c9"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (<a class="el" href="../../dc/d0e/a09335.html">BLEAPP_CFG</a> &amp;CfgData)</td></tr>
+<tr class="separator:a14158d55f26f398b0bbee819d1a7b9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81b98659252fa5aef4382529e683fa6"><td class="memItemLeft" align="right" valign="top"><a id="ae81b98659252fa5aef4382529e683fa6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InitCustomData</b> ()=0</td></tr>
+<tr class="separator:ae81b98659252fa5aef4382529e683fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a215522198e16ed8b2a3e5e897a71c"><td class="memItemLeft" align="right" valign="top"><a id="a03a215522198e16ed8b2a3e5e897a71c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>InitServices</b> ()=0</td></tr>
+<tr class="separator:a03a215522198e16ed8b2a3e5e897a71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17432219c20d04014de0c4d192568503"><td class="memItemLeft" align="right" valign="top"><a id="a17432219c20d04014de0c4d192568503"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SrvcEvtDispatch</b> (ble_evt_t *p_ble_evt)=0</td></tr>
+<tr class="separator:a17432219c20d04014de0c4d192568503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0528d69c41aba8035d8196286f7549e"><td class="memItemLeft" align="right" valign="top"><a id="ab0528d69c41aba8035d8196286f7549e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessEvt</b> ()</td></tr>
+<tr class="separator:ab0528d69c41aba8035d8196286f7549e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae118ddec7b95a186b037c2586a52e6f5"><td class="memItemLeft" align="right" valign="top"><a id="ae118ddec7b95a186b037c2586a52e6f5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>EnterDfu</b> ()</td></tr>
+<tr class="separator:ae118ddec7b95a186b037c2586a52e6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c1c04227169a587c19a6451e7c2872"><td class="memItemLeft" align="right" valign="top"><a id="ab5c1c04227169a587c19a6451e7c2872"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:ab5c1c04227169a587c19a6451e7c2872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d6/de1/a00233_source.html#l00152">152</a> of file <a class="el" href="../../d6/de1/a00233_source.html">ble_app.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>ARM/Nordic/include/<a class="el" href="../../d6/de1/a00233_source.html">ble_app.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../d3/def/a09339.html">BleApp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

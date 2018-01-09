@@ -1,11 +1,9 @@
 var a02468 =
 [
-    [ "APPINFO_NAMESIZE_MAX", "d4/db4/a08575.html#ga3fdf79a4e4ea0481a19367e5c4af6256", null ],
-    [ "APPINFO_PRIVATESIZE_MAX", "d4/db4/a08575.html#gaff24c2dddfd9434365828a0b4d4cf06f", null ],
-    [ "FALSE", "d4/db4/a08575.html#gaa93f0eb578d23995850d61f7d61c55c1", null ],
-    [ "ISYST_BLUETOOTH_ID", "d4/db4/a08575.html#ga045fc0a8d3a14bee4a9d7a232dd2806b", null ],
-    [ "TRUE", "d4/db4/a08575.html#gaa8cecfc5c5c054d2875c03e77b7be15d", null ],
-    [ "Bool", "d4/db4/a08575.html#ga76a8b016e5ad61faf9062cc387df5016", null ],
-    [ "max", "d4/db4/a08575.html#gab1129ff547aa5703f170d27cd05bb2ff", null ],
-    [ "min", "d4/db4/a08575.html#ga7a86bbcdb9e7dd05adc5c0a3c8b690b4", null ]
+    [ "DISKIO_CACHE_DIRTY_BIT", "d5/d6f/a08605.html#ga74ef3f88d18d49dbc533f5437e7a8068", null ],
+    [ "DISKIO_CACHE_SECT_MAX", "d5/d6f/a08605.html#ga04b866b87c34de0e6b35d66856de6fa0", null ],
+    [ "DISKIO_SECT_SIZE", "d5/d6f/a08605.html#gab86f3431903a29d4e7745ab1abcb9d81", null ],
+    [ "DISKIO_CACHE_DESC", "d5/d6f/a08605.html#ga40bdcc1312ae0462236e683b82f918b4", null ],
+    [ "DISKPART", "d5/d6f/a08605.html#ga4b5104512860ae67e97f849ca52d330d", null ],
+    [ "MBR", "d5/d6f/a08605.html#ga11d00345c49475449e796ee47b4dde82", null ]
 ];
