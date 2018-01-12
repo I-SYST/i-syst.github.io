@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hiddev_5fdata',['HIDDEV_DATA',['../d4/d2b/a10391.html',1,'']]]
+  ['hiddev_5fdata',['HIDDEV_DATA',['../d0/d8d/struct_h_i_d_d_e_v___d_a_t_a.html',1,'']]]
 ];

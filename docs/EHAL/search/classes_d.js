@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['osc_5ftype',['OSC_Type',['../d4/df3/a09251.html',1,'']]]
+  ['osc_5ftype',['OSC_Type',['../d3/dc7/struct_o_s_c___type.html',1,'']]]
 ];

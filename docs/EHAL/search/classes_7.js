@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gassensor',['GasSensor',['../da/d3a/a10159.html',1,'']]],
-  ['gpio_5ftype',['GPIO_Type',['../d9/da8/a09207.html',1,'']]],
-  ['gyrosensor',['GyroSensor',['../d9/d70/a10171.html',1,'']]]
+  ['gassensor',['GasSensor',['../dd/d5a/class_gas_sensor.html',1,'']]],
+  ['gpio_5ftype',['GPIO_Type',['../d6/d35/struct_g_p_i_o___type.html',1,'']]],
+  ['gyrosensor',['GyroSensor',['../df/dbc/class_gyro_sensor.html',1,'']]]
 ];
