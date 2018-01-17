@@ -12,6 +12,8 @@ var searchData=
   ['wlangid',['wLangId',['../db/d47/struct_____u_s_b___string___language___descriptor.html#aa440d5a65f40072748bf365e7e14615d',1,'__USB_String_Language_Descriptor']]],
   ['wlength',['wLength',['../d1/dcb/struct_____u_s_b___setup___data.html#acbdfe2093cb1ea3addcd179efc575a1b',1,'__USB_Setup_Data']]],
   ['wmaxpacketsize',['wMaxPacketSize',['../d3/d45/struct_____u_s_b___endpoint___descriptor.html#a3461f605cbcd07be64b13e4ec1fde84b',1,'__USB_Endpoint_Descriptor']]],
+  ['wrcb',['WrCB',['../d9/d8b/struct_____b_l_e___service___char___data.html#a9a557097acc7d1787b0d8dee6c232d5e',1,'__BLE_Service_Char_Data']]],
+  ['write',['Write',['../d4/d14/struct_s_t_d_d_e_v.html#a2d535725ac39ac9cf7d8ba0b1204821b',1,'STDDEV']]],
   ['writesize',['WriteSize',['../da/dd4/struct_f_l_a_s_h_d_i_s_k_i_o___c_f_g.html#a273724588aa347099870576c1e0a35b8',1,'FLASHDISKIO_CFG']]],
   ['wrtdate',['WrtDate',['../d1/d8f/struct_____f_a_t_f_s___short_name.html#a4e5ad4e151264cce3e1df559ea24b823',1,'__FATFS_ShortName']]],
   ['wrttime',['WrtTime',['../d1/d8f/struct_____f_a_t_f_s___short_name.html#a5daacdae492857b14f8c9c7a03966130',1,'__FATFS_ShortName']]],

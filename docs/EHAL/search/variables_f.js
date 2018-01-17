@@ -10,6 +10,7 @@ var searchData=
   ['rcr5',['RCR5',['../df/d78/struct_i2_s___type.html#affd777b7e9dafd3fd7185f034aab4b50',1,'I2S_Type']]],
   ['rcsr',['RCSR',['../df/d78/struct_i2_s___type.html#a3e9f96292f8fdc9b1b74b67e4f9f2b96',1,'I2S_Type']]],
   ['rdr',['RDR',['../df/d78/struct_i2_s___type.html#a383a8dc5709d2e59678f84347ae95a23',1,'I2S_Type']]],
+  ['read',['Read',['../d4/d14/struct_s_t_d_d_e_v.html#a4b36943f2d37e3fe5200556262680f27',1,'STDDEV']]],
   ['refvoltidx',['RefVoltIdx',['../db/dfa/struct_____a_d_c___channel___config.html#a208653803bb0ba7bad8cc370063215d4',1,'__ADC_Channel_Config']]],
   ['regsc',['REGSC',['../d1/d6b/struct_p_m_c___type.html#a23fa3c271bf9f25b06221b037553f936',1,'PMC_Type']]],
   ['repdesc',['RepDesc',['../d4/db0/struct_____u_s_b___h_i_d___descriptor.html#abb09b5df080b5b00d49238ff7ff2b028',1,'__USB_HID_Descriptor']]],
@@ -33,7 +34,9 @@ var searchData=
   ['rs485ctrl',['RS485CTRL',['../da/dbd/struct_l_p_c___u_s_a_r_t___type.html#a33a772c1ac7d07abb8ddb537b9562fc6',1,'LPC_USART_Type']]],
   ['rs485dly',['RS485DLY',['../da/dbd/struct_l_p_c___u_s_a_r_t___type.html#a1c89c8bbebcae1c75b40d426f0ffe27c',1,'LPC_USART_Type']]],
   ['rsvdseccnt',['RsvdSecCnt',['../d5/dd0/struct_____f_a_t_f_s___boot_sector___b_p_b.html#ab710cd69ad5738fc9afea8ba7f92d100',1,'__FATFS_BootSector_BPB']]],
+  ['rxcharidx',['RxCharIdx',['../d1/da0/struct_____ble_device_interf_config.html#a97f3c5f4ddae9c558c680d6cf4dff20c',1,'__BleDeviceInterfConfig::RxCharIdx()'],['../d6/dbf/struct_____ble_device_interf.html#aae8009fafa5313edce9caa3705049be2',1,'__BleDeviceInterf::RxCharIdx()']]],
   ['rxdata',['RxData',['../df/dcf/struct____device__intrf.html#a4714ec3be1a7b148399733de526556dc',1,'__device_intrf']]],
+  ['rxfifomemsize',['RxFifoMemSize',['../d1/da0/struct_____ble_device_interf_config.html#a96978241f6d6cef91bda5b3219634073',1,'__BleDeviceInterfConfig']]],
   ['rxmemsize',['RxMemSize',['../dd/d00/struct_u_a_r_t_c_f_g.html#ab2792707e74f1292610f9362e9ddf285',1,'UARTCFG']]],
   ['rxoecnt',['RxOECnt',['../da/daf/struct_____uart___dev.html#aa24c6cb98e2e6a9a389a213ac5bc5cf5',1,'__Uart_Dev']]]
 ];

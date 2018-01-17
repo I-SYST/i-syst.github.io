@@ -1,12 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a5f0c5ec319f6427abeee5796280c4ce0":[3,0,178,62],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a6605052136eaca6d37ac949617ebf682":[3,0,178,40],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a68c3bbec0ec51a4c68d0579876636277":[3,0,178,36],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a73d94207bb80c81961e07c42a27354eb":[3,0,178,78],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a796e70106d5ac8eb55a01f04e0ad2da1":[3,0,178,72],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a7bb4b518a350b4c2b4790b7696e56ab0":[3,0,178,44],
-"d4/d6e/struct_l_p_c___u_s_b___type_def.html#a7c9db97bfd4c122921ec7ba9f7bc4941":[3,0,178,35],
 "d4/d6e/struct_l_p_c___u_s_b___type_def.html#a804d8c30e129ec47d91727c699f26c9f":[3,0,178,71],
 "d4/d6e/struct_l_p_c___u_s_b___type_def.html#a8808eaa1c3f62fe0dcc05d7102f390de":[3,0,178,58],
 "d4/d6e/struct_l_p_c___u_s_b___type_def.html#a881b454cf700e547fb5a517e4036b77e":[3,0,178,14],
@@ -248,6 +241,13 @@ var NAVTREEINDEX8 =
 "d5/d01/group___f_g_p_i_o___register___masks.html#gae925ac53df59629914dc58fcf60d4480":[4,0,0,0,1,0,0,0,294],
 "d5/d01/group___f_g_p_i_o___register___masks.html#gae9ca2771800b24b305bfa09312e2ee3e":[4,0,0,0,1,0,0,0,304],
 "d5/d01/group___f_g_p_i_o___register___masks.html#gafab743986cbbf8fdbf9ed322104e413d":[4,0,0,0,1,0,0,0,300],
-"d5/d15/class_ble_app.html":[3,0,96],
-"d5/d15/class_ble_app.html#a03a215522198e16ed8b2a3e5e897a71c":[3,0,96,3]
+"d5/d09/struct_____ble_app___config.html":[3,0,16],
+"d5/d09/struct_____ble_app___config.html#a02700e17adada15b848b5dc6d598c252":[3,0,16,14],
+"d5/d09/struct_____ble_app___config.html#a03025a38d7009ccfa3f24e0635623d56":[3,0,16,17],
+"d5/d09/struct_____ble_app___config.html#a04327e01cf4ebfacc9e7f54fb4c97f4d":[3,0,16,10],
+"d5/d09/struct_____ble_app___config.html#a0894a81b1fd016956d9b9e0573b87638":[3,0,16,21],
+"d5/d09/struct_____ble_app___config.html#a193c2f967ff67748bda6734989eb4db0":[3,0,16,23],
+"d5/d09/struct_____ble_app___config.html#a41c752e6eb4b05159f2ccbebd2fcf35f":[3,0,16,0],
+"d5/d09/struct_____ble_app___config.html#a5249d7a9448aa168aed622703e24a366":[3,0,16,19],
+"d5/d09/struct_____ble_app___config.html#a5ff5797659327701667c6e3737cf52a1":[3,0,16,25]
 };

@@ -16,5 +16,8 @@ var searchData=
   ['usbpllctrl',['USBPLLCTRL',['../db/dc7/struct_l_p_c___s_y_s_c_o_n___type.html#a78425a42234d35eb9a3b6ad678393c4a',1,'LPC_SYSCON_Type']]],
   ['usbpllstat',['USBPLLSTAT',['../db/dc7/struct_l_p_c___s_y_s_c_o_n___type.html#a9180dda8e6fc92c7e21230b7bed0fe53',1,'LPC_SYSCON_Type']]],
   ['usbtrc0',['USBTRC0',['../d4/d36/struct_u_s_b___type.html#a0381c5afae0f997f54326c00e494d71c',1,'USB_Type']]],
-  ['usecnt',['UseCnt',['../d9/d3f/struct_____disk_i_o___cache___desc.html#a48d5c59b23fae6a09407dd5eace97059',1,'__DiskIO_Cache_Desc']]]
+  ['usecnt',['UseCnt',['../d9/d3f/struct_____disk_i_o___cache___desc.html#a48d5c59b23fae6a09407dd5eace97059',1,'__DiskIO_Cache_Desc']]],
+  ['uuid',['Uuid',['../d9/d8b/struct_____b_l_e___service___char___data.html#a2d5986e4e24ce92f05cc3ea79dc92a8d',1,'__BLE_Service_Char_Data']]],
+  ['uuidbase',['UuidBase',['../d0/dda/struct_____b_l_e___service___config.html#a1398b6f7ddd7dffa15054601a36a7754',1,'__BLE_Service_Config']]],
+  ['uuidsvc',['UuidSvc',['../d0/dda/struct_____b_l_e___service___config.html#aaef7529888288dc82b7c3e3563df7c64',1,'__BLE_Service_Config::UuidSvc()'],['../d6/d8c/struct_____b_l_e___service___data.html#a62b027156b2f87d8e240614e9d797fd5',1,'__BLE_Service_Data::UuidSvc()']]]
 ];

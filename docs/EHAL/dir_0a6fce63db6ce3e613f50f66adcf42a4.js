@@ -1,9 +1,9 @@
 var dir_0a6fce63db6ce3e613f50f66adcf42a4 =
 [
     [ "adc_nrf52_saadc.h", "da/d14/adc__nrf52__saadc_8h_source.html", null ],
-    [ "ble_app.h", "de/d1c/ble__app_8h_source.html", null ],
-    [ "ble_intrf.h", "df/dd4/ble__intrf_8h_source.html", null ],
-    [ "ble_service.h", "da/d66/ble__service_8h_source.html", null ],
+    [ "ble_app.h", "de/d1c/ble__app_8h.html", "de/d1c/ble__app_8h" ],
+    [ "ble_intrf.h", "df/dd4/ble__intrf_8h.html", "df/dd4/ble__intrf_8h" ],
+    [ "ble_service.h", "da/d66/ble__service_8h.html", "da/d66/ble__service_8h" ],
     [ "blueio_board.h", "d6/dfe/blueio__board_8h_source.html", null ],
     [ "custom_board.h", "db/db4/custom__board_8h_source.html", null ],
     [ "esb_intrf.h", "dd/d0e/esb__intrf_8h_source.html", null ],

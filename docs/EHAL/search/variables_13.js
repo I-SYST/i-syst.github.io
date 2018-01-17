@@ -1,11 +1,13 @@
 var searchData=
 [
+  ['valuelen',['ValueLen',['../d9/d8b/struct_____b_l_e___service___char___data.html#a5f671265cec80afbc45c5efe206e91d3',1,'__BLE_Service_Char_Data']]],
   ['vbinterrupt',['vbInterrupt',['../dc/dd2/class_adc_device.html#ab15afbd9b34d8bd577142c4923b7defa',1,'AdcDevice']]],
   ['vbsampling',['vbSampling',['../d7/daf/class_sensor.html#add09731b0c8d292c599f7e7c536797a7',1,'Sensor']]],
   ['vdevaddr',['vDevAddr',['../df/dd8/class_device.html#a6d21f0cd79d797a95f5d7c23e6314fd5',1,'Device']]],
   ['vdevdata',['vDevData',['../d4/d7f/class_seep.html#aff283afa3121eadbda98046f7c589e7e',1,'Seep']]],
   ['vdevid',['vDevId',['../df/dd8/class_device.html#a9b696ab9df549448cdbaf9c116f00c16',1,'Device']]],
   ['vdevno',['vDevNo',['../d8/d08/class_timer.html#aa3efe68161184bb259db64d023b65611',1,'Timer']]],
+  ['vendorid',['VendorID',['../d5/d09/struct_____ble_app___config.html#aec6dfa876a1718f90554ce3f4c793b60',1,'__BleApp_Config']]],
   ['vers',['Vers',['../d1/dde/struct_v_e_r_s.html#a40fd0a59d19d0dd24807f3ed99dc5e75',1,'VERS::Vers()'],['../da/d99/struct_a_p_p___i_n_f_o.html#abfb67f140888592523655cf4040b1039',1,'APP_INFO::Vers()']]],
   ['vevthandler',['vEvtHandler',['../d8/d08/class_timer.html#a17e463768d6fb5bde20dbff19b967641',1,'Timer']]],
   ['vfreq',['vFreq',['../d8/d08/class_timer.html#afc187a8aea7fdb211ae1bb7bd5645621',1,'Timer']]],

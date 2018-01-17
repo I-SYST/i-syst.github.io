@@ -271,5 +271,8 @@ var searchData=
   ['utf8cvt_2eh',['utf8cvt.h',['../dc/d19/utf8cvt_8h.html',1,'']]],
   ['utf8towcs',['utf8towcs',['../db/deb/group___utilities.html#ga8c044853ff520c666ec1e9c47955e0a1',1,'utf8.h']]],
   ['utf8towcs_5flength',['utf8towcs_length',['../db/deb/group___utilities.html#ga13eb05450b254ca054f713a34455b0e1',1,'utf8.h']]],
-  ['utilities',['Utilities',['../db/deb/group___utilities.html',1,'']]]
+  ['utilities',['Utilities',['../db/deb/group___utilities.html',1,'']]],
+  ['uuid',['Uuid',['../d9/d8b/struct_____b_l_e___service___char___data.html#a2d5986e4e24ce92f05cc3ea79dc92a8d',1,'__BLE_Service_Char_Data']]],
+  ['uuidbase',['UuidBase',['../d0/dda/struct_____b_l_e___service___config.html#a1398b6f7ddd7dffa15054601a36a7754',1,'__BLE_Service_Config']]],
+  ['uuidsvc',['UuidSvc',['../d0/dda/struct_____b_l_e___service___config.html#aaef7529888288dc82b7c3e3563df7c64',1,'__BLE_Service_Config::UuidSvc()'],['../d6/d8c/struct_____b_l_e___service___data.html#a62b027156b2f87d8e240614e9d797fd5',1,'__BLE_Service_Data::UuidSvc()']]]
 ];

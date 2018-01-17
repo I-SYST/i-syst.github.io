@@ -226,6 +226,11 @@ var group__device__intrf =
       [ "I2CSTATUS_S_TXDAT_NACK", "d0/d2c/group__device__intrf.html#ggac6d795e23267f262257036ea5b79c147a1a72d8dc29f136068e3576f8e1270703", null ],
       [ "I2CSTATUS_S_LAST_TXDAT_ACK", "d0/d2c/group__device__intrf.html#ggac6d795e23267f262257036ea5b79c147a061a2ce394dfcc5ef82af469b30b367d", null ]
     ] ],
+    [ "__SPI_Chip_Select", "d0/d2c/group__device__intrf.html#ga0a2a565ab3f5d36acfc9f6a0618f4348", [
+      [ "SPICSEL_AUTO", "d0/d2c/group__device__intrf.html#gga0a2a565ab3f5d36acfc9f6a0618f4348a16298247e7ab7a8f95f6aff0c4594d23", null ],
+      [ "SPICSEL_MAN", "d0/d2c/group__device__intrf.html#gga0a2a565ab3f5d36acfc9f6a0618f4348ae11d6e631e4ffc7d371a07bb521cadac", null ],
+      [ "SPICSEL_EXT", "d0/d2c/group__device__intrf.html#gga0a2a565ab3f5d36acfc9f6a0618f4348a1a819425909adfc329e5a7ac1ccfd890", null ]
+    ] ],
     [ "__SPI_Data_Bit_Order", "d0/d2c/group__device__intrf.html#ga02624d919335b2602b9de418358f0ab9", [
       [ "SPIDATABIT_MSB", "d0/d2c/group__device__intrf.html#gga02624d919335b2602b9de418358f0ab9af0d2d515b059620e1af37e1d76dd5a99", null ],
       [ "SPIDATABIT_LSB", "d0/d2c/group__device__intrf.html#gga02624d919335b2602b9de418358f0ab9aaef43f3cb0471ab363af74be3e244af3", null ]

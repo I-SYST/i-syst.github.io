@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['devintrf_5fevt',['DEVINTRF_EVT',['../d0/d2c/group__device__intrf.html#gaf4485d6e89060a99145de3e773dbd006',1,'device_intrf.h']]]
+  ['blesrvc_5fsectype',['BLESRVC_SECTYPE',['../da/d66/ble__service_8h.html#a42dce370fc8875b644013283c00617a3',1,'ble_service.h']]]
 ];

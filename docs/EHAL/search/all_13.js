@@ -87,6 +87,7 @@ var searchData=
   ['tpm_5ftype',['TPM_Type',['../df/d87/struct_t_p_m___type.html',1,'']]],
   ['tpr',['TPR',['../db/dbd/struct_r_t_c___type.html#ab718ffaf4897a4eec35a15790bae8806',1,'RTC_Type']]],
   ['trailsig',['TrailSig',['../d8/ded/struct_____f_a_t_f_s___f_s_info.html#a95e967c2ca06c057160047a721be635f',1,'__FATFS_FSInfo']]],
+  ['transbufflen',['TransBuffLen',['../d6/dbf/struct_____ble_device_interf.html#a0dacd4f672c545d2b5255f9dc7fb3a51',1,'__BleDeviceInterf']]],
   ['trst_5fpio0_5f14',['TRST_PIO0_14',['../d1/d57/struct_l_p_c___i_o_c_o_n___type.html#af3848ced4b3b3d581bb4a56807f1d9c0',1,'LPC_IOCON_Type']]],
   ['true',['TRUE',['../db/deb/group___utilities.html#gaa8cecfc5c5c054d2875c03e77b7be15d',1,'istddef.h']]],
   ['tshd',['TSHD',['../d6/daa/struct_t_s_i___type.html#a0c186c2b608af571b13010c5cb4cb91d',1,'TSI_Type']]],
@@ -100,7 +101,11 @@ var searchData=
   ['tsr',['TSR',['../db/dbd/struct_r_t_c___type.html#a5c8182569d4fb9aa8403e3f5933058a6',1,'RTC_Type']]],
   ['tv',['TV',['../d0/dbe/struct_l_p_c___w_w_d_t___type.html#ac66d86e8febe47e1af231534161b2420',1,'LPC_WWDT_Type']]],
   ['tx',['Tx',['../d4/d85/class_device_intrf.html#aed2d5b84a3134822760f4d0a7c85f5c2',1,'DeviceIntrf']]],
+  ['txcharidx',['TxCharIdx',['../d1/da0/struct_____ble_device_interf_config.html#a7a83d77f215c9b3a1e0423622efbbb87',1,'__BleDeviceInterfConfig::TxCharIdx()'],['../d6/dbf/struct_____ble_device_interf.html#a7f808925d29672758938d2b2ffbb8a25',1,'__BleDeviceInterf::TxCharIdx()']]],
+  ['txcompletecb',['TxCompleteCB',['../d9/d8b/struct_____b_l_e___service___char___data.html#a5450133b570afe951d7641f0cab8b494',1,'__BLE_Service_Char_Data']]],
   ['txdata',['TxData',['../df/dcf/struct____device__intrf.html#a16a0174974176a4bac0035ecd0498b59',1,'__device_intrf::TxData()'],['../df/dbd/class_ble_intrf.html#a905cbc09d85dcd3dc59eb2bb68964b86',1,'BleIntrf::TxData()'],['../db/d5f/class_esb_intrf.html#ad616971629f68b44f41d6fc5b6393692',1,'EsbIntrf::TxData()'],['../d4/d85/class_device_intrf.html#a1b38beaac74d8e2e5a5473bc0f27c2ff',1,'DeviceIntrf::TxData()'],['../d4/d47/class_i2_c.html#a0dc422d9c80e53e616825d537e2d4d0d',1,'I2C::TxData()'],['../d3/dfe/class_s_p_i.html#a29f0c14c8acb0340400a2cae6ea0a600',1,'SPI::TxData()'],['../db/d51/class_u_a_r_t.html#abcb83a23532c4e62439fe5ff80a03b10',1,'UART::TxData()']]],
+  ['txfifomemsize',['TxFifoMemSize',['../d1/da0/struct_____ble_device_interf_config.html#ab8120c26e0d5628b146c97f22e435f5b',1,'__BleDeviceInterfConfig']]],
   ['txmemsize',['TxMemSize',['../dd/d00/struct_u_a_r_t_c_f_g.html#a6cfbd7a57886d44b881fa1ad451704df',1,'UARTCFG']]],
+  ['txpower',['TxPower',['../d5/d09/struct_____ble_app___config.html#abf22b2395e69e18753285b4be8917c23',1,'__BleApp_Config']]],
   ['type',['Type',['../dd/d47/struct_____ble_app___advertising___man_data.html#a62e2b9d44ebc332e189a35ecad1abca4',1,'__BleApp_Advertising_ManData::Type()'],['../d8/def/struct_____a_d_c___reference___voltage.html#a4effd93bf411115119aadede75fbfe7d',1,'__ADC_Reference_Voltage::Type()'],['../db/dfa/struct_____a_d_c___channel___config.html#a9627163acef37c4448a8f05ee79956a0',1,'__ADC_Channel_Config::Type()'],['../d1/dbc/struct_____disk_partition.html#a3ab876cdd20d95ab302b3c3550cd942e',1,'__DiskPartition::Type()'],['../d5/d4f/struct_____f_a_t_f_s___long_name.html#a2902981ca34c278ddae0cd48f364f2b6',1,'__FATFS_LongName::Type()'],['../d2/db1/struct_i_h_e_x_d_a_t_a.html#a1fcc1d0b77a87cd4b69e473b1c0cf44c',1,'IHEXDATA::Type()'],['../dc/d95/struct____iopin__cfg.html#a595a7cfa954171380240961886605c70',1,'__iopin_cfg::Type()'],['../dc/d8b/struct_____timer___trigger___info.html#a5043f5a5450f2ed293882dffa9ad84c4',1,'__Timer_Trigger_Info::Type()']]]
 ];

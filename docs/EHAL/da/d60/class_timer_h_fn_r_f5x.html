@@ -132,9 +132,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:ac9aabe95d0c7ec038c9e278883aeb8a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d60/class_timer_h_fn_r_f5x.html#ac9aabe95d0c7ec038c9e278883aeb8a6">DisableTimerTrigger</a> (int TrigNo)</td></tr>
 <tr class="memdesc:ac9aabe95d0c7ec038c9e278883aeb8a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable timer trigger event.  <a href="#ac9aabe95d0c7ec038c9e278883aeb8a6">More...</a><br /></td></tr>
 <tr class="separator:ac9aabe95d0c7ec038c9e278883aeb8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b8b9c8c7d20f36644f9836c1c760cc"><td class="memItemLeft" align="right" valign="top"><a id="ac7b8b9c8c7d20f36644f9836c1c760cc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetFreeTimerTrigger</b> (void)</td></tr>
-<tr class="separator:ac7b8b9c8c7d20f36644f9836c1c760cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc09f5391b41c308c68f42802229d7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d60/class_timer_h_fn_r_f5x.html#abbc09f5391b41c308c68f42802229d7f">FindAvailTimerTrigger</a> (void)</td></tr>
+<tr class="memdesc:abbc09f5391b41c308c68f42802229d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get first available timer trigger index.  <a href="#abbc09f5391b41c308c68f42802229d7f">More...</a><br /></td></tr>
+<tr class="separator:abbc09f5391b41c308c68f42802229d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83f029cce0056adf9a2ed8b839adaf88"><td class="memItemLeft" align="right" valign="top"><a id="a83f029cce0056adf9a2ed8b839adaf88"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>IRQHandler</b> ()</td></tr>
 <tr class="separator:a83f029cce0056adf9a2ed8b839adaf88"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,9 +166,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>IRQHandler</b> ()</td
 <tr class="memitem:a2c18f91386221ba63b01b2b471ab7edd inherit pub_methods_class_timer"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d08/class_timer.html#a2c18f91386221ba63b01b2b471ab7edd">Frequency</a> (void)</td></tr>
 <tr class="memdesc:a2c18f91386221ba63b01b2b471ab7edd inherit pub_methods_class_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current timer frequency.  <a href="../../d8/d08/class_timer.html#a2c18f91386221ba63b01b2b471ab7edd">More...</a><br /></td></tr>
 <tr class="separator:a2c18f91386221ba63b01b2b471ab7edd inherit pub_methods_class_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0074a5c186df766dfabcb9d892c6c491 inherit pub_methods_class_timer"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d08/class_timer.html#a0074a5c186df766dfabcb9d892c6c491">FindAvailTimerTrigger</a> (void)=0</td></tr>
-<tr class="memdesc:a0074a5c186df766dfabcb9d892c6c491 inherit pub_methods_class_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get first available timer trigger index.  <a href="../../d8/d08/class_timer.html#a0074a5c186df766dfabcb9d892c6c491">More...</a><br /></td></tr>
-<tr class="separator:a0074a5c186df766dfabcb9d892c6c491 inherit pub_methods_class_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -421,6 +418,38 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <p>Implements <a class="el" href="../../d8/d08/class_timer.html#ab84e66211731a32eb0428381ff120b7a">Timer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d81/timer__nrf5x_8h_source.html#l00121">121</a> of file <a class="el" href="../../de/d81/timer__nrf5x_8h_source.html">timer_nrf5x.h</a>.</p>
+
+</div>
+</div>
+<a id="abbc09f5391b41c308c68f42802229d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc09f5391b41c308c68f42802229d7f">&#9670;&nbsp;</a></span>FindAvailTimerTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TimerHFnRF5x::FindAvailTimerTrigger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get first available timer trigger index. </p>
+<p>This function returns the first available timer trigger to be used to with EnableTimerTrigger</p>
+<dl class="section return"><dt>Returns</dt><dd>success : <a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a> trigger index fail : -1 </dd></dl>
+
+<p>Implements <a class="el" href="../../d8/d08/class_timer.html#a0074a5c186df766dfabcb9d892c6c491">Timer</a>.</p>
 
 </div>
 </div>
