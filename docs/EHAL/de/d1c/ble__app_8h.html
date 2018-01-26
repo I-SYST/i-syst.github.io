@@ -202,11 +202,11 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a4abfad02f98d71fe423fd9682eef59cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/ble__app_8h.html#a4abfad02f98d71fe423fd9682eef59cc">BleAppInitUserData</a> ()</td></tr>
 <tr class="separator:a4abfad02f98d71fe423fd9682eef59cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b7ee2792cc53b41d10e44bb3dbf000d"><td class="memItemLeft" align="right" valign="top"><a id="a4b7ee2792cc53b41d10e44bb3dbf000d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/ble__app_8h.html#a4b7ee2792cc53b41d10e44bb3dbf000d">BleAppInitUserServices</a> ()</td></tr>
-<tr class="memdesc:a4b7ee2792cc53b41d10e44bb3dbf000d"><td class="mdescLeft">&#160;</td><td class="mdescRight">User function to initialize all app services This is called before initializing advertisement. <br /></td></tr>
+<tr class="memitem:a4b7ee2792cc53b41d10e44bb3dbf000d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/ble__app_8h.html#a4b7ee2792cc53b41d10e44bb3dbf000d">BleAppInitUserServices</a> ()</td></tr>
+<tr class="memdesc:a4b7ee2792cc53b41d10e44bb3dbf000d"><td class="mdescLeft">&#160;</td><td class="mdescRight">User function to initialize all app services This is called before initializing advertisement.  <a href="#a4b7ee2792cc53b41d10e44bb3dbf000d">More...</a><br /></td></tr>
 <tr class="separator:a4b7ee2792cc53b41d10e44bb3dbf000d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41607539a91a07ec8b55a272c6dc8422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/ble__app_8h.html#a41607539a91a07ec8b55a272c6dc8422">BlePeriphEvtUserHandler</a> (ble_evt_t *p_ble_evt)</td></tr>
+<tr class="memdesc:a41607539a91a07ec8b55a272c6dc8422"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE event handler. Need this to handle events for the services.  <a href="#a41607539a91a07ec8b55a272c6dc8422">More...</a><br /></td></tr>
 <tr class="separator:a41607539a91a07ec8b55a272c6dc8422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad297c1af0bfe0e3264a0f3384195126c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/ble__app_8h.html#ad297c1af0bfe0e3264a0f3384195126c">BleCentralEvtUserHandler</a> (ble_evt_t *p_ble_evt)</td></tr>
 <tr class="separator:ad297c1af0bfe0e3264a0f3384195126c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,7 +387,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>BleAppAdvStart</b> (B
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true - success </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../db/df5/_ble_advertiser_8cpp-example.html#a5">BleAdvertiser.cpp</a>, <a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a61">TPHSensorTag.cpp</a>, and <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a27">UartBleDemo.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../db/df5/_ble_advertiser_8cpp-example.html#a5">BleAdvertiser.cpp</a>, <a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a71">TPHSensorBle.cpp</a>, <a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a61">TPHSensorTag.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a79">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a33">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a33">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -406,9 +406,32 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>BleAppAdvStart</b> (B
       </table>
 </div><div class="memdoc">
 <p>User function to initialize any app specific data This function is called prio to initializing services </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a24">UartBleDemo.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a30">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a30">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="../../d6/d06/_uart_ble_bridge_8cpp_source.html#l00249">249</a> of file <a class="el" href="../../d6/d06/_uart_ble_bridge_8cpp_source.html">UartBleBridge.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4b7ee2792cc53b41d10e44bb3dbf000d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b7ee2792cc53b41d10e44bb3dbf000d">&#9670;&nbsp;</a></span>BleAppInitUserServices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BleAppInitUserServices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>User function to initialize all app services This is called before initializing advertisement. </p>
+<p>User function to initialize all app services This is called before initializing advertisement. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a61">TPHSensorBle.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a69">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a22">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a22">UartBleFreeRTOS.cpp</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="../../da/dd1/_t_p_h_sensor_ble_8cpp_source.html#l00390">390</a> of file <a class="el" href="../../da/dd1/_t_p_h_sensor_ble_8cpp_source.html">TPHSensorBle.cpp</a>.</p>
 
 </div>
 </div>
@@ -446,8 +469,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>BleAppAdvStart</b> (B
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>BLE event handler. Need this to handle events for the services. </p>
 <p>User peripheral app event handler </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../db/df5/_ble_advertiser_8cpp-example.html#a4">BleAdvertiser.cpp</a>, <a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a52">TPHSensorTag.cpp</a>, and <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a18">UartBleDemo.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../db/df5/_ble_advertiser_8cpp-example.html#a4">BleAdvertiser.cpp</a>, <a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a59">TPHSensorBle.cpp</a>, <a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a52">TPHSensorTag.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a67">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a20">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a20">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="../../df/da6/_ble_advertiser_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../df/da6/_ble_advertiser_8cpp_source.html">BleAdvertiser.cpp</a>.</p>
 

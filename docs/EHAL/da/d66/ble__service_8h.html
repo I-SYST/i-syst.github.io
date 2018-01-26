@@ -112,7 +112,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2319649b1e1103041fc9dd3cfe057686"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>BLUEIO_UUID_BASE</b></td></tr>
+<tr class="memitem:a2319649b1e1103041fc9dd3cfe057686"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#a2319649b1e1103041fc9dd3cfe057686">BLUEIO_UUID_BASE</a></td></tr>
 <tr class="separator:a2319649b1e1103041fc9dd3cfe057686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3b52480eceb287fafef63125ca34e39"><td class="memItemLeft" align="right" valign="top"><a id="aa3b52480eceb287fafef63125ca34e39"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BLUEIO_UUID_SERVICE</b>&#160;&#160;&#160;0x1</td></tr>
@@ -147,18 +147,32 @@ Macros</h2></td></tr>
 <tr class="memitem:a4079ee0b4dbc2f6e00bc89e58f1a7a4d"><td class="memItemLeft" align="right" valign="top"><a id="a4079ee0b4dbc2f6e00bc89e58f1a7a4d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BLESVC_CHAR_PROP_VARLEN</b>&#160;&#160;&#160;(1&lt;&lt;4)</td></tr>
 <tr class="separator:a4079ee0b4dbc2f6e00bc89e58f1a7a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf1d50bab3011a234ebb8fb73d8ff6d"><td class="memItemLeft" align="right" valign="top"><a id="aabf1d50bab3011a234ebb8fb73d8ff6d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BLESVC_CHAR_PROP_RDAUTH</b>&#160;&#160;&#160;(1&lt;&lt;5)</td></tr>
+<tr class="separator:aabf1d50bab3011a234ebb8fb73d8ff6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fdd4e6b22017fa0d3ba56c9e88fe4f"><td class="memItemLeft" align="right" valign="top"><a id="aa9fdd4e6b22017fa0d3ba56c9e88fe4f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BLESVC_CHAR_PROP_WRAUTH</b>&#160;&#160;&#160;(1&lt;&lt;6)</td></tr>
+<tr class="separator:aa9fdd4e6b22017fa0d3ba56c9e88fe4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad16499fae412882644a2f4637ec27a9c"><td class="memItemLeft" align="right" valign="top"><a id="ad16499fae412882644a2f4637ec27a9c"></a>
 typedef struct <a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">__BLE_Service_Data</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BLESRVC</b></td></tr>
 <tr class="separator:ad16499fae412882644a2f4637ec27a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04e257c5548a0f8c5b4c5fc25e751784"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#a04e257c5548a0f8c5b4c5fc25e751784">BLESRVC_WRCB</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, uint8_t *pData, int Offset, int Len)</td></tr>
-<tr class="separator:a04e257c5548a0f8c5b4c5fc25e751784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f7c9f8286798ce04c7f91ad0358eb66"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#a6f7c9f8286798ce04c7f91ad0358eb66">BLESRVC_SETNOTCB</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, bool bEnable)</td></tr>
-<tr class="separator:a6f7c9f8286798ce04c7f91ad0358eb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad712012683a795fae04d58826bcb901b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#ad712012683a795fae04d58826bcb901b">BLESRVC_TXCOMPLETE</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, int CharIdx)</td></tr>
-<tr class="separator:ad712012683a795fae04d58826bcb901b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac180c0bc3e9b3edcf8d5d3d4cb03f2"><td class="memItemLeft" align="right" valign="top"><a id="a5ac180c0bc3e9b3edcf8d5d3d4cb03f2"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#a5ac180c0bc3e9b3edcf8d5d3d4cb03f2">BLESRVC_WRCB</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, uint8_t *pData, int Offset, int Len)</td></tr>
+<tr class="memdesc:a5ac180c0bc3e9b3edcf8d5d3d4cb03f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback on write. <br /></td></tr>
+<tr class="separator:a5ac180c0bc3e9b3edcf8d5d3d4cb03f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc58f13390fe09ca05a9d01c1d1164b"><td class="memItemLeft" align="right" valign="top"><a id="abbc58f13390fe09ca05a9d01c1d1164b"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#abbc58f13390fe09ca05a9d01c1d1164b">BLESRVC_SETNOTCB</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, bool bEnable)</td></tr>
+<tr class="memdesc:abbc58f13390fe09ca05a9d01c1d1164b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback on set notification. <br /></td></tr>
+<tr class="separator:abbc58f13390fe09ca05a9d01c1d1164b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0990850f0191c34d6edf535bb09387"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#a4a0990850f0191c34d6edf535bb09387">BLESRVC_TXCOMPLETE</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, int CharIdx)</td></tr>
+<tr class="memdesc:a4a0990850f0191c34d6edf535bb09387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback when transmission is completed.  <a href="#a4a0990850f0191c34d6edf535bb09387">More...</a><br /></td></tr>
+<tr class="separator:a4a0990850f0191c34d6edf535bb09387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cd1f53ddd8f8db7ed8fb02c11055c2"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/ble__service_8h.html#ab8cd1f53ddd8f8db7ed8fb02c11055c2">BLESRVC_AUTHREQ</a>) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, ble_evt_t *p_ble_evt)</td></tr>
+<tr class="memdesc:ab8cd1f53ddd8f8db7ed8fb02c11055c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback on authorization request.  <a href="#ab8cd1f53ddd8f8db7ed8fb02c11055c2">More...</a><br /></td></tr>
+<tr class="separator:ab8cd1f53ddd8f8db7ed8fb02c11055c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc636d6c4946a38d7771e3ce4cf4e4a"><td class="memItemLeft" align="right" valign="top"><a id="a9bc636d6c4946a38d7771e3ce4cf4e4a"></a>
 typedef struct <a class="el" href="../../d9/d8b/struct_____b_l_e___service___char___data.html">__BLE_Service_Char_Data</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BLESRVC_CHAR</b></td></tr>
 <tr class="separator:a9bc636d6c4946a38d7771e3ce4cf4e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,41 +231,52 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{   0x1b, 0xc5, 0xd5, 0xa5, 0x02, 0x00, 0x74, 0xab, \</div><div class="line">                            0xe4, 0x11, 0x7c, 0x28, 0x00, 0x00, 0x00, 0x00 }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">{   0x1b, 0xc5, 0xd5, 0xa5, 0x02, 0x00, 0x74, 0xab, \</div><div class="line">                            0xe4, 0x11, 0x7c, 0x28, 0x00, 0x00, 0x00, 0x00 }</div></div><!-- fragment --><p>Default BlueIO UUID. User should use privately generated UUID UUID : 00000000-287c-11e4-ab74-0002a5d5c51b </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a12">TPHSensorBle.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a3">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a4">UartBleFreeRTOS.cpp</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00044">44</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a6f7c9f8286798ce04c7f91ad0358eb66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7c9f8286798ce04c7f91ad0358eb66">&#9670;&nbsp;</a></span>BLESRVC_SETNOTCB</h2>
+<a id="ab8cd1f53ddd8f8db7ed8fb02c11055c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8cd1f53ddd8f8db7ed8fb02c11055c2">&#9670;&nbsp;</a></span>BLESRVC_AUTHREQ</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* BLESRVC_SETNOTCB) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, bool bEnable)</td>
+          <td class="memname">typedef void(* BLESRVC_AUTHREQ) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, ble_evt_t *p_ble_evt)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback on set notification </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00070">70</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
+<p>Callback on authorization request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pBlueIOSvc</td><td></td></tr>
+    <tr><td class="paramname">p_ble_evt</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00089">89</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
 
 </div>
 </div>
-<a id="ad712012683a795fae04d58826bcb901b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad712012683a795fae04d58826bcb901b">&#9670;&nbsp;</a></span>BLESRVC_TXCOMPLETE</h2>
+<a id="a4a0990850f0191c34d6edf535bb09387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0990850f0191c34d6edf535bb09387">&#9670;&nbsp;</a></span>BLESRVC_TXCOMPLETE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* BLESRVC_TXCOMPLETE) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, int CharIdx)</td>
+          <td class="memname">typedef void(* BLESRVC_TXCOMPLETE) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBleSvc, int CharIdx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback when transmission is completed</p>
+
+<p>Callback when transmission is completed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pBlueIOSvc</td><td></td></tr>
@@ -260,24 +285,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00078">78</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
-
-</div>
-</div>
-<a id="a04e257c5548a0f8c5b4c5fc25e751784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04e257c5548a0f8c5b4c5fc25e751784">&#9670;&nbsp;</a></span>BLESRVC_WRCB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* BLESRVC_WRCB) (<a class="el" href="../../d6/d8c/struct_____b_l_e___service___data.html">BLESRVC</a> *pBlueIOSvc, uint8_t *pData, int Offset, int Len)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Callback on write </p>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00065">65</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00081">81</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +316,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00081">81</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d66/ble__service_8h_source.html#l00092">92</a> of file <a class="el" href="../../da/d66/ble__service_8h_source.html">ble_service.h</a>.</p>
 
 </div>
 </div>
@@ -354,12 +362,15 @@ Functions</h2></td></tr>
 <p>Notify characteristic data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data (Service Handle) Idx : Characteristic index to notify pData : Pointer to data to be sent DataLen : Length of data to send in bytes</td></tr>
+    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data (Service Handle) </td></tr>
+    <tr><td class="paramname">Idx</td><td>: Characteristic index to notify </td></tr>
+    <tr><td class="paramname">pData</td><td>: Pointer to data to be sent </td></tr>
+    <tr><td class="paramname">DataLen</td><td>: Length of data to send in bytes</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 - Success </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a26">UartBleDemo.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a56">TPHSensorBle.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a47">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a32">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a32">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -404,7 +415,10 @@ Functions</h2></td></tr>
 <p>Update characteristic data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data (Service Handle) Idx : Characteristic index to update pData : Pointer to data to be sent DataLen : Length of data to send in bytes</td></tr>
+    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data (Service Handle) </td></tr>
+    <tr><td class="paramname">Idx</td><td>: Characteristic index to update </td></tr>
+    <tr><td class="paramname">pData</td><td>: Pointer to data to be sent </td></tr>
+    <tr><td class="paramname">DataLen</td><td>: Length of data to send in bytes</td></tr>
   </table>
   </dd>
 </dl>
@@ -437,8 +451,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>BlueIO service event handler. Call this within BLE dispatch event callback </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a19">UartBleDemo.cpp</a>.</dd>
+<p>#brief BlueIO service event handler. Call this within BLE dispatch event callback </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a60">TPHSensorBle.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a68">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a21">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a21">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -471,12 +485,13 @@ Functions</h2></td></tr>
 <p>Create BLE custom service. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data to be filled when service is created pCfg : Pointer to configuration data for the service creation</td></tr>
+    <tr><td class="paramname">pSrvc</td><td>: Pointer to Blue IO service data to be filled when service is created </td></tr>
+    <tr><td class="paramname">pCfg</td><td>: Pointer to configuration data for the service creation</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 - Success </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a21">UartBleDemo.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a62">TPHSensorBle.cpp</a>, <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a70">TPHThingy.cpp</a>, <a class="el" href="../../da/d31/_uart_ble_demo_8cpp-example.html#a23">UartBleDemo.cpp</a>, and <a class="el" href="../../d3/d35/_uart_ble_free_r_t_o_s_8cpp-example.html#a23">UartBleFreeRTOS.cpp</a>.</dd>
 </dl>
 </div>
 </div>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gain',['Gain',['../db/dfa/struct_____a_d_c___channel___config.html#a86a21fd08ded8b445a502b1e5d10b7ad',1,'__ADC_Channel_Config']]],
-  ['gasres',['GasRes',['../d3/de8/struct_____env_gas_data.html#a2e52e8b734f3666df0ea2bf73630d0db',1,'__EnvGasData::GasRes()'],['../db/d57/struct_____gas_sensor___data.html#a4dcee3d25d7c16ccfdc67792a569cd4a',1,'__GasSensor_Data::GasRes()']]],
+  ['gasres',['GasRes',['../d2/d09/struct_____blue_i_o___data___gas.html#a1fcf04021b718f40cd91a6513f1e7773',1,'__BlueIO_Data_Gas::GasRes()'],['../d3/de8/struct_____env_gas_data.html#a2e52e8b734f3666df0ea2bf73630d0db',1,'__EnvGasData::GasRes()'],['../db/d57/struct_____gas_sensor___data.html#a4dcee3d25d7c16ccfdc67792a569cd4a',1,'__GasSensor_Data::GasRes()']]],
   ['gdr',['GDR',['../d2/d5c/struct_l_p_c___a_d_c___type.html#aeab50b061753ae735e39e65db73a8876',1,'LPC_ADC_Type']]],
   ['gencs',['GENCS',['../d6/daa/struct_t_s_i___type.html#a80787b87ff094252f51f10fb1bba3ee5',1,'TSI_Type']]],
   ['getidx',['GetIdx',['../da/dd1/struct_____c_f_i_f_o___header.html#ae2a3440ecef12e3c643fe771e8d746f9',1,'__CFIFO_Header']]],

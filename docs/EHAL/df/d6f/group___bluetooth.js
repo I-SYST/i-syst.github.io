@@ -27,6 +27,7 @@ var group___bluetooth =
     [ "BLEADV_MANDATA_LEN_MAX", "df/d6f/group___bluetooth.html#ga5fb383d11216284210b2871cc60bbad3", null ],
     [ "BLEADV_MANDATA_TYPE_ACCEL", "df/d6f/group___bluetooth.html#ga734b2bab8d340b41e8f33fdd7a147bb3", null ],
     [ "BLEADV_MANDATA_TYPE_ADC", "df/d6f/group___bluetooth.html#ga92cf2a66b49627643ecec902ee1749f5", null ],
+    [ "BLEADV_MANDATA_TYPE_AUDIO", "df/d6f/group___bluetooth.html#gae4e36ba694aa330fac7bc6499ab459d8", null ],
     [ "BLEADV_MANDATA_TYPE_BUT", "df/d6f/group___bluetooth.html#ga9fc8a7c38dbe9879001f01c6ed46a484", null ],
     [ "BLEADV_MANDATA_TYPE_GAS", "df/d6f/group___bluetooth.html#gae02ba7e4d782e8af8a8cf072b1442673", null ],
     [ "BLEADV_MANDATA_TYPE_GPIO", "df/d6f/group___bluetooth.html#ga00b0cd95a728e1eb18bc8de7851c483d", null ],

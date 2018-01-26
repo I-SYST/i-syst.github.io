@@ -5,6 +5,7 @@ var searchData=
   ['lcr',['LCR',['../dc/d8f/struct_l_p_c_u_a_r_t_r_e_g.html#ae1ec0a69347d7264d18e8a53cd1a8b1e',1,'LPCUARTREG::LCR()'],['../da/dbd/struct_l_p_c___u_s_a_r_t___type.html#a71965fc58a40985dacc81895b0e24f1e',1,'LPC_USART_Type::LCR()']]],
   ['ldval',['LDVAL',['../d6/dde/struct_p_i_t___type.html#a6880c80d3b65e0e5831b72371f607224',1,'PIT_Type']]],
   ['leadsig',['LeadSig',['../d8/ded/struct_____f_a_t_f_s___f_s_info.html#a57e0cd854a0da850f057c8dbf7d0b434',1,'__FATFS_FSInfo']]],
+  ['len',['Len',['../dd/d80/struct_____blue_i_o___data___i2_c.html#ad68f2b99a244d4cf4553a00eb260f765',1,'__BlueIO_Data_I2C::Len()'],['../d4/da3/struct_____blue_i_o___data___s_p_i.html#ad4ef0d65f6648848e5f8b5ce8faecaca',1,'__BlueIO_Data_SPI::Len()'],['../d1/d92/struct_____blue_i_o___data___u_a_r_t.html#a5ef29b2d58b4adb6182f2c48a38babe8',1,'__BlueIO_Data_UART::Len()'],['../d4/da6/struct_____blue_i_o___data___p_p_i.html#af4fa2524e2c657b76b2dffde3d4a1262',1,'__BlueIO_Data_PPI::Len()'],['../d5/d4d/struct_____blue_i_o___data___audio.html#af0127dc173265fe881c7cd9652e41101',1,'__BlueIO_Data_Audio::Len()']]],
   ['linestate',['LineState',['../da/daf/struct_____uart___dev.html#a5b4f488704b60c07b55f89c84a94e5eb',1,'__Uart_Dev']]],
   ['lockaccess',['LOCKACCESS',['../d2/d09/struct_m_t_b___type.html#a23b4bdeea8d376228577c482c7876705',1,'MTB_Type']]],
   ['lockstat',['LOCKSTAT',['../d2/d09/struct_m_t_b___type.html#a4ebd8e379186d10e7c7afc3fbc5a2586',1,'MTB_Type']]],

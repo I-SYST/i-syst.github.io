@@ -39,8 +39,9 @@ var searchData=
   ['advtimeout',['AdvTimeout',['../d5/d09/struct_____ble_app___config.html#ad37682a928725e527856be7b9feec7a0',1,'__BleApp_Config']]],
   ['agmlsm9ds1',['AgmLsm9ds1',['../d9/dc6/class_agm_lsm9ds1.html',1,'']]],
   ['agmmpu9250',['AgmMpu9250',['../dd/d4e/class_agm_mpu9250.html',1,'']]],
-  ['airqidx',['AirQIdx',['../d3/de8/struct_____env_gas_data.html#adcc19d7619b19ff0fce56e9722c4054c',1,'__EnvGasData']]],
+  ['airqidx',['AirQIdx',['../d2/d09/struct_____blue_i_o___data___gas.html#a32786939277d872a778418c87a1ae367',1,'__BlueIO_Data_Gas::AirQIdx()'],['../d3/de8/struct_____env_gas_data.html#adcc19d7619b19ff0fce56e9722c4054c',1,'__EnvGasData::AirQIdx()']]],
   ['airqualidx',['AirQualIdx',['../db/d57/struct_____gas_sensor___data.html#a323a46ccedfb8f2246742c867aecbe53',1,'__GasSensor_Data']]],
+  ['airquality',['AirQuality',['../d2/d09/struct_____blue_i_o___data___gas.html#a3345349d4882e0c5d535a5a55c0522bf',1,'__BlueIO_Data_Gas']]],
   ['app_5finfo',['APP_INFO',['../da/d99/struct_a_p_p___i_n_f_o.html',1,'']]],
   ['appinfo_5fnamesize_5fmax',['APPINFO_NAMESIZE_MAX',['../db/deb/group___utilities.html#ga3fdf79a4e4ea0481a19367e5c4af6256',1,'istddef.h']]],
   ['appinfo_5fprivatesize_5fmax',['APPINFO_PRIVATESIZE_MAX',['../db/deb/group___utilities.html#gaff24c2dddfd9434365828a0b4d4cf06f',1,'istddef.h']]],
@@ -48,5 +49,6 @@ var searchData=
   ['atcvh',['ATCVH',['../d6/df3/struct_m_c_g___type.html#a57e6ec0cad8ae0e723d21531a184b6e7',1,'MCG_Type']]],
   ['atcvl',['ATCVL',['../d6/df3/struct_m_c_g___type.html#ae8fea9d52f23143b72c9916e66b252d3',1,'MCG_Type']]],
   ['attr',['Attr',['../d1/d8f/struct_____f_a_t_f_s___short_name.html#a57c2da9636f4cd9ea6ffad2358ccc2d9',1,'__FATFS_ShortName::Attr()'],['../d5/d4f/struct_____f_a_t_f_s___long_name.html#ad3b9b26c8c8c2f72ceae310f2ccc531c',1,'__FATFS_LongName::Attr()']]],
+  ['authreqcb',['AuthReqCB',['../d0/dda/struct_____b_l_e___service___config.html#a00486a2212fa0739ea67d92a0b2c4a7a',1,'__BLE_Service_Config::AuthReqCB()'],['../d6/d8c/struct_____b_l_e___service___data.html#aec2d828e9ef5608f51ea4bc910b0ab6a',1,'__BLE_Service_Data::AuthReqCB()']]],
   ['authstat',['AUTHSTAT',['../d2/d09/struct_m_t_b___type.html#a42fdb6887fa68d8210e845e35dd2a3f1',1,'MTB_Type']]]
 ];

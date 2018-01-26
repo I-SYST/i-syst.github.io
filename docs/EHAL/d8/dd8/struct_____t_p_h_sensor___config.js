@@ -1,5 +1,6 @@
 var struct_____t_p_h_sensor___config =
 [
+    [ "DataRdyCB", "d8/dd8/struct_____t_p_h_sensor___config.html#a7693a5e759519962d4d616bf4094acd1", null ],
     [ "DevAddr", "d8/dd8/struct_____t_p_h_sensor___config.html#a2bbcd0d56518e9ffa5befb8e5505b87e", null ],
     [ "FilterCoeff", "d8/dd8/struct_____t_p_h_sensor___config.html#ad2da694d9fdea31d9cff3d13a81c8082", null ],
     [ "Freq", "d8/dd8/struct_____t_p_h_sensor___config.html#a10d32e60735dbb9463d981bb1fbb1c15", null ],

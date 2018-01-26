@@ -1,6 +1,7 @@
 var searchData=
 [
   ['timer_2eh',['timer.h',['../d5/dd0/timer_8h.html',1,'']]],
+  ['timer_5fnrf5x_2eh',['timer_nrf5x.h',['../de/d81/timer__nrf5x_8h.html',1,'']]],
   ['tph_5fbme280_2eh',['tph_bme280.h',['../d0/d7f/tph__bme280_8h.html',1,'']]],
   ['tph_5fms8607_2eh',['tph_ms8607.h',['../df/d25/tph__ms8607_8h.html',1,'']]],
   ['tph_5fsensor_2eh',['tph_sensor.h',['../d1/d35/tph__sensor_8h.html',1,'']]],

@@ -145,9 +145,9 @@ typedef enum <a class="el" href="../../d5/dd0/timer_8h.html#a99295e6174198d41cbc
 <tr class="memitem:a8b2de8ac1d6e3d2d0d77d9aa9f3b104e"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd0/timer_8h.html#a8b2de8ac1d6e3d2d0d77d9aa9f3b104e">TIMER_EVTCB</a>) (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, uint32_t Evt)</td></tr>
 <tr class="memdesc:a8b2de8ac1d6e3d2d0d77d9aa9f3b104e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a> event handler type.  <a href="#a8b2de8ac1d6e3d2d0d77d9aa9f3b104e">More...</a><br /></td></tr>
 <tr class="separator:a8b2de8ac1d6e3d2d0d77d9aa9f3b104e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0b8aa345f0fd6d2874a93892f0cc57c"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd0/timer_8h.html#ad0b8aa345f0fd6d2874a93892f0cc57c">TIMER_TRIGCB</a>) (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, int TrigNo)</td></tr>
-<tr class="memdesc:ad0b8aa345f0fd6d2874a93892f0cc57c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a> trigger handler type.  <a href="#ad0b8aa345f0fd6d2874a93892f0cc57c">More...</a><br /></td></tr>
-<tr class="separator:ad0b8aa345f0fd6d2874a93892f0cc57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0524ac3252671d506c3fb78338eef50"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd0/timer_8h.html#ab0524ac3252671d506c3fb78338eef50">TIMER_TRIGCB</a>) (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, int TrigNo, void *pContext)</td></tr>
+<tr class="memdesc:ab0524ac3252671d506c3fb78338eef50"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a> trigger handler type.  <a href="#ab0524ac3252671d506c3fb78338eef50">More...</a><br /></td></tr>
+<tr class="separator:ab0524ac3252671d506c3fb78338eef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb28ae3917b9eb4cedff3dd9431f9122"><td class="memItemLeft" align="right" valign="top"><a id="aeb28ae3917b9eb4cedff3dd9431f9122"></a>
 typedef struct <a class="el" href="../../dc/d8b/struct_____timer___trigger___info.html">__Timer_Trigger_Info</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_TRIGGER</b></td></tr>
 <tr class="separator:aeb28ae3917b9eb4cedff3dd9431f9122"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,14 +230,14 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0b8aa345f0fd6d2874a93892f0cc57c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0b8aa345f0fd6d2874a93892f0cc57c">&#9670;&nbsp;</a></span>TIMER_TRIGCB</h2>
+<a id="ab0524ac3252671d506c3fb78338eef50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0524ac3252671d506c3fb78338eef50">&#9670;&nbsp;</a></span>TIMER_TRIGCB</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* TIMER_TRIGCB) (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, int TrigNo)</td>
+          <td class="memname">typedef void(* TIMER_TRIGCB) (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, int TrigNo, void *pContext)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,11 +247,12 @@ Enumerations</h2></td></tr>
   <table class="params">
     <tr><td class="paramname"><a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a></td><td>: Pointer reference to <a class="el" href="../../d8/d08/class_timer.html" title="Timer base class. ">Timer</a> class generating the event </td></tr>
     <tr><td class="paramname">TrigNo</td><td>: Trigger ID for which this callback is activated </td></tr>
+    <tr><td class="paramname">pContext</td><td>Pointer to user context (user private data, could be a class or structure) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dd0/timer_8h_source.html#l00083">83</a> of file <a class="el" href="../../d5/dd0/timer_8h_source.html">timer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/dd0/timer_8h_source.html#l00084">84</a> of file <a class="el" href="../../d5/dd0/timer_8h_source.html">timer.h</a>.</p>
 
 </div>
 </div>

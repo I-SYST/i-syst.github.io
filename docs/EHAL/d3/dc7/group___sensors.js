@@ -9,6 +9,7 @@ var group___sensors =
       [ "StartSampling", "d7/daf/class_sensor.html#a5a73ed62e4d1dae30bb37d30e136e8e4", null ],
       [ "State", "d7/daf/class_sensor.html#a1900bf4a12ae4230bac622c3d5ca69f6", null ],
       [ "State", "d7/daf/class_sensor.html#adede45b41ca10e8923e3d08e19c701b8", null ],
+      [ "TimerTrigHandler", "d7/daf/class_sensor.html#afb2a18484fa478787f50815cff920ada", null ],
       [ "UpdateData", "d7/daf/class_sensor.html#aae0fa6770b3df2cf539809d2ddf5a8e5", null ],
       [ "vbSampling", "d7/daf/class_sensor.html#add09731b0c8d292c599f7e7c536797a7", null ],
       [ "vOpMode", "d7/daf/class_sensor.html#a396bd9351a8ba3bf2d5b81611524b3fd", null ],
@@ -17,7 +18,8 @@ var group___sensors =
       [ "vSampleCnt", "d7/daf/class_sensor.html#a75fd299a6271faa9aa19f2b7321909c8", null ],
       [ "vSampleTime", "d7/daf/class_sensor.html#a4ce1d60bb58e03b9fae1ff3dbd7c4776", null ],
       [ "vSampPeriod", "d7/daf/class_sensor.html#af2eb53f250e02f2ef868434b838b81d2", null ],
-      [ "vState", "d7/daf/class_sensor.html#a2719a55d424b5ab0139913fbbca3c041", null ]
+      [ "vState", "d7/daf/class_sensor.html#a2719a55d424b5ab0139913fbbca3c041", null ],
+      [ "vTimerTrigId", "d7/daf/class_sensor.html#ab06b94c7093bfcd92e427c70af982e96", null ]
     ] ],
     [ "__GasSensor_Data", "db/d57/struct_____gas_sensor___data.html", [
       [ "AirQualIdx", "db/d57/struct_____gas_sensor___data.html#a323a46ccedfb8f2246742c867aecbe53", null ],
@@ -100,6 +102,7 @@ var group___sensors =
       [ "Timestamp", "db/d0f/struct_____t_p_h_sensor___data.html#a1543d1556acb093e89f67206ffb8566e", null ]
     ] ],
     [ "__TPHSensor_Config", "d8/dd8/struct_____t_p_h_sensor___config.html", [
+      [ "DataRdyCB", "d8/dd8/struct_____t_p_h_sensor___config.html#a7693a5e759519962d4d616bf4094acd1", null ],
       [ "DevAddr", "d8/dd8/struct_____t_p_h_sensor___config.html#a2bbcd0d56518e9ffa5befb8e5505b87e", null ],
       [ "FilterCoeff", "d8/dd8/struct_____t_p_h_sensor___config.html#ad2da694d9fdea31d9cff3d13a81c8082", null ],
       [ "Freq", "d8/dd8/struct_____t_p_h_sensor___config.html#a10d32e60735dbb9463d981bb1fbb1c15", null ],
@@ -114,6 +117,7 @@ var group___sensors =
       [ "ReadHumidity", "dc/d5f/class_tph_sensor.html#ad21d5ec3527740f3145d0d784de6514a", null ],
       [ "ReadPressure", "dc/d5f/class_tph_sensor.html#a0ffd1238548fade98ffd91e8b979a9b5", null ],
       [ "ReadTemperature", "dc/d5f/class_tph_sensor.html#ab1fc3d9a93ad1b67a1d6ca0c4536a02f", null ],
+      [ "vDataRdyHandler", "dc/d5f/class_tph_sensor.html#a84330d558f83f1eacafdbaf491d71ad9", null ],
       [ "vTphData", "dc/d5f/class_tph_sensor.html#ae1ad232cb77d671aab9e53bdac06d661", null ]
     ] ],
     [ "BME680_CALIB_DATA", "d5/dc1/struct_b_m_e680___c_a_l_i_b___d_a_t_a.html", [

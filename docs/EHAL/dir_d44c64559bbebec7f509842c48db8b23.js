@@ -8,6 +8,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "usb", "dir_92245f4cf4cbffd7edc987f9dabb59e7.html", "dir_92245f4cf4cbffd7edc987f9dabb59e7" ],
     [ "atomic.h", "dd/d02/atomic_8h_source.html", null ],
     [ "base64.h", "d2/d6f/base64_8h.html", "d2/d6f/base64_8h" ],
+    [ "blueio_types.h", "d2/d24/blueio__types_8h.html", "d2/d24/blueio__types_8h" ],
     [ "cfifo.h", "df/dcb/cfifo_8h.html", "df/dcb/cfifo_8h" ],
     [ "convutil.h", "d3/da6/convutil_8h.html", "d3/da6/convutil_8h" ],
     [ "crc.h", "dc/de6/crc_8h.html", "dc/de6/crc_8h" ],

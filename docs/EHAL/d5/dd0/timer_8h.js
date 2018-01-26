@@ -12,7 +12,7 @@ var timer_8h =
     [ "TIMER_EVTCB", "d5/dd0/timer_8h.html#a8b2de8ac1d6e3d2d0d77d9aa9f3b104e", null ],
     [ "TIMER_INTEN", "d5/dd0/timer_8h.html#a7585252e96cd6b8ee3245254a9dca6ab", null ],
     [ "TIMER_TRIG_TYPE", "d5/dd0/timer_8h.html#a539dd2437ff15d806a82d10d712b0d90", null ],
-    [ "TIMER_TRIGCB", "d5/dd0/timer_8h.html#ad0b8aa345f0fd6d2874a93892f0cc57c", null ],
+    [ "TIMER_TRIGCB", "d5/dd0/timer_8h.html#ab0524ac3252671d506c3fb78338eef50", null ],
     [ "TIMER_TRIGGER", "d5/dd0/timer_8h.html#aeb28ae3917b9eb4cedff3dd9431f9122", null ],
     [ "__Timer_Clock_Src", "d5/dd0/timer_8h.html#a63b7acf92933acd4e48e232814cd8bc8", [
       [ "TIMER_CLKSRC_DEFAULT", "d5/dd0/timer_8h.html#a63b7acf92933acd4e48e232814cd8bc8ae298b3c30bf0d5cd0dce05b1435c5f9f", null ],

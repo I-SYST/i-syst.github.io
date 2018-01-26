@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('d7/daf/class_sensor.html','../../');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../de/d4e/class_sensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -200,6 +201,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memdesc:af9a80fcd17307c36dd6359eebbd95808 inherit pub_methods_class_device"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 32 bits data to device's register/memory.  <a href="../../df/dd8/class_device.html#af9a80fcd17307c36dd6359eebbd95808">More...</a><br /></td></tr>
 <tr class="separator:af9a80fcd17307c36dd6359eebbd95808 inherit pub_methods_class_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afb2a18484fa478787f50815cff920ada"><td class="memItemLeft" align="right" valign="top"><a id="afb2a18484fa478787f50815cff920ada"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>TimerTrigHandler</b> (<a class="el" href="../../d8/d08/class_timer.html">Timer</a> *pTimer, int TrigNo, void *pContext)</td></tr>
+<tr class="separator:afb2a18484fa478787f50815cff920ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a2719a55d424b5ab0139913fbbca3c041"><td class="memItemLeft" align="right" valign="top"><a id="a2719a55d424b5ab0139913fbbca3c041"></a>
@@ -216,7 +223,7 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <tr class="separator:a5fffe57232939e6f962a618f0834c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2eb53f250e02f2ef868434b838b81d2"><td class="memItemLeft" align="right" valign="top"><a id="af2eb53f250e02f2ef868434b838b81d2"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/class_sensor.html#af2eb53f250e02f2ef868434b838b81d2">vSampPeriod</a></td></tr>
-<tr class="memdesc:af2eb53f250e02f2ef868434b838b81d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling period in microsecond. <br /></td></tr>
+<tr class="memdesc:af2eb53f250e02f2ef868434b838b81d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling period in nanosecond. <br /></td></tr>
 <tr class="separator:af2eb53f250e02f2ef868434b838b81d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7d78def8a2b5cbafb049a0e4ea56abd"><td class="memItemLeft" align="right" valign="top"><a id="ac7d78def8a2b5cbafb049a0e4ea56abd"></a>
 <a class="el" href="../../d8/d08/class_timer.html">Timer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/class_sensor.html#ac7d78def8a2b5cbafb049a0e4ea56abd">vpTimer</a></td></tr>
@@ -234,6 +241,9 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daf/class_sensor.html#a4ce1d60bb58e03b9fae1ff3dbd7c4776">vSampleTime</a></td></tr>
 <tr class="memdesc:a4ce1d60bb58e03b9fae1ff3dbd7c4776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time stamp when sampling is started. <br /></td></tr>
 <tr class="separator:a4ce1d60bb58e03b9fae1ff3dbd7c4776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06b94c7093bfcd92e427c70af982e96"><td class="memItemLeft" align="right" valign="top"><a id="ab06b94c7093bfcd92e427c70af982e96"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>vTimerTrigId</b></td></tr>
+<tr class="separator:ab06b94c7093bfcd92e427c70af982e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_device"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_device')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../df/dd8/class_device.html">Device</a></td></tr>
 <tr class="memitem:a6d21f0cd79d797a95f5d7c23e6314fd5 inherit pro_attribs_class_device"><td class="memItemLeft" align="right" valign="top"><a id="a6d21f0cd79d797a95f5d7c23e6314fd5"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd8/class_device.html#a6d21f0cd79d797a95f5d7c23e6314fd5">vDevAddr</a></td></tr>
@@ -354,7 +364,7 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00131">131</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00137">137</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>
@@ -384,7 +394,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get sampling frequency. The sampling frequency is relevant only in continuous mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>Frequency in mHz (milliHerz) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00146">146</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00152">152</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>
@@ -418,7 +428,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dd/d4e/class_agm_mpu9250.html#a77cce3ce7384b10835f63165d7d3475d">AgmMpu9250</a>, and <a class="el" href="../../d3/d49/class_tph_m_s8607.html#a78880a3a2244d74b940c8f0bbd545c44">TphMS8607</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00155">155</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00161">161</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>
@@ -448,7 +458,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get sampling period. </p>
 <dl class="section return"><dt>Returns</dt><dd>Sampling period in usec </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00138">138</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00144">144</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>
@@ -481,7 +491,7 @@ This function initiates sensor to do actual measurement.</p>
 <dl class="section return"><dt>Returns</dt><dd>true - success false - in case of error or sensor busy measuring </dd></dl>
 
 <p>Implemented in <a class="el" href="../../dd/d4e/class_agm_mpu9250.html#a06771e0f4a36fec46cd3e30566f7a96d">AgmMpu9250</a>, <a class="el" href="../../d5/d6a/class_tphg_bme680.html#a2a2a2e9d8facf052c9996610436b3018">TphgBme680</a>, <a class="el" href="../../d4/d49/class_tph_bme280.html#add7769c36b8fb39d5609846666c09dcc">TphBme280</a>, and <a class="el" href="../../d3/d49/class_tph_m_s8607.html#ac7fbe1cc2ed56861a7e816d211068060">TphMS8607</a>.</p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a50">TPHSensorTag.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d35/_t_p_h_sensor_ble_8cpp-example.html#a55">TPHSensorBle.cpp</a>, <a class="el" href="../../d4/dd5/_t_p_h_sensor_tag_8cpp-example.html#a50">TPHSensorTag.cpp</a>, and <a class="el" href="../../d9/dd0/_t_p_h_thingy_8cpp-example.html#a62">TPHThingy.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -525,7 +535,7 @@ This function initiates sensor to do actual measurement.</p>
 
 <p>Reimplemented in <a class="el" href="../../d5/d6a/class_tphg_bme680.html#a6427a8420ad5347618583f2d545330f4">TphgBme680</a>, and <a class="el" href="../../d4/d49/class_tph_bme280.html#a25c48c43fed28ba63bdafab870df5b60">TphBme280</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00173">173</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00179">179</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +570,7 @@ This function initiates sensor to do actual measurement.</p>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00186">186</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d2e/sensor_8h_source.html#l00192">192</a> of file <a class="el" href="../../d5/d2e/sensor_8h_source.html">sensor.h</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['gain',['Gain',['../db/dfa/struct_____a_d_c___channel___config.html#a86a21fd08ded8b445a502b1e5d10b7ad',1,'__ADC_Channel_Config']]],
   ['gas_5fsensor_2eh',['gas_sensor.h',['../d0/d51/gas__sensor_8h.html',1,'']]],
-  ['gasres',['GasRes',['../d3/de8/struct_____env_gas_data.html#a2e52e8b734f3666df0ea2bf73630d0db',1,'__EnvGasData::GasRes()'],['../db/d57/struct_____gas_sensor___data.html#a4dcee3d25d7c16ccfdc67792a569cd4a',1,'__GasSensor_Data::GasRes()']]],
+  ['gasres',['GasRes',['../d2/d09/struct_____blue_i_o___data___gas.html#a1fcf04021b718f40cd91a6513f1e7773',1,'__BlueIO_Data_Gas::GasRes()'],['../d3/de8/struct_____env_gas_data.html#a2e52e8b734f3666df0ea2bf73630d0db',1,'__EnvGasData::GasRes()'],['../db/d57/struct_____gas_sensor___data.html#a4dcee3d25d7c16ccfdc67792a569cd4a',1,'__GasSensor_Data::GasRes()']]],
   ['gassensor',['GasSensor',['../dd/d5a/class_gas_sensor.html',1,'']]],
   ['gassensor_5fcfg',['GASSENSOR_CFG',['../d3/dc7/group___sensors.html#ga0e61b093cc13be0d8bff9b8a0ba410b9',1,'gas_sensor.h']]],
   ['gassensor_5fdata',['GASSENSOR_DATA',['../d3/dc7/group___sensors.html#ga98023a6f322db37b75cd58c87d426a00',1,'gas_sensor.h']]],

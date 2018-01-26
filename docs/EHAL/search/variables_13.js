@@ -1,8 +1,10 @@
 var searchData=
 [
+  ['val',['Val',['../de/d7e/struct_____blue_i_o___data___proxy.html#ac258bdd83081a7efb9143a276143c6ab',1,'__BlueIO_Data_Proxy::Val()'],['../d9/df3/struct_____blue_i_o___data___motiont.html#a0acd9418ce55d63724e4dab2131c8d0d',1,'__BlueIO_Data_Motiont::Val()']]],
   ['valuelen',['ValueLen',['../d9/d8b/struct_____b_l_e___service___char___data.html#a5f671265cec80afbc45c5efe206e91d3',1,'__BLE_Service_Char_Data']]],
   ['vbinterrupt',['vbInterrupt',['../dc/dd2/class_adc_device.html#ab15afbd9b34d8bd577142c4923b7defa',1,'AdcDevice']]],
   ['vbsampling',['vbSampling',['../d7/daf/class_sensor.html#add09731b0c8d292c599f7e7c536797a7',1,'Sensor']]],
+  ['vdatardyhandler',['vDataRdyHandler',['../dc/d5f/class_tph_sensor.html#a84330d558f83f1eacafdbaf491d71ad9',1,'TphSensor']]],
   ['vdevaddr',['vDevAddr',['../df/dd8/class_device.html#a6d21f0cd79d797a95f5d7c23e6314fd5',1,'Device']]],
   ['vdevdata',['vDevData',['../d4/d7f/class_seep.html#aff283afa3121eadbda98046f7c589e7e',1,'Seep']]],
   ['vdevid',['vDevId',['../df/dd8/class_device.html#a9b696ab9df549448cdbaf9c116f00c16',1,'Device']]],
@@ -20,7 +22,7 @@ var searchData=
   ['volid',['VolID',['../d5/dd0/struct_____f_a_t_f_s___boot_sector___b_p_b.html#afdc0d2f42db5debfb3ea563b91bf461d',1,'__FATFS_BootSector_BPB']]],
   ['vollab',['VolLab',['../d5/dd0/struct_____f_a_t_f_s___boot_sector___b_p_b.html#a8a3bb60bd40e0280c2f0c61e77a7f282',1,'__FATFS_BootSector_BPB']]],
   ['volname',['VolName',['../dc/d80/struct_f_a_t_f_s___v_d_i_s_k_c_f_g.html#a35f878b6ad776791ef98ca08ee17d911',1,'FATFS_VDISKCFG']]],
-  ['voltage',['Voltage',['../d8/def/struct_____a_d_c___reference___voltage.html#a8754dd9c45c87e5d95167927576a5cb2',1,'__ADC_Reference_Voltage']]],
+  ['voltage',['Voltage',['../d9/dd3/struct_____blue_i_o___data___adc.html#a1baeb170c3cc18716cd1e283d137a87e',1,'__BlueIO_Data_Adc::Voltage()'],['../d8/def/struct_____a_d_c___reference___voltage.html#a8754dd9c45c87e5d95167927576a5cb2',1,'__ADC_Reference_Voltage::Voltage()']]],
   ['volumesize',['VolumeSize',['../dc/d80/struct_f_a_t_f_s___v_d_i_s_k_c_f_g.html#aaf61aecbe7d91f3f63f321e7fa987163',1,'FATFS_VDISKCFG']]],
   ['vopmode',['vOpMode',['../d7/daf/class_sensor.html#a396bd9351a8ba3bf2d5b81611524b3fd',1,'Sensor']]],
   ['vpintrf',['vpIntrf',['../df/dd8/class_device.html#a0c59b412156d29c461dcc871e3853f49',1,'Device']]],
