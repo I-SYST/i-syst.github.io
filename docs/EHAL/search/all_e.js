@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['observe',['OBSERVE',['../d2/d03/a11055.html#aa8cbc53b1ddc255d7be917ba3fc6b1f1',1,'USB_Type']]],
+  ['oemname',['OEMName',['../df/d87/a11827.html#ae58501331d1f6cc4c0550051c298aaf3',1,'__FATFS_BootSector_BPB']]],
+  ['offset',['Offset',['../d6/d92/a11887.html#a091fedf1007da6d128f1cd3842fa4f39',1,'IHEXDATA']]],
+  ['ofs',['OFS',['../d3/d77/a10903.html#a1081f8facbb93133c09e83ef18b90b10',1,'ADC_Type']]],
+  ['open',['Open',['../da/dcc/a12067.html#adb61d1128eb58c600cb5f54b4759508f',1,'STDDEV']]],
+  ['openchannel',['OpenChannel',['../df/d0e/a11079.html#a2dc43e611338bc0ff45b90f019b750a0',1,'AdcnRF52::OpenChannel()'],['../d3/dc0/a11771.html#a1349c7988025ea33fbb04d173acb3fbb',1,'AdcDevice::OpenChannel()'],['../dc/df2/a11775.html#ada016d64d7cea28c61a3708150c0443b',1,'AdcLTC2495::OpenChannel()']]],
+  ['operator_20devintrf_20_2a',['operator DEVINTRF *',['../d9/d70/a11111.html#a86d7f163ff7beb8aa6adf43bde5bc574',1,'BleIntrf::operator DEVINTRF *()'],['../df/dd5/a11135.html#a7b3aa2b6218a08cd0a685fdd84c35a0f',1,'EsbIntrf::operator DEVINTRF *()'],['../d6/d6c/a11799.html#ab0d191e416bf1786942a925944a62c9f',1,'DeviceIntrf::operator DEVINTRF *()'],['../d0/dff/a11883.html#aec0036be3f876d3099a809b25e4e360e',1,'I2C::operator DEVINTRF *()'],['../d8/d39/a12063.html#a87af0f2ae41adfb93dabcba706e9ceff',1,'SPI::operator DEVINTRF *()'],['../da/d2e/a12107.html#aadd36dc2579c1b8d38b0f782c919700e',1,'UART::operator DEVINTRF *()']]],
+  ['operator_20seepdev_20_2a',['operator SEEPDEV *',['../db/dc9/a11951.html#a0e1b3efc32cf8200616ad1109a7c537a',1,'Seep']]],
+  ['operator_3d',['operator=',['../d8/d75/a12083.html#a8ee4bce44d3d426be43322240c210741',1,'SysStatus']]],
+  ['opmode',['OpMode',['../d7/d9d/a11991.html#a7f37bc3aa68756fa62ef501cdfcd09de',1,'__GasSensor_Config::OpMode()'],['../dc/de8/a12039.html#a47941b99a4c1680f73eaad2ea0c5ed2f',1,'__TPHSensor_Config::OpMode()']]],
+  ['ord',['Ord',['../d3/d98/a11851.html#a9e256ddebaaba2b401e0fd363102bb6a',1,'__FATFS_LongName']]],
+  ['osc0',['OSC0',['../d2/ddf/a10305.html#gafcf06a8b76107b94e802b4db254e8bbc',1,'MKL26Z4.h']]],
+  ['osc0_5fbase',['OSC0_BASE',['../d2/ddf/a10305.html#ga66f87e82bb3e71235bf89df7149e7be7',1,'MKL26Z4.h']]],
+  ['osc_5fbases',['OSC_BASES',['../d2/ddf/a10305.html#gac0832d577b8c96bb29c48e05c5f136a3',1,'MKL26Z4.h']]],
+  ['osc_20peripheral_20access_20layer',['OSC Peripheral Access Layer',['../d2/ddf/a10305.html',1,'']]],
+  ['osc_20register_20masks',['OSC Register Masks',['../d5/dc2/a10306.html',1,'']]],
+  ['osc_5ftype',['OSC_Type',['../d9/d45/a10991.html',1,'']]],
+  ['osr',['OSR',['../d6/d74/a11175.html#a49cdb22a8d0eecb74a5fa07f5c3a81c8',1,'LPCUARTREG::OSR()'],['../dd/d8b/a11311.html#a88e2c6a0c0cdaefc3ff4cb88d507de87',1,'LPC_USART_Type::OSR()']]],
+  ['otgctl',['OTGCTL',['../d2/d03/a11055.html#a29fdcad4635573158769b379244874c6',1,'USB_Type']]],
+  ['otgicr',['OTGICR',['../d2/d03/a11055.html#ac63531ec3a52f634997a5f27a938232e',1,'USB_Type']]],
+  ['otgistat',['OTGISTAT',['../d2/d03/a11055.html#a33ddb4989093727ebbeaabdcbb30a9be',1,'USB_Type']]],
+  ['otgstat',['OTGSTAT',['../d2/d03/a11055.html#adb73c0ed8ec05b05499d164fee6a6d9c',1,'USB_Type']]],
+  ['ovrsample',['OvrSample',['../d2/dae/a11763.html#a77c318b63ae40c6c2d85fd75232bcd23',1,'__ADC_Config']]]
+];
